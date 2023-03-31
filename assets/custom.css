@@ -1,0 +1,51 @@
+/* Use this file to add custom css to the theme.
+Last Edit @StudioBoskant 03.2023 */
+
+/* NAVIGATION */
+.nav a:hover,
+.nav .active {
+  opacity: 1;
+  text-decoration: underline;
+}
+.header:not(.header--transparent),
+.header-container.is-sticky .header {
+  border-bottom: 1px solid #094849 !important;
+  box-shadow: none !important;
+}
+nav.header__nav.left {
+  justify-content: flex-end !important;
+}
+.header.header--default.header--alignment-left .header__nav.left .nav--depth-1 {
+  padding-right: 2.5em;
+}
+nav.header__nav.right {
+  padding-left: 2.5em;
+}
+.header.header--default.header--alignment-left .header__nav.right .nav--depth-1 {
+  padding-right: 0 !important;
+}
+.nav.nav--depth-1>li {
+    margin-right: 2.5em;
+}
+
+/* FOOTER */
+.footer__groups {
+  padding-top: 2%;
+  align-items: top;
+}
+#shopify-section-footer h4 {
+  font-family: "Karla" !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  text-transform: uppercase !important;
+  color: #fffcf8 !important;
+}
+.footer__divider,
+.footer__copyright {
+  display: none;
+}
+.footer__group-content .icon {
+  fill: white !important;
+  max-width: 20px;
+}
