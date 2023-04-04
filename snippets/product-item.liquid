@@ -148,6 +148,12 @@
 
     <div class="product-item__details">
       <a href="{{ product.url }}">{{ product.title }}</a>
+      <p>{{ product.metafields.custom.extrait.value }}</p>
+      <div class="infos_inline">
+        {{ product.metafields.custom.dur_e.value }}
+        {{ product.metafields.custom.date.value }}
+        {{ product.metafields.custom.lieu.value }}
+      </div>
 
       {% render 'product-item-price' with product: product %}
     </div>
