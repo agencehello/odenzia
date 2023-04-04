@@ -67,10 +67,10 @@
 
   <body
     class="
-                  template-{{ request.page_type | handle }}
-                  {% if settings.uppercase_headings %} g-uppercase{% endif %}
-                  secondary_button-style-{{ settings.button_secondary_style }}
-                "
+                        template-{{ request.page_type | handle }}
+                        {% if settings.uppercase_headings %} g-uppercase{% endif %}
+                        secondary_button-style-{{ settings.button_secondary_style }}
+                      "
     {% if settings.cart_type == 'flyout' %}
     data-enable-quick-cart="true"
     {% endif %}
@@ -88,8 +88,6 @@
     <div class="theme-editor-scroll-offset"></div>
     <main id="main-content">{{ content_for_layout }}</main>
     {% section 'popup' %}
-    {% section 'reassurance' %}
-    {% section 'instafeed' %}
     {% section 'footer' %}
     {% render 'cart-drawer' %}
     {% render 'modal' %}

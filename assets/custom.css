@@ -49,17 +49,13 @@ section#reassurance {
 #reassurance .text-block__item {
   max-width: 10em !important;
 }
-
-/* REASSURANCE */
-#reassurance section {
-  background-color: var(--beige);
-}
-#reassurance .text-block__heading {
-  font-size: 18px !important;
-  line-height: 22px !important;
-}
-#reassurance .text-block__item {
-  max-width: 10em !important;
+#reassurance .text-block:not(:last-child):after {
+  content: url('{{"odenzia-horizontal-line.svg"|asset_url}}');
+  position: relative;
+  top: -70%;
+  left: 50%;
+  transform: translate(20%, 0%);
+  max-width: 20%;
 }
 
 /* FOOTER */
