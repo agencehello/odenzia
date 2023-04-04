@@ -60,55 +60,54 @@
   {% assign modifiers = modifiers | append: ' image-with-text--background-transparent' %}
 {% endif %}
 
-{% if section.settings.svg_url != blank %}
-  <span class="pastille"></span>
-  <style>
-    span.pastille {
-      content: url("{{ section.settings.svg_url }}");
-    </style>
-  {% endif %}
-
-  {% capture image_block %}
-    {% if link != blank %}
-      <a href="{{ link }}" class="image-with-text__image db">
-      {% else %}
-        <div class="image-with-text__image db">
-        {% endif %}
-
-        {% if image != blank or video_url != blank %}
-          {% if video_url != blank %}
-            <div class="image-with-text__video">
-              <video
-                autoplay
-                playsinline
-                loop
-                muted
-                src="{{ video_url }}"></video>
-              {% render 'video-pause' %}
-            </div>
-          {% elsif image != blank %}
-            {%
-               render 'image',
-             image: image,
-             disable_style: disable_image_style,
-             focal_point: section.settings.focal_point,
-             animate: true %}
-          {% endif %}
-        {% else %}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        {% endif %}
-
-        {% if link != blank %}
-        </a>
+{% capture image_block %}
+  {% if link != blank %}
+    <a href="{{ link }}" class="image-with-text__image db">
     {% else %}
-      </div>
-    {% endif %}
-  {% endcapture %}
+      <div class="image-with-text__image db">
+      {% endif %}
 
-  <section
-    data-section-id="{{ id }}"
-    data-section-type="image-with-text"
-    class="section image-with-text{{ modifiers }}">
+      {% if image != blank or video_url != blank %}
+        {% if video_url != blank %}
+          <div class="image-with-text__video">
+            <video
+              autoplay
+              playsinline
+              loop
+              muted
+              src="{{ video_url }}"></video>
+            {% render 'video-pause' %}
+          </div>
+        {% elsif image != blank %}
+          {%
+             render 'image',
+           image: image,
+           disable_style: disable_image_style,
+           focal_point: section.settings.focal_point,
+           animate: true %}
+        {% endif %}
+      {% else %}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {% endif %}
+
+      {% if link != blank %}
+      </a>
+  {% else %}
+    </div>
+  {% endif %}
+{% endcapture %}
+
+<section
+  data-section-id="{{ id }}"
+  data-section-type="image-with-text"
+  class="section image-with-text{{ modifiers }}">
+  {% if section.settings.svg_url != blank %}
+    <span class="pastille"></span>
+    <style>
+      span.pastille {
+        content: url("{{ section.settings.svg_url }}");
+      </style>
+    {% endif %}
     <div class="image-with-text__inner">
 
       {% if image_position == 'left' %}
@@ -119,14 +118,14 @@
         <div class="image-with-text__text">
 
           <div class="image-with-text__text-block image-with-text__text-block--{{ text_alignment }} animation--section-introduction{% if background %} animation--section-introduction-background pa3{% endif %}" style="
-                                                    --text-color: {{ text_color }};
-                                                    {% unless text_container_color == blank %}
-                                                      --background-color: {{ text_container_color }};
-                                                    {% endunless %}
-                                                    {% unless text_container_gradient == blank %}
-                                                      --background-gradient: {{ text_container_gradient }};
-                                                    {% endunless %}
-                                                  ">
+                                                                  --text-color: {{ text_color }};
+                                                                  {% unless text_container_color == blank %}
+                                                                    --background-color: {{ text_container_color }};
+                                                                  {% endunless %}
+                                                                  {% unless text_container_gradient == blank %}
+                                                                    --background-gradient: {{ text_container_gradient }};
+                                                                  {% endunless %}
+                                                                ">
             {%- for block in section.blocks -%}
               {%- case block.type -%}
                 {%- when "overline" -%}
@@ -166,15 +165,15 @@
                     class="text-block__item text-block__button bttn bttn--secondary bttn--inline"
                     data-theme-editor-setting="section.{{ id }}.link_text"
                     style="
-                                                                                      --color-secondary-button-bg: {{ button_background_color }};
-                                                                                      --color-secondary-button-text: {{ text_color }};
-                                                                                      --color-secondary-button-border: {{ button_background_color | color_modify: 'alpha', 0.2 }};
-                                                                                      --color-secondary-button-meta: {{ color_button_background_meta }};
-                                                                                      --color-contrast-secondary-button-bg: {{ button_background_color }};
-                                                                                      --color-contrast-secondary-button-text: {{ text_color }};
-                                                                                      --color-contrast-secondary-button-border: {{ button_background_color | color_modify: 'alpha', 0.2 }};
-                                                                                      --color-contrast-secondary-button-meta: {{ color_button_background_meta }};
-                                                                                    ">
+                                                                                                            --color-secondary-button-bg: {{ button_background_color }};
+                                                                                                            --color-secondary-button-text: {{ text_color }};
+                                                                                                            --color-secondary-button-border: {{ button_background_color | color_modify: 'alpha', 0.2 }};
+                                                                                                            --color-secondary-button-meta: {{ color_button_background_meta }};
+                                                                                                            --color-contrast-secondary-button-bg: {{ button_background_color }};
+                                                                                                            --color-contrast-secondary-button-text: {{ text_color }};
+                                                                                                            --color-contrast-secondary-button-border: {{ button_background_color | color_modify: 'alpha', 0.2 }};
+                                                                                                            --color-contrast-secondary-button-meta: {{ color_button_background_meta }};
+                                                                                                          ">
                     {{ block.settings.link_text }}
                   </a>
                 {% endif %}
