@@ -156,9 +156,11 @@
         {{ product.metafields.custom.dur_e | metafield_tag }}
       {%- endif -%}
       {%- if product.metafields.custom.date != blank -%}
+      <span class="bullet"></span>
         {{ product.metafields.custom.date | metafield_tag }}
       {%- endif -%}
       {%- if product.metafields.custom.lieu != blank -%}
+      <span class="bullet"></span>
         {{ product.metafields.custom.lieu | metafield_tag }}
       {%- endif -%}
       </div>
