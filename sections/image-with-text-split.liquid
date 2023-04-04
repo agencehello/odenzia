@@ -47,25 +47,22 @@
   {% endunless %}
   {% unless feature_background_gradient == blank %}
     --background-gradient: {{ feature_background_gradient }};
-  {% endunless %}
-  "
->
+  {% endunless %}">
   <div class="image-with-text-split__featured">
     <div class="image-with-text-split__featured-image">
       {% if feature_link != blank %}
         <a href="{{ feature_link }}" aria-labelledby="feature-description">
-      {% endif %}
+        {% endif %}
 
-      {% if feature_image != blank %}
-        {% render 'image',
-          image: feature_image,
-          animate: true
-        %}
-      {% else %}
-        {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
-      {% endif %}
+        {% if feature_image != blank %}
+          {% render 'image'
+           , image: feature_image,
+           animate: true %}
+        {% else %}
+          {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
+        {% endif %}
 
-      {% if feature_link != blank %}
+        {% if feature_link != blank %}
         </a>
       {% endif %}
     </div>
@@ -76,9 +73,8 @@
         data-theme-editor-setting="section.{{ id }}.feature_description"
         id="feature-description"
         {% unless feature_text_color == blank %}
-          style="color: {{ feature_text_color }};"
-        {% endunless %}
-      >
+        style="color: {{ feature_text_color }};"
+        {% endunless %}>
         {{ feature_description }}
       </div>
     {% endunless %}
@@ -87,34 +83,29 @@
   <div class="image-with-text-split__image-wrapper">
     {% if link != blank %}
       <a href="{{ link }}">
-    {% endif %}
+      {% endif %}
 
-    {% if overlay_image != blank %}
-      {% render 'image',
-        image: overlay_image,
-        wrapper_class: "image-with-text-split__image",
-        focal_point: 'image_presentation',
-        animate: true
-      %}
-    {% else %}
-      <div class="image-with-text-split__placeholder">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
-    {% endif %}
+      {% if overlay_image != blank %}
+        {% render 'image'
+         , image: overlay_image,
+         wrapper_class: "image-with-text-split__image",
+         focal_point: 'image_presentation',
+         animate: true %}
+      {% else %}
+        <div class="image-with-text-split__placeholder">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+      {% endif %}
 
-    {% render 'overlay',
-      alignment: detail_alignment,
-      richtext: image_text,
-      text_color: text_color,
-      text_max_width: text_max_width,
-    %}
+      {% render 'overlay'
+       , alignment: detail_alignment,
+       richtext: image_text,
+       text_color: text_color,
+       text_max_width: text_max_width, %}
 
-    {% if gradient_color != blank %}
-      <div
-        class="image-with-text-split__gradient-overlay"
-        style="background: linear-gradient(to {{ gradient_direction }}, rgba(0, 0, 0, 0) {{ gradient_starting_position }}%, {{ gradient_color }} 100%);"
-      ></div>
-    {% endif %}
+      {% if gradient_color != blank %}
+        <div class="image-with-text-split__gradient-overlay" style="background: linear-gradient(to {{ gradient_direction }}, rgba(0, 0, 0, 0) {{ gradient_starting_position }}%, {{ gradient_color }} 100%);"></div>
+      {% endif %}
 
-    {% if link != blank %}
+      {% if link != blank %}
       </a>
     {% endif %}
   </div>
@@ -137,133 +128,121 @@
         "default": true
       },
       {
-        "type": "header",
-        "content": "t:sections.image_with_text_split.settings.feature_header.content"
+        "id": "svg_url",
+        "type": "url",
+        "label": "Fichier svg à afficher : URL",
+        "default": "https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-pastille-sejours-feminins-1.svg?v=1680635603"
       },
       {
+        "type": "header",
+        "content": "t:sections.image_with_text_split.settings.feature_header.content"
+      }, {
         "id": "feature_image",
         "type": "image_picker",
         "label": "t:sections.image_with_text_split.settings.feature_image.label"
-      },
-      {
+      }, {
         "id": "feature_link",
         "type": "url",
         "label": "t:sections.image_with_text_split.settings.feature_link.label"
-      },
-      {
+      }, {
         "id": "feature_description",
         "type": "richtext",
         "label": "t:sections.image_with_text_split.settings.feature_description.label",
-        "default":"<p>Use this half of the section to give an overall impression of your product</p>"
-      },
-      {
+        "default": "<p>Use this half of the section to give an overall impression of your product</p>"
+      }, {
         "id": "feature_text_color",
         "type": "color",
         "label": "t:sections.image_with_text_split.settings.feature_text_color.label",
         "default": "#000"
-      },
-      {
+      }, {
         "id": "background_color",
         "type": "color",
         "label": "t:sections.image_with_text_split.settings.background_color.label",
         "default": "#F3F3F3"
-      },
-      {
+      }, {
         "id": "color_background_gradient",
         "type": "color_background",
         "label": "t:shared.settings.color.color_background_gradient.label"
-      },
-      {
+      }, {
         "id": "feature_alignment",
         "type": "select",
         "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.label",
         "options": [
-          { 
-            "value": "left_top", 
-            "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.option_1" 
+          {
+            "value": "left_top",
+            "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.option_1"
           },
-          { 
-            "value": "center_top", 
-            "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.option_2" 
+          {
+            "value": "center_top",
+            "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.option_2"
           },
-          { 
-            "value": "right_top", 
-            "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.option_3" 
+          {
+            "value": "right_top",
+            "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.option_3"
           },
-          { 
-            "value": "left_bottom", 
-            "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.option_4" 
-          },
-          { 
-            "value": "center_bottom", 
-            "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.option_5" 
-          },
-          { 
-            "value": "right_bottom", 
-            "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.option_6" 
+          {
+            "value": "left_bottom",
+            "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.option_4"
+          }, {
+            "value": "center_bottom",
+            "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.option_5"
+          }, {
+            "value": "right_bottom",
+            "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.option_6"
           }
         ],
         "default": "left_bottom"
-      },
-      {
+      }, {
         "type": "header",
         "content": "t:sections.image_with_text_split.settings.detail_header.content"
-      },
-      {
+      }, {
         "id": "overlay_image",
         "type": "image_picker",
         "label": "t:sections.image_with_text_split.settings.overlay_image.label"
-      },
-      {
+      }, {
         "id": "link",
         "type": "url",
         "label": "t:sections.image_with_text_split.settings.link.label"
-      },
-      {
+      }, {
         "type": "richtext",
         "id": "image_text",
         "label": "t:sections.image_with_text_split.settings.image_text.label",
-        "default":"<p>This half is great for a large image of your product's details.</p>"
-      },
-      {
+        "default": "<p>This half is great for a large image of your product's details.</p>"
+      }, {
         "type": "color",
         "id": "text_color",
         "label": "t:sections.image_with_text_split.settings.text_color.label",
         "default": "#ffffff"
-      },
-      {
+      }, {
         "id": "detail_alignment",
         "type": "select",
         "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.label",
         "options": [
-          { 
-            "value": "left_top", 
-            "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.option_1" 
+          {
+            "value": "left_top",
+            "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.option_1"
           },
-          { 
-            "value": "center_top", 
-            "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.option_2" 
+          {
+            "value": "center_top",
+            "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.option_2"
           },
-          { 
-            "value": "right_top", 
-            "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.option_3" 
+          {
+            "value": "right_top",
+            "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.option_3"
           },
-          { 
-            "value": "left_bottom", 
-            "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.option_4" 
-          },
-          { 
-            "value": "center_bottom", 
-            "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.option_5" 
-          },
-          { 
-            "value": "right_bottom", 
-            "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.option_6" 
+          {
+            "value": "left_bottom",
+            "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.option_4"
+          }, {
+            "value": "center_bottom",
+            "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.option_5"
+          }, {
+            "value": "right_bottom",
+            "label": "t:sections.image_with_text_split.settings.feature_detail_alignment.option_6"
           }
         ],
         "default": "center_bottom"
-      },
-      {
+      }, {
         "type": "range",
         "id": "text_max_width",
         "label": "t:sections.image_with_text_split.settings.text_max_width.label",
@@ -271,14 +250,12 @@
         "max": 50,
         "step": 1,
         "default": 50
-      },
-      {
+      }, {
         "id": "gradient_color",
         "type": "color",
         "label": "t:sections.image_with_text_split.settings.gradient_color.label",
         "default": "#030303"
-      },
-      {
+      }, {
         "type": "range",
         "id": "gradient_length",
         "min": 0,
