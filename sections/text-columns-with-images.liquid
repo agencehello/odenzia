@@ -42,11 +42,12 @@
 {%- endcase -%}
 
 <section
+  id="{{ section.settings.section_id }}"
   data-section-id="{{ id }}"
   data-section-type="text-columns-with-images"
   class="section text-columns{{ modifiers }}">
   {% render 'text-block' with
-   id: id {{ section.settings.section_id }},
+   id: id,
    modifiers: 'text-columns__intro animation--section-introduction',
    heading_alignment: text_alignment,
    text_max_width: text_max_width,
