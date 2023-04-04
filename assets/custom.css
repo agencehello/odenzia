@@ -44,6 +44,9 @@ nav.header__nav.right {
   background-color: var(--bleu);
   color: var(--beige);
 }
+
+/* HOMEPAGE */
+
 /* REASSURANCE */
 section#reassurance {
   background-color: #fcf2e5;
@@ -64,7 +67,7 @@ section#reassurance {
 }
 
 /* NEWSLETTER FORM */
-#reassurance {
+#newsletter {
   padding-top: 5%;
   padding-bottom: 5%;
 }
@@ -80,15 +83,12 @@ section#reassurance {
   line-height: 30px !important;
   margin-bottom: 10px !important;
 }
-form svg {
-  color: #000000;
-}
-input {
+#newsletter input {
   background-color: #fcf2e5;
   border: none;
   border-bottom: solid 0.8px #000000;
 }
-input::placeholder {
+#newsletter input::placeholder {
   color: #000000;
   font-family: "Karla Light";
   font-size: 14px;
