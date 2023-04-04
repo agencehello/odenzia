@@ -41,6 +41,13 @@
   {%- assign item_width = 'one-quarter' -%}
 {%- endcase -%}
 
+<style>
+  {% if section.settings.section_id contains 'reassurance' %}
+    #reassurance .text-block:not(:last-child):after {
+      content: url('{{"odenzia-horizontal-line.svg"|asset_url}}');
+    }
+  {% endif %}
+</style>
 <section
   id="{{ section.settings.section_id }}"
   data-section-id="{{ id }}"

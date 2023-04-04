@@ -50,7 +50,6 @@ section#reassurance {
   max-width: 10em !important;
 }
 #reassurance .text-block:not(:last-child):after {
-  content: url('{{"odenzia-horizontal-line.svg"|asset_url}}');
   position: relative;
   top: -70%;
   left: 50%;
