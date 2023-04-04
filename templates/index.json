@@ -222,10 +222,7 @@
         "cbdbcde7-b0ce-46ee-8b63-bfb7b8366cd0"
       ],
       "custom_css": [
-        "section {padding: 0 !important; background-color: #fcf2e5;}",
-        ".text-block__overline {color: #efbfbb;}",
-        ".text-block__button {background-color: #efbfbb; outline: 1px solid #efbfbb; outline-offset: 3px;}",
-        ".text-block__button:hover {color: #efbfbb; background-color: transparent; border: 1px solid #efbfbb; outline: none;}"
+
       ],
       "settings": {
         "section_style": "default",
