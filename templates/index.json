@@ -230,6 +230,7 @@
       "settings": {
         "section_style": "default",
         "enable_animation": true,
+        "svg_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0556\/3839\/3160\/files\/odenzia-pastille-sejours-feminins-1.svg?v=1680635603",
         "image": "shopify:\/\/shop_images\/odenzia-accueil-2.jpg",
         "video_url": "",
         "image_width": "one-half",
@@ -393,6 +394,7 @@
       "settings": {
         "section_style": "default",
         "enable_animation": true,
+        "svg_url": "",
         "image": "shopify:\/\/shop_images\/odenzia-accueil-4.jpg",
         "video_url": "",
         "image_width": "one-half",
