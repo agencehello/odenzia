@@ -5,6 +5,8 @@ Last Edit @StudioBoskant 03.2023 */
   --marron: #c7a17e;
   --bleu: #094849;
   --rose: #efbfbb;
+  --title: "Queens", serif;
+  --body: "Karla Light", sans-serif;
 }
 
 /* NAVIGATION */
@@ -134,13 +136,13 @@ h3 {
   line-height: 30px !important;
 }
 h4 {
-  font-family: "Queens" !important;
+  font-family: "Queens", serif !important;
   font-weight: 300 !important;
   font-size: 18px !important;
   line-height: 22px !important;
 }
 h5 {
-  font-family: "Karla" !important;
+  font-family: "Karla Light" !important;
   font-weight: 400 !important;
   font-size: 16px !important;
   line-height: 24px !important;
@@ -155,7 +157,7 @@ p {
   letter-spacing: 0 !important;
 }
 p strong {
-  font-family: "Karla" !important;
+  font-family: "Karla Light" !important;
   font-weight: 400 !important;
 }
 
@@ -164,4 +166,289 @@ p strong {
   letter-spacing: 0;
   font-size: 14px;
   line-height: 22px;
+}
+
+/*  *  *  CUSTOM  *  *  */
+
+/* SELECTION */
+
+::selection {
+  background-color: #094849 !important;
+  color: #fffcf8 !important;
+}
+
+::-moz-selection {
+  background-color: #094849 !important;
+  color: #fffcf8 !important;
+}
+
+/* ESPACEMENTS & ALIGNEMENTS */
+
+section {
+  border: none !important;
+}
+
+.image-with-text--text-alignment-left .image-with-text__text-container {
+  justify-content: center;
+}
+
+/* BUTTONS */
+
+.text-block__button {
+  padding: 10px 33px;
+}
+
+/* LISTING PRODUITS */
+
+.featured-collection-row__slide .product-item__details,
+.product-item__details-wrapper .product-item__details a {
+  font-family: "Queens" !important;
+  font-weight: 300 !important;
+  font-size: 26px !important;
+  line-height: 30px !important;
+  font-weight: 300 !important;
+}
+
+.featured-collection-row__slide .price-item,
+.product-item__details-wrapper .product-item__details .price-item {
+  font-family: "Karla" !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  letter-spacing: 0 !important;
+  color: #094849 !important;
+  text-transform: uppercase !important;
+  margin-top: 15px !important;
+}
+
+/* LISTING PRODUITS • BADGE */
+
+.o-50 {
+  opacity: 1;
+}
+
+.product-item .badge {
+  font-family: "Karla Light" !important;
+  letter-spacing: 0 !important;
+  font-size: 14px !important;
+  line-height: 22px !important;
+  padding: 12px 20px !important;
+}
+
+.bg-sold-out {
+  background-color: #c7a17e;
+  color: #fcf2e5;
+}
+
+/* PRODUCT PAGE */
+
+.product__media-container {
+  padding-right: 5%;
+}
+
+.product__media-action {
+  display: none;
+}
+
+.product-form__inner .product__price {
+  font-family: "Queens";
+  line-height: 24px;
+  color: #094849;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.product__description {
+  font-family: "Karla Light";
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.product-form__option-label-wrapper label,
+.product-form__option-select {
+  font-family: "Karla Light";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+.product-form__option-select {
+  border: none;
+  border-bottom: solid 1px #c7a17e;
+}
+
+.product-form__option-select-icon svg {
+  color: #c7a17e !important;
+}
+
+/* QTY • PRODUCT PAGE, QUICK CART & CART */
+
+.product-form__quantity-button,
+.product-form__quantity input,
+.quick-cart__quantity,
+.quick-cart__quantity-button {
+  color: #094849 !important;
+}
+
+.product-form__quantity,
+.product-form__quantity:hover {
+  border: 1px solid #094849;
+}
+
+/* COMPLET • PRODUCT PAGE */
+
+.bttn:disabled {
+  opacity: 1;
+  background-color: #c7a17e;
+  color: #fcf2e5;
+  pointer-events: none;
+}
+
+/* QUICK CART & CART */
+
+.quick-cart__tab-item .js-tab-link-recent {
+  display: none !important;
+}
+
+.quick-cart__tabs {
+  padding: calc(var(--spacing-medium) / 2.5);
+}
+
+.quick-cart__close-button svg {
+  color: #094849;
+}
+
+.quick-cart__tab-item a:hover,
+.quick-cart__tab-item a.active {
+  font-family: "Karla";
+  font-weight: 400;
+  color: #094849;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+.quick-cart__product-price-value {
+  font-family: "Karla Light";
+  color: #094849;
+}
+
+.quick-cart__product-details div,
+.quick-cart__item-total {
+  font-family: "Karla Light";
+}
+.quick-cart__item-bottom {
+  justify-content: flex-end;
+}
+
+.quick-cart__footer .js-subtotal {
+  font-family: "Queens";
+  font-size: 26px;
+  line-height: 30px;
+}
+
+.quick-cart__checkout-button:hover,
+.cart-template__footer-actions .bttn:hover {
+  background-color: #efbfbb;
+  color: #fcf2e5;
+}
+
+/* FORMS */
+
+input:hover,
+textarea:hover,
+select:hover,
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: none !important;
+}
+
+/* CONNEXION / INSCRIPTION */
+
+.account input,
+.account textarea,
+.account select,
+.account input:hover,
+.account textarea:hover,
+.account select:hover {
+  border: none;
+  border-bottom: 0.8px solid #000000;
+  padding-left: 0;
+}
+
+.account :focus-visible {
+  outline: none;
+  border-bottom: 0.8px solid #000000;
+}
+
+.account form label.label--above {
+  padding-left: 0;
+  left: 0;
+  color: #000000;
+}
+
+.account input::placeholder {
+  color: #000000;
+}
+
+.account .bttn--full {
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+  background-color: #c7a17e;
+  color: #fcf2e5;
+  border: none !important;
+  padding-left: 15px !important;
+  width: 50%;
+  margin: auto;
+}
+
+.account .bttn--full:hover {
+  background-color: #094849;
+}
+
+/* RECHERCHE */
+
+.search__input {
+  box-shadow: none;
+  border-radius: 0px;
+}
+
+.search__input-close {
+  background-color: #094849;
+  color: #fffcf8;
+}
+
+.search__input-clear {
+  text-transform: none;
+  color: #efbfbb;
+}
+.search__input-clear:hover {
+  opacity: 1;
+}
+
+.search__results .type-heading-meta {
+  font-size: 16px;
+  letter-spacing: 0;
+  color: #094849;
+  font-weight: 400;
+}
+
+.quick-search__result-heading {
+  font-family: "Queens";
+  font-weight: 300;
+  font-size: 18px;
+  text-transform: none;
+}
+
+.quick-search__result-subheading {
+  font-family: "Karla Light";
+  opacity: 1;
+}
+
+.quick-search__view-all > button {
+  color: #c7a17e;
+  font-size: 16px;
+}
+
+.search-template input {
+  border: 1px solid #094849;
 }
