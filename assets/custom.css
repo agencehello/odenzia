@@ -7,6 +7,7 @@ Last Edit @StudioBoskant 03.2023 */
   --rose: #efbfbb;
   --title: "Queens", serif;
   --body-light: var(--body-light), sans-serif;
+  --padd-mob: 40px;
 }
 
 /* NAVIGATION */
@@ -58,6 +59,9 @@ section#reassurance {
 }
 
 /* NEWSLETTER FORM */
+.sib-form {
+  padding-top: 0;
+}
 .sib-form .entry__field {
   border-left: 0;
   border-right: 0;
@@ -144,6 +148,11 @@ button.sib-form-block__button.sib-form-block__button-with-loader {
 .sib-sms-select__number-input input {
   border-bottom: 1px solid black !important;
 }
+.sib-sms-select__title span {
+  font-family: "Karla" !important;
+  text-transform: uppercase;
+  font-size: 16px !important;
+}
 button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   background-color: var(--bleu) !important;
   color: var(--beige) !important;
@@ -190,6 +199,9 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   /* Global layout */
   .grid-display.grid-display--one-quarter {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .newsletter__inner.animation--section-introduction {
+    padding-top: var(--padd-mob);
   }
   /* Footer */
   #reassurance .mb3.w-100.text-columns__image.db {
@@ -239,6 +251,7 @@ p {
   font-size: 16px !important;
   line-height: 24px !important;
   letter-spacing: 0 !important;
+  margin-top: 0;
 }
 p strong {
   font-family: var(--body-light) !important;
