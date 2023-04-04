@@ -148,11 +148,19 @@
 
     <div class="product-item__details">
       <a href="{{ product.url }}">{{ product.title }}</a>
+      {%- if product.metafields.custom.dur_e != blank -%}
       <p>{{ product.metafields.custom.extrait.value }}</p>
+      {%- endif -%}
       <div class="infos_inline">
-        <p>{{ product.metafields.custom.dur_e.value | metafield_tag }}</p>
-        <p>{{ product.metafields.custom.date.value | metafield_tag }}</p>
-        <p>{{ product.metafields.custom.lieu.value | metafield_tag }}</p>
+      {%- if product.metafields.custom.dur_e != blank -%}
+        {{ product.metafields.custom.dur_e | metafield_tag }}
+      {%- endif -%}
+      {%- if product.metafields.custom.date != blank -%}
+        {{ product.metafields.custom.date | metafield_tag }}
+      {%- endif -%}
+      {%- if product.metafields.custom.lieu != blank -%}
+        {{ product.metafields.custom.lieu | metafield_tag }}
+      {%- endif -%}
       </div>
 
       {% render 'product-item-price' with product: product %}
