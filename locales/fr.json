@@ -32,14 +32,19 @@
       "title": "Laissez un commentaire",
       "unapproved": "L'adresse électronique fournie n'est pas approuvée pour la publication de commentaires."
     },
-    "general": { "categories": "Classé dans" },
-    "pagination": { "next": "Article suivant", "previous": "Article précédent" }
+    "general": {
+      "categories": "Classé dans"
+    },
+    "pagination": {
+      "next": "Article suivant",
+      "previous": "Article précédent"
+    }
   },
   "cart": {
     "general": {
       "cart_error": "Une erreur s'est produite lors de la mise à jour de votre panier. Veuillez réessayer.",
       "checkout": "Procéder au paiement",
-      "continue_browsing_html": "Continuer à parcourir <a href=\"/collections/all\">ici</a>.",
+      "continue_browsing_html": "Continuer à parcourir <a href=\"\/collections\/all\">ici<\/a>.",
       "continue_shopping": "Continuer les achats",
       "cookies_required": "Autoriser les cookies",
       "currency": "Monnaie",
@@ -48,13 +53,13 @@
       "quantity_error": "La quantité sélectionnée dépasse le stock disponible.",
       "quantity_error_updated": "La quantité sélectionnée dépasse le stock disponible. Votre panier a été mis à jour.",
       "remove": "Supprimer",
-      "removed_item_html": "Retiré <span class=\"cart__removed-product-details\">({{ quantity }}) {{ link }}</span> de votre panier.",
+      "removed_item_html": "Retiré <span class=\"cart__removed-product-details\">({{ quantity }}) {{ link }}<\/span> de votre panier.",
       "savings": "Vous économisez",
       "shipping_at_checkout": "Les frais d'expédition sont calculés au moment du paiement.",
       "subtotal": "Sous-total",
       "taxes_and_shipping_at_checkout": "Les taxes et les frais d'expédition sont calculés au moment du paiement.",
-      "taxes_and_shipping_policy_at_checkout_html": "Les taxes et <a href=\"{{ link }}\">les frais d'expédition</a> au moment du paiement.",
-      "taxes_included_and_shipping_policy_html": "Les taxes sont incluses et la livraison <a href=\"{{ link }}\"></a> est calculée à la fin de la commande.",
+      "taxes_and_shipping_policy_at_checkout_html": "Les taxes et <a href=\"{{ link }}\">les frais d'expédition<\/a> au moment du paiement.",
+      "taxes_included_and_shipping_policy_html": "Les taxes sont incluses et la livraison <a href=\"{{ link }}\"><\/a> est calculée à la fin de la commande.",
       "taxes_included_but_shipping_at_checkout": "Toutes taxes comprises. Les éventuels frais de port sont calculés à la prochaine étape.",
       "title": "Panier",
       "update": "Mise à jour"
@@ -81,11 +86,13 @@
       "product_details": "Détails du produit",
       "quantity": "Quantité",
       "quantity_label": "Quantité : {{ quantity_count }}",
-      "quick_cart_note_html": "Sous-total {{ subtotal }} </br>{{ shipping_taxes }}"
+      "quick_cart_note_html": "Sous-total {{ subtotal }} <\/br>{{ shipping_taxes }}"
     }
   },
   "collections": {
-    "catalog": { "title": "Séjours" },
+    "catalog": {
+      "title": "Séjours"
+    },
     "filters": {
       "all_tags": "Tous les séjours",
       "clear": "Effacer les filtres",
@@ -112,8 +119,13 @@
       "view_all": "Tout voir",
       "view_all_label": "Voir tous les séjours de la catégorie {{ collection_name }} "
     },
-    "sorting": { "sort": "Trier : {{ label }}", "title": "Trier" },
-    "tags": { "title": "tags" }
+    "sorting": {
+      "sort": "Trier : {{ label }}",
+      "title": "Trier"
+    },
+    "tags": {
+      "title": "tags"
+    }
   },
   "contact": {
     "form": {
@@ -149,7 +161,7 @@
       "cancel": "annuler",
       "city": "Ville",
       "company": "Société",
-      "country": "Pays/Région",
+      "country": "Pays\/Région",
       "default": "Par défaut",
       "delete": "Supprimer",
       "delete_confirm": "Êtes-vous sûr de vouloir supprimer cette adresse ?",
@@ -162,7 +174,7 @@
       "set_default": "Définir comme adresse par défaut",
       "title": "Vos adresses",
       "update": "Mise à jour de l'adresse",
-      "zip": "Code postal/ZIP"
+      "zip": "Code postal\/ZIP"
     },
     "login": {
       "email": "E-mail",
@@ -236,7 +248,7 @@
   },
   "general": {
     "404": {
-      "subtext_html": "La page que vous avez demandée n'existe pas. Cliquez <a href=\"/\">ici</a> pour retourner sur le site.",
+      "subtext_html": "La page que vous avez demandée n'existe pas. Cliquez <a href=\"\/\">ici<\/a> pour retourner sur le site.",
       "title": "Page non trouvée"
     },
     "accessibility": {
@@ -271,11 +283,18 @@
       "total_reviews": "Avis",
       "unit_price_separator": "Par"
     },
-    "currency": { "dropdown_label": "Monnaie" },
-    "filters": { "show_less": "Voir moins", "show_more": "En savoir plus" },
-    "language": { "dropdown_label": "Langue" },
+    "currency": {
+      "dropdown_label": "Monnaie"
+    },
+    "filters": {
+      "show_less": "Voir moins",
+      "show_more": "En savoir plus"
+    },
+    "language": {
+      "dropdown_label": "Langue"
+    },
     "menu": {
-      "login_register": "Connexion / Inscription",
+      "login_register": "Connexion \/ Inscription",
       "logout": "Déconnexion"
     },
     "meta": {
@@ -304,7 +323,7 @@
       "viewing": "Vous regardez {{ of }} de {{ total }}"
     },
     "password_page": {
-      "admin_link_html": "Vous êtes le propriétaire du magasin ? <a href=\"/admin\" class=\"text-link\">Connectez-vous ici</a>",
+      "admin_link_html": "Vous êtes le propriétaire du magasin ? <a href=\"\/admin\" class=\"text-link\">Connectez-vous ici<\/a>",
       "login_form_heading": "Connecetez-vous en utilisant le mot de passe",
       "login_form_password_label": "Mot de passe",
       "login_form_password_placeholder": "Votre mot de passe",
@@ -318,7 +337,9 @@
       "signup_form_success": "Vous recevrez un e-mail juste avant l'ouverture !",
       "signup_title": "Inscription"
     },
-    "payment": { "method": "Paiement" },
+    "payment": {
+      "method": "Paiement"
+    },
     "products": {
       "no_recently_viewed": "Aucun séjour récemment consulté.",
       "quick_cart": "Ajouter",
@@ -342,7 +363,10 @@
       "placeholder": "Recherchez",
       "products": "Séjours",
       "quick_search": "Recherche rapide",
-      "quick_search_results": { "one": "Résultat", "other": "Résultats" },
+      "quick_search_results": {
+        "one": "Résultat",
+        "other": "Résultats"
+      },
       "results": "Résultats",
       "results_with_count": {
         "one": "{{ count }} résultat pour \"{{ terms }}\"",
@@ -365,7 +389,10 @@
       "share_on_pinterest": "Épingler",
       "share_on_twitter": "Tweet"
     },
-    "store_information": { "address": "Adresse", "hours": "Heures d'ouverture" }
+    "store_information": {
+      "address": "Adresse",
+      "hours": "Heures d'ouverture"
+    }
   },
   "gift_cards": {
     "issued": {
@@ -385,7 +412,9 @@
     }
   },
   "homepage": {
-    "general": { "title": "Accueil" },
+    "general": {
+      "title": "Accueil"
+    },
     "onboarding": {
       "article_excerpt": "Utilisez cette section pour présenter les grands articles de blog éditoriaux sur votre marque. Nous vous suggérons d'en utiliser un à trois pour étoffer correctement cette section.",
       "article_title": "Article de blog en vedette",
@@ -406,7 +435,10 @@
     "cart": {
       "checkout": "Procéder au paiement",
       "go": "Aller au panier",
-      "items_count": { "one": "Séjour", "other": "Séjours" },
+      "items_count": {
+        "one": "Séjour",
+        "other": "Séjours"
+      },
       "title": "Panier"
     },
     "customer": {
@@ -431,8 +463,13 @@
     }
   },
   "list-collections": {
-    "general": { "count_text": "Séjours", "count_text_singular": "Séjour" },
-    "onboarding": { "collection": "Catégories" }
+    "general": {
+      "count_text": "Séjours",
+      "count_text_singular": "Séjour"
+    },
+    "onboarding": {
+      "collection": "Catégories"
+    }
   },
   "products": {
     "inventory": {
@@ -448,7 +485,7 @@
       "add_to_quick_shop": "Ajout rapide",
       "availability": "Disponibilité",
       "back_to_collection": "Retour à {{ title }}",
-      "country_placeholder": "Pays/Région",
+      "country_placeholder": "Pays\/Région",
       "description": "Description",
       "estimate_shipping": "Commencer les achats",
       "from_lowest_price_html": "À partir de {{ lowest_price }}",
@@ -468,7 +505,7 @@
       "sale_price": "Prix de vente",
       "share_heading": "Partager",
       "shipping_estimator": "Frais d'expédition estimés",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Les frais d'expédition</a> sont calculés au moment du paiement.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Les frais d'expédition<\/a> sont calculés au moment du paiement.",
       "sku": "SKU",
       "sku_with_value": "SKU : {{ value }}",
       "sold_out": "Complet",
@@ -500,7 +537,7 @@
     "no_page_results": "Aucun résultat pour",
     "no_product_results": "Aucun résultat pour",
     "no_results": "Nous n'avons trouvé aucun résultat de recherche pour",
-    "no_results_html": "Veuillez essayer un autre terme de recherche ou retourner à <a href=\"/\">la page d'accueil</a>.",
+    "no_results_html": "Veuillez essayer un autre terme de recherche ou retourner à <a href=\"\/\">la page d'accueil<\/a>.",
     "nothing_found": "Aucun résultat",
     "placeholder": "Rechercher",
     "results_with_count": {
@@ -515,7 +552,7 @@
     "drawer_menu": {
       "account": {
         "logged_in": "Déconnexion",
-        "logged_out": "S'inscrire / Se connecter"
+        "logged_out": "S'inscrire \/ Se connecter"
       },
       "currency": "Monnaie",
       "language": "Langue",
@@ -536,19 +573,21 @@
     "map": {
       "address_error": "Erreur de recherche de cette adresse",
       "address_no_results": "Aucun résultat pour cette adresse",
-      "address_query_limit_html": "Vous avez dépassé la limite d'utilisation de l'API Google. Envisagez de passer à <a href=\"https://developers.google.com/maps/premium/usage-limits\">un plan Premium</a>.",
+      "address_query_limit_html": "Vous avez dépassé la limite d'utilisation de l'API Google. Envisagez de passer à <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">un plan Premium<\/a>.",
       "auth_error_html": "Il y a eu un problème d'authentification de votre compte Google Maps.",
       "section_heading": "lieu"
     },
     "slideshow": {
       "load_slide": "Chargement {{ slide_number }}",
-      "navigation_instructions": "Utilisez les flèches gauche/droite pour naviguer dans le diaporama ou balayez vers la gauche/droite si vous utilisez un appareil mobile.",
+      "navigation_instructions": "Utilisez les flèches gauche\/droite pour naviguer dans le diaporama ou balayez vers la gauche\/droite si vous utilisez un appareil mobile.",
       "next_slide": "Suivant",
       "pause_slideshow": "Pause",
       "previous_slide": "Précédent",
       "rotate_slideshow": "Lire le diaporama"
     },
-    "testimonials": { "reviewed_by": "Par" },
+    "testimonials": {
+      "reviewed_by": "Par"
+    },
     "video": {
       "close": "Fermer {{ video_title }}",
       "pause": "Pause {{ video_title }}",
@@ -564,10 +603,10 @@
       "locations": "Sites",
       "not_in_stock": "Rupture de stock",
       "pick_up_available": "Ramassage disponible",
-      "pick_up_available_at_html": "Ramassage à <span>{{ location_name }}</span>",
+      "pick_up_available_at_html": "Ramassage à <span>{{ location_name }}<\/span>",
       "pick_up_available_time_html": "En stock, {{ pickup_time }}",
       "pick_up_currently_unavailable": "Pickup actuellement non disponible",
-      "pick_up_unavailable_at_html": "Ramassage non disponible à <span>{{ location_name }}</span>",
+      "pick_up_unavailable_at_html": "Ramassage non disponible à <span>{{ location_name }}<\/span>",
       "view_store_info": "Afficher les informations sur le magasin"
     }
   },
