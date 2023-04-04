@@ -97,7 +97,7 @@ input.input_replaced {
 }
 .entry__choice span {
   font-size: 12px;
-  font-family: var(--body-light) !important;
+  font-family: "Karla" !important;
   line-height: initial;
 }
 button.sib-form-block__button.sib-form-block__button-with-loader {
@@ -105,6 +105,24 @@ button.sib-form-block__button.sib-form-block__button-with-loader {
   border-radius: 0 !important;
   padding: 10px 33px;
   font-family: var(--body-light) !important;
+}
+.sib-sms-select__title {
+  background-color: unset;
+  border-style: none;
+  padding-left: 0;
+}
+.sib-sms-select__number-input {
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-top: 0 !important;
+  border-radius: 0 !important;
+}
+.sib-sms-select__calling-code {
+  padding-left: 0 !important;
+  text-align: left;
+}
+.sib-sms-select {
+  margin-top: 8px;
 }
 
 /* FOOTER */
