@@ -39,6 +39,11 @@ nav.header__nav.right {
   margin-right: 2.5em;
 }
 
+/* GLOBAL LAYOUT */
+.bg-blue {
+  background-color: var(--bleu);
+  color: var(--beige);
+}
 /* REASSURANCE */
 section#reassurance {
   background-color: #fcf2e5;
