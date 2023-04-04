@@ -343,6 +343,24 @@ section {
   text-transform: uppercase !important;
   margin-top: 15px !important;
 }
+.infos_inline {
+  display: flex;
+  width: 100%;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+.infos_inline p {
+  font-family: "Karla" !important;
+  font-size: 13px !important;
+}
+span.bullet {
+  width: 6px;
+  height: 6px;
+  display: block;
+  background-color: var(--marron);
+  border-radius: 50%;
+  margin: 0 6px;
+}
 
 /* LISTING PRODUITS • BADGE */
 .o-50 {
