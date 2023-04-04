@@ -71,19 +71,19 @@
       #sib-container input:-ms-input-placeholder {
         text-align: left;
         font-family: "Helvetica", sans-serif;
-        color: #c0ccda;
+        color: #000000;
       }
 
       #sib-container input::placeholder {
         text-align: left;
         font-family: "Helvetica", sans-serif;
-        color: #c0ccda;
+        color: #000000;
       }
 
       #sib-container textarea::placeholder {
         text-align: left;
         font-family: "Helvetica", sans-serif;
-        color: #c0ccda;
+        color: #000000;
       }
     </style>
     <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
@@ -91,7 +91,7 @@
 
     <!-- START - We recommend to place the below code where you want the form in your website html  -->
       <div class="sib-form" style="text-align: center;
-                         background-image: url(https://img.mailinblue.com/3709840/images/rnb/original/608c38c9369496425b1f1538.jpg);           background-size: cover;         background-repeat: no-repeat;         background-position: center center; "> <div id="sib-form-container" class="sib-form-container">
+                 background-color: #fcf2e5;                                 "> <div id="sib-form-container" class="sib-form-container">
         <div
           id="error-message"
           class="sib-form-message-panel"
@@ -123,11 +123,11 @@
         <div
           id="sib-container"
           class="sib-container--large sib-container--vertical"
-          style="text-align:center; background-color:rgba(255,255,255,0.83); max-width:540px; border-radius:14px; border-width:0px; border-color:#C0CCD9; border-style:solid; direction:ltr">
+          style="text-align:center; background-color:rgba(252,242,229,1); max-width:540px; border-radius:14px; border-width:0px; border-color:#C0CCD9; border-style:solid; direction:ltr">
           <form
             id="sib-form"
             method="POST"
-            action="https://0751fc2f.sibforms.com/serve/MUIEACbF-Zlndded2nCtkjEGc_fk7vJ-fVKvsiQNXS3jygOekDiH5nJTprrPN_Jh-DAIg2u9glUgb64u2N4A9xhvit6pVSrGYIFu0Mxv1FePOfcrw_hoVrdzPM4GsI1PSmhITwSgIu-KT-FR_P-3oGr4eGffpvOaFuXu1drP9jXGevizUwfcxXk7ifEYHfjgOhJyJemGakcGql9t"
+            action="https://0751fc2f.sibforms.com/serve/MUIEAAibbjf-5kslHHWcdyFATb4T-NmGZkR9tI93Yt5GX-WvKc1ZBvnwhD_2wXCR5yzhpm1guuiU66N8_H2W7gnxca-3C8dxbb35tjXL2DQDUb-psGYKH857kKCu-iB2TF2CR5aEn8ueVTxLMJ3vafl4qs_6mBeCpveJAgXArPtz_sDoCmTAA6hYVJQ40aHc38_njAgkcvFkZGGF"
             data-type="subscription">
             <div style="padding: 8px 0;">
               <div class="sib-input sib-form-block">
@@ -1029,10 +1029,10 @@
               </div>
             </div>
             <div style="padding: 8px 0;">
-              <div class="sib-form-block" style="text-align: left">
+              <div class="sib-form-block" style="text-align: center">
                 <button
                   class="sib-form-block__button sib-form-block__button-with-loader"
-                  style="font-size:16px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#FFFFFF; background-color:#3E4857; border-radius:10px; border-width:0px;"
+                  style="font-size:16px; text-align:center; font-family:&quot;Helvetica&quot;, sans-serif; color:#094849; background-color:#fcf2e5; border-radius:10px; border-width:0px;"
                   form="sib-form"
                   type="submit">
                   <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512">
@@ -1084,45 +1084,6 @@
 
     <!-- END - We recommend to place the above code in footer or bottom of your website html  -->
     <!-- End Sendinblue Form -->
-
-    <p>ancien form</p>
-    <div class="newsletter__form{% if subheading == blank %} pt0point5{% endif %}">
-      {% assign form_id = 'NewsletterForm' %}
-      {% assign success_msg = 'general.newsletter_form.confirmation' | t %}
-
-      {% form 'customer' %}
-        {% render 'form-status', form: form, form_id: form_id, success_message: success_msg %}
-
-        {% unless form.posted_successfully? %}
-          <input
-            type="hidden"
-            name="contact[tags]"
-            value="newsletter">
-          <div class="newsletter__input-container">
-            <input
-              type="email"
-              class="input newsletter__input input-reset"
-              name="contact[email]"
-              id="{{ form_id }}-email"
-              value="{% if customer.email != blank %}{{ customer.email }}{% endif %}"
-              placeholder="{{ 'general.newsletter_form.email_placeholder' | t }}"
-              autocorrect="off"
-              autocapitalize="off"
-              type="email"
-              required>
-            <label class="label--above" for="Email">{{ 'general.newsletter_form.email_placeholder' | t }}</label>
-            <button
-              type="submit"
-              name="commit"
-              id="Subscribe"
-              class="newsletter__submit-button"
-              aria-label="{{ 'general.accessibility.submit' | t }}">
-              {% render 'icon-arrow-forward', non_focusable: true %}
-            </button>
-          </div>
-        {% endunless %}
-      {% endform %}
-    </div>
   </div>
 </section>
 
