@@ -57,6 +57,15 @@ section#reassurance {
   max-width: 20%;
 }
 
+/* NEWSLETTER FORM */
+#sib-container input:-ms-input-placeholder,
+#sib-container input::placeholder,
+#sib-container textarea::placeholder {
+  text-align: left;
+  font-family: var(--body-light);
+  color: #000000;
+}
+
 /* FOOTER */
 .footer__groups {
   padding-top: 2%;

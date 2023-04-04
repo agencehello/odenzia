@@ -22,6 +22,7 @@
         href="https://fonts.shopifycdn.com"
         crossorigin>
     {%- endunless -%}
+    <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
 
     {%- if settings.favicon != blank -%}
       <link
@@ -67,10 +68,10 @@
 
   <body
     class="
-                        template-{{ request.page_type | handle }}
-                        {% if settings.uppercase_headings %} g-uppercase{% endif %}
-                        secondary_button-style-{{ settings.button_secondary_style }}
-                      "
+                              template-{{ request.page_type | handle }}
+                              {% if settings.uppercase_headings %} g-uppercase{% endif %}
+                              secondary_button-style-{{ settings.button_secondary_style }}
+                            "
     {% if settings.cart_type == 'flyout' %}
     data-enable-quick-cart="true"
     {% endif %}
