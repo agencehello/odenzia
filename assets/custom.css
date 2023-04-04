@@ -58,8 +58,16 @@ section#reassurance {
 }
 
 /* NEWSLETTER FORM */
-#sib-container input:-ms-input-placeholder,
-#sib-container input::placeholder,
+#sib-container input:-ms-input-placeholder {
+  text-align: left;
+  font-family: var(--body-light) !important;
+  color: #000000;
+}
+#sib-container input::placeholder {
+  text-align: left;
+  font-family: var(--body-light) !important;
+  color: #000000;
+}
 #sib-container textarea::placeholder {
   text-align: left;
   font-family: var(--body-light) !important;
