@@ -78,23 +78,22 @@ section#reassurance {
   font-family: "Karla" !important;
   color: #000000;
 }
-
 #sib-container input::placeholder {
   text-align: left;
   font-family: "Karla" !important;
   color: #000000;
 }
-
 #sib-container textarea::placeholder {
   text-align: left;
   font-family: "Karla" !important;
   color: #000000;
 }
-.champs {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: baseline;
+.section.section--contrast .input {
+  font-weight: 300;
+  font-family: "Karla" !important;
+  color: black;
 }
+
 .field-form {
   margin-bottom: 15px;
 }
@@ -175,6 +174,12 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 
 /* DESKTOP */
 @media screen and (min-width: 990px) {
+  /* Newsletter */
+  .champs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: baseline;
+  }
   div#sib-container {
     max-width: 60% !important;
   }
