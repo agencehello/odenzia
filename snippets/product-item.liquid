@@ -149,7 +149,7 @@
     <div class="product-item__details">
       <a href="{{ product.url }}">{{ product.title }}</a>
       {%- if product.metafields.custom.dur_e != blank -%}
-      <p>{{ product.metafields.custom.extrait.value }}</p>
+      <p class="extrait">{{ product.metafields.custom.extrait.value }}</p>
       {%- endif -%}
       <div class="infos_inline">
       {%- if product.metafields.custom.dur_e != blank -%}

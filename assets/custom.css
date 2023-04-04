@@ -349,9 +349,13 @@ section {
   align-items: baseline;
   justify-content: flex-start;
 }
+.product-item__details p.extrait {
+  margin: 1em 0;
+}
 .infos_inline p {
   font-family: "Karla" !important;
   font-size: 13px !important;
+  margin: 0;
 }
 span.bullet {
   width: 6px;
