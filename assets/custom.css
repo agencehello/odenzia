@@ -84,7 +84,12 @@ section#reassurance {
 
 /* MOBILE */
 @media screen and (max-width: 790px) {
+  /* Global layout */
   .grid-display.grid-display--one-quarter {
     grid-template-columns: repeat(2, 1fr);
+  }
+  /* Footer */
+  #reassurance .mb3.w-100.text-columns__image.db {
+    max-width: 50px !important;
   }
 }
