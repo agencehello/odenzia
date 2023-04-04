@@ -118,25 +118,25 @@ section#reassurance {
 }
 
 h1 {
-  font-family: "Queens" !important;
+  font-family: var(--title) !important;
   font-weight: 300 !important;
   font-size: 50px !important;
   line-height: 60px !important;
 }
 h2 {
-  font-family: "Queens" !important;
+  font-family: var(--title) !important;
   font-weight: 300 !important;
   font-size: 42px !important;
   line-height: 46px !important;
 }
 h3 {
-  font-family: "Queens" !important;
+  font-family: var(--title) !important;
   font-weight: 300 !important;
   font-size: 26px !important;
   line-height: 30px !important;
 }
 h4 {
-  font-family: "Queens", serif !important;
+  font-family: var(--title) !important;
   font-weight: 300 !important;
   font-size: 18px !important;
   line-height: 22px !important;
@@ -171,19 +171,16 @@ p strong {
 /*  *  *  CUSTOM  *  *  */
 
 /* SELECTION */
-
 ::selection {
   background-color: #094849 !important;
   color: #fffcf8 !important;
 }
-
 ::-moz-selection {
   background-color: #094849 !important;
   color: #fffcf8 !important;
 }
 
 /* ESPACEMENTS & ALIGNEMENTS */
-
 section {
   border: none !important;
 }
@@ -193,22 +190,19 @@ section {
 }
 
 /* BUTTONS */
-
 .text-block__button {
   padding: 10px 33px;
 }
 
 /* LISTING PRODUITS */
-
 .featured-collection-row__slide .product-item__details,
 .product-item__details-wrapper .product-item__details a {
-  font-family: "Queens" !important;
+  font-family: var(--title) !important;
   font-weight: 300 !important;
   font-size: 26px !important;
   line-height: 30px !important;
   font-weight: 300 !important;
 }
-
 .featured-collection-row__slide .price-item,
 .product-item__details-wrapper .product-item__details .price-item {
   font-family: "Karla" !important;
@@ -222,11 +216,9 @@ section {
 }
 
 /* LISTING PRODUITS • BADGE */
-
 .o-50 {
   opacity: 1;
 }
-
 .product-item .badge {
   font-family: "Karla Light" !important;
   letter-spacing: 0 !important;
@@ -234,18 +226,15 @@ section {
   line-height: 22px !important;
   padding: 12px 20px !important;
 }
-
 .bg-sold-out {
   background-color: #c7a17e;
   color: #fcf2e5;
 }
 
 /* PRODUCT PAGE */
-
 .product__media-container {
   padding-right: 5%;
 }
-
 .product__media-action {
   display: none;
 }
@@ -282,21 +271,18 @@ section {
 }
 
 /* QTY • PRODUCT PAGE, QUICK CART & CART */
-
 .product-form__quantity-button,
 .product-form__quantity input,
 .quick-cart__quantity,
 .quick-cart__quantity-button {
   color: #094849 !important;
 }
-
 .product-form__quantity,
 .product-form__quantity:hover {
   border: 1px solid #094849;
 }
 
 /* COMPLET • PRODUCT PAGE */
-
 .bttn:disabled {
   opacity: 1;
   background-color: #c7a17e;
@@ -305,19 +291,15 @@ section {
 }
 
 /* QUICK CART & CART */
-
 .quick-cart__tab-item .js-tab-link-recent {
   display: none !important;
 }
-
 .quick-cart__tabs {
   padding: calc(var(--spacing-medium) / 2.5);
 }
-
 .quick-cart__close-button svg {
   color: #094849;
 }
-
 .quick-cart__tab-item a:hover,
 .quick-cart__tab-item a.active {
   font-family: "Karla";
@@ -330,7 +312,6 @@ section {
   font-family: "Karla Light";
   color: #094849;
 }
-
 .quick-cart__product-details div,
 .quick-cart__item-total {
   font-family: "Karla Light";
@@ -338,13 +319,11 @@ section {
 .quick-cart__item-bottom {
   justify-content: flex-end;
 }
-
 .quick-cart__footer .js-subtotal {
   font-family: "Queens";
   font-size: 26px;
   line-height: 30px;
 }
-
 .quick-cart__checkout-button:hover,
 .cart-template__footer-actions .bttn:hover {
   background-color: #efbfbb;
@@ -352,7 +331,6 @@ section {
 }
 
 /* FORMS */
-
 input:hover,
 textarea:hover,
 select:hover,
@@ -363,7 +341,6 @@ select:focus {
 }
 
 /* CONNEXION / INSCRIPTION */
-
 .account input,
 .account textarea,
 .account select,
@@ -379,17 +356,14 @@ select:focus {
   outline: none;
   border-bottom: 0.8px solid #000000;
 }
-
 .account form label.label--above {
   padding-left: 0;
   left: 0;
   color: #000000;
 }
-
 .account input::placeholder {
   color: #000000;
 }
-
 .account .bttn--full {
   margin-top: 25px !important;
   margin-bottom: 25px !important;
@@ -400,23 +374,19 @@ select:focus {
   width: 50%;
   margin: auto;
 }
-
 .account .bttn--full:hover {
   background-color: #094849;
 }
 
 /* RECHERCHE */
-
 .search__input {
   box-shadow: none;
   border-radius: 0px;
 }
-
 .search__input-close {
   background-color: #094849;
   color: #fffcf8;
 }
-
 .search__input-clear {
   text-transform: none;
   color: #efbfbb;
@@ -424,7 +394,6 @@ select:focus {
 .search__input-clear:hover {
   opacity: 1;
 }
-
 .search__results .type-heading-meta {
   font-size: 16px;
   letter-spacing: 0;
@@ -438,17 +407,14 @@ select:focus {
   font-size: 18px;
   text-transform: none;
 }
-
 .quick-search__result-subheading {
   font-family: "Karla Light";
   opacity: 1;
 }
-
 .quick-search__view-all > button {
   color: #c7a17e;
   font-size: 16px;
 }
-
 .search-template input {
   border: 1px solid #094849;
 }
