@@ -2,7 +2,7 @@
 Last Edit @StudioBoskant 03.2023 */
 :root {
   --beige: #fcf2e5;
-  --marron: #c7a17e
+  --marron: #c7a17e;
   --bleu: #094849;
   --rose: #efbfbb;
   --title: "Queens", serif;
@@ -68,8 +68,8 @@ section#reassurance {
 
 /* NEWSLETTER FORM */
 section.section.newsletter.section--contrast.section--spacing-tall.animation.animation--newsletter {
-    padding: 5% 0;
-    background-color: var(--beige) !important;
+  padding: 5% 0;
+  background-color: var(--beige) !important;
 }
 .newsletter__subheading {
   font-weight: 300 !important;
