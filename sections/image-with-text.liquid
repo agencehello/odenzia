@@ -115,18 +115,18 @@
       {{ image_block }}
     {% endif %}
 
-    <div class="image-with-text__text-container{% if section.settings.svg_url != blank %} padding_top_mob{% endif %}">
+    <div class="image-with-text__text-container{% if section.settings.svg_url != blank %} padding_mob{% endif %}">
       <div class="image-with-text__text">
 
         <div class="image-with-text__text-block image-with-text__text-block--{{ text_alignment }} animation--section-introduction{% if background %} animation--section-introduction-background pa3{% endif %}" style="
-                                                                                          --text-color: {{ text_color }};
-                                                                                          {% unless text_container_color == blank %}
-                                                                                            --background-color: {{ text_container_color }};
-                                                                                          {% endunless %}
-                                                                                          {% unless text_container_gradient == blank %}
-                                                                                            --background-gradient: {{ text_container_gradient }};
-                                                                                          {% endunless %}
-                                                                                        ">
+                                                                                                      --text-color: {{ text_color }};
+                                                                                                      {% unless text_container_color == blank %}
+                                                                                                        --background-color: {{ text_container_color }};
+                                                                                                      {% endunless %}
+                                                                                                      {% unless text_container_gradient == blank %}
+                                                                                                        --background-gradient: {{ text_container_gradient }};
+                                                                                                      {% endunless %}
+                                                                                                    ">
           {%- for block in section.blocks -%}
             {%- case block.type -%}
               {%- when "overline" -%}
@@ -166,15 +166,15 @@
                   class="text-block__item text-block__button bttn bttn--secondary bttn--inline"
                   data-theme-editor-setting="section.{{ id }}.link_text"
                   style="
-                                                                                                                                                    --color-secondary-button-bg: {{ button_background_color }};
-                                                                                                                                                    --color-secondary-button-text: {{ text_color }};
-                                                                                                                                                    --color-secondary-button-border: {{ button_background_color | color_modify: 'alpha', 0.2 }};
-                                                                                                                                                    --color-secondary-button-meta: {{ color_button_background_meta }};
-                                                                                                                                                    --color-contrast-secondary-button-bg: {{ button_background_color }};
-                                                                                                                                                    --color-contrast-secondary-button-text: {{ text_color }};
-                                                                                                                                                    --color-contrast-secondary-button-border: {{ button_background_color | color_modify: 'alpha', 0.2 }};
-                                                                                                                                                    --color-contrast-secondary-button-meta: {{ color_button_background_meta }};
-                                                                                                                                                  ">
+                                                                                                                                                                        --color-secondary-button-bg: {{ button_background_color }};
+                                                                                                                                                                        --color-secondary-button-text: {{ text_color }};
+                                                                                                                                                                        --color-secondary-button-border: {{ button_background_color | color_modify: 'alpha', 0.2 }};
+                                                                                                                                                                        --color-secondary-button-meta: {{ color_button_background_meta }};
+                                                                                                                                                                        --color-contrast-secondary-button-bg: {{ button_background_color }};
+                                                                                                                                                                        --color-contrast-secondary-button-text: {{ text_color }};
+                                                                                                                                                                        --color-contrast-secondary-button-border: {{ button_background_color | color_modify: 'alpha', 0.2 }};
+                                                                                                                                                                        --color-contrast-secondary-button-meta: {{ color_button_background_meta }};
+                                                                                                                                                                      ">
                   {{ block.settings.link_text }}
                 </a>
               {% endif %}
