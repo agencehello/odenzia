@@ -93,3 +93,75 @@ section#reassurance {
     max-width: 50px !important;
   }
 }
+
+/* FONTS */
+@font-face {
+  font-family: "Queens";
+  src: url("Queens-Var.eot"); /* IE9 Compat Modes */
+  src: url("Queens-Var.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("Queens-Var.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("Queens-Var.woff") format("woff"),
+    /* Pretty Modern Browsers */ url("Queens-Var.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("Queens-Var.svg") format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Karla Light";
+  src: url("Karla-Light.eot"); /* IE9 Compat Modes */
+  src: url("Karla-Light.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("Karla-Light.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("Karla-Light.woff") format("woff"),
+    /* Pretty Modern Browsers */ url("Karla-Light.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("Karla-Light.svg") format("svg"); /* Legacy iOS */
+}
+
+h1 {
+  font-family: "Queens" !important;
+  font-weight: 300 !important;
+  font-size: 50px !important;
+  line-height: 60px !important;
+}
+h2 {
+  font-family: "Queens" !important;
+  font-weight: 300 !important;
+  font-size: 42px !important;
+  line-height: 46px !important;
+}
+h3 {
+  font-family: "Queens" !important;
+  font-weight: 300 !important;
+  font-size: 26px !important;
+  line-height: 30px !important;
+}
+h4 {
+  font-family: "Queens" !important;
+  font-weight: 300 !important;
+  font-size: 18px !important;
+  line-height: 22px !important;
+}
+h5 {
+  font-family: "Karla" !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0 !important;
+}
+p {
+  font-family: "Karla Light" !important;
+  font-weight: 300 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  letter-spacing: 0 !important;
+}
+p strong {
+  font-family: "Karla" !important;
+  font-weight: 400 !important;
+}
+
+.text-block__overline {
+  font-family: "Karla Light";
+  letter-spacing: 0;
+  font-size: 14px;
+  line-height: 22px;
+}
