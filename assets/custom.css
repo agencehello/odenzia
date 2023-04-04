@@ -133,6 +133,7 @@ section.section.newsletter input::placeholder {
   font-weight: 300;
   font-family: "Karla" !important;
   color: black;
+  background: var(--beige);
 }
 
 .field-form {
