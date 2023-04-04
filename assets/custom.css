@@ -64,8 +64,30 @@ section#reassurance {
   border-top: 0;
   border-bottom: 1px solid black;
   border-radius: 0 !important;
+}
+.sib-form .entry__field input::placeholder {
   text-align: left;
   font-family: var(--body-light) !important;
+  color: #000000;
+}
+.sib-sms-select__number-input input::placeholder {
+  font-family: "Karla" !important;
+}
+#sib-container input:-ms-input-placeholder {
+  text-align: left;
+  font-family: "Karla" !important;
+  color: #000000;
+}
+
+#sib-container input::placeholder {
+  text-align: left;
+  font-family: "Karla" !important;
+  color: #000000;
+}
+
+#sib-container textarea::placeholder {
+  text-align: left;
+  font-family: "Karla" !important;
   color: #000000;
 }
 .champs {
