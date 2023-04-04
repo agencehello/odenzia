@@ -2,7 +2,7 @@
 Last Edit @StudioBoskant 03.2023 */
 :root {
   --beige: #fcf2e5;
-  --marron: #c7a17e;
+  --marron: #c7a17e
   --bleu: #094849;
   --rose: #efbfbb;
   --title: "Queens", serif;
@@ -18,7 +18,7 @@ Last Edit @StudioBoskant 03.2023 */
 }
 .header:not(.header--transparent),
 .header-container.is-sticky .header {
-  border-bottom: 1px solid #094849 !important;
+  border-bottom: 1px solid var(--bleu) !important;
   box-shadow: none !important;
 }
 nav.header__nav.left {
@@ -49,7 +49,7 @@ nav.header__nav.right {
 
 /* REASSURANCE */
 section#reassurance {
-  background-color: #fcf2e5;
+  background-color: var(--beige);
 }
 #reassurance .text-block__heading {
   font-size: 18px !important;
@@ -67,13 +67,13 @@ section#reassurance {
 }
 
 /* NEWSLETTER FORM */
-.newsletter {
-  padding-top: 5%;
-  padding-bottom: 5%;
+section.section.newsletter.section--contrast.section--spacing-tall.animation.animation--newsletter {
+    padding: 5% 0;
+    background-color: var(--beige) !important;
 }
 .newsletter__subheading {
   font-weight: 300 !important;
-  color: #094849;
+  color: var(--bleu);
   letter-spacing: 0;
   font-size: 16px;
   line-height: 24px;
@@ -83,12 +83,12 @@ section#reassurance {
   line-height: 30px !important;
   margin-bottom: 10px !important;
 }
-.newsletter input {
-  background-color: #fcf2e5;
+section.section.newsletter input {
+  background-color: var(--beige);
   border: none;
   border-bottom: solid 0.8px #000000;
 }
-.newsletter input::placeholder {
+section.section.newsletter input::placeholder {
   color: #000000;
   font-family: "Karla Light";
   font-size: 14px;
@@ -306,11 +306,11 @@ p strong {
 
 /* SELECTION */
 ::selection {
-  background-color: #094849 !important;
+  background-color: var(--bleu) !important;
   color: #fffcf8 !important;
 }
 ::-moz-selection {
-  background-color: #094849 !important;
+  background-color: var(--bleu) !important;
   color: #fffcf8 !important;
 }
 
@@ -344,7 +344,7 @@ section {
   font-size: 16px !important;
   line-height: 24px !important;
   letter-spacing: 0 !important;
-  color: #094849 !important;
+  color: var(--bleu) !important;
   text-transform: uppercase !important;
   margin-top: 15px !important;
 }
@@ -383,8 +383,8 @@ span.bullet {
   padding: 12px 20px !important;
 }
 .bg-sold-out {
-  background-color: #c7a17e;
-  color: #fcf2e5;
+  background-color: var(--marron);
+  color: var(--beige);
 }
 
 /* PRODUCT PAGE */
@@ -398,7 +398,7 @@ span.bullet {
 .product-form__inner .product__price {
   font-family: "Queens";
   line-height: 24px;
-  color: #094849;
+  color: var(--bleu);
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -419,11 +419,11 @@ span.bullet {
 
 .product-form__option-select {
   border: none;
-  border-bottom: solid 1px #c7a17e;
+  border-bottom: solid 1px var(--marron);
 }
 
 .product-form__option-select-icon svg {
-  color: #c7a17e !important;
+  color: var(--marron) !important;
 }
 
 /* QTY • PRODUCT PAGE, QUICK CART & CART */
@@ -431,18 +431,18 @@ span.bullet {
 .product-form__quantity input,
 .quick-cart__quantity,
 .quick-cart__quantity-button {
-  color: #094849 !important;
+  color: var(--bleu) !important;
 }
 .product-form__quantity,
 .product-form__quantity:hover {
-  border: 1px solid #094849;
+  border: 1px solid var(--bleu);
 }
 
 /* COMPLET • PRODUCT PAGE */
 .bttn:disabled {
   opacity: 1;
-  background-color: #c7a17e;
-  color: #fcf2e5;
+  background-color: var(--marron);
+  color: var(--beige);
   pointer-events: none;
 }
 
@@ -454,19 +454,19 @@ span.bullet {
   padding: calc(var(--spacing-medium) / 2.5);
 }
 .quick-cart__close-button svg {
-  color: #094849;
+  color: var(--bleu);
 }
 .quick-cart__tab-item a:hover,
 .quick-cart__tab-item a.active {
   font-family: "Karla";
   font-weight: 400;
-  color: #094849;
+  color: var(--bleu);
   letter-spacing: 0;
   text-transform: uppercase;
 }
 .quick-cart__product-price-value {
   font-family: var(--body-light);
-  color: #094849;
+  color: var(--bleu);
 }
 .quick-cart__product-details div,
 .quick-cart__item-total {
@@ -482,8 +482,8 @@ span.bullet {
 }
 .quick-cart__checkout-button:hover,
 .cart-template__footer-actions .bttn:hover {
-  background-color: #efbfbb;
-  color: #fcf2e5;
+  background-color: var(--rose);
+  color: var(--beige);
 }
 
 /* FORMS */
@@ -523,15 +523,15 @@ select:focus {
 .account .bttn--full {
   margin-top: 25px !important;
   margin-bottom: 25px !important;
-  background-color: #c7a17e;
-  color: #fcf2e5;
+  background-color: var(--marron);
+  color: var(--beige);
   border: none !important;
   padding-left: 15px !important;
   width: 50%;
   margin: auto;
 }
 .account .bttn--full:hover {
-  background-color: #094849;
+  background-color: var(--bleu);
 }
 
 /* RECHERCHE */
@@ -540,12 +540,12 @@ select:focus {
   border-radius: 0px;
 }
 .search__input-close {
-  background-color: #094849;
+  background-color: var(--bleu);
   color: #fffcf8;
 }
 .search__input-clear {
   text-transform: none;
-  color: #efbfbb;
+  color: var(--rose);
 }
 .search__input-clear:hover {
   opacity: 1;
@@ -553,7 +553,7 @@ select:focus {
 .search__results .type-heading-meta {
   font-size: 16px;
   letter-spacing: 0;
-  color: #094849;
+  color: var(--bleu);
   font-weight: 400;
 }
 
@@ -568,11 +568,11 @@ select:focus {
   opacity: 1;
 }
 .quick-search__view-all > button {
-  color: #c7a17e;
+  color: var(--marron);
   font-size: 16px;
 }
 .search-template input {
-  border: 1px solid #094849;
+  border: 1px solid var(--bleu);
 }
 
 /* FONT FACE */
