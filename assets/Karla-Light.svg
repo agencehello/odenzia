@@ -2,8 +2,8 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20191125 at Wed Oct 28 17:58:09 2020
- By convertio
+Created by FontForge 20170731 at Wed Oct 28 20:58:09 2020
+ By Aleksey,,,
 Copyright 2019 The Karla Project Authors (https://github.com/googlefonts/karla)
 </metadata>
 <defs>
@@ -20,7 +20,7 @@ Copyright 2019 The Karla Project Authors (https://github.com/googlefonts/karla)
     cap-height="1235"
     bbox="-254.812 -487 2146 1925"
     underline-thickness="50"
-    underline-position="-175"
+    underline-position="-225"
     unicode-range="U+000D-FB02"
   />
 <missing-glyph horiz-adv-x="1031" 
