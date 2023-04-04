@@ -124,6 +124,11 @@ button.sib-form-block__button.sib-form-block__button-with-loader {
 .sib-sms-select {
   margin-top: 8px;
 }
+button.sib-form-block__button.sib-form-block__button-with-loader:hover {
+  background-color: var(--bleu) !important;
+  color: var(--beige) !important;
+  transition: 0.5s;
+}
 
 /* FOOTER */
 .footer__groups {
