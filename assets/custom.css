@@ -89,6 +89,9 @@ section#reassurance {
   #reassurance .mb3.w-100.text-columns__image.db {
     max-width: 50px !important;
   }
+  #reassurance .text-block:not(:last-child):after {
+    content: none;
+  }
 }
 
 /* FONTS */
