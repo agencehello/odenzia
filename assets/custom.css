@@ -58,17 +58,12 @@ section#reassurance {
 }
 
 /* NEWSLETTER FORM */
-#sib-container input:-ms-input-placeholder {
-  text-align: left;
-  font-family: var(--body-light) !important;
-  color: #000000;
-}
-#sib-container input::placeholder {
-  text-align: left;
-  font-family: var(--body-light) !important;
-  color: #000000;
-}
-#sib-container textarea::placeholder {
+.sib-form .entry__field {
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 1px solid black;
+  border-radius: 0 !important;
   text-align: left;
   font-family: var(--body-light) !important;
   color: #000000;
@@ -76,16 +71,20 @@ section#reassurance {
 .champs {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  align-items: baseline;
 }
 .field-form {
   margin-bottom: 15px;
 }
 input {
-  outline: none;
+  outline: none !important;
 }
 input.input_replaced {
   width: 15px;
   height: auto;
+}
+.sib-sms-tooltip {
+  display: none !important;
 }
 .section.section--contrast form label {
   background-color: unset;
@@ -104,7 +103,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader {
   border: 1px solid var(--bleu) !important;
   border-radius: 0 !important;
   padding: 10px 33px;
-  font-family: var(--body-light) !important;
+  font-family: "Karla" !important;
 }
 .sib-sms-select__title {
   background-color: unset;
@@ -121,8 +120,8 @@ button.sib-form-block__button.sib-form-block__button-with-loader {
   padding-left: 0 !important;
   text-align: left;
 }
-.sib-sms-select {
-  margin-top: 8px;
+.sib-sms-select__number-input input {
+  border-bottom: 1px solid black !important;
 }
 button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   background-color: var(--bleu) !important;
