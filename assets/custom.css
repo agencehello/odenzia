@@ -220,7 +220,7 @@ section.section.newsletter input::placeholder {
 }
 .section.section--contrast .input {
   font-weight: 300;
-  font-family: "Karla" !important;
+  font-family: "Karla Light" !important;
   color: black;
   background: var(--beige);
 }
