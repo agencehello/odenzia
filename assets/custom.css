@@ -173,6 +173,7 @@ section.section.newsletter input {
 section.section.newsletter input::placeholder {
   color: #000000;
   font-family: "Karla Light";
+  font-weight: 300;
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
@@ -185,13 +186,19 @@ section.section.newsletter input::placeholder {
   border-left: 0;
   border-right: 0;
   border-top: 0;
-  border-bottom: 1px solid black;
+  border-bottom: 0.5px solid black;
   border-radius: 0 !important;
+}
+.sib-form .entry__field:focus-within {
+  box-shadow:none !important;
 }
 .sib-form .entry__field input::placeholder {
   text-align: left;
   font-family: var(--body-light) !important;
   color: #000000;
+}
+.sib-sms-select__number-input {
+  border:none !important;
 }
 .sib-sms-select__number-input input::placeholder {
   font-family: "Karla" !important;
@@ -264,6 +271,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader {
 .sib-sms-select__calling-code {
   padding-left: 0 !important;
   text-align: left;
+  border-radius:0 !important;
 }
 .sib-sms-select__number-input input {
   border-bottom: 1px solid black !important;
