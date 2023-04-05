@@ -54,6 +54,18 @@ section {
   margin: 0 auto;
   max-width: 80%;
 }
+#sur_mesure h3:first-child:before {
+  content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-puce-bleu.svg?v=1680699739");
+  margin-right: 10px;
+}
+#sur_mesure h3:nth-child(3n):before {
+  content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-puce-rose.svg?v=1680699739");
+  margin-right: 10px;
+}
+#sur_mesure h3:last-child:before {
+  content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-puce-marron.svg?v=1680699739");
+  margin-right: 10px;
+}
 
 /* REASSURANCE */
 section#reassurance {
