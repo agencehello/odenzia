@@ -74,7 +74,7 @@ section {
 }
 .collection__sidebar {
   width: 90% !important;
-  margin: 3% auto;
+  margin: 5% auto 3% auto;
   text-align: center;
 }
 .collection-sidebar__group {
@@ -94,6 +94,7 @@ span.filter-item__label {
 .filter-item__content,
 .collection-sidebar__heading {
   max-height: 20px;
+  padding: 0;
 }
 .filter-item__checkbox,
 span.filter-item__count {
@@ -107,8 +108,8 @@ span.filter-item__count {
   border-bottom: 1px solid var(--bleu) !important;
 }
 .filter-item__content:hover span.filter-item__label,
-.collection-sidebar__heading:hover .collection-sidebar__heading .span,
-.collection-sidebar__heading:hover:focus .collection-sidebar__heading .span {
+.collection-sidebar__heading:hover span,
+.collection-sidebar__heading:hover:focus span {
   color: var(--bleu) !important;
 }
 
