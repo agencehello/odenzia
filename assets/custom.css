@@ -68,6 +68,7 @@ section {
 }
 
 /* COLLECTION PAGE */
+/* Filtres */
 .collection--has-sidebar .collection__content {
   display: block;
 }
@@ -78,14 +79,37 @@ section {
 }
 .collection-sidebar__group {
   display: flex;
+  gap: 3em;
   justify-content: center;
   text-transform: uppercase;
 }
 ul.filter-drawer__list {
   display: inline-flex !important;
+  gap: 3em;
 }
-.filter-item__checkbox {
-  display: none;
+.filter-item__content,
+span.filter-item__label {
+  padding: 0;
+}
+.filter-item__content,
+.collection-sidebar__heading {
+  max-height: 20px;
+}
+.filter-item__checkbox,
+span.filter-item__count {
+  display: none !important;
+}
+.filter-item__content:hover,
+.collection-sidebar__heading:hover,
+.collection-sidebar__heading:hover:focus {
+  background-color: transparent;
+  color: var(--blue) !important;
+  border-bottom: 1px solid var(--bleu) !important;
+}
+.filter-item__content:hover span.filter-item__label,
+.collection-sidebar__heading:hover .collection-sidebar__heading .span,
+.collection-sidebar__heading:hover:focus .collection-sidebar__heading .span {
+  color: var(--bleu) !important;
 }
 
 /* REASSURANCE */
