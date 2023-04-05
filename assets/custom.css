@@ -100,16 +100,23 @@ span.filter-item__label {
 span.filter-item__count {
   display: none !important;
 }
-.filter-item__content:hover,
-.collection-sidebar__heading:hover,
-.collection-sidebar__heading:hover:focus {
+a.collection-sidebar__heading {
+  cursor: auto;
+}
+.filter-item__content:hover {
   background-color: transparent;
   color: var(--blue) !important;
   border-bottom: 1px solid var(--bleu) !important;
 }
-.filter-item__content:hover span.filter-item__label,
+.collection-sidebar__heading:hover,
+.collection-sidebar__heading:hover:focus,
 .collection-sidebar__heading:hover span,
 .collection-sidebar__heading:hover:focus span {
+  background-color: transparent;
+  color: initial;
+  border-style: none;
+}
+.filter-item__content:hover span.filter-item__label {
   color: var(--bleu) !important;
 }
 .collection__top-row {
