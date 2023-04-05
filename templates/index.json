@@ -228,6 +228,7 @@
         ".text-block__button:hover {color: #efbfbb; background-color: transparent; border: 1px solid #efbfbb; outline: none;}"
       ],
       "settings": {
+        "section_id": "",
         "section_style": "default",
         "enable_animation": true,
         "svg_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0556\/3839\/3160\/files\/odenzia-pastille-sejours-feminins-1.svg?v=1680635603",
@@ -392,6 +393,7 @@
         ".text-block__subheading {max-width: 60rem !important;}"
       ],
       "settings": {
+        "section_id": "sur_mesure",
         "section_style": "default",
         "enable_animation": true,
         "svg_url": "",
