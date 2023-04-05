@@ -298,7 +298,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   display: none;
 }
 .footer__group-content .icon {
-  fill: white !important;
+  fill: #fffcf8 !important;
   max-width: 20px;
 }
 
