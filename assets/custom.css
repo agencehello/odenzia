@@ -67,6 +67,27 @@ section {
   margin-right: 10px;
 }
 
+/* COLLECTION PAGE */
+.collection--has-sidebar .collection__content {
+  display: block;
+}
+.collection__sidebar {
+  width: 90% !important;
+  margin: 3% auto;
+  text-align: center;
+}
+.collection-sidebar__group {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+ul.filter-drawer__list {
+  display: inline-flex !important;
+}
+.filter-item__checkbox {
+  display: none;
+}
+
 /* REASSURANCE */
 section#reassurance {
   background-color: var(--beige);
