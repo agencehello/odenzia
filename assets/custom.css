@@ -271,6 +271,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader {
 .sib-sms-select__calling-code {
   padding-left: 0 !important;
   text-align: left;
+  border-radius:0 !important;
 }
 .sib-sms-select__number-input input {
   border-bottom: 1px solid black !important;
