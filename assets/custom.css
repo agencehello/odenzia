@@ -122,9 +122,11 @@ a.collection-sidebar__heading {
 .collection__top-row {
   display: none !important;
 }
+label.filter-item__content.filter-item__content--checkbox.checked {
+  border-bottom: 1px solid var(--bleu);
+}
 label.filter-item__content.filter-item__content--checkbox.checked span {
   color: var(--bleu) !important;
-  border-bottom: 1px solid var(--bleu);
 }
 
 /* REASSURANCE */
