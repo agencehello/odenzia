@@ -301,6 +301,9 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   color: #fffcf8 !important;
   letter-spacing: 0 !important;
 }
+.footer__links {
+  font-weight:300 !important;
+}
 .footer__divider,
 .footer__copyright {
   display: none;
