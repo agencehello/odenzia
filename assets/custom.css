@@ -197,6 +197,9 @@ section.section.newsletter input::placeholder {
   font-family: var(--body-light) !important;
   color: #000000;
 }
+.sib-sms-select__number-input {
+  border:none !important;
+}
 .sib-sms-select__number-input input::placeholder {
   font-family: "Karla" !important;
 }
