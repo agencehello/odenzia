@@ -173,6 +173,7 @@ section.section.newsletter input {
 section.section.newsletter input::placeholder {
   color: #000000;
   font-family: "Karla Light";
+  font-weight: 300;
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
