@@ -291,13 +291,14 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   line-height: 24px !important;
   text-transform: uppercase !important;
   color: #fffcf8 !important;
+  letter-spacing:0 !important;
 }
 .footer__divider,
 .footer__copyright {
   display: none;
 }
 .footer__group-content .icon {
-  fill: white !important;
+  fill: #fffcf8 !important;
   max-width: 20px;
 }
 
