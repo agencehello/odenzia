@@ -112,6 +112,13 @@ span.filter-item__count {
 .collection-sidebar__heading:hover:focus span {
   color: var(--bleu) !important;
 }
+.collection__top-row {
+  display: none !important;
+}
+label.filter-item__content.filter-item__content--checkbox.checked span {
+  color: var(--bleu) !important;
+  border-bottom: 1px solid var(--bleu);
+}
 
 /* REASSURANCE */
 section#reassurance {
