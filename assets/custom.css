@@ -58,11 +58,11 @@ section {
   content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-puce-bleu.svg?v=1680699739");
   margin-right: 10px;
 }
-#sur_mesure h3:nth-child(3n):before {
+#sur_mesure h3:nth-child(3n + 3):before {
   content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-puce-rose.svg?v=1680699739");
   margin-right: 10px;
 }
-#sur_mesure h3:last-child:before {
+#sur_mesure h3:nth-child(5):before {
   content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-puce-marron.svg?v=1680699739");
   margin-right: 10px;
 }
