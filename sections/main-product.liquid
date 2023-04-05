@@ -88,16 +88,17 @@
       data-section-type="product"
       style="--product-image-container-width: {{ section.settings.image_size }}%;">
       <div class="product__media-container">
+        {% if product.tags contains 'Séjour confirmé' %}
+            <div class="badge type-body-small ttu lh-title absolute top-0 right-0 mt3 mr3 bg-blue">
+              {{ 'products.product.confirmed' | t }}
+            </div>
+        {% endif %}
+
         {%- if show_thumbnails and thumbnail_position == 'vertical' -%}
           {% render 'product-thumbnails' with featured_media: featured_media, disable_style: disable_thumbnail_style %}
         {%- endif -%}
 
         <div class="product__media">
-          {% if product.tags contains 'Séjour confirmé' %}
-            <div class="badge type-body-small ttu lh-title absolute top-0 right-0 mt3 mr3 bg-blue">
-              {{ 'products.product.confirmed' | t }}
-            </div>
-          {% endif %}
           {% if product.media.size > 0 %}
             {%- for media in product.media -%}
               <div

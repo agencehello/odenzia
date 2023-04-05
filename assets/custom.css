@@ -190,7 +190,7 @@ section.section.newsletter input::placeholder {
   border-radius: 0 !important;
 }
 .sib-form .entry__field:focus-within {
-  box-shadow:none !important;
+  box-shadow: none !important;
 }
 .sib-form .entry__field input::placeholder {
   text-align: left;
@@ -198,7 +198,7 @@ section.section.newsletter input::placeholder {
   color: #000000;
 }
 .sib-sms-select__number-input {
-  border:none !important;
+  border: none !important;
 }
 .sib-sms-select__number-input input::placeholder {
   font-family: "Karla" !important;
@@ -271,7 +271,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader {
 .sib-sms-select__calling-code {
   padding-left: 0 !important;
   text-align: left;
-  border-radius:0 !important;
+  border-radius: 0 !important;
 }
 .sib-sms-select__number-input input {
   border-bottom: 1px solid black !important;
@@ -341,8 +341,9 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     z-index: 1;
     max-width: 100px;
   }
-  .product__media .badge {
-    right: 5%;
+  .template-product .badge {
+    left: unset !important;
+    right: 5% !important;
   }
   .padding_mob {
     padding: 50px 0;
@@ -492,7 +493,7 @@ span.bullet {
   opacity: 1;
 }
 .product-item .badge,
-.product__media .badge {
+.template-product .badge {
   font-family: var(--body-light) !important;
   letter-spacing: 0 !important;
   font-size: 14px !important;
@@ -543,7 +544,7 @@ span.bullet {
   color: var(--marron) !important;
 }
 
-.product__media .badge {
+.template-product .badge {
   z-index: 1;
   position: absolute;
   right: 11%;
