@@ -5,5 +5,7 @@
   <span data-sidebar-title>
     {% if heading contains 'Séjours' %}Filtrer les
     {% endif %}
-    {{ heading }}</span>
+    {{ heading }}{% if heading contains 'Séjours' %}
+      :{% endif %}
+  </span>
 </a>
