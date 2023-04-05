@@ -98,9 +98,9 @@
 {% endcapture %}
 
 <section
-  {%- if section.settings.section_id != blank -%}id="{{ section.settings.section_id }}"{%- endif -%}
   data-section-id="{{ id }}"
   data-section-type="image-with-text"
+  {% if section.settings.section_id != blank %}id="{{ section.settings.section_id }}"{% endif %}
   class="section image-with-text{{ modifiers }}">
   {% if section.settings.svg_url != blank %}
     <span class="pastille"></span>
