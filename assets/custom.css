@@ -178,7 +178,6 @@ section.section.newsletter input::placeholder {
   line-height: 20px;
   text-transform: uppercase;
 }
-
 .sib-form {
   padding-top: 0;
 }
@@ -288,6 +287,13 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   background-color: var(--bleu) !important;
   color: var(--beige) !important;
   transition: 0.5s;
+}
+.entry__choice label p {
+  font-size:12px !important;
+  color:#000000;  
+}
+.entry__label::after {
+  color:#C7A17E !important;
 }
 
 /* FOOTER */
