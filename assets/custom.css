@@ -407,6 +407,12 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   .accordion.break .accordion__text {
     display: block !important;
   }
+  .accordion.break .accordion__label:after,
+  .accordion.break .accordion__label:before,
+  .page-width .accordion.break .accordion__label:after,
+  .page-width .accordion.break .accordion__label:before {
+    content: none;
+  }
 }
 @media screen and (max-width: 789px) {
   /* Global layout */
