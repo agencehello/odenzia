@@ -1,0 +1,17 @@
+{% if product.metafields.custom.programme_titre_jour_1 != blank %}
+  <section id="programme">
+    <div {{ block.shopify_attributes }} class="accordion">
+      <div class="accordion__group">
+        <button
+          class="accordion__label type-heading-3"
+          aria-expanded="false"
+          aria-controls="accordion--jour1">
+          {{ product.metafields.custom.programme_titre_jour_1 }}
+        </button>
+        <div id="accordion--jour1" class="accordion__text">
+          {{ product.metafields.custom.programme_description_jour_1 }}
+        </div>
+      </div>
+    </div>
+  </section>
+{% endif %}
