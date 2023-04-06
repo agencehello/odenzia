@@ -748,6 +748,11 @@ button.tablinks-cus.active {
   border-bottom: 1px solid var(--bleu) !important;
   color: var(--bleu) !important;
 }
+.product-page-wrapper .accordion__label:hover,
+.page-width .accordion__label:hover {
+  background-color: unset;
+  color: var(--bleu);
+}
 
 .two_col {
   display: grid;
