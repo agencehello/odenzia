@@ -25,3 +25,7 @@ function openTab(evt, content_id, is_mobile = false) {
     }
   }
 }
+
+if (!navigator.userAgent.toLowerCase().match(/mobile/i)) {
+  document.getElementById("tab-cus-active").click();
+}
