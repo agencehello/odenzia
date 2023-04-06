@@ -415,6 +415,8 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   }
   .two_col {
     display: block;
+  }
+  .tabcontent-cus {
     padding: var(--padd-mob) 0;
   }
 }
@@ -749,6 +751,8 @@ button.tablinks-cus.active {
   grid-template-columns: 1fr 1fr;
   gap: calc(var(--spacing-large) * 2);
   align-items: center;
+}
+.tabcontent-cus {
   padding: var(--padd-mob);
 }
 

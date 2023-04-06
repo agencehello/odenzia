@@ -4,8 +4,10 @@
     <div>
       {{ product.metafields.custom.h_bergement | metafield_tag }}
     </div>
-    <div>
-      Image hébergement
+    <div class="img_tab">
+      <figure>
+        <img src="{{ product.metafields.custom.photo_h_bergement | file_url }}">
+      </figure>
     </div>
 
   </div>
