@@ -186,7 +186,9 @@
               data-value-handle="{{ value | handleize }}--{{ forloop.index0 }}"
               value="{{ value | escape }}"
               {% if option.selected_value == value %}
+              {% unless option.name contains 'Hébergement' %}
               selected="selected"
+              {% endunless %}
               {% endif %}>
               {{ value }}
             </option>
