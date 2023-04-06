@@ -560,7 +560,7 @@ span.bullet {
 .template-product .infos_inline {
   justify-content: space-between;
 }
-.infos_inline span {
+.infos_inline .info span {
   max-height: 30px;
 }
 span.duree {
