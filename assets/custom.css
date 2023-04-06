@@ -227,7 +227,8 @@ section.section.newsletter input::placeholder {
 .field-form {
   margin-bottom: 15px;
 }
-input {
+input,
+select {
   outline: none !important;
 }
 input.input_replaced {
