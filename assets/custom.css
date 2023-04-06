@@ -289,7 +289,9 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   transition: 0.5s;
 }
 .sib-form .checkbox{
-  border-radius:0 !important;
+  border-radius:0px !important;
+  background:#FCF2E5 !important;
+  border:1px solid #000000 !important;
 }
 .entry__choice label p {
   font-size:12px !important;
