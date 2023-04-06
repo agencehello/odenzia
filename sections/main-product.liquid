@@ -445,6 +445,87 @@
       {% render 'reviews-drawer' with product: product %}
     </section>
 
+    {% comment %}
+    Tab features Desktop
+    {% endcomment %}
+    <section id="tabs">
+      <div class="hide_mobile">
+        <div class="tab-customize">
+          <button
+            class="tablinks-cus"
+            onclick="openTab(event, 'tab-1')"
+            id="tab-cus-active">Programme</button>
+          {% unless product.metafields.my_fields.detailed_1_img == blank %}
+            <button class="tablinks-cus" onclick="openTab(event, 'tab-2')">Hébergement</button>
+          {% endunless %}
+          <button class="tablinks-cus" onclick="openTab(event, 'tab-3')">Intervenant.es</button>
+          <button class="tablinks-cus" onclick="openTab(event, 'tab-3')">Infos pratiques</button>
+        </div>
+      </div>
+
+      <!-- Tab content -->
+      <div class="accordion hide_desktop">
+        <summary id="Summary-programme" onclick="openTab(event, 'tab-1', true)">
+          {% render 'icon-accordion', icon: block.settings.icon %}
+          <h3 class="accordion__title h4">
+            Programme
+          </h3>
+          {% render 'icon-caret' %}
+        </summary>
+      </div>
+      <div id="tab-1" class="tabcontent-cus">
+        {% render 'programme' %}
+      </div>
+
+
+      <div class="accordion hide_desktop">
+        <summary id="Summary-slideshow" onclick="openTab(event, 'tab-2', true)">
+          {% render 'icon-accordion', icon: block.settings.icon %}
+          <h3 class="accordion__title h4">
+            Hébergement
+          </h3>
+          {% render 'icon-caret' %}
+        </summary>
+      </div>
+      {% unless product.metafields.my_fields.detailed_1_img == blank %}
+        <div id="tab-2" class="tabcontent-cus">
+          {% render 'hebergement' %}
+        </div>
+      {% endunless %}
+
+
+      <div class="accordion hide_desktop">
+        <summary id="Summary-intervenants" onclick="openTab(event, 'tab-3', true)">
+          {% render 'icon-accordion', icon: block.settings.icon %}
+          <h3 class="accordion__title h4">
+            Intervenant.es
+          </h3>
+          {% render 'icon-caret' %}
+        </summary>
+      </div>
+      <div id="tab-3" class="tabcontent-cus">
+        {% render 'intervenants' %}
+      </div>
+
+      <div class="accordion hide_desktop">
+        <summary id="Summary-infos" onclick="openTab(event, 'tab-3', true)">
+          {% render 'icon-accordion', icon: block.settings.icon %}
+          <h3 class="accordion__title h4">
+            Infos pratiques
+          </h3>
+          {% render 'icon-caret' %}
+        </summary>
+      </div>
+      <div id="tab-3" class="tabcontent-cus">
+        {% render 'infos-pratiques' %}
+      </div>
+
+      <div id="tab-4" class="tabcontent-cus"></div>
+    </section>
+    {% comment %}
+    End Tab features Desktop
+    {% endcomment %}
+
     {% unless product == empty %}
       <script type="application/json" id="ProductJson-{{ section.id }}">
         {{ product | json }}
