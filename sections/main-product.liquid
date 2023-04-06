@@ -313,12 +313,12 @@
                     </div>
                   {%- endcase -%}
                   <div class="infos_inline">
-                    <div class="info">
                     {%- if product.metafields.custom.dur_e != blank -%}
+                    <div class="info">
                     <span class="duree"></span>
                     {{ product.metafields.custom.dur_e | metafield_tag }}
-                    {%- endif -%}
                     </div>
+                  {%- endif -%}  
                     <div class="info">
                     {%- if product.metafields.custom.lieu != blank -%}
                     <span class="lieu"></span>
