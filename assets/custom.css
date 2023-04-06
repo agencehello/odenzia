@@ -404,6 +404,9 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   .infos_inline .info span {
     min-width: 30px;
   }
+  .accordion.break .accordion__text {
+    display: block !important;
+  }
 }
 @media screen and (max-width: 789px) {
   /* Global layout */
