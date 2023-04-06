@@ -8,6 +8,7 @@ Last Edit @StudioBoskant 03.2023 */
   --creme: #fffcf8;
   --title: "Queens", serif;
   --body-light: "Karla Light", sans-serif;
+  --body: "Karla", sans-serif;
   --padd-mob: 40px;
 }
 
@@ -289,39 +290,40 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   color: var(--beige) !important;
   transition: 0.5s;
 }
-.sib-form .checkbox{
+.sib-form .checkbox {
   border-radius: 0px !important;
   background: var(--beige) !important;
   border: 1px solid black !important;
 }
-.sib-form .checkbox_tick_positive:before{
+.sib-form .checkbox_tick_positive:before {
   border-color: var(--beige) !important;
 }
-.sib-form .input_replaced:checked+.checkbox_tick_positive{
+.sib-form .input_replaced:checked + .checkbox_tick_positive {
   background: var(--bleu) !important;
   border-color: var(--bleu) !important;
 }
 .entry__choice label p {
   font-size: 12px !important;
-  color: black;  
+  color: black;
 }
 .entry__label::after {
   color: var(--marron) !important;
 }
 #success-message {
-  font-family:"Karla" !important;
+  font-family: "Karla" !important;
   color: var(--creme) !important;
   background-color: var(--bleu) !important;
-  border:none !important;
-  border-radius:0 !important;
+  border: none !important;
+  border-radius: 0 !important;
 }
-.entry__error, .entry__error--secondary {
-  font-family:"Karla" !important;
+.entry__error,
+.entry__error--secondary {
+  font-family: "Karla" !important;
   color: var(--marron) !important;
   background-color: var(--beige) !important;
-  border:none !important;
-  border-radius:0 !important;
-  line-height:24px !important;
+  border: none !important;
+  border-radius: 0 !important;
+  line-height: 24px !important;
 }
 
 /* FOOTER */
@@ -353,6 +355,9 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 
 /* DESKTOP */
 @media screen and (min-width: 990px) {
+  .hide_desktop {
+    display: none;
+  }
   /* Newsletter */
   .champs {
     display: grid;
@@ -374,6 +379,9 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 
 /* MOBILE */
 @media screen and (max-width: 989px) {
+  .hide_mobile {
+    display: none;
+  }
   span.pastille {
     position: absolute;
     top: 30%;
@@ -687,6 +695,30 @@ span.participantes {
 .cart-template__footer-actions .bttn:hover {
   background-color: var(--rose);
   color: var(--beige);
+}
+
+/* Tabs */
+.template-product h2 {
+  font-family: "Karla" !important;
+  text-transform: uppercase;
+  font-size: 2vh !important;
+  line-height: 0 !important;
+}
+.tab-customize {
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+button.tablinks-cus {
+  background: transparent;
+  border-style: none;
+}
+button#tab-cus-active {
+  border-bottom: 1px solid var(--bleu) !important;
+  color: var(--bleu) !important;
 }
 
 /* FORMS */

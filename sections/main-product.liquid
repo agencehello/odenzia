@@ -470,7 +470,20 @@
       </div>
 
       <!-- Tab content -->
-      <div id="tab-1" class="tabcontent-cus">
+      <div class="hide_desktop accordion">
+        <div class="accordion__group">
+          <button
+            class="accordion__label extra"
+            aria-expanded="false"
+            aria-controls="accordion--tab1">
+            Programme
+          </button>
+          <div id="accordion--programme" class="accordion__text">
+            {% render 'odenzia-programme' %}
+          </div>
+        </div>
+      </div>
+      <div id="hide_mobile tab-1" class="tabcontent-cus">
         {% render 'odenzia-programme' %}
       </div>
 
