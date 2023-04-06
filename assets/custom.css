@@ -290,19 +290,19 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   transition: 0.5s;
 }
 .sib-form .checkbox{
-  border-radius:0px !important;
-  background:var(--creme) !important;
-  border:1px solid black !important;
+  border-radius: 0px !important;
+  background: var(--creme) !important;
+  border: 1px solid black !important;
 }
 .sib-form .checkbox_tick_positive:before{
-  color:var(--creme) !important;
+  color: var(--creme) !important;
 }
 .entry__choice label p {
-  font-size:12px !important;
-  color:black;  
+  font-size: 12px !important;
+  color: black;  
 }
 .entry__label::after {
-  color:var(--marron) !important;
+  color: var(--marron) !important;
 }
 
 /* FOOTER */
