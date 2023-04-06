@@ -243,16 +243,8 @@
                          block: block %}
                     </div>
                   {% endunless %}
-                  {%- when 'quantity_selector' -%}
-                  {%
-                     render 'product-quantity' with
-                     product: product,
-                     form_id: form_id,
-                     show_quantity_input: true %}
-                  <div class="product__quantity-error hidden" data-quantity-error>
-                    {{ 'products.product.quantity_error' | t }}
-                  </div>
                   {%- when 'buy_buttons' -%}
+                    <div id="achat">
                   {%- unless has_quantity_selector -%}
                     <div class="product__quantity-error hidden" data-quantity-error>
                       {{ 'products.product.quantity_error' | t }}
@@ -273,6 +265,7 @@
                      current_variant: current_variant,
                      show_dynamic_checkout: block.settings.show_dynamic_checkout,
                      form: form %}
+                  </div>
                   {%- when 'inventory_counter' -%}
                   {%-
                     render 'inventory-counter' with
