@@ -295,7 +295,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   border:1px solid black !important;
 }
 .sib-form .checkbox_tick_positive:before{
-  color:var(--creme);
+  color:var(--creme) !important;
 }
 .entry__choice label p {
   font-size:12px !important;
