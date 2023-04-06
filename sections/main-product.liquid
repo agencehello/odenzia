@@ -89,9 +89,9 @@
       style="--product-image-container-width: {{ section.settings.image_size }}%;">
       <div class="product__media-container">
         {% if product.tags contains 'Séjour confirmé' %}
-            <div class="badge type-body-small ttu lh-title absolute top-0 right-0 mt3 mr3 bg-blue">
-              {{ 'products.product.confirmed' | t }}
-            </div>
+          <div class="badge type-body-small ttu lh-title absolute top-0 right-0 mt3 mr3 bg-blue">
+            {{ 'products.product.confirmed' | t }}
+          </div>
         {% endif %}
 
         {%- if show_thumbnails and thumbnail_position == 'vertical' -%}
@@ -105,7 +105,7 @@
                 class="media-wrapper{% if show_thumbnails and media.id != featured_media.id %} hidden{% endif %}"
                 data-media-id="{{ media.id }}"
                 data-product-media-wrapper>
-                {% render 'media'
+                {% render 'media' 
                  , media: media,
                  featured_media: featured_media,
                  link: product.url,
@@ -195,10 +195,7 @@
                     {{ product.vendor | link_to_vendor }}
                   </p>
                   {%- when 'sku' -%}
-                  <p
-                    {{ block.shopify_attributes }}
-                    class="product__sku"
-                    data-product-sku>
+                  <p {{ block.shopify_attributes }}class="product__sku"data-product-sku>
                     {% if current_variant.sku != blank %}
                       {{ 'products.product.sku_with_value' | t: value: current_variant.sku }}
                     {% endif %}
@@ -239,36 +236,14 @@
                     <div {{ block.shopify_attributes }}class="product-form__controls-group product-form__controls-group--options"data-product-variantsdata-enable-dynamic-product-options="{{ settings.enable_dynamic_product_options }}"data-current-variant-id="{{ current_variant.id }}">
                       {%
                          render 'product-form-options' with
-                         product: product,
-                         block: block %}
+                       product: product,
+                       block: block %}
                     </div>
                   {% endunless %}
                   {%- when 'buy_buttons' -%}
-                    <div id="achat">
-                  {%- unless has_quantity_selector -%}
-                    <div class="product__quantity-error hidden" data-quantity-error>
-                      {{ 'products.product.quantity_error' | t }}
-                    </div>
-                  {%- endunless -%}
-
-                  {%
-                     render 'product-quantity' with
-                     product: product,
-                     form_id: form_id,
-                     show_quantity_input: true %}
-                  <div class="product__quantity-error hidden" data-quantity-error>
-                    {{ 'products.product.quantity_error' | t }}
-                  </div>
-                  {%
-                     render 'product-buy-buttons' with
-                     product: product,
-                     current_variant: current_variant,
-                     show_dynamic_checkout: block.settings.show_dynamic_checkout,
-                     form: form %}
-                     </div>
                   {%- when 'inventory_counter' -%}
                   {%-
-                    render 'inventory-counter' with
+                      render 'inventory-counter' with
                     product: product,
                     show_label: block.settings.show_label,
                     inventory_max: block.settings.inventory_max,
@@ -315,22 +290,22 @@
                   {%- endcase -%}
                   <div class="infos_inline">
                     {%- if product.metafields.custom.dur_e != blank -%}
-                    <div class="info">
-                    <span class="duree"></span>
-                    {{ product.metafields.custom.dur_e | metafield_tag }}
-                    </div>
-                  {%- endif -%}  
-                    <div class="info">
-                    {%- if product.metafields.custom.lieu != blank -%}
-                    <span class="lieu"></span>
-                    {{ product.metafields.custom.lieu | metafield_tag }}
+                      <div class="info">
+                        <span class="duree"></span>
+                        {{ product.metafields.custom.dur_e | metafield_tag }}
+                      </div>
                     {%- endif -%}
+                    <div class="info">
+                      {%- if product.metafields.custom.lieu != blank -%}
+                        <span class="lieu"></span>
+                        {{ product.metafields.custom.lieu | metafield_tag }}
+                      {%- endif -%}
                     </div>
                     <div class="info">
-                    {%- if product.metafields.custom.participantes != blank -%}
-                    <span class="participantes"></span>
-                    {{ product.metafields.custom.participantes | metafield_tag }}
-                    {%- endif -%}
+                      {%- if product.metafields.custom.participantes != blank -%}
+                        <span class="participantes"></span>
+                        {{ product.metafields.custom.participantes | metafield_tag }}
+                      {%- endif -%}
                     </div>
                   </div>
                   {%- when 'share' -%}
@@ -351,9 +326,9 @@
                         aria-label="{{ 'general.social.alt_text.share_menu' | t }}">
                         {%
                            render 'share-icons' with
-                           url: product.url,
-                           title: product.title,
-                           image: product.featured_image %}
+                         url: product.url,
+                         title: product.title,
+                         image: product.featured_image %}
                       </div>
                     </button>
                   </div>
@@ -362,13 +337,7 @@
                     <div class="accordion__group">
                       <button
                         class="accordion__label type-heading-3"
-                        aria-expanded='
-                        {%- if block.settings.style == 'open' -%}
-                          true
-                        {%- else -%}
-                          false
-                        {%- endif -%}
-                        "
+                        aria-expanded="{%- if block.settings.style == 'open' -%} true{%- else -%} false{%- endif -%}"
                         aria-controls="accordion--{{ block.settings.heading | handle }}{{ block.id }}">
                         {{ block.settings.heading }}
                       </button>
@@ -411,6 +380,29 @@
                 {%- endcase -%}
               {%- endfor -%}
 
+              <div id="achat">
+                {%- unless has_quantity_selector -%}
+                  <div class="product__quantity-error hidden" data-quantity-error>
+                    {{ 'products.product.quantity_error' | t }}
+                  </div>
+                {%- endunless -%}
+
+                {%
+                   render 'product-quantity' with
+                 product: product,
+                 form_id: form_id,
+                 show_quantity_input: true %}
+                <div class="product__quantity-error hidden" data-quantity-error>
+                  {{ 'products.product.quantity_error' | t }}
+                </div>
+                {%
+                   render 'product-buy-buttons' with
+                 product: product,
+                 current_variant: current_variant,
+                 show_dynamic_checkout: block.settings.show_dynamic_checkout,
+                 form: form %}
+              </div>
+
               {% comment %}
               The quantity input needs to be on the page for the product form to submit.
               If the user chooses to not include this block we need to add with a hidden class.
@@ -418,8 +410,8 @@
               {%- if has_quantity_selector == false -%}
                 {%
                    render 'product-quantity' with
-                   product: product,
-                   show_quantity_input: false %}
+                 product: product,
+                 show_quantity_input: false %}
               {%- endif -%}
 
               {%- comment -%}
