@@ -6,10 +6,10 @@
           class="accordion__label type-heading-3"
           aria-expanded="false"
           aria-controls="accordion--jour1">
-          {{ product.metafields.custom.programme_titre_jour_1 }}
+          {{ product.metafields.custom.programme_titre_jour_1 | metafield_tag }}
         </button>
         <div id="accordion--jour1" class="accordion__text">
-          {{ product.metafields.custom.programme_description_jour_1 }}
+          {{ product.metafields.custom.programme_description_jour_1 | metafield_tag }}
         </div>
       </div>
     </div>
