@@ -5,7 +5,7 @@ Last Edit @StudioBoskant 03.2023 */
   --marron: #c7a17e;
   --bleu: #094849;
   --rose: #efbfbb;
-  --creme: #fcf2e5;
+  --creme: #fffcf8;
   --title: "Queens", serif;
   --body-light: "Karla Light", sans-serif;
   --padd-mob: 40px;
@@ -291,11 +291,11 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 }
 .sib-form .checkbox{
   border-radius: 0px !important;
-  background: var(--creme) !important;
+  background: var(--beige) !important;
   border: 1px solid black !important;
 }
 .sib-form .checkbox_tick_positive:before{
-  border-color: var(--creme) !important;
+  border-color: var(--beige) !important;
 }
 .sib-form .input_replaced:checked+.checkbox_tick_positive{
   background: var(--bleu) !important;
