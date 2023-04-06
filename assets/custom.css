@@ -557,6 +557,12 @@ span.bullet {
 }
 
 /* Metafields */
+.template-product .infos_inline {
+  justify-content: space-between;
+}
+.infos_inline span {
+  max-height: 30px;
+}
 span.duree {
   content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-duree_4766332a-dec5-4aef-b888-8bec39016abc.svg?v=1680776418");
   display: flex;
