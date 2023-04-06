@@ -272,8 +272,8 @@ button.sib-form-block__button.sib-form-block__button-with-loader {
   text-align: left;
   border-radius: 0 !important;
 }
-.sib-sms-select__phone-number{
-  border-radius:0 !important;
+.sib-sms-select__phone-number {
+  border-radius: 0 !important;
 }
 .sib-sms-select__number-input input {
   border-bottom: 1px solid black !important;
@@ -304,7 +304,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   letter-spacing: 0 !important;
 }
 .footer__links {
-  font-family:"Karla Light" !important;
+  font-family: "Karla Light" !important;
   font-weight: 300 !important;
 }
 .footer__divider,
@@ -554,6 +554,20 @@ span.bullet {
   z-index: 1;
   position: absolute;
   right: 11%;
+}
+
+/* Metafields */
+span.duree {
+  content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-duree_4766332a-dec5-4aef-b888-8bec39016abc.svg?v=1680776418");
+  display: flex;
+}
+span.lieu {
+  content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-lieu.svg?v=1680776418");
+  display: flex;
+}
+span.participantes {
+  content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-participantes.svg?v=1680776418");
+  display: flex;
 }
 
 /* QTY • PRODUCT PAGE, QUICK CART & CART */
