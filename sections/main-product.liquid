@@ -312,6 +312,19 @@
                       </div>
                     </div>
                   {%- endcase -%}
+                  <div class="infos_inline">
+                    {%- if product.metafields.custom.dur_e != blank -%}
+                    {{ product.metafields.custom.dur_e | metafield_tag }}
+                    {%- endif -%}
+                    {%- if product.metafields.custom.date != blank -%}
+                    <span class="bullet"></span>
+                    {{ product.metafields.custom.date | metafield_tag }}
+                    {%- endif -%}
+                    {%- if product.metafields.custom.lieu != blank -%}
+                    <span class="bullet"></span>
+                    {{ product.metafields.custom.lieu | metafield_tag }}
+                    {%- endif -%}
+                  </div>
                   {%- when 'share' -%}
                   <div {{ block.shopify_attributes }} class="product__share-container">
                     <button
