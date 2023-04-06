@@ -308,6 +308,13 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 .entry__label::after {
   color: var(--marron) !important;
 }
+#success-message {
+  font-family:"Karla" !important;
+  color: var(--creme) !important;
+  background-color: var(--bleu) !important;
+  border:none !important;
+  border-radius:0 !important;
+}
 
 /* FOOTER */
 .footer__groups {
