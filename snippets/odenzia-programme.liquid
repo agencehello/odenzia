@@ -1,6 +1,10 @@
-{% if product.metafields.custom.programme_titre_jour_1 != blank %}
-  <section id="programme">
+<section id="programme">
 
+  {% if product.metafields.custom.programme != blank %}
+    {{ product.metafields.custom.programme | metafield_tag }}
+  {% endif %}
+
+  {% if product.metafields.custom.programme_titre_jour_1 != blank %}
     <div class="accordion">
       <div class="accordion__group">
         <button
@@ -14,151 +18,150 @@
         </div>
       </div>
     </div>
+  {% endif %}
 
-    {% if product.metafields.custom.programme_titre_jour_2 != blank %}
-      <div class="accordion">
-        <div class="accordion__group">
-          <button
-            class="accordion__label type-heading-3"
-            aria-expanded="false"
-            aria-controls="accordion--jour2">
-            {{ product.metafields.custom.programme_titre_jour_2 | metafield_tag }}
-          </button>
-          <div id="accordion--jour2" class="accordion__text">
-            {{ product.metafields.custom.programme_description_jour_2 | metafield_tag }}
-          </div>
+  {% if product.metafields.custom.programme_titre_jour_2 != blank %}
+    <div class="accordion">
+      <div class="accordion__group">
+        <button
+          class="accordion__label type-heading-3"
+          aria-expanded="false"
+          aria-controls="accordion--jour2">
+          {{ product.metafields.custom.programme_titre_jour_2 | metafield_tag }}
+        </button>
+        <div id="accordion--jour2" class="accordion__text">
+          {{ product.metafields.custom.programme_description_jour_2 | metafield_tag }}
         </div>
       </div>
-    {% endif %}
+    </div>
+  {% endif %}
 
-    {% if product.metafields.custom.programme_titre_jour_3 != blank %}
-      <div class="accordion">
-        <div class="accordion__group">
-          <button
-            class="accordion__label type-heading-3"
-            aria-expanded="false"
-            aria-controls="accordion--jour3">
-            {{ product.metafields.custom.programme_titre_jour_3 | metafield_tag }}
-          </button>
-          <div id="accordion--jour3" class="accordion__text">
-            {{ product.metafields.custom.programme_description_jour_3 | metafield_tag }}
-          </div>
+  {% if product.metafields.custom.programme_titre_jour_3 != blank %}
+    <div class="accordion">
+      <div class="accordion__group">
+        <button
+          class="accordion__label type-heading-3"
+          aria-expanded="false"
+          aria-controls="accordion--jour3">
+          {{ product.metafields.custom.programme_titre_jour_3 | metafield_tag }}
+        </button>
+        <div id="accordion--jour3" class="accordion__text">
+          {{ product.metafields.custom.programme_description_jour_3 | metafield_tag }}
         </div>
       </div>
-    {% endif %}
+    </div>
+  {% endif %}
 
-    {% if product.metafields.custom.programme_titre_jour_4 != blank %}
-      <div
-        class="accordion">
-        <div class="accordion__group">
-          <button
-            class="accordion__label type-heading-3"
-            aria-expanded="false"
-            aria-controls="accordion--jour4">
-            {{ product.metafields.custom.programme_titre_jour_4 | metafield_tag }}
-          </button>
-          <div id="accordion--jour4" class="accordion__text">
-            {{ product.metafields.custom.programme_description_jour_4 | metafield_tag }}
-          </div>
+  {% if product.metafields.custom.programme_titre_jour_4 != blank %}
+    <div class="accordion">
+      <div class="accordion__group">
+        <button
+          class="accordion__label type-heading-3"
+          aria-expanded="false"
+          aria-controls="accordion--jour4">
+          {{ product.metafields.custom.programme_titre_jour_4 | metafield_tag }}
+        </button>
+        <div id="accordion--jour4" class="accordion__text">
+          {{ product.metafields.custom.programme_description_jour_4 | metafield_tag }}
         </div>
       </div>
-    {% endif %}
+    </div>
+  {% endif %}
 
-    {% if product.metafields.custom.programme_titre_jour_5 != blank %}
-      <div class="accordion">
-        <div class="accordion__group">
-          <button
-            class="accordion__label type-heading-3"
-            aria-expanded="false"
-            aria-controls="accordion--jour5">
-            {{ product.metafields.custom.programme_titre_jour_5 | metafield_tag }}
-          </button>
-          <div id="accordion--jour5" class="accordion__text">
-            {{ product.metafields.custom.programme_description_jour_5 | metafield_tag }}
-          </div>
+  {% if product.metafields.custom.programme_titre_jour_5 != blank %}
+    <div class="accordion">
+      <div class="accordion__group">
+        <button
+          class="accordion__label type-heading-3"
+          aria-expanded="false"
+          aria-controls="accordion--jour5">
+          {{ product.metafields.custom.programme_titre_jour_5 | metafield_tag }}
+        </button>
+        <div id="accordion--jour5" class="accordion__text">
+          {{ product.metafields.custom.programme_description_jour_5 | metafield_tag }}
         </div>
       </div>
-    {% endif %}
+    </div>
+  {% endif %}
 
-    {% if product.metafields.custom.programme_titre_jour_6 != blank %}
-      <div class="accordion">
-        <div class="accordion__group">
-          <button
-            class="accordion__label type-heading-3"
-            aria-expanded="false"
-            aria-controls="accordion--jour6">
-            {{ product.metafields.custom.programme_titre_jour_6 | metafield_tag }}
-          </button>
-          <div id="accordion--jour6" class="accordion__text">
-            {{ product.metafields.custom.programme_description_jour_6 | metafield_tag }}
-          </div>
+  {% if product.metafields.custom.programme_titre_jour_6 != blank %}
+    <div class="accordion">
+      <div class="accordion__group">
+        <button
+          class="accordion__label type-heading-3"
+          aria-expanded="false"
+          aria-controls="accordion--jour6">
+          {{ product.metafields.custom.programme_titre_jour_6 | metafield_tag }}
+        </button>
+        <div id="accordion--jour6" class="accordion__text">
+          {{ product.metafields.custom.programme_description_jour_6 | metafield_tag }}
         </div>
       </div>
-    {% endif %}
+    </div>
+  {% endif %}
 
-    {% if product.metafields.custom.programme_titre_jour_7 != blank %}
-      <div class="accordion">
-        <div class="accordion__group">
-          <button
-            class="accordion__label type-heading-3"
-            aria-expanded="false"
-            aria-controls="accordion--jour7">
-            {{ product.metafields.custom.programme_titre_jour_7 | metafield_tag }}
-          </button>
-          <div id="accordion--jour7" class="accordion__text">
-            {{ product.metafields.custom.programme_description_jour_7 | metafield_tag }}
-          </div>
+  {% if product.metafields.custom.programme_titre_jour_7 != blank %}
+    <div class="accordion">
+      <div class="accordion__group">
+        <button
+          class="accordion__label type-heading-3"
+          aria-expanded="false"
+          aria-controls="accordion--jour7">
+          {{ product.metafields.custom.programme_titre_jour_7 | metafield_tag }}
+        </button>
+        <div id="accordion--jour7" class="accordion__text">
+          {{ product.metafields.custom.programme_description_jour_7 | metafield_tag }}
         </div>
       </div>
-    {% endif %}
+    </div>
+  {% endif %}
 
-    {% if product.metafields.custom.programme_titre_jour_8 != blank %}
-      <div class="accordion">
-        <div class="accordion__group">
-          <button
-            class="accordion__label type-heading-3"
-            aria-expanded="false"
-            aria-controls="accordion--jour8">
-            {{ product.metafields.custom.programme_titre_jour_8 | metafield_tag }}
-          </button>
-          <div id="accordion--jour8" class="accordion__text">
-            {{ product.metafields.custom.programme_description_jour_8 | metafield_tag }}
-          </div>
+  {% if product.metafields.custom.programme_titre_jour_8 != blank %}
+    <div class="accordion">
+      <div class="accordion__group">
+        <button
+          class="accordion__label type-heading-3"
+          aria-expanded="false"
+          aria-controls="accordion--jour8">
+          {{ product.metafields.custom.programme_titre_jour_8 | metafield_tag }}
+        </button>
+        <div id="accordion--jour8" class="accordion__text">
+          {{ product.metafields.custom.programme_description_jour_8 | metafield_tag }}
         </div>
       </div>
-    {% endif %}
+    </div>
+  {% endif %}
 
-    {% if product.metafields.custom.programme_titre_jour_9 != blank %}
-      <div class="accordion">
-        <div class="accordion__group">
-          <button
-            class="accordion__label type-heading-3"
-            aria-expanded="false"
-            aria-controls="accordion--jour9">
-            {{ product.metafields.custom.programme_titre_jour_9 | metafield_tag }}
-          </button>
-          <div id="accordion--jour9" class="accordion__text">
-            {{ product.metafields.custom.programme_description_jour_9 | metafield_tag }}
-          </div>
+  {% if product.metafields.custom.programme_titre_jour_9 != blank %}
+    <div class="accordion">
+      <div class="accordion__group">
+        <button
+          class="accordion__label type-heading-3"
+          aria-expanded="false"
+          aria-controls="accordion--jour9">
+          {{ product.metafields.custom.programme_titre_jour_9 | metafield_tag }}
+        </button>
+        <div id="accordion--jour9" class="accordion__text">
+          {{ product.metafields.custom.programme_description_jour_9 | metafield_tag }}
         </div>
       </div>
-    {% endif %}
+    </div>
+  {% endif %}
 
-    {% if product.metafields.custom.programme_titre_jour_10 != blank %}
-      <div class="accordion">
-        <div class="accordion__group">
-          <button
-            class="accordion__label type-heading-3"
-            aria-expanded="false"
-            aria-controls="accordion--jour10">
-            {{ product.metafields.custom.programme_titre_jour_10 | metafield_tag }}
-          </button>
-          <div id="accordion--jour10" class="accordion__text">
-            {{ product.metafields.custom.programme_description_jour_10 | metafield_tag }}
-          </div>
+  {% if product.metafields.custom.programme_titre_jour_10 != blank %}
+    <div class="accordion">
+      <div class="accordion__group">
+        <button
+          class="accordion__label type-heading-3"
+          aria-expanded="false"
+          aria-controls="accordion--jour10">
+          {{ product.metafields.custom.programme_titre_jour_10 | metafield_tag }}
+        </button>
+        <div id="accordion--jour10" class="accordion__text">
+          {{ product.metafields.custom.programme_description_jour_10 | metafield_tag }}
         </div>
       </div>
-    {% endif %}
+    </div>
+  {% endif %}
 
-  </section>
-{% endif %}
+</section>
