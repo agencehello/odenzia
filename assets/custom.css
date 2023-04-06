@@ -704,11 +704,15 @@ div#achat {
 }
 
 /* Tabs */
-.template-product h2 {
+.template-product h2,
+#tabs button.accordion__label.extra {
   font-family: "Karla" !important;
   text-transform: uppercase;
-  font-size: 2vh !important;
+  font-size: 16px !important;
   line-height: 0 !important;
+}
+#tabs button.accordion__label.extra {
+  color: var(--blue);
 }
 .tab-customize {
   overflow: hidden;

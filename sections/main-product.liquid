@@ -487,15 +487,54 @@
         {% render 'odenzia-programme' %}
       </div>
 
-      <div id="tab-2" class="tabcontent-cus">
+      <div class="hide_desktop accordion">
+        <div class="accordion__group">
+          <button
+            class="accordion__label extra"
+            aria-expanded="false"
+            aria-controls="accordion--tab2">
+            Hébergement
+          </button>
+          <div id="accordion--hebergement" class="accordion__text">
+            {% render 'odenzia-hebergement' %}
+          </div>
+        </div>
+      </div>
+      <div id="tab-2" class="hide_mobile tabcontent-cus">
         {% render 'odenzia-hebergement' %}
       </div>
 
-      <div id="tab-3" class="tabcontent-cus">
+      <div class="hide_desktop accordion">
+        <div class="accordion__group">
+          <button
+            class="accordion__label extra"
+            aria-expanded="false"
+            aria-controls="accordion--tab3">
+            Intervenant.es
+          </button>
+          <div id="accordion--intervenants" class="accordion__text">
+            {% render 'odenzia-intervenants' %}
+          </div>
+        </div>
+      </div>
+      <div id="tab-3" class="hide_mobile tabcontent-cus">
         {% render 'odenzia-intervenants' %}
       </div>
 
-      <div id="tab-4" class="tabcontent-cus">
+      <div class="hide_desktop accordion">
+        <div class="accordion__group">
+          <button
+            class="accordion__label extra"
+            aria-expanded="false"
+            aria-controls="accordion--tab4">
+            Intervenant.es
+          </button>
+          <div id="accordion--infos" class="accordion__text">
+            {% render 'odenzia-infos-pratiques' %}
+          </div>
+        </div>
+      </div>
+      <div id="tab-4" class="hide_mobile tabcontent-cus">
         {% render 'odenzia-infos-pratiques' %}
       </div>
     </section>
