@@ -606,6 +606,11 @@ span.participantes {
 .product-form__quantity:hover {
   border: 1px solid var(--bleu);
 }
+div#achat {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+  gap: 10px;
+}
 
 /* COMPLET • PRODUCT PAGE */
 .bttn:disabled {
