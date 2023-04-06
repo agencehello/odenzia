@@ -54,7 +54,7 @@ section {
 /* Image with text */
 .image-with-text__text-block.image-with-text__text-block--left.animation--section-introduction {
   margin: 0 auto;
-  max-width: 80%;
+  max-width: 85%;
 }
 #sur_mesure h3:first-child:before {
   content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-puce-bleu.svg?v=1680699739");
