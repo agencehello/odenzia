@@ -413,6 +413,10 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   .page-width .accordion.break .accordion__label:before {
     content: none;
   }
+  .two_col {
+    display: block;
+    padding: var(--padd-mob) 0;
+  }
 }
 @media screen and (max-width: 789px) {
   /* Global layout */
@@ -738,6 +742,14 @@ button.tablinks-cus {
 button.tablinks-cus.active {
   border-bottom: 1px solid var(--bleu) !important;
   color: var(--bleu) !important;
+}
+
+.two_col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: calc(var(--spacing-large) * 2);
+  align-items: center;
+  padding: var(--padd-mob);
 }
 
 /* FORMS */
