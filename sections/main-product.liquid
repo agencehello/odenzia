@@ -243,7 +243,7 @@
                          block: block %}
                     </div>
                   {% endunless %}
-                {% endcase %}
+                  {%- when 'buy_buttons' -%}
                     <div id="achat">
                   {%- unless has_quantity_selector -%}
                     <div class="product__quantity-error hidden" data-quantity-error>
@@ -265,8 +265,7 @@
                      current_variant: current_variant,
                      show_dynamic_checkout: block.settings.show_dynamic_checkout,
                      form: form %}
-                  </div>
-                  {%- case block.type -%}
+                     </div>
                   {%- when 'inventory_counter' -%}
                   {%-
                     render 'inventory-counter' with
