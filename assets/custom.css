@@ -354,6 +354,13 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   .padding_mob {
     padding: 50px 0;
   }
+  .template-product .infos_inline {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .infos_inline .info span {
+    min-width: 30px;
+  }
 }
 @media screen and (max-width: 789px) {
   /* Global layout */
@@ -559,8 +566,14 @@ span.bullet {
 /* Metafields */
 .template-product .infos_inline {
   justify-content: space-between;
+  margin-top: 1.5em;
 }
-.infos_inline .info span {
+.info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.info span {
   max-height: 30px;
 }
 span.duree {
