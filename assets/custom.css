@@ -589,6 +589,11 @@ span.participantes {
   display: flex;
 }
 
+/* Variantes */
+.product-form__option-label-wrapper {
+  display: none;
+}
+
 /* QTY • PRODUCT PAGE, QUICK CART & CART */
 .product-form__quantity-button,
 .product-form__quantity input,

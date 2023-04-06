@@ -21,8 +21,7 @@
     data-variant-popup-trigger
     data-modal-content-id="modal-{{ block.settings.variant_popup_page }}"
     aria-expanded="false"
-    aria-controls="modal"
-  >
+    aria-controls="modal">
     {{ block.settings.variant_popup_text }}
   </a>
   <div id="modal-{{ block.settings.variant_popup_page }}" class="variant-popup__content modal-content">
@@ -35,16 +34,16 @@
   {%- assign option_name = option.name | downcase -%}
 
   {% if swatch_options contains option_name %}
-    <div class="product-form__option product-form__option-swatches js-enabled">
+    <div
+      class="product-form__option product-form__option-swatches js-enabled">
       <div
         class="product-form__color-swatches"
         data-option-buttons
         data-product-option="Option{{ option.position }}"
         {% if dynamic_options %}
-          data-index="option{{ forloop.index }}"
-          dynamic-variant-input-wrap
-        {% endif %}
-      >
+        data-index="option{{ forloop.index }}"
+        dynamic-variant-input-wrap
+        {% endif %}>
         <div class="product-form__option-label-wrapper">
           <label class="product-form__option-label type-heading-3" for="Option{{ option.position }}--{{ block.id }}">
             {{ option.name }}
@@ -67,10 +66,9 @@
               tabindex="0"
               aria-label="{{ value }}"
               {% if dynamic_options %}
-                dynamic-variant-button
-                data-option-value="{{ value | escape }}"
-              {% endif %}
-            ></button>
+              dynamic-variant-button
+              data-option-value="{{ value | escape }}"
+              {% endif %}></button>
           {% endfor %}
         </div>
 
@@ -79,18 +77,16 @@
           name="options[{{ option.name | escape }}]"
           class="product-form__option-select"
           {% if dynamic_options %}
-            dynamic-variant-input
-            data-index="option{{ forloop.index }}"
-          {% endif %}
-        >
+          dynamic-variant-input
+          data-index="option{{ forloop.index }}"
+          {% endif %}>
           {% for value in option.values %}
             <option
               data-value-handle="{{ value | handleize }}--{{ forloop.index0 }}"
               value="{{ value | escape }}"
               {% if option.selected_value == value %}
-                selected="selected"
-              {% endif %}
-            >
+              selected="selected"
+              {% endif %}>
               {{ value }}
             </option>
           {% endfor %}
@@ -103,10 +99,9 @@
         class="product-form__chip-wrapper"
         data-option-buttons
         {% if dynamic_options %}
-          dynamic-variant-input-wrap
-          data-index="option{{ forloop.index }}"
-        {% endif %}
-      >
+        dynamic-variant-input-wrap
+        data-index="option{{ forloop.index }}"
+        {% endif %}>
         <div class="            product-form__option-label-wrapper">
           <label class="product-form__option-label type-heading-3" for="Option{{ option.position }}--{{ block.id }}">
             {{ option.name }}
@@ -125,10 +120,9 @@
             tabindex="0"
             aria-label="{{ value }}"
             {% if dynamic_options %}
-              dynamic-variant-button
-              data-option-value="{{ value | escape }}"
-            {% endif %}
-          >
+            dynamic-variant-button
+            data-option-value="{{ value | escape }}"
+            {% endif %}>
             {{ value }}
           </button>
         {% endfor %}
@@ -138,18 +132,16 @@
           name="options[{{ option.name | escape }}]"
           class="product-form__option-select"
           {% if dynamic_options %}
-            dynamic-variant-input
-            data-index="option{{ forloop.index }}"
-          {% endif %}
-        >
+          dynamic-variant-input
+          data-index="option{{ forloop.index }}"
+          {% endif %}>
           {% for value in option.values %}
             <option
               data-value-handle="{{ value | handleize }}--{{ forloop.index0 }}"
               value="{{ value | escape }}"
               {% if option.selected_value == value %}
-                selected="selected"
-              {% endif %}
-            >
+              selected="selected"
+              {% endif %}>
               {{ value }}
             </option>
           {% endfor %}
@@ -171,27 +163,25 @@
       <div
         class="product-form__option-select-wrapper"
         {% if dynamic_options %}
-          dynamic-variant-input-wrap
-          data-index="option{{ forloop.index }}"
-        {% endif %}
-      >
+        dynamic-variant-input-wrap
+        data-index="option{{ forloop.index }}"
+        {% endif %}>
         <select
           id="option{{ forloop.index }}"
           name="options[{{ option.name | escape }}]"
+          {% if forloop.index == 2 %}placeholder="Hébergement"{% endif %}
           class="product-form__option-select"
           {% if dynamic_options %}
-            dynamic-variant-input
-            data-index="option{{ forloop.index }}"
-          {% endif %}
-        >
+          dynamic-variant-input
+          data-index="option{{ forloop.index }}"
+          {% endif %}>
           {% for value in option.values %}
             <option
               data-value-handle="{{ value | handleize }}--{{ forloop.index0 }}"
               value="{{ value | escape }}"
               {% if option.selected_value == value %}
-                selected="selected"
-              {% endif %}
-            >
+              selected="selected"
+              {% endif %}>
               {{ value }}
             </option>
           {% endfor %}
