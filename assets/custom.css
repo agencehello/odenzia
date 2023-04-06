@@ -318,9 +318,10 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 .entry__error, .entry__error--secondary {
   font-family:"Karla" !important;
   color: var(--rose) !important;
-  background-color: var(--creme) !important;
+  background-color: var(--beige) !important;
   border:none !important;
   border-radius:0 !important;
+  line-height:24px !important;
 }
 
 /* FOOTER */
