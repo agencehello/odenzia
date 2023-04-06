@@ -5,6 +5,7 @@ Last Edit @StudioBoskant 03.2023 */
   --marron: #c7a17e;
   --bleu: #094849;
   --rose: #efbfbb;
+  --creme: #fffcf8;
   --title: "Queens", serif;
   --body-light: "Karla Light", sans-serif;
   --padd-mob: 40px;
@@ -288,12 +289,38 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   color: var(--beige) !important;
   transition: 0.5s;
 }
+.sib-form .checkbox{
+  border-radius: 0px !important;
+  background: var(--beige) !important;
+  border: 1px solid black !important;
+}
+.sib-form .checkbox_tick_positive:before{
+  border-color: var(--beige) !important;
+}
+.sib-form .input_replaced:checked+.checkbox_tick_positive{
+  background: var(--bleu) !important;
+  border-color: var(--bleu) !important;
+}
 .entry__choice label p {
-  font-size:12px !important;
-  color:#000000;  
+  font-size: 12px !important;
+  color: black;  
 }
 .entry__label::after {
-  color:#C7A17E !important;
+  color: var(--marron) !important;
+}
+#success-message {
+  font-family:"Karla" !important;
+  color: var(--creme) !important;
+  background-color: var(--bleu) !important;
+  border:none !important;
+  border-radius:0 !important;
+}
+.entry__error, .entry__error--secondary {
+  font-family:"Karla" !important;
+  color: var(--rose) !important;
+  background-color: var(--creme) !important;
+  border:none !important;
+  border-radius:0 !important;
 }
 
 /* FOOTER */
@@ -611,11 +638,6 @@ span.participantes {
 .product-form__quantity,
 .product-form__quantity:hover {
   border: 1px solid var(--bleu);
-}
-div#achat {
-  display: grid;
-  grid-template-columns: 0.3fr 1fr;
-  gap: 10px;
 }
 
 /* COMPLET • PRODUCT PAGE */
