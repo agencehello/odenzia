@@ -44,7 +44,11 @@ document.addEventListener("flu:product:variant-change", function (evt) {
 // The quantity and selected variant object is passed within the detail object.
 
 document.addEventListener("flu:product:quantity-update", function (evt) {
-  console.log("Product quantity updated", evt.detail.quantity, evt.detail.variant);
+  console.log(
+    "Product quantity updated",
+    evt.detail.quantity,
+    evt.detail.variant
+  );
 }); // This event fires whenever quickview modal is opened.
 // This event is exposed when the 'Enable quick shop' feature is enabled
 // And a quick view modal is opened.
@@ -52,3 +56,31 @@ document.addEventListener("flu:product:quantity-update", function (evt) {
 document.addEventListener("quickview:loaded", function () {
   console.log("Quickview loaded");
 });
+
+/* Additional Studio Boskant : Tabs on product page */
+function openTab(evt, content_id, is_mobile = false) {
+  var i, tabcontent, tablinks;
+  if (!is_mobile) {
+    tabcontent = document.getElementsByClassName("tabcontent-cus");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks-cus");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace("active", "");
+    }
+    evt.currentTarget.className += " active";
+    document.getElementById(content_id).style.display = "block";
+  } else {
+    if (evt.currentTarget.classList.contains("active")) {
+      document.getElementById(content_id).style.display = "none";
+      evt.currentTarget.className = evt.currentTarget.className.replace(
+        "active",
+        ""
+      );
+    } else {
+      evt.currentTarget.className += " active";
+      document.getElementById(content_id).style.display = "block";
+    }
+  }
+}
