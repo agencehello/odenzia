@@ -241,6 +241,29 @@
                     </div>
                   {% endunless %}
                   {%- when 'buy_buttons' -%}
+                  <div id="achat">
+                    <div class="qty">
+                      {%- unless has_quantity_selector -%}
+                        <div class="product__quantity-error hidden" data-quantity-error>
+                          {{ 'products.product.quantity_error' | t }}
+                        </div>
+                      {%- endunless -%}
+                      {% render 'product-quantity' with 
+                       product: product,
+                       form_id: form_id,
+                       show_quantity_input: true %}
+                      <div class="product__quantity-error hidden" data-quantity-error>
+                        {{ 'products.product.quantity_error' | t }}
+                      </div>
+                    </div>
+                    <div class="buy">
+                      {% render 'product-buy-buttons' with 
+                       product: product,
+                       current_variant: current_variant,
+                       show_dynamic_checkout: block.settings.show_dynamic_checkout,
+                       form: form %}
+                    </div>
+                  </div>
                   {%- when 'inventory_counter' -%}
                   {%-
                       render 'inventory-counter' with
@@ -379,29 +402,6 @@
                   </div>
                 {%- endcase -%}
               {%- endfor -%}
-
-              <div id="achat">
-                {%- unless has_quantity_selector -%}
-                  <div class="product__quantity-error hidden" data-quantity-error>
-                    {{ 'products.product.quantity_error' | t }}
-                  </div>
-                {%- endunless -%}
-
-                {%
-                   render 'product-quantity' with
-                 product: product,
-                 form_id: form_id,
-                 show_quantity_input: true %}
-                <div class="product__quantity-error hidden" data-quantity-error>
-                  {{ 'products.product.quantity_error' | t }}
-                </div>
-                {%
-                   render 'product-buy-buttons' with
-                 product: product,
-                 current_variant: current_variant,
-                 show_dynamic_checkout: block.settings.show_dynamic_checkout,
-                 form: form %}
-              </div>
 
               {% comment %}
               The quantity input needs to be on the page for the product form to submit.
