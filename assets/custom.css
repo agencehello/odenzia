@@ -172,7 +172,7 @@ section.section.newsletter input {
 }
 section.section.newsletter input::placeholder {
   color: #000000;
-  font-family: "Karla Light";
+  font-family: "Karla";
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
@@ -186,7 +186,7 @@ section.section.newsletter input::placeholder {
   border-left: 0;
   border-right: 0;
   border-top: 0;
-  border-bottom: 0.5px solid black;
+  border-bottom: 0.5px solid black !important;
   border-radius: 0 !important;
 }
 .sib-form .entry__field:focus-within {
