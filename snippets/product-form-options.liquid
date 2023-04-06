@@ -80,17 +80,12 @@
           dynamic-variant-input
           data-index="option{{ forloop.index }}"
           {% endif %}>
-          <option
-              value=""
-              disabled
-              selected="selected">{{ option.name }}
-          </option>
           {% for value in option.values %}
             <option
               data-value-handle="{{ value | handleize }}--{{ forloop.index0 }}"
               value="{{ value | escape }}"
               {% if option.selected_value == value %}
-              selected=""
+              selected="selected"
               {% endif %}>
               {{ value }}
             </option>
@@ -140,11 +135,6 @@
           dynamic-variant-input
           data-index="option{{ forloop.index }}"
           {% endif %}>
-          <option
-              value=""
-              disabled
-              selected="selected">{{ option.name }}
-          </option>
           {% for value in option.values %}
             <option
               data-value-handle="{{ value | handleize }}--{{ forloop.index0 }}"
@@ -185,18 +175,20 @@
           dynamic-variant-input
           data-index="option{{ forloop.index }}"
           {% endif %}>
-          {% endif %}
-          <option
+          {% if option.name contains 'Hébergement' %}
+            <option
               value=""
               disabled
-              selected="selected">{{ option.name }}
-          </option>
+              selected="selected">Hébergement</option>
+          {% endif %}
           {% for value in option.values %}
             <option
               data-value-handle="{{ value | handleize }}--{{ forloop.index0 }}"
               value="{{ value | escape }}"
               {% if option.selected_value == value %}
-              selected=""
+              {% unless option.name contains 'Hébergement' %}
+              selected="selected"
+              {% endunless %}
               {% endif %}>
               {{ value }}
             </option>
