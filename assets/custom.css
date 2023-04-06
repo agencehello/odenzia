@@ -735,7 +735,7 @@ button.tablinks-cus {
   background: transparent;
   border-style: none;
 }
-button#tab-cus-active {
+button.tablinks-cus.active {
   border-bottom: 1px solid var(--bleu) !important;
   color: var(--bleu) !important;
 }

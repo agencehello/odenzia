@@ -457,9 +457,11 @@
             id="tab-cus-active">
             <h2>Programme</h2>
           </button>
-          <button class="tablinks-cus" onclick="openTab(event, 'tab-2')">
-            <h2>Hébergement</h2>
-          </button>
+          {% if product.metafields.custom.h_bergement != blank %}
+            <button class="tablinks-cus" onclick="openTab(event, 'tab-2')">
+              <h2>Hébergement</h2>
+            </button>
+          {% endif %}
           <button class="tablinks-cus" onclick="openTab(event, 'tab-3')">
             <h2>Intervenant.es</h2>
           </button>
@@ -487,22 +489,24 @@
         {% render 'odenzia-programme' %}
       </div>
 
-      <div class="hide_desktop accordion">
-        <div class="accordion__group">
-          <button
-            class="accordion__label extra"
-            aria-expanded="false"
-            aria-controls="accordion--tab2">
-            Hébergement
-          </button>
-          <div id="accordion--hebergement" class="accordion__text">
-            {% render 'odenzia-hebergement' %}
+      {% if product.metafields.custom.h_bergement != blank %}
+        <div class="hide_desktop accordion">
+          <div class="accordion__group">
+            <button
+              class="accordion__label extra"
+              aria-expanded="false"
+              aria-controls="accordion--tab2">
+              Hébergement
+            </button>
+            <div id="accordion--hebergement" class="accordion__text">
+              {% render 'odenzia-hebergement' %}
+            </div>
           </div>
         </div>
-      </div>
-      <div id="tab-2" class="hide_mobile tabcontent-cus">
-        {% render 'odenzia-hebergement' %}
-      </div>
+        <div id="tab-2" class="hide_mobile tabcontent-cus">
+          {% render 'odenzia-hebergement' %}
+        </div>
+      {% endif %}
 
       <div class="hide_desktop accordion">
         <div class="accordion__group">
