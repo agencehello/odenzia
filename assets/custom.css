@@ -172,13 +172,12 @@ section.section.newsletter input {
 }
 section.section.newsletter input::placeholder {
   color: #000000;
-  font-family: "Karla Light";
+  font-family: "Karla";
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
 }
-
 .sib-form {
   padding-top: 0;
 }
@@ -186,7 +185,7 @@ section.section.newsletter input::placeholder {
   border-left: 0;
   border-right: 0;
   border-top: 0;
-  border-bottom: 0.5px solid black;
+  border-bottom: 0.5px solid black !important;
   border-radius: 0 !important;
 }
 .sib-form .entry__field:focus-within {
@@ -288,6 +287,13 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   background-color: var(--bleu) !important;
   color: var(--beige) !important;
   transition: 0.5s;
+}
+.entry__choice label p {
+  font-size:12px !important;
+  color:#000000;  
+}
+.entry__label::after {
+  color:#C7A17E !important;
 }
 
 /* FOOTER */
