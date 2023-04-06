@@ -80,12 +80,17 @@
           dynamic-variant-input
           data-index="option{{ forloop.index }}"
           {% endif %}>
+          <option
+              value=""
+              disabled
+              selected="selected">{{ option.name }}
+          </option>
           {% for value in option.values %}
             <option
               data-value-handle="{{ value | handleize }}--{{ forloop.index0 }}"
               value="{{ value | escape }}"
               {% if option.selected_value == value %}
-              selected="selected"
+              selected=""
               {% endif %}>
               {{ value }}
             </option>
