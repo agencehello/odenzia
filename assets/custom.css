@@ -5,6 +5,7 @@ Last Edit @StudioBoskant 03.2023 */
   --marron: #c7a17e;
   --bleu: #094849;
   --rose: #efbfbb;
+  --creme: #fcf2e5;
   --title: "Queens", serif;
   --body-light: "Karla Light", sans-serif;
   --padd-mob: 40px;
@@ -290,18 +291,18 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 }
 .sib-form .checkbox{
   border-radius:0px !important;
-  background:#FCF2E5 !important;
-  border:1px solid #000000 !important;
+  background:var(--creme) !important;
+  border:1px solid black !important;
 }
 .sib-form .checkbox_tick_positive:before{
-  color:#FCF2E5;
+  color:var(--creme);
 }
 .entry__choice label p {
   font-size:12px !important;
-  color:#000000;  
+  color:black;  
 }
 .entry__label::after {
-  color:#C7A17E !important;
+  color:var(--marron) !important;
 }
 
 /* FOOTER */
