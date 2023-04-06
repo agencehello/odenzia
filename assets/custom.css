@@ -315,6 +315,13 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   border:none !important;
   border-radius:0 !important;
 }
+.entry__error, .entry__error--secondary {
+  font-family:"Karla" !important;
+  color: var(--creme) !important;
+  background-color: var(--rose) !important;
+  border:none !important;
+  border-radius:0 !important;
+}
 
 /* FOOTER */
 .footer__groups {
