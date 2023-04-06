@@ -737,6 +737,9 @@ div#achat {
   justify-content: center;
   gap: 50px;
 }
+.tabcontent-cus {
+  display: none;
+}
 button.tablinks-cus {
   background: transparent;
   border-style: none;
