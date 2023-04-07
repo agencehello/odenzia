@@ -151,12 +151,13 @@
         </a>
       {%- endif -%}
     {% endif %}
-
+    
     <div class="product-item__details">
       <a href="{{ product.url }}">{{ product.title }}</a>
       {%- if product.metafields.custom.dur_e != blank -%}
       <p class="extrait">{{ product.metafields.custom.extrait.value }}</p>
       {%- endif -%}
+      
       <div class="infos_inline">
       {%- if product.metafields.custom.dur_e != blank -%}
         {{ product.metafields.custom.dur_e | metafield_tag }}
@@ -168,7 +169,9 @@
         {{ product.metafields.custom.lieu | metafield_tag | replace: '<p>', '<span class="bullet"></span> <p>' }}
       {%- endif -%}
       </div>
+
       {% render 'product-item-price' with product: product %}
     </div>
+
   </div>
 </div>
