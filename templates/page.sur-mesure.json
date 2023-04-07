@@ -56,6 +56,50 @@
         "button_background_color": "#000000"
       }
     },
+    "7925151b-699a-4b99-b111-2f8b495a27a1": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "template--18491912028488__7925151b-699a-4b99-b111-2f8b495a27a1-1680864219a3243a52-0": {
+          "type": "column",
+          "settings": {
+            "image_max_width": 50,
+            "title": "100% personnalisable",
+            "subheading": "<p>Odenzia vous accompagne de A à Z dans la création de votre événement sur-mesure. Tout est possible !<\/p>",
+            "text_max_width": 36,
+            "link": "",
+            "link_text": "Read more"
+          }
+        },
+        "template--18491912028488__7925151b-699a-4b99-b111-2f8b495a27a1-1680864219a3243a52-1": {
+          "type": "column",
+          "settings": {
+            "image_max_width": 50,
+            "title": "Column two",
+            "subheading": "<p>Get into your process a bit. The quality of handiwork, proprietary knowledge, or materials that you use that make your products better.<\/p>",
+            "text_max_width": 36,
+            "link": "",
+            "link_text": "Read more"
+          }
+        }
+      },
+      "block_order": [
+        "template--18491912028488__7925151b-699a-4b99-b111-2f8b495a27a1-1680864219a3243a52-0",
+        "template--18491912028488__7925151b-699a-4b99-b111-2f8b495a27a1-1680864219a3243a52-1"
+      ],
+      "settings": {
+        "section_id": "formules",
+        "section_style": "default",
+        "enable_animation": false,
+        "columns": 2,
+        "overline": "",
+        "title": "Les formules",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "text_alignment": "center",
+        "text_max_width": 50
+      }
+    },
     "adc1b1da-293c-42c6-b890-52c5a5ab72c5": {
       "type": "rich-text",
       "blocks": {
@@ -125,6 +169,7 @@
   "order": [
     "main",
     "786700a4-e365-420a-92f9-1e1b885259f1",
+    "7925151b-699a-4b99-b111-2f8b495a27a1",
     "adc1b1da-293c-42c6-b890-52c5a5ab72c5",
     "bac4b03c-866f-44c5-a57c-9189f7c46192"
   ]
