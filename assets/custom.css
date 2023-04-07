@@ -414,10 +414,16 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     content: none;
   }
   .two_col {
-    display: block;
+    display: block !important;
   }
   .tabcontent-cus {
-    padding: var(--padd-mob) 0;
+    padding: var(--padd-mob) 0 !important;
+  }
+  #tabs button .metafield-rich_text_field p {
+    margin-bottom: 0;
+  }
+  .accordion.break {
+    margin: 2em 0;
   }
 }
 @media screen and (max-width: 789px) {
