@@ -196,6 +196,48 @@
         "timer": 3,
         "text_max_width": 40
       }
+    },
+    "b180e576-30d7-4368-a81a-a21975814ffa": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    },
+    "01e07fe9-b630-4dc4-9d93-2ca9f584381d": {
+      "type": "newsletter",
+      "blocks": {
+        "template--18491912028488__01e07fe9-b630-4dc4-9d93-2ca9f584381d-1680872220e46fbec6-0": {
+          "type": "small_heading",
+          "settings": {
+            "small_heading": "Newsletter"
+          }
+        },
+        "template--18491912028488__01e07fe9-b630-4dc4-9d93-2ca9f584381d-1680872220e46fbec6-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Newsletters can reinforce your brand",
+            "text_max_width": 46
+          }
+        },
+        "template--18491912028488__01e07fe9-b630-4dc4-9d93-2ca9f584381d-1680872220e46fbec6-2": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "<p>Include a short sentence describing what someone can expect from your newsletter.<\/p>",
+            "text_max_width": 36
+          }
+        }
+      },
+      "block_order": [
+        "template--18491912028488__01e07fe9-b630-4dc4-9d93-2ca9f584381d-1680872220e46fbec6-0",
+        "template--18491912028488__01e07fe9-b630-4dc4-9d93-2ca9f584381d-1680872220e46fbec6-1",
+        "template--18491912028488__01e07fe9-b630-4dc4-9d93-2ca9f584381d-1680872220e46fbec6-2"
+      ],
+      "settings": {
+        "section_style": "contrast",
+        "enable_animation": true
+      }
     }
   },
   "order": [
@@ -204,6 +246,8 @@
     "7925151b-699a-4b99-b111-2f8b495a27a1",
     "d0c19374-7693-44c6-ab77-9e09cc68b7d4",
     "adc1b1da-293c-42c6-b890-52c5a5ab72c5",
-    "bac4b03c-866f-44c5-a57c-9189f7c46192"
+    "bac4b03c-866f-44c5-a57c-9189f7c46192",
+    "b180e576-30d7-4368-a81a-a21975814ffa",
+    "01e07fe9-b630-4dc4-9d93-2ca9f584381d"
   ]
 }
