@@ -74,7 +74,7 @@ section {
   .text-block__subheading.type-body-regular.rte {
   border-color: var(--bleu);
 }
-#formules .text-block.text-columns__feature:first-child .text-block__button a {
+#formules .text-block.text-columns__feature:first-child a.text-block__button {
   color: var(--bleu);
 }
 #formules .text-block.text-columns__feature:last-child h3 {
@@ -85,7 +85,7 @@ section {
   .text-block__subheading.type-body-regular.rte {
   border-color: var(--marron);
 }
-#formules .text-block.text-columns__feature:first-child .text-block__button a {
+#formules .text-block.text-columns__feature:first-child a.text-block__button {
   color: var(--marron);
 }
 #formules .text-block__subheading.type-body-regular.rte {
