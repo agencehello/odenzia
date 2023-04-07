@@ -668,6 +668,7 @@ div#achat {
   display: grid;
   grid-template-columns: 0.3fr 1fr;
   gap: 10px;
+  margin: 2em 0;
 }
 
 /* COMPLET • PRODUCT PAGE */
@@ -753,7 +754,18 @@ button.tablinks-cus.active {
   background-color: unset;
   color: var(--bleu);
 }
-
+#tabs button .metafield-rich_text_field p {
+  font-family: var(--title) !important;
+  font-weight: 300 !important;
+  font-size: 26px !important;
+  line-height: 30px !important;
+}
+.template-product .accordion__group {
+  border-bottom: 1px solid black;
+}
+.accordion__text {
+  padding: 0 0 30px 0 !important;
+}
 .two_col {
   display: grid;
   grid-template-columns: 1fr 1fr;
