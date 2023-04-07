@@ -210,14 +210,6 @@ section#reassurance {
 }
 
 /* CONTACT FORMS & FORMS */
-input:hover,
-textarea:hover,
-select:hover,
-input:focus,
-textarea:focus,
-select:focus {
-  border-style: none !important;
-}
 select {
   padding-left: 0;
 }
@@ -950,7 +942,7 @@ select:hover,
 input:focus,
 textarea:focus,
 select:focus {
-  border-color: none !important;
+  border-style: none !important;
 }
 
 /* CONNEXION / INSCRIPTION */
