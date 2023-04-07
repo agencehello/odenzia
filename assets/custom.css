@@ -56,6 +56,38 @@ section {
   margin: 0 auto;
   max-width: 85%;
 }
+/* Formules */
+#formules h3 {
+  color: white;
+  padding: 20px;
+  width: 100%;
+  margin: 0;
+}
+#formules .text-block__subheading.type-body-regular.rte {
+  padding: 2em 1em;
+}
+#formules .text-block.text-columns__feature:first-child h3 {
+  background-color: var(--bleu);
+}
+#formules
+  .text-block.text-columns__feature:first-child
+  .text-block__subheading.type-body-regular.rte {
+  border-color: var(--bleu);
+}
+#formules .text-block.text-columns__feature:last-child h3 {
+  background-color: var(--marron);
+}
+#formules
+  .text-block.text-columns__feature:last-child
+  .text-block__subheading.type-body-regular.rte {
+  border-color: var(--marron);
+}
+#formules .text-block__subheading.type-body-regular.rte {
+  padding: 2em 1em;
+  background-color: var(--beige);
+  border: 1px solid;
+  max-width: 100% !important;
+}
 /* Sur-mesure */
 #sur_mesure h3:first-child:before {
   content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-puce-bleu.svg?v=1680699739");
