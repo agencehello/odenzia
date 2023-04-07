@@ -36,35 +36,44 @@
   data-section-id="{{ section.id }}"
   data-section-type="image-hero"
   class="
-        image-hero
-        image-hero
-        image-hero--aspect-{{ image_aspect }}
-        image-hero--text-horizontal-align-{{ align[0] }}
-        image-hero--text-vertical-align-{{ align[1] }}
-        {% if desktop_image != blank %}
-          image-hero--has-image
-        {% endif %}
-        {% if desktop_image != blank and mobile_image != blank %}
-          image-hero--has-mobile-image
-        {% endif %}
-        {% if settings.enable_reveal_animations and section.settings.enable_animation %}
-          animation
-          animation--image-hero
-        {% endif %}
-        enable_reveal_animations--{{ settings.enable_reveal_animations }}
-      "style="
-        --desktop-height: {{ section.settings.desktop_height }}vh;
-        --mobile-height: {{ section.settings.mobile_height }}vh;
-        --overlay-background: {{ section.settings.overlay_color }};
-        {% if section.settings.color_overlay_gradient != blank %}
-          --overlay-gradient: {{ section.settings.color_overlay_gradient }};
-        {% endif %}
-        --text-container-background: {{ section.settings.text_container_color }};
-        --text-color: {{ section.settings.text_color }};
-        --button-text-color: {{ section.settings.color_text_button }};
-        --button-text-background: {{ section.settings.color_background_button }};
-        --button-text-background-hover: {{ color_background_button_hover }};
-      ">{%- capture tag -%}
+            image-hero
+            image-hero
+            image-hero--aspect-{{ image_aspect }}
+            image-hero--text-horizontal-align-{{ align[0] }}
+            image-hero--text-vertical-align-{{ align[1] }}
+            {% if desktop_image != blank %}
+              image-hero--has-image
+            {% endif %}
+            {% if desktop_image != blank and mobile_image != blank %}
+              image-hero--has-mobile-image
+            {% endif %}
+            {% if settings.enable_reveal_animations and section.settings.enable_animation %}
+              animation
+              animation--image-hero
+            {% endif %}
+            enable_reveal_animations--{{ settings.enable_reveal_animations }}
+          "style="
+            --desktop-height: {{ section.settings.desktop_height }}vh;
+            --mobile-height: {{ section.settings.mobile_height }}vh;
+            --overlay-background: {{ section.settings.overlay_color }};
+            {% if section.settings.color_overlay_gradient != blank %}
+              --overlay-gradient: {{ section.settings.color_overlay_gradient }};
+            {% endif %}
+            --text-container-background: {{ section.settings.text_container_color }};
+            --text-color: {{ section.settings.text_color }};
+            --button-text-color: {{ section.settings.color_text_button }};
+            --button-text-background: {{ section.settings.color_background_button }};
+            --button-text-background-hover: {{ color_background_button_hover }};
+          ">{% if section.settings.svg_url != blank %}
+    <span class="pastille"></span>
+    <style>
+      span.pastille {
+        content: url("{{ section.settings.svg_url }}");
+      }
+    </style>
+  {% endif %}
+
+  {%- capture tag -%}
     {%- if has_link_with_no_label -%}a{%- else -%}div{%- endif -%}
   {%- endcapture -%}
   {%- capture attributes -%}
@@ -73,11 +82,11 @@
   <{{ tag }} class="image-hero__inner" {{ attributes }}>
     {% if desktop_image == blank %}
       <div class="
-                    image-hero__placeholder
-                    image-hero__image
-                    image-hero__image--desktop
-                    image-hero__image--mobile
-                  ">
+                              image-hero__placeholder
+                              image-hero__image
+                              image-hero__image--desktop
+                              image-hero__image--mobile
+                            ">
         {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg image__img' }}
       </div>
     {% endif %}
@@ -92,14 +101,6 @@
         endif
       -%}
 
-      {% if section.settings.svg_url != blank %}
-        <span class="pastille"></span>
-        <style>
-          span.pastille {
-            content: url("{{ section.settings.svg_url }}");
-          }
-        </style>
-      {% endif %}
       {% render 'image'
        , image: desktop_image,
        wrapper_class: image_wrapper_class,
@@ -137,18 +138,18 @@
             {%- when 'heading' -%}
             {% if block.settings.heading != blank %}
               <h2 class="image-hero__heading type-heading-dynamic" style="
-                                      --text-max-width: {{ block.settings.text_max_width }}rem;
-                                      --heading-font-size: {{ block.settings.heading_text_size }}px;
-                                    ">
+                                                        --text-max-width: {{ block.settings.text_max_width }}rem;
+                                                        --heading-font-size: {{ block.settings.heading_text_size }}px;
+                                                      ">
                 {{ block.settings.heading }}
               </h2>
             {% endif %}
             {%- when 'subheading' -%}
             {% if block.settings.subheading != blank %}
               <div class="image-hero__subheading type-body-regular" style="
-                                      --text-max-width: {{ block.settings.text_max_width }}rem;
-                                      --subheading-font-size: {{ block.settings.subheading_text_size }}px;
-                                    ">
+                                                        --text-max-width: {{ block.settings.text_max_width }}rem;
+                                                        --subheading-font-size: {{ block.settings.subheading_text_size }}px;
+                                                      ">
                 {{ block.settings.subheading }}
               </div>
             {% endif %}

@@ -392,6 +392,10 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     z-index: 1;
     max-width: 130px;
   }
+  .image-hero span.pastille {
+    top: -10%;
+    left: 10%;
+  }
   /* Concept thématiques */
   section#concept_themes {
     padding-top: 0;
@@ -424,6 +428,10 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     transform: translate(-50%, -30%);
     z-index: 1;
     max-width: 100px;
+  }
+  .image-hero span.pastille {
+    top: -10%;
+    left: 20%;
   }
   .template-product .badge {
     left: unset !important;
