@@ -52,13 +52,15 @@
     <input type="submit" class="bttn bttn--full" value="{{ 'customer.login.sign_in' | t }}">
 
     <div class="login__links">
-
-      <a href="{{ routes.account_register_url }}">{{ 'layout.customer.create_account' | t }}</a>
-
       {% if form.password_needed %}
         &nbsp;/ <a href="#recover" id="RecoverPassword">{{ 'customer.login.forgot_password' | t }}</a>
       {% endif %}
+    </div>
 
+    <div class="new_customer">
+      <h3>{{ 'customer.login.create_sentence' | t }}</h3>
+      <p>{{ 'customer.login.create_info' | t }}</p>
+      <a href="{{ routes.account_register_url }}">{{ 'layout.customer.create_account' | t }}</a>
     </div>
   {% endform %}
 
