@@ -209,6 +209,39 @@ section#reassurance {
   max-width: 20%;
 }
 
+/* CONTACT FORMS & FORMS */
+input:hover,
+textarea:hover,
+select:hover,
+input:focus,
+textarea:focus,
+select:focus {
+  border-style: none !important;
+}
+select {
+  padding-left: 0;
+}
+label.inline {
+  display: flex;
+  align-items: baseline;
+}
+#contact_form input {
+  border-bottom: 1px solid;
+  padding-left: 0;
+  margin-bottom: 20px;
+  outline: none !important;
+}
+#contact_form input::placeholder {
+  color: black;
+}
+#contact_form input {
+  border-bottom: 1px solid;
+  padding-left: 0;
+  margin-bottom: 20px;
+  outline: none !important;
+  font-family: var(--body-light);
+}
+
 /* NEWSLETTER FORM */
 section.section.newsletter.section--contrast.section--spacing-tall.animation.animation--newsletter {
   padding: 5% 0;
@@ -608,6 +641,13 @@ p {
 p strong {
   font-family: var(--body-light) !important;
   font-weight: 400 !important;
+}
+small {
+  display: block;
+  font-family: var(--body-light);
+  font-size: 12px;
+  line-height: 1.5em;
+  color: var(--bleu) !important;
 }
 
 .text-block__overline {
