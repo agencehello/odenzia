@@ -86,13 +86,21 @@ La randonnée est un moment fort d’introspection, mais également de partage. 
 {% endif %}
 
 {% schema %}
-  {
-    "name": "Odenzia Thématiques",
-    "class": "section-dynamic section-borderable",
-    "presets": [
-      {
-        "name": "Odenzia Thématiques"
-      }
-    ]
-  }
+{
+  "name": "Odenzia Thématiques",
+  "tag": "section",
+  "class": "section-dynamic section-borderable",
+  "settings": [
+    {
+      "type": "liquid",
+      "id": "custom_liquid",
+      "label": "t:sections.custom_liquid.settings.custom_liquid.label"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Odenzia Thématiques"
+    }
+  ]
+}
 {% endschema %}
