@@ -719,10 +719,16 @@ section {
   margin-top: 15px !important;
 }
 .infos_inline {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   width: 100%;
   align-items: baseline;
   justify-content: flex-start;
+}
+.infos_inline .metafield-rich_text_field {
+  display: flex;
+  align-items: baseline;
 }
 .product-item__details p.extrait {
   margin: 1em 0;
