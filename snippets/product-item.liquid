@@ -153,12 +153,11 @@
     {% endif %}
 
     <p class="product-item__details">
-      {% assign bullet = '<span class="bullet"></span>' %}
       <a href="{{ product.url }}">{{ product.title }}</a>
       {%- if product.metafields.custom.dur_e != blank -%}
       <p class="extrait">{{ product.metafields.custom.extrait.value }}</p>
       {%- endif -%}
-      <p class="infos_inline">
+      <div class="infos_inline">
       {%- if product.metafields.custom.dur_e != blank -%}
         {{ product.metafields.custom.dur_e | metafield_tag }}
       {%- endif -%}
