@@ -1,1 +1,17 @@
-{"sections":{"main":{"type":"main-page--contact","blocks":{"fca56b4d-3cac-4981-8de9-e24c606dba08":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/odenzia-contact.jpg"}}},"block_order":["fca56b4d-3cac-4981-8de9-e24c606dba08"],"custom_css":["img {padding: 10%;}"],"settings":{"enable_animation":true,"content_max_width":600}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page--contact",
+      "blocks": {
+        "fca56b4d-3cac-4981-8de9-e24c606dba08": {
+          "type": "image",
+          "settings": { "image": "shopify://shop_images/odenzia-contact.jpg" }
+        }
+      },
+      "block_order": ["fca56b4d-3cac-4981-8de9-e24c606dba08"],
+      "custom_css": ["img {padding: 10%;}"],
+      "settings": { "enable_animation": true, "content_max_width": 600 }
+    }
+  },
+  "order": ["main"]
+}

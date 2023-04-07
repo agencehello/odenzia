@@ -457,6 +457,11 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     margin-top: -35vh !important;
   }
 }
+@media screen and (min-width: 1280px) {
+  #formules {
+    max-width: 90%;
+  }
+}
 
 /* MOBILE */
 @media screen and (max-width: 989px) {
