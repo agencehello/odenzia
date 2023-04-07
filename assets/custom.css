@@ -425,6 +425,13 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   .accordion.break {
     margin: 2em 0;
   }
+  #tabs button.accordion__label.extra {
+    color: var(--bleu);
+    padding: 2em 0.5em;
+  }
+  #programme .template-product .accordion__group {
+    border-color: var(--bleu) !important;
+  }
 }
 @media screen and (max-width: 789px) {
   /* Global layout */
