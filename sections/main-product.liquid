@@ -462,12 +462,16 @@
               <h2>Hébergement</h2>
             </button>
           {% endif %}
-          <button class="tablinks-cus" onclick="openTab(event, 'tab-3')">
-            <h2>Intervenant.es</h2>
-          </button>
-          <button class="tablinks-cus" onclick="openTab(event, 'tab-4')">
-            <h2>Infos pratiques</h2>
-          </button>
+          {% if product.metafields.custom.intervenant_es != blank %}
+            <button class="tablinks-cus" onclick="openTab(event, 'tab-3')">
+              <h2>Intervenant.es</h2>
+            </button>
+          {% endif %}
+          {% if product.metafields.custom.infos_pratiques != blank %}
+            <button class="tablinks-cus" onclick="openTab(event, 'tab-4')">
+              <h2>Infos pratiques</h2>
+            </button>
+          {% endif %}
         </div>
       </div>
 
