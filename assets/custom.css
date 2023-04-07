@@ -996,6 +996,37 @@ button.tablinks-cus.active {
 .account .bttn--full:hover {
   background-color: var(--bleu);
 }
+/* Studio Boskant Connexion Inscription */
+.account .bttn--full {
+  outline: 1px solid var(--marron) !important;
+  outline-offset: 3px;
+  width: auto;
+  padding: 10px 33px !important;
+}
+a#RecoverPassword {
+  color: var(--marron);
+  font-size: 12px;
+}
+.account .bttn.bttn--full {
+  margin: 1em auto 0 auto !important;
+}
+.account h3 {
+  margin-bottom: 10px;
+}
+.new_customer {
+  margin-top: 3em !important;
+}
+.new_customer a {
+  background-color: #094849;
+  outline: 1px solid #094849;
+  outline-offset: 3px;
+  width: fit-content;
+  padding: 10px 33px;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  margin: 2em auto 0 auto;
+}
 
 /* RECHERCHE */
 .search__input {
