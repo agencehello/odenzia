@@ -1003,7 +1003,8 @@ button.tablinks-cus.active {
   width: auto;
   padding: 10px 33px !important;
 }
-a#RecoverPassword {
+a#RecoverPassword,
+.login__links a {
   color: var(--marron);
   font-size: 12px;
 }
