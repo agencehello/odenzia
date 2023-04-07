@@ -185,6 +185,8 @@
       "guest_title": "Continuer en tant qu'invité",
       "password": "Mot de passe",
       "sign_in": "Se connecter",
+      "create_sentence": "Vous n'avez pas encore de compte ?",
+      "create_info": "Créez-en un pour poursuivre votre achat",
       "success": "Connexion réussie",
       "title": "Connexion"
     },
