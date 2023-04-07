@@ -153,6 +153,8 @@
     {% endif %}
 
     <div class="product-item__details">
+      {% assign bullet = "<span class="bullet"></span>" %}
+      {{ "website.com" | append: filename }}
       <a href="{{ product.url }}">{{ product.title }}</a>
       {%- if product.metafields.custom.dur_e != blank -%}
       <p class="extrait">{{ product.metafields.custom.extrait.value }}</p>
@@ -162,12 +164,10 @@
         {{ product.metafields.custom.dur_e | metafield_tag }}
       {%- endif -%}
       {%- if product.metafields.custom.date != blank -%}
-      <span class="bullet"></span>
-        {{ product.metafields.custom.date | metafield_tag }}
+        {{ product.metafields.custom.date | metafield_tag | prepend: bullet}}
       {%- endif -%}
       {%- if product.metafields.custom.lieu != blank -%}
-      <span class="bullet"></span>
-        {{ product.metafields.custom.lieu | metafield_tag }}
+        {{ product.metafields.custom.lieu | metafield_tag | prepend: bullet }}
       {%- endif -%}
       </div>
       {% render 'product-item-price' with product: product %}
