@@ -252,6 +252,10 @@ label.inline {
 .contact__form textarea:hover {
   border-bottom: 1px solid black !important;
 }
+.contact__inner {
+  max-width: 1100px !important;
+  margin: 0 auto 3em auto !important;
+}
 
 /* NEWSLETTER FORM */
 section.section.newsletter.section--contrast.section--spacing-tall.animation.animation--newsletter {
