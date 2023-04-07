@@ -74,6 +74,9 @@ section {
   .text-block__subheading.type-body-regular.rte {
   border-color: var(--bleu);
 }
+#formules .text-block.text-columns__feature:first-child .text-block__button a {
+  color: var(--bleu);
+}
 #formules .text-block.text-columns__feature:last-child h3 {
   background-color: var(--marron);
 }
@@ -82,11 +85,18 @@ section {
   .text-block__subheading.type-body-regular.rte {
   border-color: var(--marron);
 }
+#formules .text-block.text-columns__feature:first-child .text-block__button a {
+  color: var(--marron);
+}
 #formules .text-block__subheading.type-body-regular.rte {
   padding: 2em 1em;
   background-color: var(--beige);
   border: 1px solid;
   max-width: 100% !important;
+}
+#formules .text-block__button {
+  width: 100%;
+  background-color: unset;
 }
 /* Sur-mesure */
 #sur_mesure h3:first-child:before {
