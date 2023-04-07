@@ -66,8 +66,8 @@
             "title": "100% personnalisable",
             "subheading": "<p>Odenzia vous accompagne de A à Z dans la création de votre événement sur-mesure. Tout est possible !<\/p><ul><li>Définition des besoins : format (journée\/séjour), dates, zone géographique, thématiques et activités, nombre de participant.es, type d’hébergement, etc.<\/li><li>Audit et étude comparative des prestataires.<\/li><li>Propositions personnalisées en accord avec votre projet.<\/li><\/ul>",
             "text_max_width": 36,
-            "link": "",
-            "link_text": "Read more"
+            "link": "shopify:\/\/pages\/contact",
+            "link_text": "Devis sur mesure"
           }
         },
         "template--18491912028488__7925151b-699a-4b99-b111-2f8b495a27a1-1680864219a3243a52-1": {
@@ -77,8 +77,8 @@
             "title": "Collaboration",
             "subheading": "<p>Odenzia vous accompagne de A à Z dans la création de votre événement sur-mesure. Tout est possible !<\/p><ul><li>Définition des besoins : format (journée\/séjour), dates, zone géographique, thématiques et activités, nombre de participant.es, type d’hébergement, etc.<\/li><li>Audit et étude comparative des prestataires.<\/li><li>Propositions personnalisées en accord avec votre projet.<\/li><\/ul>",
             "text_max_width": 36,
-            "link": "",
-            "link_text": "Read more"
+            "link": "shopify:\/\/pages\/contact",
+            "link_text": "Devis sur mesure"
           }
         }
       },
@@ -94,7 +94,7 @@
         "overline": "",
         "title": "Les formules",
         "subheading": "",
-        "link": "",
+        "link": "shopify:\/\/pages\/contact",
         "link_text": "",
         "text_alignment": "center",
         "text_max_width": 50
