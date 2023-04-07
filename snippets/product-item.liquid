@@ -152,7 +152,7 @@
       {%- endif -%}
     {% endif %}
 
-    <p class="product-item__details">
+    <div class="product-item__details">
       <a href="{{ product.url }}">{{ product.title }}</a>
       {%- if product.metafields.custom.dur_e != blank -%}
       <p class="extrait">{{ product.metafields.custom.extrait.value }}</p>
