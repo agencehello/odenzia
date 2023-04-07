@@ -218,7 +218,7 @@ label.inline {
   align-items: baseline;
 }
 #contact_form input {
-  border-bottom: 1px solid;
+  border-bottom: 1px solid black !important;
   padding-left: 0;
   margin-bottom: 20px;
   outline: none !important;
@@ -955,15 +955,6 @@ button.tablinks-cus.active {
 }
 
 /* FORMS */
-input:hover,
-textarea:hover,
-select:hover,
-input:focus,
-textarea:focus,
-select:focus {
-  border-style: none !important;
-}
-
 /* CONNEXION / INSCRIPTION */
 .account input,
 .account textarea,

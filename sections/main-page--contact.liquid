@@ -21,28 +21,25 @@
 <section
   class="contact section{{ modifiers }}"
   data-section-id="{{ section.id }}"
-  data-section-type="page"
->
+  data-section-type="page">
   <div class="contact__inner" style="--content-max-width: {{ section.settings.content_max_width }}px;">
     {% if has_image %}
       <div class="contact__container">
-        <div class="contact__image">
-          {%- for block in section.blocks -%}
-            {% render 'image',
-              image: block.settings.image,
-              focal_point: 'image_presentation',
-              wrapper_class: 'borders',
-              animate: true
-            %}
-            {% break %}
-          {%- endfor -%}
-        </div>
         <div class="contact__content">
           <div class="contact__content-inner">
             <h1 class="contact__heading type-heading-1 mt0 mb3">{{ page.title }}</h1>
-
             {{ content }}
           </div>
+        </div>
+        <div class="contact__image">
+          {%- for block in section.blocks -%}
+            {% render 'image'
+             , image: block.settings.image,
+             focal_point: 'image_presentation',
+             wrapper_class: 'borders',
+             animate: true %}
+            {% break %}
+          {%- endfor -%}
         </div>
       </div>
     {% else %}
@@ -56,51 +53,48 @@
 </section>
 
 {% schema %}
-{
-  "name": "t:sections.main_page_contact.name",
-  "tag": "section",
-  "class": "page-section section-borderable",
-  "max_blocks": 1,
-  "settings": [
-    {
-      "type": "header",
-      "content": "t:shared.settings.section_style.style_header.content"
-    },
-    {
-      "id": "enable_animation",
-      "type": "checkbox",
-      "label": "t:shared.settings.section_style.enable_animation.label",
-      "info": "t:shared.settings.section_style.enable_animation.info",
-      "default": true
-    },
-    {
-      "type": "header",
-      "content": "t:shared.settings.content_header.content"
-    },
-    {
-      "id": "content_max_width",
-      "type": "range",
-      "min": 400,
-      "max": 1300,
-      "step": 100,
-      "default": 500,
-      "label": "t:sections.main_page_contact.settings.content_max_width.label",
-      "info": "t:sections.main_page_contact.settings.content_max_width.info"
-    }
-  ],
-  "blocks": [
-    {
-      "type": "image",
-      "name": "t:sections.main_page_contact.blocks.image.name",
-      "settings": [
-        {
-          "id": "image",
-          "type": "image_picker",
-          "label": "t:sections.main_page_contact.blocks.image.settings.label",
-          "info": "t:sections.main_page_contact.blocks.image.settings.info"
-        }
-      ]
-    }
-  ]
-}
+  {
+    "name": "t:sections.main_page_contact.name",
+    "tag": "section",
+    "class": "page-section section-borderable",
+    "max_blocks": 1,
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:shared.settings.section_style.style_header.content"
+      }, {
+        "id": "enable_animation",
+        "type": "checkbox",
+        "label": "t:shared.settings.section_style.enable_animation.label",
+        "info": "t:shared.settings.section_style.enable_animation.info",
+        "default": true
+      }, {
+        "type": "header",
+        "content": "t:shared.settings.content_header.content"
+      }, {
+        "id": "content_max_width",
+        "type": "range",
+        "min": 400,
+        "max": 1300,
+        "step": 100,
+        "default": 500,
+        "label": "t:sections.main_page_contact.settings.content_max_width.label",
+        "info": "t:sections.main_page_contact.settings.content_max_width.info"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "t:sections.main_page_contact.blocks.image.name",
+        "settings": [
+          {
+            "id": "image",
+            "type": "image_picker",
+            "label": "t:sections.main_page_contact.blocks.image.settings.label",
+            "info": "t:sections.main_page_contact.blocks.image.settings.info"
+          }
+        ]
+      }
+    ]
+  }
 {% endschema %}

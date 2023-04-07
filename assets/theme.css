@@ -358,11 +358,11 @@ html.supports-no-cookies .supports-cookies {
 .section.section--contrast textarea:hover {
   border-color: var(--color-contrast-border-darker);
 }
-.section.section--contrast input:focus,
+/*.section.section--contrast input:focus,
 .section.section--contrast select:focus,
 .section.section--contrast textarea:focus {
   border-color: var(--color-contrast-border-darkest);
-}
+}*/
 .section.section--contrast input::-moz-placeholder,
 .section.section--contrast select::-moz-placeholder,
 .section.section--contrast textarea::-moz-placeholder {
@@ -954,7 +954,7 @@ select:not(:placeholder-shown) + .label--above {
 }
 /*input:hover, textarea:hover, select:hover{
     border-color:var(--color-border-darker);
-  }*/
+  }
 input:focus,
 textarea:focus,
 select:focus {
@@ -965,7 +965,7 @@ input:focus + .label--above,
 textarea:focus + .label--above,
 select:focus + .label--above {
   opacity: 1 !important;
-}
+}*/
 input:focus::-moz-placeholder,
 textarea:focus::-moz-placeholder,
 select:focus::-moz-placeholder {
