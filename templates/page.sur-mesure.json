@@ -100,6 +100,38 @@
         "text_max_width": 50
       }
     },
+    "d0c19374-7693-44c6-ab77-9e09cc68b7d4": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18491912028488__d0c19374-7693-44c6-ab77-9e09cc68b7d4-16808720046eea9fce-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Une question ? Une envie ? Contactez-nous !",
+            "text_max_width": 46
+          }
+        }
+      },
+      "block_order": [
+        "template--18491912028488__d0c19374-7693-44c6-ab77-9e09cc68b7d4-16808720046eea9fce-1"
+      ],
+      "settings": {
+        "section_id": "contact",
+        "section_style": "default",
+        "enable_animation": true,
+        "svg_url": "",
+        "image": "shopify:\/\/shop_images\/odenzia-sur-mesure-3.jpg",
+        "video_url": "",
+        "image_width": "one-half",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_position": "left",
+        "text_alignment": "left",
+        "text_color": "#000000",
+        "text_container_color": "",
+        "color_background_gradient": "",
+        "button_background_color": "#000"
+      }
+    },
     "adc1b1da-293c-42c6-b890-52c5a5ab72c5": {
       "type": "rich-text",
       "blocks": {
@@ -170,6 +202,7 @@
     "main",
     "786700a4-e365-420a-92f9-1e1b885259f1",
     "7925151b-699a-4b99-b111-2f8b495a27a1",
+    "d0c19374-7693-44c6-ab77-9e09cc68b7d4",
     "adc1b1da-293c-42c6-b890-52c5a5ab72c5",
     "bac4b03c-866f-44c5-a57c-9189f7c46192"
   ]
