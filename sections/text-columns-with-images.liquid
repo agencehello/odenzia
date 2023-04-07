@@ -86,30 +86,37 @@
             </div>
           {%- endif -%}
         {%- endif -%}
-        {%- if block.settings.title != blank -%}
-          <h3
-            class="text-block__item text-block__heading type-heading-1-small"
-            data-theme-editor-setting="section.{{ id }}.block.{{ block.id }}.title"
-            style="max-width: {{ block.settings.text_max_width }}em;">
-            {{ block.settings.title }}</h3>
-        {%- endif -%}
-        {%- if block.settings.subheading != blank -%}
-          <div
-            class="text-block__subheading type-body-regular rte"
-            data-theme-editor-setting="section.{{ id }}.block.{{ block.id }}.subheading"
-            style="max-width: {{ block.settings.text_max_width }}em;">
-            {{ block.settings.subheading }}
-          </div>
-        {%- endif -%}
-        {%- if block.settings.link != blank and block.settings.link_text != blank -%}
-          <a
-            href="{{ block.settings.link }}"
-            class="text-block__item text-block__button bttn bttn--secondary bttn--inline"
-            data-theme-editor-setting="section.{{ id }}.block.{{ block.id }}.link_text">
-            {{ block.settings.link_text }}
-          </a>
-        {%- endif -%}
-      </div>
+
+        {% if section.settings.section_id == 'concept_themes' %}
+          <div>
+          {% endif %}
+          {%- if block.settings.title != blank -%}
+            <h3
+              class="text-block__item text-block__heading type-heading-1-small"
+              data-theme-editor-setting="section.{{ id }}.block.{{ block.id }}.title"
+              style="max-width: {{ block.settings.text_max_width }}em;">
+              {{ block.settings.title }}</h3>
+          {%- endif -%}
+          {%- if block.settings.subheading != blank -%}
+            <div
+              class="text-block__subheading type-body-regular rte"
+              data-theme-editor-setting="section.{{ id }}.block.{{ block.id }}.subheading"
+              style="max-width: {{ block.settings.text_max_width }}em;">
+              {{ block.settings.subheading }}
+            </div>
+          {%- endif -%}
+          {%- if block.settings.link != blank and block.settings.link_text != blank -%}
+            <a
+              href="{{ block.settings.link }}"
+              class="text-block__item text-block__button bttn bttn--secondary bttn--inline"
+              data-theme-editor-setting="section.{{ id }}.block.{{ block.id }}.link_text">
+              {{ block.settings.link_text }}
+            </a>
+          {%- endif -%}
+        </div>
+        {% if section.settings.section_id == 'concept_themes' %}
+        </div>
+      {% endif %}
     {% endfor %}
   </div>
 </section>
