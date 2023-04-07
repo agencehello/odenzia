@@ -98,28 +98,29 @@
   <!--- Checkbox RGPD --->
   <div class="field checkbox">
     <small>Lorem ipsum dolor sit amet consectetur. Elit nisl lectus mattis amet eleifend nisi. Dui purus in nunc nec lectus. Laoreet in viverra mi massa aliquam erat. Viverra vitae nec faucibus tincidunt neque arc meriturm.</small>
-    <label for="consent" hidden>Votre consentement</label>
-    <input
-      type="checkbox"
-      class="input_replaced"
-      name="contact[consent]"
-      value="1"
-      id="OPT_IN"
-      name="OPT_IN"
-      required />
-    <span class="checkbox checkbox_tick_positive" style="margin-left:"></span>
-    <span style="font-size:12px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;">
-      <p>J’accepte la
-        <a
-          href="https://odenzia.myshopify.com/pages/confidentialite"
-          alt="Politique de confidentialité"
-          target="_blank">Politique de confidentialité.</a>
-      </p>
-      <span
-        data-required="*"
-        style="display: inline;"
-        class="entry__label entry__label_optin"></span>
-    </span>
+    <label for="consent">
+      <input
+        type="checkbox"
+        class="input_replaced"
+        name="contact[consent]"
+        value="1"
+        id="OPT_IN"
+        name="OPT_IN"
+        required />
+      <span class="checkbox checkbox_tick_positive" style="margin-left:"></span>
+      <span style="font-size:12px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;">
+        <p>J’accepte la
+          <a
+            href="https://odenzia.myshopify.com/pages/confidentialite"
+            alt="Politique de confidentialité"
+            target="_blank">Politique de confidentialité.</a>
+        </p>
+        <span
+          data-required="*"
+          style="display: inline;"
+          class="entry__label entry__label_optin"></span>
+      </span>
+    </label>
   </div>
 
   <button type="submit" class="bttn bttn--full bttn--primary">{{ 'contact.form.submit' | t }}</button>
