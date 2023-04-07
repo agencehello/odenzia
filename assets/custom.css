@@ -451,6 +451,10 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     position: relative;
     margin-top: -30%;
   }
+  /* Formules */
+  #formules {
+    padding-top: 0;
+  }
 }
 @media screen and (min-width: 999px) and (max-width: 1130px) {
   #concept_themes .text-block.text-columns__feature:last-child {
