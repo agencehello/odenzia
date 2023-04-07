@@ -69,7 +69,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/odenzia-yoga-bien-etre-2.svg",
-            "image_max_width": 30,
+            "image_max_width": 80,
             "title": "Yoga & Bien-être",
             "subheading": "<p>Maëva propose sa vision et sa pratique du yoga lors de séances accessibles à toutes, entre Méditation, Pranayama et Asana, en musique, dans le silence ou guidée par les koshis et bols tibétains. Sortir des cadres habituels du yoga pour s’autoriser à explorer, se (re)découvrir, comprendre et apprivoiser ses propres limites. L’occasion idéale de tester sans pression ou de se perfectionner sans comparaison. Les mouvements sont adaptés à chaque corps et aux possibilités de chaque participante.<br\/>Tout le matériel est fourni : tapis, bolsters, briques, sangles, couvertures… <br\/>En bonus, lorsque les conditions météorologiques le permettent, de belles séances de yoga sont proposées en pleine nature, au bord d’un lac d’altitude, en face de majestueux sommets ou face à l’océan.<\/p>",
             "text_max_width": 50,
@@ -81,7 +81,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/odenzia-montage-randonnee-2.svg",
-            "image_max_width": 30,
+            "image_max_width": 80,
             "title": "Montagne & Randonnée",
             "subheading": "<p>Peu voire pas de réseau, pas de pollution sonore ou visuelle, la montagne a cette incroyable capacité à apaiser nos esprits et nos âmes. Notre flot de pensée et surtout notre rythme cardiaque se réduisent naturellement. Accompagnée d’un.e accompagnateur.trice montagne, vivez une véritable “Mountain Therapy” remplie d’air pur, de dépassement de soi, mais aussi de connexion à la nature. <br\/>La randonnée est un moment fort d’introspection, mais également de partage. On marche côte à côte, on apprend à se connaître, les langues se délient et les liens se créent naturellement. Et puis, les émotions intenses se font ressentir : la fierté de s’être dépassée, l’émerveillement face à la beauté de la nature, la joie de partager ces instants uniques avec d’autres femmes et de se créer ensemble des souvenirs inoubliables.<\/p>",
             "text_max_width": 50,
@@ -93,7 +93,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/odenzia-ocean-surf-2.svg",
-            "image_max_width": 30,
+            "image_max_width": 80,
             "title": "Océan & Surf",
             "subheading": "<p>Véritable anti-stress, l’océan a le pouvoir de nous calmer et de nous apaiser. Contempler le mouvement des vagues, les écouter s’écraser contre les rochers, sentir le sable entre nos orteils et le vent sur notre visage, respirer l’air iodé. Des moments uniques aux vertus si apaisantes, aussi bien sur notre corps que sur notre esprit.<br\/>Profitez d’un séjour Odenzia pour découvrir ou vous perfectionner en surf grâce aux conseils avisés d’un.e professionnel.le. Cette discipline est une forme de méditation, de part la concentration et l’ancrage qu’elle requiert. <br\/>« Quand je surfe, je ne pense plus à rien. Mon esprit fait le vide et je me focalise sur les ressentis de mon corps en contact avec la planche et l’eau. Plus que jamais, je vis le moment présent et je retrouve mon âme d’enfant ! » - Maëva, surfeuse débutante<\/p>",
             "text_max_width": 36,
@@ -105,7 +105,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/odenzia-cuisine-vegetale-2.svg",
-            "image_max_width": 30,
+            "image_max_width": 80,
             "title": "Cuisine végétale",
             "subheading": "<p>Les séjours Odenzia sont l’occasion rêvée de se laisser surprendre par des goûts et des ingrédients méconnus à travers une cuisine végétarienne ou végétale, saine, colorée et gourmande. Le temps d’un week-end, mettez vos papilles en émoi grâce à un.e chef.fe passionné.e travaillant autant que possible avec des ingrédients bruts, frais, biologiques, de saison et locaux.<\/p>",
             "text_max_width": 50,
@@ -117,7 +117,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/odenzia-immersion-etranger-2.svg",
-            "image_max_width": 30,
+            "image_max_width": 80,
             "title": "Immersion à l'étranger",
             "subheading": "<p>Depuis 2023, Odenzia propose de véritables immersions à l’étranger dans des destinations choisies avec beaucoup de soin. Des lieux coups de coeur, souvent inattendus, où richesse culturelle, diversité des paysages, connexion à la nature et authenticité locale sont au rendez-vous. Une déconnexion garantie et un dépassement de soi encore plus grand en quittant son quotidien et ses habitudes.<\/p>",
             "text_max_width": 50,
