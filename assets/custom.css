@@ -406,6 +406,11 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     margin-top: -30%;
   }
 }
+@media screen and (min-width: 999px) and (max-width: 1130px) {
+  #concept_themes .text-block.text-columns__feature:last-child {
+    margin-top: -35vh !important;
+  }
+}
 
 /* MOBILE */
 @media screen and (max-width: 989px) {
