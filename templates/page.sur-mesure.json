@@ -1,1 +1,131 @@
-{"sections":{"main":{"type":"main-page","custom_css":["section {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0556\/3839\/3160\/files\/odenzia-sur-mesure-1.jpg?v=1679308730\"); background-repeat: no-repeat; background-size: cover; padding-top: 9%; padding-bottom: 9%; color: #fffcf8;}"],"settings":{"enable_animation":true,"content_max_width":700}},"786700a4-e365-420a-92f9-1e1b885259f1":{"type":"image-with-text","blocks":{"template--18294114582856__786700a4-e365-420a-92f9-1e1b885259f1-1679306569c64b1287-1":{"type":"heading","settings":{"heading":"Odenzia s’adapte à vos envies et vos besoins :","text_max_width":50}},"template--18294114582856__786700a4-e365-420a-92f9-1e1b885259f1-1679306569c64b1287-2":{"type":"subheading","settings":{"subheading":"<h3>Séminaires d'entreprise<\/h3><p>Envie d’organiser un séminaire ou une journée de teambuilding pour votre équipe ? Confiez votre projet à Odenzia et bénéficiez de toute son expertise et son réseau de partenaires pour offrir une prestation de haute qualité à vos collaborateurs.<\/p><h3>Séjours entre ami.es<\/h3><p>Que ce soit pour célébrer un EVJF, un anniversaire ou tout changement de vie, Odenzia vous accompagne dans la création de votre événement sur-mesure, en adéquation avec vos envies et besoins, partout en France et à l’étranger.<\/p><h3>Retraites bien-être en co-création<\/h3><p>Intervenant.e dans le bien-être, professeur.e ou studio de yoga, Odenzia met à votre disposition ses compétences d’organisation pour vous permettre de créer la retraite de vos rêves, en adéquation parfaite avec votre univers.<\/p>","text_max_width":36}}},"block_order":["template--18294114582856__786700a4-e365-420a-92f9-1e1b885259f1-1679306569c64b1287-1","template--18294114582856__786700a4-e365-420a-92f9-1e1b885259f1-1679306569c64b1287-2"],"custom_css":[".image-with-text--text-alignment-left .image-with-text__text-container {justify-content: center;}","img {padding: 10%;}","h3 {margin-bottom: 10px !important;}",".text-block__subheading {max-width: 60rem !important;}"],"settings":{"section_style":"default","enable_animation":true,"image":"shopify:\/\/shop_images\/odenzia-sur-mesure-2.jpg","video_url":"","image_width":"one-half","aspect_ratio":"natural","focal_point":"image_presentation","image_position":"right","text_alignment":"left","text_color":"#000000","text_container_color":"","color_background_gradient":"","button_background_color":"#000000"}},"adc1b1da-293c-42c6-b890-52c5a5ab72c5":{"type":"rich-text","blocks":{"template--18294114582856__adc1b1da-293c-42c6-b890-52c5a5ab72c5-167930712644682d64-1":{"type":"title","settings":{"title":"L’avis de nos participantes","text_max_width":50}}},"block_order":["template--18294114582856__adc1b1da-293c-42c6-b890-52c5a5ab72c5-167930712644682d64-1"],"custom_css":["section {background-color: #c7a17e; padding: 120px 0 0 0; color: #fcf2e5;}"],"settings":{"section_style":"default","enable_animation":true,"alignment":"center"}},"bac4b03c-866f-44c5-a57c-9189f7c46192":{"type":"quote","blocks":{"template--18294114582856__bac4b03c-866f-44c5-a57c-9189f7c46192-1679493546eac55003-0":{"type":"quote","settings":{"quote":"<p>On a passé une super journée où le rire était au rendez-vous. Organisation au top, découverte de nouvelles activités... Bref, un bon moment passé entre collègues. Merci à Odenzia.<\/p>","author":"Danièle"}},"3dc87581-5806-4f58-9f56-64eb5b18d291":{"type":"quote","settings":{"quote":"<p>Une parenthèse de douceur dans un cadre magnifique. L’idéal pour se ressourcer le temps d’un week-end rempli d’air iodé, du bruit des vagues, de partages, de découvertes, de gourmandises. Et entourés d’une équipe à l’écoute, bienveillante et très professionnelle. Merci encore pour cela !<\/p>","author":"Carine"}},"b020307f-8723-4be8-b68a-2d91d4d038d9":{"type":"quote","settings":{"quote":"<p>Organisation parfaite. Lieu superbe. Une équipe qui met à l'aise, à l'écoute et qui s'adapte. Ateliers très enrichissants ! Génial !<\/p>","author":"Anne-Catherine"}}},"block_order":["template--18294114582856__bac4b03c-866f-44c5-a57c-9189f7c46192-1679493546eac55003-0","3dc87581-5806-4f58-9f56-64eb5b18d291","b020307f-8723-4be8-b68a-2d91d4d038d9"],"custom_css":["section {background-color: #c7a17e; color: #fcf2e5; padding: 60px 0 120px 0;}","h3 {font-family: \"Karla Light\" !important; letter-spacing: 0 !important; font-size: 18px !important; line-height: 28px !important;}",".quote__author {font-family: \"Karla\" !important; font-weight: 400 !important; letter-spacing: 0 !important; font-size: 16px !important;}"],"settings":{"section_style":"default","enable_animation":true,"timer":3,"text_max_width":40}}},"order":["main","786700a4-e365-420a-92f9-1e1b885259f1","adc1b1da-293c-42c6-b890-52c5a5ab72c5","bac4b03c-866f-44c5-a57c-9189f7c46192"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        "section {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0556\/3839\/3160\/files\/odenzia-sur-mesure-1.jpg?v=1679308730\"); background-repeat: no-repeat; background-size: cover; padding-top: 9%; padding-bottom: 9%; color: #fffcf8;}"
+      ],
+      "settings": {
+        "enable_animation": true,
+        "content_max_width": 700
+      }
+    },
+    "786700a4-e365-420a-92f9-1e1b885259f1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18294114582856__786700a4-e365-420a-92f9-1e1b885259f1-1679306569c64b1287-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Odenzia s’adapte à vos envies et vos besoins :",
+            "text_max_width": 50
+          }
+        },
+        "template--18294114582856__786700a4-e365-420a-92f9-1e1b885259f1-1679306569c64b1287-2": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "<h3>Séminaires d'entreprise<\/h3><p>Envie d’organiser un séminaire ou une journée de teambuilding pour votre équipe ? Confiez votre projet à Odenzia et bénéficiez de toute son expertise et son réseau de partenaires pour offrir une prestation de haute qualité à vos collaborateurs.<\/p><h3>Séjours entre ami.es<\/h3><p>Que ce soit pour célébrer un EVJF, un anniversaire ou tout changement de vie, Odenzia vous accompagne dans la création de votre événement sur-mesure, en adéquation avec vos envies et besoins, partout en France et à l’étranger.<\/p><h3>Retraites bien-être en co-création<\/h3><p>Intervenant.e dans le bien-être, professeur.e ou studio de yoga, Odenzia met à votre disposition ses compétences d’organisation pour vous permettre de créer la retraite de vos rêves, en adéquation parfaite avec votre univers.<\/p>",
+            "text_max_width": 36
+          }
+        }
+      },
+      "block_order": [
+        "template--18294114582856__786700a4-e365-420a-92f9-1e1b885259f1-1679306569c64b1287-1",
+        "template--18294114582856__786700a4-e365-420a-92f9-1e1b885259f1-1679306569c64b1287-2"
+      ],
+      "custom_css": [
+        ".image-with-text--text-alignment-left .image-with-text__text-container {justify-content: center;}",
+        "img {padding: 10%;}",
+        "h3 {margin-bottom: 10px !important;}",
+        ".text-block__subheading {max-width: 60rem !important;}"
+      ],
+      "settings": {
+        "section_id": "sur_mesure",
+        "section_style": "default",
+        "enable_animation": true,
+        "svg_url": "",
+        "image": "shopify:\/\/shop_images\/odenzia-sur-mesure-2.jpg",
+        "video_url": "",
+        "image_width": "one-half",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_position": "right",
+        "text_alignment": "left",
+        "text_color": "#000000",
+        "text_container_color": "",
+        "color_background_gradient": "",
+        "button_background_color": "#000000"
+      }
+    },
+    "adc1b1da-293c-42c6-b890-52c5a5ab72c5": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18294114582856__adc1b1da-293c-42c6-b890-52c5a5ab72c5-167930712644682d64-1": {
+          "type": "title",
+          "settings": {
+            "title": "L’avis de nos participantes",
+            "text_max_width": 50
+          }
+        }
+      },
+      "block_order": [
+        "template--18294114582856__adc1b1da-293c-42c6-b890-52c5a5ab72c5-167930712644682d64-1"
+      ],
+      "custom_css": [
+        "section {background-color: #c7a17e; padding: 120px 0 0 0; color: #fcf2e5;}"
+      ],
+      "settings": {
+        "section_style": "default",
+        "enable_animation": true,
+        "alignment": "center"
+      }
+    },
+    "bac4b03c-866f-44c5-a57c-9189f7c46192": {
+      "type": "quote",
+      "blocks": {
+        "template--18294114582856__bac4b03c-866f-44c5-a57c-9189f7c46192-1679493546eac55003-0": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>On a passé une super journée où le rire était au rendez-vous. Organisation au top, découverte de nouvelles activités... Bref, un bon moment passé entre collègues. Merci à Odenzia.<\/p>",
+            "author": "Danièle"
+          }
+        },
+        "3dc87581-5806-4f58-9f56-64eb5b18d291": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Une parenthèse de douceur dans un cadre magnifique. L’idéal pour se ressourcer le temps d’un week-end rempli d’air iodé, du bruit des vagues, de partages, de découvertes, de gourmandises. Et entourés d’une équipe à l’écoute, bienveillante et très professionnelle. Merci encore pour cela !<\/p>",
+            "author": "Carine"
+          }
+        },
+        "b020307f-8723-4be8-b68a-2d91d4d038d9": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Organisation parfaite. Lieu superbe. Une équipe qui met à l'aise, à l'écoute et qui s'adapte. Ateliers très enrichissants ! Génial !<\/p>",
+            "author": "Anne-Catherine"
+          }
+        }
+      },
+      "block_order": [
+        "template--18294114582856__bac4b03c-866f-44c5-a57c-9189f7c46192-1679493546eac55003-0",
+        "3dc87581-5806-4f58-9f56-64eb5b18d291",
+        "b020307f-8723-4be8-b68a-2d91d4d038d9"
+      ],
+      "custom_css": [
+        "section {background-color: #c7a17e; color: #fcf2e5; padding: 60px 0 120px 0;}",
+        "h3 {font-family: \"Karla Light\" !important; letter-spacing: 0 !important; font-size: 18px !important; line-height: 28px !important;}",
+        ".quote__author {font-family: \"Karla\" !important; font-weight: 400 !important; letter-spacing: 0 !important; font-size: 16px !important;}"
+      ],
+      "settings": {
+        "section_style": "default",
+        "enable_animation": true,
+        "timer": 3,
+        "text_max_width": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "786700a4-e365-420a-92f9-1e1b885259f1",
+    "adc1b1da-293c-42c6-b890-52c5a5ab72c5",
+    "bac4b03c-866f-44c5-a57c-9189f7c46192"
+  ]
+}
