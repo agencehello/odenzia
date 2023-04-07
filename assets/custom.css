@@ -70,11 +70,13 @@ section {
   margin-right: 10px;
 }
 /* Concept thématiques */
-#concept_themes .text-columns__content:first-child {
-  grid-row-start: 1;
-  grid-column-start: 1;
-  grid-row-end: 3;
-  grid-column-end: 2;
+#concept_themes .text-block.text-columns__feature {
+  display: grid;
+  grid-template-columns: 0.6fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 10px;
+  grid-template-areas: ". .";
+  align-items: flex-start;
 }
 
 /* COLLECTION PAGE */
