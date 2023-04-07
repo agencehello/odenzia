@@ -85,7 +85,7 @@ section {
   .text-block__subheading.type-body-regular.rte {
   border-color: var(--marron);
 }
-#formules .text-block.text-columns__feature:first-child a.text-block__button {
+#formules .text-block.text-columns__feature:last-child a.text-block__button {
   color: var(--marron);
 }
 #formules .text-block__subheading.type-body-regular.rte {
@@ -531,6 +531,11 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   #concept_themes .mb3.w-100.text-columns__image.db {
     max-width: 110px !important;
     margin: 0 0 20px 0;
+  }
+  /* Formules */
+  #formules .text-block.text-columns__feature {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }
 @media screen and (max-width: 789px) {
