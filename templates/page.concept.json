@@ -101,18 +101,6 @@
             "link_text": "Read more"
           }
         },
-        "template--18491912094024__f84f2009-67c8-48d6-8c16-b4739a97f37b-1680858558d25c40d0-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/odenzia-cuisine-vegetale-2.svg",
-            "image_max_width": 100,
-            "title": "Cuisine végétale",
-            "subheading": "<p>Les séjours Odenzia sont l’occasion rêvée de se laisser surprendre par des goûts et des ingrédients méconnus à travers une cuisine végétarienne ou végétale, saine, colorée et gourmande. Le temps d’un week-end, mettez vos papilles en émoi grâce à un.e chef.fe passionné.e travaillant autant que possible avec des ingrédients bruts, frais, biologiques, de saison et locaux.<\/p>",
-            "text_max_width": 50,
-            "link": "",
-            "link_text": "Read more"
-          }
-        },
         "e2c396fd-947d-48f9-8518-f414dd6c9b78": {
           "type": "column",
           "settings": {
@@ -124,14 +112,26 @@
             "link": "",
             "link_text": ""
           }
+        },
+        "template--18491912094024__f84f2009-67c8-48d6-8c16-b4739a97f37b-1680858558d25c40d0-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/odenzia-cuisine-vegetale-2.svg",
+            "image_max_width": 100,
+            "title": "Cuisine végétale",
+            "subheading": "<p>Les séjours Odenzia sont l’occasion rêvée de se laisser surprendre par des goûts et des ingrédients méconnus à travers une cuisine végétarienne ou végétale, saine, colorée et gourmande. Le temps d’un week-end, mettez vos papilles en émoi grâce à un.e chef.fe passionné.e travaillant autant que possible avec des ingrédients bruts, frais, biologiques, de saison et locaux.<\/p>",
+            "text_max_width": 50,
+            "link": "",
+            "link_text": "Read more"
+          }
         }
       },
       "block_order": [
         "template--18491912094024__f84f2009-67c8-48d6-8c16-b4739a97f37b-1680858558d25c40d0-1",
         "8cfeae64-469b-4648-b2a8-1f7bb97a6ba1",
         "template--18491912094024__f84f2009-67c8-48d6-8c16-b4739a97f37b-1680858558d25c40d0-2",
-        "template--18491912094024__f84f2009-67c8-48d6-8c16-b4739a97f37b-1680858558d25c40d0-0",
-        "e2c396fd-947d-48f9-8518-f414dd6c9b78"
+        "e2c396fd-947d-48f9-8518-f414dd6c9b78",
+        "template--18491912094024__f84f2009-67c8-48d6-8c16-b4739a97f37b-1680858558d25c40d0-0"
       ],
       "settings": {
         "section_id": "concept_themes",
