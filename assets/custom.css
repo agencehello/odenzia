@@ -79,6 +79,9 @@ section {
 #formules .text-block.text-columns__feature:first-child span.devis {
   color: var(--bleu);
 }
+#formules span.devis {
+  text-decoration:none;
+}
 #formules .text-block.text-columns__feature:last-child h3 {
   background-color: var(--marron);
 }
