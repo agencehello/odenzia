@@ -574,6 +574,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   }
   .accordion.break .accordion__text {
     display: block !important;
+    padding-bottom: 10px !important;
   }
   .accordion.break .accordion__label:after,
   .accordion.break .accordion__label:before,
@@ -597,8 +598,14 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     color: var(--bleu);
     padding: 2em 0.5em;
   }
-  #programme .template-product .accordion__group {
+  .template-product .accordion__group {
     border-color: var(--bleu) !important;
+  }
+  #programme .accordion__group {
+    border-style: none !important;
+  }
+  #programme h3 {
+    margin: 0 0 10px 0 !important;
   }
   /* Concept thématiques */
   #concept_themes .text-columns__content,
