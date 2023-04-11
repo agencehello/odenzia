@@ -834,6 +834,7 @@ span.bullet {
 .template-product .infos_inline {
   justify-content: space-between;
   margin-top: 1.5em;
+  gap: 15px 0;
 }
 .info {
   display: flex;
