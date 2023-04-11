@@ -461,7 +461,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 }
 
 /* DESKTOP */
-@media screen and (min-width: 990px) {
+@media only screen and (min-width: 990px) {
   .hide_desktop {
     display: none;
   }
@@ -516,7 +516,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 }
 
 /* MOBILE */
-@media screen and (max-width: 989px) {
+@media only screen and (max-width: 989px) {
   .hide_mobile {
     display: none;
   }
@@ -595,7 +595,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     padding-right: 0 !important;
   }
 }
-@media screen and (max-width: 789px) {
+@media only screen and (max-width: 789px) {
   /* Global layout */
   .grid-display.grid-display--one-quarter {
     grid-template-columns: repeat(2, 1fr);
