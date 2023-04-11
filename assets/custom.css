@@ -191,7 +191,7 @@ label.filter-item__content.filter-item__content--checkbox.checked span {
 }
 
 /* REASSURANCE */
-section#reassurance {
+#reassurance {
   background-color: var(--beige);
 }
 #reassurance .text-block__heading {
@@ -412,6 +412,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 .entry__choice label p {
   font-size: 12px !important;
   color: black;
+  line-height: 16px !important;
 }
 .entry__label::after {
   color: var(--marron) !important;
@@ -459,6 +460,9 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   fill: #fffcf8 !important;
   max-width: 20px;
 }
+#insta-feed {
+  padding-bottom: 5%;
+}
 
 /* DESKTOP */
 @media screen and (min-width: 990px) {
@@ -483,7 +487,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     max-width: 130px;
   }
   .image-hero span.pastille {
-    top: -10%;
+    top: -5%;
     left: 10%;
   }
   /* Concept thématiques */
@@ -558,7 +562,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   .two_col {
     display: block !important;
   }
-  .tabcontent-cus {
+  .}-cus {
     padding: var(--padd-mob) 0 !important;
   }
   #tabs button .metafield-rich_text_field p {
@@ -604,12 +608,23 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     padding-top: var(--padd-mob);
   }
   /* Footer */
-  #reassurance .mb3.w-100.text-columns__image.db {
+#reassurance .mb3.w-100.text-columns__image.db {
     max-width: 50px !important;
-  }
-  #reassurance .text-block:not(:last-child):after {
+}
+#reassurance .text-block:not(:last-child):after {
     content: none !important;
-  }
+}
+}
+
+#reassurance section {
+  background-color: var(--beige);
+} 
+#reassurance .text-block__heading {
+  font-size: 18px !important;
+  line-height: 22px !important;
+}
+#reassurance .text-block__item {
+  max-width: 10em !important;
 }
 
 /* TYPOS */
@@ -814,7 +829,6 @@ span.bullet {
 .template-product .infos_inline {
   justify-content: space-between;
   margin-top: 1.5em;
-  gap: 15px 0;
 }
 .info {
   display: flex;
@@ -910,7 +924,7 @@ div#achat {
 }
 
 /* Tabs */
-.template-product h2:not(.rich-text__title),
+.template-product h2,
 #tabs button.accordion__label.extra {
   font-family: "Karla" !important;
   text-transform: uppercase;
