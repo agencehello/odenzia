@@ -929,7 +929,7 @@ div#achat {
 }
 
 /* Tabs */
-.template-product h2,
+.template-product h2:not(.rich-text__title),
 #tabs button.accordion__label.extra {
   font-family: "Karla" !important;
   text-transform: uppercase;
