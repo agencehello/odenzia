@@ -1,1 +1,113 @@
-{"sections":{"main":{"type":"main-page","settings":{"enable_animation":true,"content_max_width":1000}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "enable_animation": true,
+        "content_max_width": 1000
+      }
+    },
+    "bbc594b7-c1d0-467f-8565-23f5b5b1d813": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "template--18491912585544__bbc594b7-c1d0-467f-8565-23f5b5b1d813-1681210080e841d90e-0": {
+          "type": "column",
+          "settings": {
+            "image_max_width": 50,
+            "title": "Column one",
+            "subheading": "<p>Start here. Introduce your vision, or explain why what you do or sell is superior to your competitors.<\/p>",
+            "text_max_width": 36,
+            "link": "",
+            "link_text": "Read more"
+          }
+        },
+        "template--18491912585544__bbc594b7-c1d0-467f-8565-23f5b5b1d813-1681210080e841d90e-1": {
+          "type": "column",
+          "settings": {
+            "image_max_width": 50,
+            "title": "Column two",
+            "subheading": "<p>Get into your process a bit. The quality of handiwork, proprietary knowledge, or materials that you use that make your products better.<\/p>",
+            "text_max_width": 36,
+            "link": "",
+            "link_text": "Read more"
+          }
+        },
+        "template--18491912585544__bbc594b7-c1d0-467f-8565-23f5b5b1d813-1681210080e841d90e-2": {
+          "type": "column",
+          "settings": {
+            "image_max_width": 50,
+            "title": "Column three",
+            "subheading": "<p>End it with an action item that the user can take advantage of. Link to a more in-depth page, or go straight to a collection. Your call.<\/p>",
+            "text_max_width": 36,
+            "link": "",
+            "link_text": "Read more"
+          }
+        }
+      },
+      "block_order": [
+        "template--18491912585544__bbc594b7-c1d0-467f-8565-23f5b5b1d813-1681210080e841d90e-0",
+        "template--18491912585544__bbc594b7-c1d0-467f-8565-23f5b5b1d813-1681210080e841d90e-1",
+        "template--18491912585544__bbc594b7-c1d0-467f-8565-23f5b5b1d813-1681210080e841d90e-2"
+      ],
+      "settings": {
+        "section_id": "reassurance",
+        "section_style": "default",
+        "enable_animation": true,
+        "columns": 4,
+        "overline": "",
+        "title": "",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "text_alignment": "center",
+        "text_max_width": 20
+      }
+    },
+    "eb64c413-a4d4-40cd-a99b-1f7bea36fd07": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18491912585544__eb64c413-a4d4-40cd-a99b-1f7bea36fd07-16812100857a502abf-1": {
+          "type": "title",
+          "settings": {
+            "title": "Suivez-nous sur Instagram",
+            "text_max_width": 50
+          }
+        },
+        "template--18491912585544__eb64c413-a4d4-40cd-a99b-1f7bea36fd07-16812100857a502abf-0": {
+          "type": "overline",
+          "settings": {
+            "overline": "@odenzia"
+          }
+        }
+      },
+      "block_order": [
+        "template--18491912585544__eb64c413-a4d4-40cd-a99b-1f7bea36fd07-16812100857a502abf-1",
+        "template--18491912585544__eb64c413-a4d4-40cd-a99b-1f7bea36fd07-16812100857a502abf-0"
+      ],
+      "custom_css": [
+        "section {padding: 5% 0 2% 0;}",
+        ".text-block__overline {color: #094849;}",
+        ".rich-text__title {font-size: 26px !important; line-height: 30px !important; margin-bottom: 10px !important;}"
+      ],
+      "settings": {
+        "section_style": "default",
+        "enable_animation": true,
+        "alignment": "center"
+      }
+    },
+    "966008f5-57af-43de-98b3-7535a0a83653": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "bbc594b7-c1d0-467f-8565-23f5b5b1d813",
+    "eb64c413-a4d4-40cd-a99b-1f7bea36fd07",
+    "966008f5-57af-43de-98b3-7535a0a83653"
+  ]
+}
