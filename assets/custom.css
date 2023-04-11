@@ -661,7 +661,7 @@ h5 {
   letter-spacing: 0 !important;
 }
 p,
-ul li{
+ul li {
   font-family: var(--body-light) !important;
   font-weight: 300 !important;
   font-size: 16px !important;
@@ -830,6 +830,7 @@ span.bullet {
 .template-product .infos_inline {
   justify-content: space-between;
   margin-top: 1.5em;
+  gap: 15px 0;
 }
 .info {
   display: flex;
