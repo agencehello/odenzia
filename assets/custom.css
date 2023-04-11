@@ -660,7 +660,8 @@ h5 {
   text-transform: uppercase !important;
   letter-spacing: 0 !important;
 }
-p {
+p,
+ul li{
   font-family: var(--body-light) !important;
   font-weight: 300 !important;
   font-size: 16px !important;
