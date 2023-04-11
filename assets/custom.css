@@ -409,12 +409,10 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   background: var(--bleu) !important;
   border-color: var(--bleu) !important;
 }
-.sib-form .entry__choice {
-  line-height:14px !important;
-}
 .entry__choice label p {
   font-size: 12px !important;
   color: black;
+  line-height: 16px !important;
 }
 .entry__label::after {
   color: var(--marron) !important;
