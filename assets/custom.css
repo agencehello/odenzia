@@ -95,6 +95,7 @@ section {
   max-width: 100% !important;
 }
 #formules .rte strong {
+  font-family:"Karla";
   font-weight:400 !important;
 }
 #formules .text-block__button {
@@ -833,7 +834,6 @@ span.bullet {
 .template-product .infos_inline {
   justify-content: space-between;
   margin-top: 1.5em;
-  gap: 15px 0;
 }
 .info {
   display: flex;
