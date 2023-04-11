@@ -411,6 +411,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 }
 .entry__choice label p {
   font-size: 12px !important;
+  line-height:16px !important;
   color: black;
 }
 .entry__label::after {
