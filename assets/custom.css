@@ -104,6 +104,16 @@ section {
   width: 100%;
   background-color: unset;
 }
+#formules a {
+  text-decoration: none !important;
+}
+span.devis {
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+}
 /* Sur-mesure */
 #sur_mesure h3:first-child:before {
   content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-puce-bleu.svg?v=1680699739");
