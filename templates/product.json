@@ -160,7 +160,7 @@
         ".text-block__item {max-width: 10em !important;}"
       ],
       "settings": {
-        "section_id": "",
+        "section_id": "reassurance",
         "section_style": "default",
         "enable_animation": true,
         "columns": 4,
