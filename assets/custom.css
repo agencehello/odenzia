@@ -618,17 +618,10 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 #reassurance .text-block__item {
   max-width: 10em !important;
 }
-  #reassurance .mb3.w-100.text-columns__image.db {
+#reassurance .mb3.w-100.text-columns__image.db {
     max-width: 50px !important;
 }
-  #reassurance .text-block:after {
-        content: url('{{"odenzia-horizontal-line.svg"|asset_url}}');
-        width: 40px;
-        height: 40px;
-        margin-right: 17px;
-        left: 0;
-}
-  #reassurance .text-block:not(:last-child):after {
+#reassurance .text-block:not(:last-child):after {
     content: none !important;
 }
 
