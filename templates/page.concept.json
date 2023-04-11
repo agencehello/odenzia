@@ -473,6 +473,78 @@
         "link_text": "Découvrir",
         "text_max_width": 36
       }
+    },
+    "2990e9b0-f15c-4b66-97bc-890504cd1c65": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "template--18491912094024__2990e9b0-f15c-4b66-97bc-890504cd1c65-168120855814d370b2-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/odenzia-reassurance-1.svg",
+            "image_max_width": 20,
+            "title": "Agence de voyage certifiée",
+            "subheading": "",
+            "text_max_width": 16,
+            "link": "",
+            "link_text": "Read mor"
+          }
+        },
+        "template--18491912094024__2990e9b0-f15c-4b66-97bc-890504cd1c65-168120855814d370b2-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/odenzia-reassurance-2.svg",
+            "image_max_width": 20,
+            "title": "Accompagnement personnalisé",
+            "subheading": "",
+            "text_max_width": 16,
+            "link": "",
+            "link_text": ""
+          }
+        },
+        "template--18491912094024__2990e9b0-f15c-4b66-97bc-890504cd1c65-168120855814d370b2-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/odenzia-reassurance-3.svg",
+            "image_max_width": 20,
+            "title": "Séjours en groupe & sur-mesure",
+            "subheading": "",
+            "text_max_width": 16,
+            "link": "",
+            "link_text": ""
+          }
+        },
+        "26a9786a-c6ab-46fc-8f95-81dd6e9286a4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/odenzia-reassurance-4.svg",
+            "image_max_width": 20,
+            "title": "Paiements sécurisés (CB, Mastercard & en 3 fois)",
+            "subheading": "",
+            "text_max_width": 16,
+            "link": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18491912094024__2990e9b0-f15c-4b66-97bc-890504cd1c65-168120855814d370b2-0",
+        "template--18491912094024__2990e9b0-f15c-4b66-97bc-890504cd1c65-168120855814d370b2-1",
+        "template--18491912094024__2990e9b0-f15c-4b66-97bc-890504cd1c65-168120855814d370b2-2",
+        "26a9786a-c6ab-46fc-8f95-81dd6e9286a4"
+      ],
+      "settings": {
+        "section_id": "reassurance",
+        "section_style": "default",
+        "enable_animation": true,
+        "columns": 4,
+        "overline": "",
+        "title": "",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "text_alignment": "center",
+        "text_max_width": 20
+      }
     }
   },
   "order": [
@@ -486,6 +558,7 @@
     "550717f5-27a3-4c8b-8a97-c5b755335c9e",
     "b7c4fa87-a093-490c-bf28-140dcdb19587",
     "ce90050b-75ce-49ac-a8d4-d3f14530f4d7",
-    "89acaece-9628-44bf-919c-4c0bb3f2536a"
+    "89acaece-9628-44bf-919c-4c0bb3f2536a",
+    "2990e9b0-f15c-4b66-97bc-890504cd1c65"
   ]
 }
