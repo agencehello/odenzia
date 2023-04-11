@@ -1,1 +1,96 @@
-{"sections":{"main":{"type":"main-cart","custom_css":[".cart-template__item .meta {font-family: \"Karla Light\"; color: #000000;}",".cart-template__line-price {font-size: 16px; line-height: 24px;}",".cart-template__remove {width: 120px;}",".meta {color: #000000;}",".type-heading-1-small {font-family: \"Queens\" !important; font-size: 26px !important; line-height: 30px;}",".bttn--small {background-color: #c7a17e; color: #fcf2e5;}",".bttn--small:hover {background-color: #094849; color: #FFFCF8;}"],"settings":{"cart_ajax_enable":true,"show_note":false}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-cart",
+      "custom_css": [
+        ".cart-template__item .meta {font-family: \"Karla Light\"; color: #000000;}",
+        ".cart-template__line-price {font-size: 16px; line-height: 24px;}",
+        ".cart-template__remove {width: 120px;}",
+        ".meta {color: #000000;}",
+        ".type-heading-1-small {font-family: \"Queens\" !important; font-size: 26px !important; line-height: 30px;}",
+        ".bttn--small {background-color: #c7a17e; color: #fcf2e5;}",
+        ".bttn--small:hover {background-color: #094849; color: #fffcf8;}"
+      ],
+      "settings": {
+        "cart_ajax_enable": true,
+        "show_note": false
+      }
+    },
+    "10850eaf-d41f-46c9-b1a0-ef26d80e63ed": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "template--18491912323400__10850eaf-d41f-46c9-b1a0-ef26d80e63ed-1681210080e841d90e-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/odenzia-reassurance-1.svg",
+            "image_max_width": 20,
+            "title": "Agence de voyage certifiée",
+            "subheading": "",
+            "text_max_width": 16,
+            "link": "",
+            "link_text": ""
+          }
+        },
+        "template--18491912323400__10850eaf-d41f-46c9-b1a0-ef26d80e63ed-1681210080e841d90e-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/odenzia-reassurance-2.svg",
+            "image_max_width": 20,
+            "title": "Accompagnement personnalisé",
+            "subheading": "",
+            "text_max_width": 16,
+            "link": "",
+            "link_text": ""
+          }
+        },
+        "template--18491912323400__10850eaf-d41f-46c9-b1a0-ef26d80e63ed-1681210080e841d90e-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/odenzia-reassurance-3.svg",
+            "image_max_width": 20,
+            "title": "Séjours en groupe & sur-mesure",
+            "subheading": "",
+            "text_max_width": 16,
+            "link": "",
+            "link_text": ""
+          }
+        },
+        "c25f1186-4b8d-4ba6-8588-086672e12259": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/odenzia-reassurance-4.svg",
+            "image_max_width": 20,
+            "title": "CPaiements sécurisés (CB, Mastercard & en 3 fois)",
+            "subheading": "",
+            "text_max_width": 16,
+            "link": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18491912323400__10850eaf-d41f-46c9-b1a0-ef26d80e63ed-1681210080e841d90e-0",
+        "template--18491912323400__10850eaf-d41f-46c9-b1a0-ef26d80e63ed-1681210080e841d90e-1",
+        "template--18491912323400__10850eaf-d41f-46c9-b1a0-ef26d80e63ed-1681210080e841d90e-2",
+        "c25f1186-4b8d-4ba6-8588-086672e12259"
+      ],
+      "settings": {
+        "section_id": "reassurance",
+        "section_style": "default",
+        "enable_animation": true,
+        "columns": 4,
+        "overline": "",
+        "title": "",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "text_alignment": "center",
+        "text_max_width": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "10850eaf-d41f-46c9-b1a0-ef26d80e63ed"
+  ]
+}
