@@ -110,7 +110,7 @@
                     class="text-block__item text-block__button bttn bttn--secondary bttn--inline"
                     data-theme-editor-setting="section.{{ id }}.block.{{ block.id }}.link_text">
                   {% endunless %}
-                  {{ block.settings.link_text }}
+                  <span class="devis">{{ block.settings.link_text }}</span>
                   {% unless block.settings.link == blank %}
                   </a>
                 {% endunless %}
