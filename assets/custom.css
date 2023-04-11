@@ -607,6 +607,14 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     padding-top: var(--padd-mob);
   }
   /* Footer */
+#reassurance .mb3.w-100.text-columns__image.db {
+    max-width: 50px !important;
+}
+#reassurance .text-block:not(:last-child):after {
+    content: none !important;
+}
+}
+
 #reassurance section {
   background-color: var(--beige);
 } 
@@ -616,12 +624,6 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 }
 #reassurance .text-block__item {
   max-width: 10em !important;
-}
-#reassurance .mb3.w-100.text-columns__image.db {
-    max-width: 50px !important;
-}
-#reassurance .text-block:not(:last-child):after {
-    content: none !important;
 }
 
 /* TYPOS */
