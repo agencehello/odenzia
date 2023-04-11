@@ -30,7 +30,7 @@
         {%- when 'heading' -%}
         <h2
           for="Email"
-          class="newsletter__heading type-heading-1"
+          class="newsletter__heading rich-text__title"
           data-theme-editor-setting="section.{{ id }}.heading/escape"
           style="max-width: {{ block.settings.text_max_width }}rem;">
           {{ block.settings.heading | escape }}
@@ -48,7 +48,7 @@
     <!-- Begin Sendinblue Form -->
     <!-- START - We recommend to place the below code where you want the form in your website html  -->
     <div class="sib-form" style="text-align: center;
-                                                                 background-color: #fcf2e5;                                 ">
+                                                                         background-color: #fcf2e5;                                 ">
       <div id="sib-form-container" class="sib-form-container">
         <div
           id="error-message"
