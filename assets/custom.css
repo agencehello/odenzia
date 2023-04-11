@@ -460,6 +460,10 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   max-width: 20px;
 }
 
+#insta-feed {
+  padding-bottom: 5%;
+}
+
 /* DESKTOP */
 @media screen and (min-width: 990px) {
   .hide_desktop {
@@ -604,6 +608,18 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     padding-top: var(--padd-mob);
   }
   /* Footer */
+  #reassurance {
+  background-color: #fcf2e5;
+}
+  
+#reassurance .text-block__heading {
+  font-size: 18px !important;
+  line-height: 22px !important;
+}
+#reassurance .text-block__item {
+  max-width: 10em !important;
+}
+  }
   #reassurance .mb3.w-100.text-columns__image.db {
     max-width: 50px !important;
   }

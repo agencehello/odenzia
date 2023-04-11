@@ -252,6 +252,7 @@
         "image_aspect": "custom",
         "desktop_height": 60,
         "mobile_height": 60,
+        "svg_url": "",
         "image": "shopify:\/\/shop_images\/odenzia-accueil-3.jpg",
         "focal_point": "image_presentation",
         "mobile_focal_point": "image_presentation",
@@ -469,9 +470,7 @@
         "20b4babd-51d7-48f8-bcc8-b2c675fef744"
       ],
       "custom_css": [
-        "section {background-color: #fcf2e5;}",
-        ".text-block__heading {font-size: 18px !important; line-height: 22px !important;}",
-        ".text-block__item {max-width: 10em !important;}"
+
       ],
       "settings": {
         "section_id": "reassurance",
@@ -522,7 +521,7 @@
     "87dfb60e-bf2e-4358-a70f-0ef508f03d02": {
       "type": "instafeed",
       "custom_css": [
-        "#insta-feed {padding-bottom: 5%;}"
+
       ],
       "settings": {
         "heading_size": 20,
