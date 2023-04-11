@@ -57,6 +57,9 @@ section {
   max-width: 85%;
 }
 /* Formules */
+#formules .text-columns__content {
+  gap: 50px;
+}
 #formules h3 {
   color: white;
   padding: 20px;
@@ -69,9 +72,7 @@ section {
 #formules .text-block.text-columns__feature:first-child h3 {
   background-color: var(--bleu);
 }
-#formules
-  .text-block.text-columns__feature:first-child
-  .text-block__subheading.type-body-regular.rte {
+#formules .text-block.text-columns__feature:first-child {
   border-color: var(--bleu);
 }
 #formules .text-block.text-columns__feature:first-child a.text-block__button,
@@ -81,20 +82,21 @@ section {
 #formules .text-block.text-columns__feature:last-child h3 {
   background-color: var(--marron);
 }
-#formules
-  .text-block.text-columns__feature:last-child
-  .text-block__subheading.type-body-regular.rte {
+#formules .text-block.text-columns__feature:first-child {
   border-color: var(--marron);
 }
 #formules .text-block.text-columns__feature:last-child a.text-block__button,
 #formules .text-block.text-columns__feature:last-child span.devis {
   color: var(--marron);
 }
-#formules .text-block__subheading.type-body-regular.rte {
-  padding: 2em 1em;
+#formules .text-block.text-columns__feature {
   background-color: var(--beige);
   border: 1px solid;
   max-width: 100% !important;
+  padding: 0;
+}
+#formules .text-block__subheading.type-body-regular.rte {
+  padding: 3em 2em;
 }
 #formules .rte strong {
   font-family: "Karla";
