@@ -82,7 +82,7 @@ section {
 #formules .text-block.text-columns__feature:last-child h3 {
   background-color: var(--marron);
 }
-#formules .text-block.text-columns__feature:first-child {
+#formules .text-block.text-columns__feature:last-child {
   border-color: var(--marron);
 }
 #formules .text-block.text-columns__feature:last-child a.text-block__button,
