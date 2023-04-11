@@ -1013,6 +1013,9 @@ button.tablinks-cus.active {
 .tabcontent-cus {
   padding: var(--padd-mob);
 }
+figure img {
+  max-width: 100%;
+}
 
 /* FORMS */
 /* CONNEXION / INSCRIPTION */
