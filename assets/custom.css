@@ -94,6 +94,9 @@ section {
   border: 1px solid;
   max-width: 100% !important;
 }
+#formules .rte strong {
+  font-weight:400 !important;
+}
 #formules .text-block__button {
   width: 100%;
   background-color: unset;
@@ -495,7 +498,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     padding-top: 0;
     padding-bottom: 10em;
   }
-  #concept_themes .text-columns__feature:last-child {
+  #concept_themes .text-block.text-columns__feature:last-child {
     grid-row-start: 3;
     grid-column-start: 3;
     grid-row-end: 3;
@@ -562,7 +565,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   .two_col {
     display: block !important;
   }
-  .tablinks-cus {
+  .}-cus {
     padding: var(--padd-mob) 0 !important;
   }
   #tabs button .metafield-rich_text_field p {
@@ -608,17 +611,17 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     padding-top: var(--padd-mob);
   }
   /* Footer */
-  #reassurance .mb3.w-100.text-columns__image.db {
+#reassurance .mb3.w-100.text-columns__image.db {
     max-width: 50px !important;
-  }
-  #reassurance .text-block:not(:last-child):after {
+}
+#reassurance .text-block:not(:last-child):after {
     content: none !important;
-  }
+}
 }
 
 #reassurance section {
   background-color: var(--beige);
-}
+} 
 #reassurance .text-block__heading {
   font-size: 18px !important;
   line-height: 22px !important;
@@ -661,7 +664,7 @@ h5 {
   letter-spacing: 0 !important;
 }
 p,
-ul li {
+ul li{
   font-family: var(--body-light) !important;
   font-weight: 300 !important;
   font-size: 16px !important;
@@ -830,7 +833,6 @@ span.bullet {
 .template-product .infos_inline {
   justify-content: space-between;
   margin-top: 1.5em;
-  gap: 15px 0;
 }
 .info {
   display: flex;
