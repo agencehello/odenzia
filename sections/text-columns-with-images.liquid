@@ -103,13 +103,17 @@
               data-theme-editor-setting="section.{{ id }}.block.{{ block.id }}.subheading"
               style="max-width: {{ block.settings.text_max_width }}em;">
               {{ block.settings.subheading }}
-              {%- if section.settings.section_id == 'formules' and block.settings.link != blank -%}
-                <a
-                  href="{{ block.settings.link }}"
-                  class="text-block__item text-block__button bttn bttn--secondary bttn--inline"
-                  data-theme-editor-setting="section.{{ id }}.block.{{ block.id }}.link_text">
+              {%- if section.settings.section_id == 'formules' and block.settings.link_text != blank -%}
+                {% unless block.settings.link == blank %}
+                  <a
+                    href="{{ block.settings.link }}"
+                    class="text-block__item text-block__button bttn bttn--secondary bttn--inline"
+                    data-theme-editor-setting="section.{{ id }}.block.{{ block.id }}.link_text">
+                  {% endunless %}
                   {{ block.settings.link_text }}
-                </a>
+                  {% unless block.settings.link == blank %}
+                  </a>
+                {% endunless %}
               {%- endif -%}
             </div>
           {%- endif -%}
