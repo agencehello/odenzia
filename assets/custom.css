@@ -231,6 +231,10 @@ label.filter-item__content.filter-item__content--checkbox.checked span {
 select {
   padding-left: 0;
 }
+select#objet-surmesure {
+  border-bottom: 1px solid black;
+  margin-bottom: 15px;
+}
 label.inline {
   display: flex;
   align-items: baseline;
@@ -943,7 +947,10 @@ div#achat {
   color: var(--beige);
 }
 
-/* Tabs */
+/* TABS */
+section#tabs {
+  padding-top: 5%;
+}
 .template-product h2:not(.rich-text__title),
 #tabs button.accordion__label.extra {
   font-family: "Karla" !important;
