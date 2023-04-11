@@ -155,9 +155,7 @@
         "084c4e62-34b4-4655-a98d-5bde485f4e22"
       ],
       "custom_css": [
-        "section {background-color: #fcf2e5;}",
-        ".text-block__heading {font-size: 18px !important; line-height: 22px !important;}",
-        ".text-block__item {max-width: 10em !important;}"
+
       ],
       "settings": {
         "section_id": "reassurance",
@@ -208,7 +206,7 @@
     "d7ebe1b0-5d2a-4401-94d4-ecd10cff1a30": {
       "type": "instafeed",
       "custom_css": [
-        "#insta-feed {padding-bottom: 5%;}"
+
       ],
       "settings": {
         "heading_size": 20,
