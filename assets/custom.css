@@ -814,6 +814,7 @@ span.bullet {
 .template-product .infos_inline {
   justify-content: space-between;
   margin-top: 1.5em;
+  gap: 15px 0;
 }
 .info {
   display: flex;
@@ -909,7 +910,7 @@ div#achat {
 }
 
 /* Tabs */
-.template-product h2,
+.template-product h2:not(.rich-text__title),
 #tabs button.accordion__label.extra {
   font-family: "Karla" !important;
   text-transform: uppercase;
