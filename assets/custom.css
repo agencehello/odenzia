@@ -191,7 +191,7 @@ label.filter-item__content.filter-item__content--checkbox.checked span {
 }
 
 /* REASSURANCE */
-section#reassurance {
+#reassurance {
   background-color: var(--beige);
 }
 #reassurance .text-block__heading {
