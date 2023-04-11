@@ -465,7 +465,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 }
 
 /* DESKTOP */
-@media only screen and (min-width: 990px) {
+@media screen and (min-width: 990px) {
   .hide_desktop {
     display: none;
   }
@@ -520,7 +520,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 }
 
 /* MOBILE */
-@media only screen and (max-width: 989px) {
+@media screen and (max-width: 989px) {
   .hide_mobile {
     display: none;
   }
@@ -533,7 +533,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     max-width: 100px;
   }
   .image-hero span.pastille {
-    top: -10%;
+    top: -5%;
     left: 20%;
   }
   .template-product .badge {
@@ -599,7 +599,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     padding-right: 0 !important;
   }
 }
-@media only screen and (max-width: 789px) {
+@media screen and (max-width: 789px) {
   /* Global layout */
   .grid-display.grid-display--one-quarter {
     grid-template-columns: repeat(2, 1fr);
@@ -660,7 +660,8 @@ h5 {
   text-transform: uppercase !important;
   letter-spacing: 0 !important;
 }
-p {
+p,
+ul li{
   font-family: var(--body-light) !important;
   font-weight: 300 !important;
   font-size: 16px !important;
