@@ -64,9 +64,9 @@
           "settings": {
             "image_max_width": 50,
             "title": "100% personnalisable",
-            "subheading": "<p>Odenzia vous accompagne de A à Z dans la création de votre événement sur-mesure. Tout est possible !<\/p><ul><li>Définition des besoins : format (journée\/séjour), dates, zone géographique, thématiques et activités, nombre de participant.es, type d’hébergement, etc.<\/li><li>Audit et étude comparative des prestataires.<\/li><li>Propositions personnalisées en accord avec votre projet.<\/li><\/ul>",
+            "subheading": "<p>Odenzia vous accompagne de A à Z dans la création de votre événement sur-mesure. Tout est possible !<\/p><ul><li>Définition des besoins : format (journée\/séjour), dates, zone géographique, thématiques et activités, nombre de participant.es, type d’hébergement, etc.<\/li><li>Audit et étude comparative des prestataires.<\/li><li>Propositions personnalisées en accord avec votre projet.<\/li><li>Accompagnement et suivi du projet dans son intégralité.<\/li><li>Mise en place d’un rétroplanning et suivi du budget.<\/li><li>Gestion de la facturation des prestataires.<\/li><li>Présence possible lors de votre évènement pour coordonner les prestataires.<\/li><\/ul><p>Cet accompagnement vous permet de bénéficier de l’expertise d’Odenzia et de son réseau de partenaires qualifiés, tout en vous offrant une tranquillité d’esprit.<br\/><\/p>",
             "text_max_width": 36,
-            "link": "shopify:\/\/pages\/contact",
+            "link": "",
             "link_text": "Devis sur mesure"
           }
         },
@@ -75,7 +75,7 @@
           "settings": {
             "image_max_width": 50,
             "title": "Collaboration",
-            "subheading": "<p>Odenzia vous accompagne de A à Z dans la création de votre événement sur-mesure. Tout est possible !<\/p><ul><li>Définition des besoins : format (journée\/séjour), dates, zone géographique, thématiques et activités, nombre de participant.es, type d’hébergement, etc.<\/li><li>Audit et étude comparative des prestataires.<\/li><li>Propositions personnalisées en accord avec votre projet.<\/li><\/ul>",
+            "subheading": "<p>Odenzia propose aux intervenant.es du bien-être partageant les mêmes valeurs de co-créer de belles expériences :<\/p><ul><li>Définition des envies : format (week-end\/semaine), dates, zone géographique, thématiques et activités, nombre de participant.es, type d’hébergement, etc.<\/li><li>Co-création totale du séjour.<\/li><li>Accompagnement privilégié : conseils dans le choix des prestataires, du prix de vente…<\/li><li>Communication sur le site internet, les réseaux sociaux et la newsletter Odenzia.<\/li><li>Gestion de la facturation des prestataires et suivi clients (inscriptions, emailing, SAV, etc).<\/li><li>Présence possible lors de votre évènement pour coordonner les prestataires.<\/li><\/ul><p>Cette collaboration vous permet de bénéficier de la protection juridique et assurantielle de notre agence de voyage, tout en vous offrant l’expertise et la notoriété d’un acteur certifié sur le marché.<br\/><\/p>",
             "text_max_width": 36,
             "link": "shopify:\/\/pages\/contact",
             "link_text": "Devis sur mesure"
