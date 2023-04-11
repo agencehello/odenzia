@@ -959,7 +959,7 @@ section#tabs {
   line-height: 0 !important;
 }
 #tabs button.accordion__label.extra {
-  color: var(--blue);
+  color: var(--bleu);
 }
 .tab-customize {
   overflow: hidden;
