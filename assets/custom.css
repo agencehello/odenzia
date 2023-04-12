@@ -1061,6 +1061,10 @@ button.tablinks-cus.active {
 figure img {
   max-width: 100%;
 }
+#infos-pratiques p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 /* QUICK CART & CART */
 .quick-cart__tab-item .js-tab-link-recent {
   display: none !important;
