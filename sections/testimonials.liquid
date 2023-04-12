@@ -175,14 +175,16 @@
               {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
             </div>
 
+            <div class="testimonials__review">&#8220;{{ 'homepage.onboarding.testimonial_review' | t }}&#8221;</div>
+        </div>
+          
             <div class="flex flex-column overline">
               <span class="b">{{ 'sections.testimonials.reviewed_by' | t }}</span>
               <span>{{ 'homepage.onboarding.testimonial_author' | t }}</span>
             </div>
           </div>
 
-          <div class="testimonials__review">&#8220;{{ 'homepage.onboarding.testimonial_review' | t }}&#8221;</div>
-        </div>
+                  
       {% endfor %}
     {% endif %}
   </div>
