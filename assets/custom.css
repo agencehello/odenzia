@@ -521,6 +521,12 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   padding-bottom: 5%;
 }
 
+/* ACCUEIL */
+/* Slideshow */
+  .slideshow__subheading {
+    max-width: 65%;
+  }
+
 /* DESKTOP */
 @media screen and (min-width: 990px) {
   .hide_desktop {
@@ -546,6 +552,10 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   .image-hero span.pastille {
     top: -5%;
     left: 10%;
+  }
+  /* Accueil */
+  .slideshow__subheading {
+    max-width: 90%;
   }
   /* Concept thématiques */
   section#concept_themes {
