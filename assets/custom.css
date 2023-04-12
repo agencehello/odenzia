@@ -523,7 +523,9 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 
 /* ACCUEIL */
 /* Slideshow */
-
+.slideshow__subheading {
+  max-width: 65%;
+}
 /* DESKTOP */
 @media screen and (min-width: 990px) {
   .hide_desktop {
