@@ -63,7 +63,7 @@ section {
 
 /* SECTIONS */
 /* Témoignages */
-.testimonials .carousel .section--contrast {
+.testimonials.carousel.section--contrast {
   background-color: var(--marron);
 }
 /* Image with text */
