@@ -34,7 +34,7 @@
 {% assign modifiers = modifiers | append: ' carousel--items-' | append: blocks.size %}
 {% assign modifiers = modifiers | append: ' carousel--aspect-ratio-' | append: aspect_ratio %}
 
-{% assign minimum_items_for_wrap_around = columns | plus: 2 %}
+{% assign minimum_items_for_wrap_around = columns | plus: 1 %}
 {% assign items_needed = minimum_items_for_wrap_around | minus: blocks.size %}
 
 {% if carousel_text_position == 'top' and items_needed <= 0 or blocks.size == 0 %}
@@ -157,14 +157,6 @@
             </div>
           {% endunless %}
 
-{% if block.settings.reviewer_name != blank %}
-                <div class="flex flex-column overline">
-                  <span class="b">{{ 'sections.testimonials.reviewed_by' | t }}</span>
-                  <span data-theme-editor-setting="section.{{ id }}.block.{{ block.id }}.reviewer_name">{{ block.settings.reviewer_name }}</span>
-                </div>
-              {% endif %}
-            </div>
-                  
           {% if block.settings.review != blank %}
             <div class="testimonials__review">&#8220;<span data-theme-editor-setting="section.{{ id }}.block.{{ block.id }}.review">{{ block.settings.review }}</span>&#8221;</div>
           {% endif %}
