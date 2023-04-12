@@ -347,6 +347,49 @@
         "text_max_width": 40
       }
     },
+    "70b5325c-2f8d-4c5d-b451-b7c0c74b79f1": {
+      "type": "testimonials",
+      "blocks": {
+        "df2bb81c-52d0-4a2f-b142-7de0ccfecb74": {
+          "type": "testimonial",
+          "settings": {
+            "product_link": "",
+            "rating": 0,
+            "reviewer_name": "Karine",
+            "review": "<p>Déflagration positive ! Je ressens encore en moi tous les bienfaits de ce week-end bien-être à Mimizan. Tout était parfait : l’organisation au top, les séances de yoga, les découvertes culinaires, la naturopathie, la sonotherapie, le massage ! Merci Maëva de m'avoir fait découvrir cet univers ! À refaire  !<\/p>"
+          }
+        },
+        "ab87b54a-84ce-4fd6-83ae-65f3325bfba7": {
+          "type": "testimonial",
+          "settings": {
+            "product_link": "",
+            "rating": 0,
+            "reviewer_name": "Audrey",
+            "review": "<p>Je recommande très chaleureusement les séjours organisés par Maëva, qui a été aux petits soins pour nous. La bonne ambiance entre les participantes a été magique. Tout est fait pour une déconnexion complète.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "df2bb81c-52d0-4a2f-b142-7de0ccfecb74",
+        "ab87b54a-84ce-4fd6-83ae-65f3325bfba7"
+      ],
+      "custom_css": [
+        "section {background-color: #c7a17e; padding: 120px 0; color: #fcf2e5;}"
+      ],
+      "settings": {
+        "section_style": "default",
+        "enable_animation": true,
+        "columns": 2,
+        "aspect_ratio": "natural",
+        "text_position": "top_center",
+        "overline": "",
+        "title": "Nos participantes adorées",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "text_max_width": 50
+      }
+    },
     "9872c483-f65d-4fff-8c8f-5fb226e2a83f": {
       "type": "image-with-text",
       "blocks": {
@@ -569,6 +612,7 @@
     "c4dc07ed-f090-4202-81e1-655eb9c46842",
     "0cfed580-a31b-443c-b150-ad1e0f5d5b0d",
     "9802fb57-1563-46d4-a9c5-e79ca07790cf",
+    "70b5325c-2f8d-4c5d-b451-b7c0c74b79f1",
     "9872c483-f65d-4fff-8c8f-5fb226e2a83f",
     "14ac884f-7c8a-4032-95a8-e27d61f55b64",
     "b051bcc3-ae14-4907-a5f9-cd83dfcc7ee8",
