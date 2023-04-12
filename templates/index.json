@@ -367,11 +367,41 @@
             "reviewer_name": "Audrey",
             "review": "<p>Je recommande très chaleureusement les séjours organisés par Maëva, qui a été aux petits soins pour nous. La bonne ambiance entre les participantes a été magique. Tout est fait pour une déconnexion complète.<\/p>"
           }
+        },
+        "1d035c1e-9633-4c00-9103-4eb5340bd23e": {
+          "type": "testimonial",
+          "settings": {
+            "product_link": "",
+            "rating": 0,
+            "reviewer_name": "Magali",
+            "review": "<p>Une merveilleuse journée, un petit moment suspendu où l'on apprend à s'écouter, prendre soin de soi et des autres. De belles rencontres et une belle synergie de groupe créée et accompagnée par Maëva ! Bref un régal !<\/p>"
+          }
+        },
+        "8c64ef48-2028-4fec-b7db-69af78600b09": {
+          "type": "testimonial",
+          "settings": {
+            "product_link": "",
+            "rating": 0,
+            "reviewer_name": "Danièle",
+            "review": "<p>Avec ce séjour surf yoga, j'ai profité de 3 jours de bonheur, de reconnexion à moi, de lâcher prise et surtout d'une ambiance au top à chaque fois. Les séjours avec Odenzia sont réconfortants, on arrive avec les soucis du quotidien et on repart avec la banane. Que du plaisir. On se détend, on se repose, on rigole et surtout on a rien à faire car tout est bien organisé pour notre confort. Je recommande.<\/p>"
+          }
+        },
+        "eb36340b-9368-4b14-8bf7-2582937b4785": {
+          "type": "testimonial",
+          "settings": {
+            "product_link": "",
+            "rating": 0,
+            "reviewer_name": "Pauline",
+            "review": "<p>J'ai adoré mon séjour. Maëva met les gens à l'aise et une vraie complicité entre les participantes arrive naturellement. Le séjour végétarien était un défi pour moi, j'avais peur de manquer, mais mes craintes étaient infondées. J'ai même refait des recettes de Maëva à la maison. Merci Maëva pour ce moment hors du temps ! Et merci à notre accompagnatrice raquettes Aline qui nous a aidé à nous dépasser et nous a bien fait rigoler !<\/p>"
+          }
         }
       },
       "block_order": [
         "df2bb81c-52d0-4a2f-b142-7de0ccfecb74",
-        "ab87b54a-84ce-4fd6-83ae-65f3325bfba7"
+        "ab87b54a-84ce-4fd6-83ae-65f3325bfba7",
+        "1d035c1e-9633-4c00-9103-4eb5340bd23e",
+        "8c64ef48-2028-4fec-b7db-69af78600b09",
+        "eb36340b-9368-4b14-8bf7-2582937b4785"
       ],
       "custom_css": [
         "section {background-color: #c7a17e; padding: 120px; color: #fcf2e5; text-align: center;}",
