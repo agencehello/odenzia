@@ -62,6 +62,13 @@ section {
 }
 
 /* SECTIONS */
+/* Carousel */
+.carousel__previous-button {
+  left: 50px;
+}
+.carousel__next-button {
+  right: 50px;
+}
 /* Image with text */
 .image-with-text__text-block.image-with-text__text-block--left.animation--section-introduction {
   margin: 0 auto;
