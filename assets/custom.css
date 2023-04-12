@@ -183,7 +183,7 @@ span.devis {
 
 /* COLLECTION PAGE */
 /* Filtres */
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 960px) {
   .collection--has-sidebar .collection__content {
     display: block;
   }
