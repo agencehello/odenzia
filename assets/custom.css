@@ -188,7 +188,7 @@ span.devis {
 }
 .collection__sidebar {
   width: 90% !important;
-  margin: 5% auto 3% auto;
+  margin: 3% auto;
   text-align: center;
 }
 .collection-sidebar__group {
@@ -215,7 +215,7 @@ span.filter-item__count {
   display: none !important;
 }
 a.collection-sidebar__heading {
-  cursor: auto;
+  pointer-events: none;
 }
 .filter-item__content:hover {
   background-color: transparent;
