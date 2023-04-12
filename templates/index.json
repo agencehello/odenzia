@@ -355,8 +355,8 @@
           "settings": {
             "product_link": "",
             "rating": 0,
-            "reviewer_name": "Karine",
-            "review": "<p>Déflagration positive ! Je ressens encore en moi tous les bienfaits de ce week-end bien-être à Mimizan. Tout était parfait : l’organisation au top, les séances de yoga, les découvertes culinaires, la naturopathie, la sonotherapie, le massage ! Merci Maëva de m'avoir fait découvrir cet univers ! À refaire  !<\/p>"
+            "review": "<p>Déflagration positive ! Je ressens encore en moi tous les bienfaits de ce week-end bien-être à Mimizan. Tout était parfait : l’organisation au top, les séances de yoga, les découvertes culinaires, la naturopathie, la sonotherapie, le massage ! Merci Maëva de m'avoir fait découvrir cet univers ! À refaire  !<\/p>",
+            "reviewer_name": "Karine"
           }
         },
         "ab87b54a-84ce-4fd6-83ae-65f3325bfba7": {
@@ -364,8 +364,8 @@
           "settings": {
             "product_link": "",
             "rating": 0,
-            "reviewer_name": "Audrey",
-            "review": "<p>Je recommande très chaleureusement les séjours organisés par Maëva, qui a été aux petits soins pour nous. La bonne ambiance entre les participantes a été magique. Tout est fait pour une déconnexion complète.<\/p>"
+            "review": "<p>Je recommande très chaleureusement les séjours organisés par Maëva, qui a été aux petits soins pour nous. La bonne ambiance entre les participantes a été magique. Tout est fait pour une déconnexion complète.<\/p>",
+            "reviewer_name": "Audrey"
           }
         },
         "1d035c1e-9633-4c00-9103-4eb5340bd23e": {
@@ -373,8 +373,8 @@
           "settings": {
             "product_link": "",
             "rating": 0,
-            "reviewer_name": "Magali",
-            "review": "<p>Une merveilleuse journée, un petit moment suspendu où l'on apprend à s'écouter, prendre soin de soi et des autres. De belles rencontres et une belle synergie de groupe créée et accompagnée par Maëva ! Bref un régal !<\/p>"
+            "review": "<p>Une merveilleuse journée, un petit moment suspendu où l'on apprend à s'écouter, prendre soin de soi et des autres. De belles rencontres et une belle synergie de groupe créée et accompagnée par Maëva ! Bref un régal !<\/p>",
+            "reviewer_name": "Magali"
           }
         },
         "8c64ef48-2028-4fec-b7db-69af78600b09": {
@@ -382,8 +382,8 @@
           "settings": {
             "product_link": "",
             "rating": 0,
-            "reviewer_name": "Danièle",
-            "review": "<p>Avec ce séjour surf yoga, j'ai profité de 3 jours de bonheur, de reconnexion à moi, de lâcher prise et surtout d'une ambiance au top à chaque fois. Les séjours avec Odenzia sont réconfortants, on arrive avec les soucis du quotidien et on repart avec la banane. Que du plaisir. On se détend, on se repose, on rigole et surtout on a rien à faire car tout est bien organisé pour notre confort. Je recommande.<\/p>"
+            "review": "<p>Avec ce séjour surf yoga, j'ai profité de 3 jours de bonheur, de reconnexion à moi, de lâcher prise et surtout d'une ambiance au top à chaque fois. Les séjours avec Odenzia sont réconfortants, on arrive avec les soucis du quotidien et on repart avec la banane. Que du plaisir. On se détend, on se repose, on rigole et surtout on a rien à faire car tout est bien organisé pour notre confort. Je recommande.<\/p>",
+            "reviewer_name": "Danièle"
           }
         },
         "eb36340b-9368-4b14-8bf7-2582937b4785": {
@@ -391,8 +391,8 @@
           "settings": {
             "product_link": "",
             "rating": 0,
-            "reviewer_name": "Pauline",
-            "review": "<p>J'ai adoré mon séjour. Maëva met les gens à l'aise et une vraie complicité entre les participantes arrive naturellement. Le séjour végétarien était un défi pour moi, j'avais peur de manquer, mais mes craintes étaient infondées. J'ai même refait des recettes de Maëva à la maison. Merci Maëva pour ce moment hors du temps ! Et merci à notre accompagnatrice raquettes Aline qui nous a aidé à nous dépasser et nous a bien fait rigoler !<\/p>"
+            "review": "<p>J'ai adoré mon séjour. Maëva met les gens à l'aise et une vraie complicité entre les participantes arrive naturellement. Le séjour végétarien était un défi pour moi, j'avais peur de manquer, mais mes craintes étaient infondées. J'ai même refait des recettes de Maëva à la maison. Merci Maëva pour ce moment hors du temps ! Et merci à notre accompagnatrice raquettes Aline qui nous a aidé à nous dépasser et nous a bien fait rigoler !<\/p>",
+            "reviewer_name": "Pauline"
           }
         }
       },
@@ -406,10 +406,9 @@
       "custom_css": [
         "section {background-color: var(--marron); padding: 120px; color: var(--beige); text-align: center;}",
         ".flex {justify-content: center;}",
-        ".carousel__slide-image {display: none;}",
+        ".carousel__slide-image,.b {display: none;}",
         ".testimonials__review {max-width: 50%; margin: auto;}",
         "p {font-size: 18px !important; line-height: 28px !important;}",
-        ".b {display: none;}",
         ".overline {font-size: 16px !important; font-weight: 400 !important; letter-spacing: 0 !important;}",
         ".carousel__next-button,.carousel__previous-button {background-color: var(--marron); color: var(--bg); box-shadow: none;}"
       ],
