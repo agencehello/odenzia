@@ -524,6 +524,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 /* ACCUEIL */
 /* Slideshow */
   .slideshow__subheading {
+    width: 65%;
     max-width: 65%;
   }
 
@@ -555,6 +556,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   }
   /* Accueil */
   .slideshow__subheading {
+    width: 90%;
     max-width: 90%;
   }
   /* Concept thématiques */
