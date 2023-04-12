@@ -121,6 +121,11 @@
                 </div>
               {% endif %}
 
+                        {% if block.settings.review != blank %}
+            <div class="testimonials__review">&#8220;<span data-theme-editor-setting="section.{{ id }}.block.{{ block.id }}.review">{{ block.settings.review }}</span>&#8221;</div>
+          {% endif %}
+        </div>
+              
               {% if block.settings.reviewer_name != blank %}
                 <div class="flex flex-column overline">
                   <span class="b">{{ 'sections.testimonials.reviewed_by' | t }}</span>
