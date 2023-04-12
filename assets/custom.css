@@ -931,6 +931,9 @@ span.bullet {
 .product-form__option-select-icon svg {
   color: var(--marron) !important;
 }
+.product-form__option-select:hover {
+  border-color: var(--marron) !important;
+}
 .template-product .badge {
   z-index: 1;
   position: absolute;
