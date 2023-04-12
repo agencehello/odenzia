@@ -732,10 +732,10 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   margin-right: .8em;
   }
   nav.header__nav.right {
-  padding-left: .8em;
+  padding-left: 1em;
   }
   .header.header--default.header--alignment-left .header__nav.left .nav--depth-1 {
-  padding-right: .8em;
+  padding-right: 1em;
   }
 }
 
