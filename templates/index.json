@@ -33,7 +33,8 @@
         "slide_2"
       ],
       "custom_css": [
-
+        ".slideshow__content-inner .slideshow__link {padding: 10px 33px; outline: 1px solid #efbfbb; outline-offset: 3px;}",
+        ".slideshow__content-inner .slideshow__link:hover {background-color: #094849; outline: 1px solid #094849; outline-offset: 3px;}"
       ],
       "settings": {
         "enable_animation": true,
