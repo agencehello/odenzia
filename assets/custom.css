@@ -607,6 +607,9 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   .collection__button:hover {
     border-color: var(--beige);
   }
+  .collection-flyout__close {
+    outline: none;
+  }
   /* Produit */
   .template-product .badge {
     left: unset !important;
