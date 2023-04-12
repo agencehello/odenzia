@@ -942,7 +942,8 @@ span.bullet {
 .flickity-prev-next-button {
   background-color: var(--bleu);
   color: var(--beige);
-  border-radius:50%
+  border-radius: 50%;
+  box-shadow: none;
 }
 /* Metafields */
 .product-form__inner .infos_inline {
