@@ -65,7 +65,24 @@ section {
 /* Témoignages */
 .testimonials.carousel.section--contrast {
   background-color: var(--marron);
+  padding: 120px;
+  color: var(--beige);
+  text-align: center;
 }
+.testimonials.carousel.section--contrast .testimonials__review {
+  max-width: 50%;
+  margin: auto;
+}
+.testimonials.carousel.section--contrast p {
+  font-size: 18px !important;
+  line-height: 28px !important;
+}
+.testimonials.carousel.section--contrast .overline {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+}
+
 /* Image with text */
 .image-with-text__text-block.image-with-text__text-block--left.animation--section-introduction {
   margin: 0 auto;
