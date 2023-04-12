@@ -5,7 +5,7 @@ Last Edit @StudioBoskant 03.2023 */
   --marron: #c7a17e;
   --bleu: #094849;
   --rose: #efbfbb;
-  --creme: #fffcf8;
+  --bg: #fffcf8;
   --title: "Queens", serif;
   --body-light: "Karla Light", sans-serif;
   --body: "Karla", sans-serif;
@@ -455,7 +455,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 }
 #success-message {
   font-family: "Karla" !important;
-  color: var(--creme) !important;
+  color: var(--bg) !important;
   background-color: var(--bleu) !important;
   border: none !important;
   border-radius: 0 !important;
