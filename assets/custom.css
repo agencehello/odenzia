@@ -1027,6 +1027,7 @@ button.tablinks-cus {
 button.tablinks-cus.active {
   border-bottom: 1px solid var(--bleu) !important;
   color: var(--bleu) !important;
+  padding:0;
 }
 .product-page-wrapper .accordion__label:hover,
 .page-width .accordion__label:hover {
