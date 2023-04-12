@@ -108,6 +108,27 @@
               {% endif %}
             {% endif %}
 
+          {% if block.settings.reviewer_image != blank or block.settings.reviewer_name != blank %}
+            <div class="testimonials__reviewer-wrapper flex mb3 mt3">
+              {% if block.settings.reviewer_image != blank %}
+                <div class="testimonials__reviewer-image">
+                  {% render 'image',
+                    image: block.settings.reviewer_image,
+                    focal_point: 'image_presentation',
+                    disable_style: true
+                  %}
+                </div>
+              {% endif %}
+
+              {% if block.settings.reviewer_name != blank %}
+                <div class="flex flex-column overline">
+                  <span class="b">{{ 'sections.testimonials.reviewed_by' | t }}</span>
+                  <span data-theme-editor-setting="section.{{ id }}.block.{{ block.id }}.reviewer_name">{{ block.settings.reviewer_name }}</span>
+                </div>
+              {% endif %}
+            </div>
+          {% endif %}
+
           {% unless block.settings.rating == 0 %}
             <div class="testimonials__stars mb2">
               {% assign max_star_rating = 5 %}
@@ -141,28 +162,6 @@
         </div>
       {%- endfor -%}
     {% else %}
-
- {% if block.settings.reviewer_image != blank or block.settings.reviewer_name != blank %}
-            <div class="testimonials__reviewer-wrapper flex mb3 mt3">
-              {% if block.settings.reviewer_image != blank %}
-                <div class="testimonials__reviewer-image">
-                  {% render 'image',
-                    image: block.settings.reviewer_image,
-                    focal_point: 'image_presentation',
-                    disable_style: true
-                  %}
-                </div>
-              {% endif %}
-
-              {% if block.settings.reviewer_name != blank %}
-                <div class="flex flex-column overline">
-                  <span class="b">{{ 'sections.testimonials.reviewed_by' | t }}</span>
-                  <span data-theme-editor-setting="section.{{ id }}.block.{{ block.id }}.reviewer_name">{{ block.settings.reviewer_name }}</span>
-                </div>
-              {% endif %}
-            </div>
-          {% endif %}
-
 
       {% for i in (1..minimum_items_for_wrap_around) %}
         <div class="testimonials__slide carousel__slide">
