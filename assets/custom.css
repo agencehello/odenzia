@@ -523,9 +523,9 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 
 /* ACCUEIL */
 /* Slideshow */
-  .slideshow__subheading {
-    width: 65%;
-    max-width: 65%;
+  .slideshow__content-inner-container {
+    width: 55%;
+    max-width: 55%;
   }
 
 /* DESKTOP */
@@ -555,7 +555,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     left: 10%;
   }
   /* Accueil */
-  .slideshow__subheading {
+  .slideshow__content-inner-container {
     width: 90%;
     max-width: 90%;
   }
