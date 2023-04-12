@@ -949,7 +949,7 @@ span.bullet {
   left: 15px;
 }
 .flickity-prev-next-button.next {
-  right: 15px;
+  right: -10px;
 }
 /* Metafields */
 .product-form__inner .infos_inline {
