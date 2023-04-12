@@ -600,7 +600,14 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     top: -5%;
     left: 20%;
   }  
-/* Produit */
+  /* Filtres */
+  .collection-top-bar__filters a {
+    text-transform: uppercase;
+  }
+  .collection__button:hover {
+    border-color: var(--beige);
+  }
+  /* Produit */
   .template-product .badge {
     left: unset !important;
     right: 5% !important;
