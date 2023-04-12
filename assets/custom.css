@@ -607,7 +607,8 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     text-transform: uppercase;
   }
   .collection__button:hover {
-    border-color: var(--beige);
+    background-color: var(--beige);
+    border-color: none;
   }
   .collection-flyout__close {
     outline: none !important;
