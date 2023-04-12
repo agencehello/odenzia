@@ -672,7 +672,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     margin-bottom: 0;
   }
   .accordion.break {
-    margin: 2em 0;
+    margin: 1.5em 0;
   }
   #tabs button.accordion__label.extra {
     color: var(--bleu);
