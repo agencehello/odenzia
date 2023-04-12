@@ -523,10 +523,6 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 
 /* ACCUEIL */
 /* Slideshow */
-  .slideshow__content-inner-container {
-    width: 55%;
-    max-width: 55%;
-  }
 
 /* DESKTOP */
 @media screen and (min-width: 990px) {
@@ -600,11 +596,6 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     top: -5%;
     left: 20%;
   }  
-/* Accueil */
-  .slideshow__content-inner-container {
-    width: 90%;
-    max-width: 90%;
-  }
 /* Produit */
   .template-product .badge {
     left: unset !important;
