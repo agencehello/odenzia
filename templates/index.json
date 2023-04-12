@@ -404,7 +404,7 @@
         "eb36340b-9368-4b14-8bf7-2582937b4785"
       ],
       "custom_css": [
-        "section {background-color: var(--marron); padding: 120px; color: var(--beige); text-align: center;}",
+        "section {padding: 120px; color: var(--beige); text-align: center;}",
         ".flex {justify-content: center;}",
         ".carousel__slide-image,.b {display: none;}",
         ".testimonials__review {max-width: 50%; margin: auto;}",
