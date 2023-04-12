@@ -608,7 +608,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   }
   .collection__button:hover {
     background-color: var(--beige);
-    border-color: none;
+    border-color: var(--beige);
   }
   .collection-flyout__close {
     outline: none !important;
