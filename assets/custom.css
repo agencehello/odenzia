@@ -554,11 +554,6 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     top: -5%;
     left: 10%;
   }
-  /* Accueil */
-  .slideshow__content-inner-container {
-    width: 90%;
-    max-width: 90%;
-  }
   /* Concept thématiques */
   section#concept_themes {
     padding-top: 0;
@@ -604,7 +599,13 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   .image-hero span.pastille {
     top: -5%;
     left: 20%;
+  }  
+/* Accueil */
+  .slideshow__content-inner-container {
+    width: 90%;
+    max-width: 90%;
   }
+/* Produit */
   .template-product .badge {
     left: unset !important;
     right: 5% !important;
