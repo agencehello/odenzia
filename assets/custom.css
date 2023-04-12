@@ -574,10 +574,10 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     padding-top: 0;
   }
 }
-@media screen and (min-width: 999px) and (max-width: 1130px) { 
+@media screen and (min-width: 990px) and (max-width: 1130px) { 
   /* Concept thématiques */
   #concept_themes .text-block.text-columns__feature:last-child {
-    margin-top: -35vh !important;
+    margin-top: -17vh !important;
   }
 }
 @media screen and (min-width: 1280px) {
