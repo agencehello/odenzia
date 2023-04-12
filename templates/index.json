@@ -374,7 +374,11 @@
         "ab87b54a-84ce-4fd6-83ae-65f3325bfba7"
       ],
       "custom_css": [
-        "section {background-color: #c7a17e; padding: 120px; color: #fcf2e5;}"
+        "section {background-color: #c7a17e; padding: 120px; color: #fcf2e5;}",
+        ".carousel__slide-image {display: none;}",
+        "p {font-size: 18px !important; line-height: 28px !important;}",
+        ".b {display: none;}",
+        ".overline {font-size: 16px !important; font-weight: 400 !important; letter-spacing: 0 !important;}"
       ],
       "settings": {
         "section_style": "default",
