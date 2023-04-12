@@ -407,6 +407,7 @@
         "section {background-color: var(--marron); padding: 120px; color: var(--beige); text-align: center;}",
         ".flex {justify-content: center;}",
         ".carousel__slide-image {display: none;}",
+        ".testimonials__review {max-width: 50%; margin: auto;}",
         "p {font-size: 18px !important; line-height: 28px !important;}",
         ".b {display: none;}",
         ".overline {font-size: 16px !important; font-weight: 400 !important; letter-spacing: 0 !important;}",
