@@ -658,6 +658,18 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     content: none !important;
   }
 }
+/* Correction navigation */
+@media screen and (min-width:960px) and (max-width:1015px) {
+  .nav.nav--depth-1>li {
+  margin-right: .8em;
+  }
+  nav.header__nav.right {
+  padding-left: .8em;
+  }
+  .header.header--default.header--alignment-left .header__nav.left .nav--depth-1 {
+  padding-right: .8em;
+  }
+}
 
 /* TYPOS */
 h1 {
