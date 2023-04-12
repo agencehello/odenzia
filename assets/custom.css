@@ -610,6 +610,11 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   .collection-flyout__close {
     outline: none !important;
   }
+  .collection-flyout__footer .bttn--secondary{
+    background-color: var(--marron) !important;
+    color: var(--beige) !important;
+    border:none;
+  }
   /* Produit */
   .template-product .badge {
     left: unset !important;
