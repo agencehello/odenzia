@@ -567,19 +567,21 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     grid-row-end: 3;
     grid-column-end: 2;
     position: relative;
-    margin-top: -150px;
+    margin-top: -30%;
   }
   /* Formules */
   #formules {
     padding-top: 0;
   }
 }
-@media screen and (min-width: 999px) and (max-width: 1130px) {
+@media screen and (min-width: 999px) and (max-width: 1130px) { 
+  /* Concept thématiques */
   #concept_themes .text-block.text-columns__feature:last-child {
     margin-top: -35vh !important;
   }
 }
 @media screen and (min-width: 1280px) {
+  /* Formules */
   #formules {
     max-width: 90%;
   }
