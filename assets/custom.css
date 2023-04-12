@@ -46,7 +46,7 @@ nav.header__nav.right {
 font-family: var(—body);
 font-size: 16px;
 text-transform: uppercase;
-color: (var—bleu);
+color: var(—bleu);
 }
 .drawer-menu__item.drawer-menu__item--social-links .icon {
 fill: var(—bleu);
