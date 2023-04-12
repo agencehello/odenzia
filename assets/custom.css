@@ -241,7 +241,7 @@ label.filter-item__content.filter-item__content--checkbox.checked span {
   max-width: 20%;
 }
 
-/* CONTACT FORMS & FORMS */
+/* CONTACT FORM & FORMS */
 select {
   padding-left: 0;
 }
@@ -659,17 +659,6 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   }
 }
 
-#reassurance section {
-  background-color: var(--beige);
-}
-#reassurance .text-block__heading {
-  font-size: 18px !important;
-  line-height: 22px !important;
-}
-#reassurance .text-block__item {
-  max-width: 10em !important;
-}
-
 /* TYPOS */
 h1 {
   font-family: var(--title) !important;
@@ -806,8 +795,7 @@ span.bullet {
   border-radius: 50%;
   margin: 0 10px 0 0;
 }
-
-/* LISTING PRODUITS • BADGE */
+/* Badge */
 .o-50 {
   opacity: 1;
 }
@@ -831,7 +819,6 @@ span.bullet {
 .product__media-action {
   display: none;
 }
-
 .product-form__inner .product__price {
   font-family: "Queens";
   line-height: 24px;
@@ -839,13 +826,11 @@ span.bullet {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-
 .product__description {
   font-family: var(--body-light);
   font-size: 16px;
   line-height: 24px;
 }
-
 .product-form__option-label-wrapper label,
 .product-form__option-select {
   font-family: var(--body-light);
@@ -853,22 +838,18 @@ span.bullet {
   line-height: 24px;
   letter-spacing: 0;
 }
-
 .product-form__option-select {
   border: none;
   border-bottom: solid 1px var(--marron);
 }
-
 .product-form__option-select-icon svg {
   color: var(--marron) !important;
 }
-
 .template-product .badge {
   z-index: 1;
   position: absolute;
   right: 11%;
 }
-
 /* Metafields */
 .product-form__inner .infos_inline {
   justify-content: space-between;
@@ -895,13 +876,11 @@ span.participantes {
   content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-participantes.svg?v=1680776418");
   display: flex;
 }
-
 /* Variantes */
 .product-form__option-label-wrapper {
   display: none;
 }
-
-/* QTY • PRODUCT PAGE, QUICK CART & CART */
+/* Quantity • PRODUCT PAGE, QUICK CART & CART */
 .product-form__quantity-button,
 .product-form__quantity input,
 .quick-cart__quantity,
@@ -912,7 +891,7 @@ span.participantes {
 .product-form__quantity:hover {
   border: 1px solid var(--bleu);
 }
-/* Qty + button @boskant */
+/* Quantity + bouton achat */
 div#achat {
   display: grid;
   grid-template-columns: 0.3fr 1fr;
@@ -920,55 +899,14 @@ div#achat {
   margin: 2em 0;
 }
 
-/* COMPLET • PRODUCT PAGE */
+/* Badge COMPLET */
 .bttn:disabled {
   opacity: 1;
   background-color: var(--marron);
   color: var(--beige);
   pointer-events: none;
 }
-
-/* QUICK CART & CART */
-.quick-cart__tab-item .js-tab-link-recent {
-  display: none !important;
-}
-.quick-cart__tabs {
-  padding: calc(var(--spacing-medium) / 2.5);
-}
-.quick-cart__close-button svg {
-  color: var(--bleu);
-}
-.quick-cart__tab-item a:hover,
-.quick-cart__tab-item a.active {
-  font-family: "Karla";
-  font-weight: 400;
-  color: var(--bleu);
-  letter-spacing: 0;
-  text-transform: uppercase;
-}
-.quick-cart__product-price-value {
-  font-family: var(--body-light);
-  color: var(--bleu);
-}
-.quick-cart__product-details div,
-.quick-cart__item-total {
-  font-family: var(--body-light);
-}
-.quick-cart__item-bottom {
-  justify-content: flex-end;
-}
-.quick-cart__footer .js-subtotal {
-  font-family: "Queens";
-  font-size: 26px;
-  line-height: 30px;
-}
-.quick-cart__checkout-button:hover,
-.cart-template__footer-actions .bttn:hover {
-  background-color: var(--rose);
-  color: var(--beige);
-}
-
-/* TABS */
+/* Tabs */
 section#tabs {
   padding-top: 5%;
 }
@@ -1030,9 +968,48 @@ button.tablinks-cus.active {
 figure img {
   max-width: 100%;
 }
+/* QUICK CART & CART */
+.quick-cart__tab-item .js-tab-link-recent {
+  display: none !important;
+}
+.quick-cart__tabs {
+  padding: calc(var(--spacing-medium) / 2.5);
+}
+.quick-cart__close-button svg {
+  color: var(--bleu);
+}
+.quick-cart__tab-item a:hover,
+.quick-cart__tab-item a.active {
+  font-family: "Karla";
+  font-weight: 400;
+  color: var(--bleu);
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+.quick-cart__product-price-value {
+  font-family: var(--body-light);
+  color: var(--bleu);
+}
+.quick-cart__product-details div,
+.quick-cart__item-total {
+  font-family: var(--body-light);
+}
+.quick-cart__item-bottom {
+  justify-content: flex-end;
+}
+.quick-cart__footer .js-subtotal {
+  font-family: "Queens";
+  font-size: 26px;
+  line-height: 30px;
+}
+.quick-cart__checkout-button:hover,
+.cart-template__footer-actions .bttn:hover {
+  background-color: var(--rose);
+  color: var(--beige);
+}
 
 /* FORMS */
-/* CONNEXION / INSCRIPTION */
+/* Connexion / inscription */
 .account input,
 .account textarea,
 .account select,
@@ -1043,7 +1020,6 @@ figure img {
   border-bottom: 0.8px solid #000000;
   padding-left: 0;
 }
-
 .account :focus-visible {
   outline: none;
   border-bottom: 0.8px solid #000000;
@@ -1065,24 +1041,21 @@ figure img {
   padding-left: 15px !important;
   width: 50%;
   margin: auto;
-}
-.account .bttn--full:hover {
-  background-color: var(--bleu);
-}
-/* Studio Boskant Connexion Inscription */
-.account .bttn--full {
   outline: 1px solid var(--marron) !important;
   outline-offset: 3px;
   width: auto;
   padding: 10px 33px !important;
 }
+.account .bttn.bttn--full {
+  margin: 1em auto 0 auto !important;
+}
+.account .bttn--full:hover {
+  background-color: var(--bleu);
+}
 a#RecoverPassword,
 .login__links a {
   color: var(--marron);
   font-size: 12px;
-}
-.account .bttn.bttn--full {
-  margin: 1em auto 0 auto !important;
 }
 .account h3 {
   margin-bottom: 10px;
@@ -1124,7 +1097,6 @@ a#RecoverPassword,
   color: var(--bleu);
   font-weight: 400;
 }
-
 .quick-search__result-heading {
   font-family: "Queens";
   font-weight: 300;
