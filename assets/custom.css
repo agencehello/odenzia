@@ -633,7 +633,9 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   .collection-flyout .filter-item__input:checked + .filter-item__checkbox{
     background-color: var(--bleu);
     border-color: var(--bleu);
-    
+  }
+  .collection__tag {
+    background-color: var(--beige);
   }
   /* Produit */
   .template-product .badge {
