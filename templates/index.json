@@ -409,7 +409,8 @@
         ".carousel__slide-image {display: none;}",
         "p {font-size: 18px !important; line-height: 28px !important;}",
         ".b {display: none;}",
-        ".overline {font-size: 16px !important; font-weight: 400 !important; letter-spacing: 0 !important;}"
+        ".overline {font-size: 16px !important; font-weight: 400 !important; letter-spacing: 0 !important;}",
+        ".carousel__next-button, .carousel__previous-button {background-color: var(--marron); color: var(--bg); box-shadow: none;}"
       ],
       "settings": {
         "section_style": "default",
