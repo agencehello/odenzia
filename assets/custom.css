@@ -62,12 +62,9 @@ section {
 }
 
 /* SECTIONS */
-/* Carousel */
-.carousel__previous-button {
-  left: 50px;
-}
-.carousel__next-button {
-  right: 50px;
+/* Témoignages */
+.testimonials .carousel .section--contrast {
+  background-color: var(--marron);
 }
 /* Image with text */
 .image-with-text__text-block.image-with-text__text-block--left.animation--section-introduction {
@@ -763,6 +760,14 @@ section {
 /* BUTTONS */
 .text-block__button {
   padding: 10px 33px;
+}
+
+/* CAROUSEL ARROWS */
+.carousel__previous-button {
+  left: 50px;
+}
+.carousel__next-button {
+  right: 50px;
 }
 
 /* LISTING PRODUITS */
