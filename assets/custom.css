@@ -939,6 +939,11 @@ span.bullet {
   position: absolute;
   right: 11%;
 }
+.flickity-prev-next-button {
+  background-color: var(--bleu);
+  color: var(--beige);
+  border-radius:50%
+}
 /* Metafields */
 .product-form__inner .infos_inline {
   justify-content: space-between;
@@ -1055,9 +1060,11 @@ button.tablinks-cus.active {
 .tabcontent-cus {
   padding: var(--padd-mob);
 }
+figure {
+  margin: 0;
+}
 figure img {
   max-width: 100%;
-  margin:0;
 }
 #infos-pratiques p {
   margin-top: 0;
