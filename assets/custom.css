@@ -617,6 +617,12 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     color: var(--beige) !important;
     border:none;
   }
+  .collection-flyout .filter-item__checkbox {
+    border-radius: 0;
+  }
+  .filter-item__content:hover .filter-item__checkbox, .filter-item__content:hover .filter-item__radio {
+    border-color: var(--bleu);
+  }
   /* Produit */
   .template-product .badge {
     left: unset !important;
