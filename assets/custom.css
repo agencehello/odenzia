@@ -945,6 +945,12 @@ span.bullet {
   border-radius: 50%;
   box-shadow: none;
 }
+.flickity-prev-next-button.previous {
+  left: 15px;
+}
+.flickity-prev-next-button.next {
+  right: 15px;
+}
 /* Metafields */
 .product-form__inner .infos_inline {
   justify-content: space-between;
