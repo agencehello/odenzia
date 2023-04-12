@@ -41,6 +41,17 @@ nav.header__nav.right {
   margin-right: 2.5em;
 }
 
+/*  MOBILE NAVIGATION */
+.drawer-menu__link {
+font-family: var(—body);
+font-size: 16px;
+text-transform: uppercase;
+color: (var—bleu);
+}
+.drawer-menu__item.drawer-menu__item--social-links .icon {
+fill: var(—bleu);
+}
+
 /* GLOBAL LAYOUT */
 section {
   position: relative;
