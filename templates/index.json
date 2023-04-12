@@ -413,7 +413,7 @@
         ".carousel__next-button,.carousel__previous-button {background-color: var(--marron); color: var(--bg); box-shadow: none;}"
       ],
       "settings": {
-        "section_style": "default",
+        "section_style": "contrast",
         "enable_animation": true,
         "columns": 1,
         "aspect_ratio": "natural",
