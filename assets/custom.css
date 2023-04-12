@@ -183,65 +183,67 @@ span.devis {
 
 /* COLLECTION PAGE */
 /* Filtres */
-.collection--has-sidebar .collection__content {
-  display: block;
-}
-.collection__sidebar {
-  width: 90% !important;
-  margin: 3% auto;
-  text-align: center;
-}
-.collection-sidebar__group {
-  display: flex;
-  gap: 3em;
-  justify-content: center;
-  text-transform: uppercase;
-}
-ul.filter-drawer__list {
-  display: inline-flex !important;
-  gap: 3em;
-}
-.filter-item__content,
-span.filter-item__label {
-  padding: 0;
-}
-.filter-item__content,
-.collection-sidebar__heading {
-  max-height: 20px;
-  padding: 0;
-}
-.filter-item__checkbox,
-span.filter-item__count {
-  display: none !important;
-}
-a.collection-sidebar__heading {
-  pointer-events: none;
-}
-.filter-item__content:hover {
-  background-color: transparent;
-  color: var(--blue) !important;
-  border-bottom: 1px solid var(--bleu) !important;
-  border-radius:0 !important;
-}
-.collection-sidebar__heading:hover,
-.collection-sidebar__heading:hover:focus,
-.collection-sidebar__heading:hover span,
-.collection-sidebar__heading:hover:focus span {
-  background-color: transparent;
-  color: initial;
-  border-style: none;
-}
-.filter-item__content:hover span.filter-item__label {
-  color: var(--bleu) !important;
-}
-.collection__top-row {
-  display: none !important;
-}
-label.filter-item__content.filter-item__content--checkbox.checked {
-  border-bottom: 1px solid var(--bleu);
-}
-label.filter-item__content.filter-item__content--checkbox.checked span {
-  color: var(--bleu) !important;
+@media screen and (min-width: 990px) {
+  .collection--has-sidebar .collection__content {
+    display: block;
+  }
+  .collection__sidebar {
+    width: 90% !important;
+    margin: 3% auto;
+    text-align: center;
+  }
+  .collection-sidebar__group {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+  ul.filter-drawer__list {
+    display: inline-flex !important;
+    gap: 3em;
+  }
+  .filter-item__content,
+  span.filter-item__label {
+    padding: 0;
+  }
+  .filter-item__content,
+  .collection-sidebar__heading {
+    max-height: 20px;
+    padding: 0;
+  }
+  .filter-item__checkbox,
+  span.filter-item__count {
+    display: none !important;
+  }
+  a.collection-sidebar__heading {
+    pointer-events: none;
+  }
+  .filter-item__content:hover {
+    background-color: transparent;
+    color: var(--blue) !important;
+    border-bottom: 1px solid var(--bleu) !important;
+    border-radius:0 !important;
+  }
+  .collection-sidebar__heading:hover,
+  .collection-sidebar__heading:hover:focus,
+  .collection-sidebar__heading:hover span,
+  .collection-sidebar__heading:hover:focus span {
+    background-color: transparent;
+    color: initial;
+    border-style: none;
+  }
+  .filter-item__content:hover span.filter-item__label {
+    color: var(--bleu) !important;
+  }
+  .collection__top-row {
+    display: none !important;
+  }
+  label.filter-item__content.filter-item__content--checkbox.checked {
+    border-bottom: 1px solid var(--bleu);
+  }
+  label.filter-item__content.filter-item__content--checkbox.checked span {
+    color: var(--bleu) !important;
+  }
 }
 
 /* REASSURANCE */
