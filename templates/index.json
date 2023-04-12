@@ -415,7 +415,7 @@
       "settings": {
         "section_style": "default",
         "enable_animation": true,
-        "columns": 2,
+        "columns": 1,
         "aspect_ratio": "natural",
         "text_position": "top_center",
         "overline": "",
