@@ -603,6 +603,12 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     left: 20%;
   }  
   /* Filtres */
+  .collection-flyout__heading {
+    color: var(--bleu);
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--bleu);
+    margin-bottom: 30px;
+  }
   .collection-top-bar__filters a {
     text-transform: uppercase;
   }
