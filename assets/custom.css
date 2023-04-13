@@ -540,19 +540,6 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 }
 
 /* DESKTOP */
-@media screen and (min-width: 1921px) {
-  /* Concept thématiques */
-  #concept_themes .text-block.text-columns__feature:last-child {
-    margin-top: -10% !important;
-  }
-}
-
-@media screen and (min-width: 1500px) and (max-width:1920px){
-  /* Concept thématiques */
-  #concept_themes .text-block.text-columns__feature:last-child {
-    margin-top: -17% !important;
-  }
-}
 @media screen and (min-width: 990px) {
   .hide_desktop {
     display: none;
