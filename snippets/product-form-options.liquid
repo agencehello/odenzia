@@ -83,13 +83,15 @@
           <option
               value=""
               disabled
-              selected="selected">{{ option.name }}</option>
+              selected>{{ option.name }}</option>
           {% for value in option.values %}
             <option
               data-value-handle="{{ value | handleize }}--{{ forloop.index0 }}"
               value="{{ value | escape }}"
               {% if option.selected_value == value %}
-              selected=""
+              {% unless option.name contains 'Hébergement' or 'Date' or 'Option' %}
+              selected
+            {% endunless %}
               {% endif %}>
               {{ value }}
             </option>
@@ -142,13 +144,15 @@
           <option
               value=""
               disabled
-              selected="selected">{{ option.name }}</option>
+              selected>{{ option.name }}</option>
           {% for value in option.values %}
             <option
               data-value-handle="{{ value | handleize }}--{{ forloop.index0 }}"
               value="{{ value | escape }}"
               {% if option.selected_value == value %}
-              selected=""
+              {% unless option.name contains 'Hébergement' or 'Date' or 'Option' %}
+              selected
+              {% endunless %}
               {% endif %}>
               {{ value }}
             </option>
@@ -186,14 +190,14 @@
            <option
               value=""
               disabled
-              selected="selected">{{ option.name }}</option>
+              selected>{{ option.name }}</option>
           {% for value in option.values %}
             <option
               data-value-handle="{{ value | handleize }}--{{ forloop.index0 }}"
               value="{{ value | escape }}"
               {% if option.selected_value == value %}
-              {% unless option.name contains 'Hébergement' %}
-              selected=""
+              {% unless option.name contains 'Hébergement' or 'Date' or 'Option' %}
+              selected
               {% endunless %}
               {% endif %}>
               {{ value }}
