@@ -658,6 +658,9 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     display: block !important;
     padding-bottom: 10px !important;
   }
+  .accordion__text p {
+    margin-bottom: 0;
+  }
   .accordion.break .accordion__label:after,
   .accordion.break .accordion__label:before,
   .page-width .accordion.break .accordion__label:after,
