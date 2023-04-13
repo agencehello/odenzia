@@ -782,7 +782,7 @@ ul li {
   margin-top: 0;
 }
 p strong {
-  font-family: var(--body-light) !important;
+  font-family: var(--body) !important;
   font-weight: 400 !important;
 }
 small {
