@@ -782,7 +782,8 @@ ul li {
   margin-top: 0;
   margin-bottom: 0;
 }
-p strong {
+p strong,
+ul li strong{
   font-family: var(--body) !important;
   font-weight: 400 !important;
 }
