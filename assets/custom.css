@@ -1058,9 +1058,6 @@ button.tablinks-cus.active {
   color: var(--bleu) !important;
   padding: 0;
 }
-.product-page-wrapper .accordion__label {
-  margin: 24px 0 30px 0;
-}
 .product-page-wrapper .accordion__label:hover,
 .page-width .accordion__label:hover {
   background-color: unset;
