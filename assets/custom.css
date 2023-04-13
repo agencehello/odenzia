@@ -658,9 +658,6 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     display: block !important;
     padding-bottom: 10px !important;
   }
-  .accordion__text p {
-    margin-bottom: 0 !important;
-  }
   .accordion.break .accordion__label:after,
   .accordion.break .accordion__label:before,
   .page-width .accordion.break .accordion__label:after,
@@ -783,6 +780,7 @@ ul li {
   line-height: 24px !important;
   letter-spacing: 0 !important;
   margin-top: 0;
+  margin-bottom: 0;
 }
 p strong {
   font-family: var(--body) !important;
