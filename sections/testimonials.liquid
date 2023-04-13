@@ -56,78 +56,56 @@
   data-section-type="testimonials"
   class="section testimonials carousel{{ modifiers }}"
   data-text-position="{{ carousel_text_position }}"
-  data-text-alignment="{{ carousel_text_alignment }}"
->
+  data-text-alignment="{{ carousel_text_alignment }}">
   {% render 'text-block' with
-    id: id,
-    modifiers: 'mb5 animation--section-introduction',
-    heading_alignment: carousel_text_alignment,
-    text_max_width: text_max_width,
-    overline: overline,
-    heading: heading,
-    subheading: subheading,
-    link: link,
-    link_text: link_text
-  %}
+   id: id,
+   modifiers: 'mb5 animation--section-introduction',
+   heading_alignment: carousel_text_alignment,
+   text_max_width: text_max_width,
+   overline: overline,
+   heading: heading,
+   subheading: subheading,
+   link: link,
+   link_text: link_text %}
 
   {% render 'carousel-navigation' %}
 
   <div class="testimonials__slides carousel__slides" data-carousel>
     {% if blocks.size > 0 %}
       {%- for block in blocks -%}
-        <div class="testimonials__slide carousel__slide" {{ block.shopify_attributes }} data-index="{{ forloop.index0 }}">
-            {% if block.settings.product_image != blank %}
-              {% if block.settings.product_link != blank %}
-                <a href="{{ block.settings.product_link.url }}" class="testimonials__image carousel__slide-image">
+        <div
+          class="testimonials__slide carousel__slide"
+          {{ block.shopify_attributes }}
+          data-index="{{ forloop.index0 }}">
+          {% if block.settings.product_image != blank %}
+            {% if block.settings.product_link != blank %}
+              <a href="{{ block.settings.product_link.url }}" class="testimonials__image carousel__slide-image">
               {% else %}
                 <div class="testimonials__image carousel__slide-image">
-              {% endif %}
+                {% endif %}
 
-              {% render 'image',
-                image: block.settings.product_image,
-                focal_point: 'image_presentation',
-                disable_style: image_is_constrained,
-              %}
+                {% render 'image'
+                 , image: block.settings.product_image,
+                 focal_point: 'image_presentation',
+                 disable_style: image_is_constrained, %}
 
-              {% if block.settings.product_link != blank %}
+                {% if block.settings.product_link != blank %}
                 </a>
-              {% else %}
-                </div>
-              {% endif %}
             {% else %}
-              {% if block.settings.product_link != blank %}
-                <a href="{{ block.settings.product_link.url }}" class="testimonials__image carousel__slide-image">
+              </div>
+            {% endif %}
+          {% else %}
+            {% if block.settings.product_link != blank %}
+              <a href="{{ block.settings.product_link.url }}" class="testimonials__image carousel__slide-image">
               {% else %}
                 <div class="testimonials__image carousel__slide-image">
-              {% endif %}
+                {% endif %}
                 {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-              {% if block.settings.product_link != blank %}
+                {% if block.settings.product_link != blank %}
                 </a>
-              {% else %}
-                </div>
-              {% endif %}
+            {% else %}
+              </div>
             {% endif %}
-
-
-          {% if block.settings.reviewer_image != blank or block.settings.reviewer_name != blank %}
-            <div class="testimonials__reviewer-wrapper flex mb3 mt3">
-              {% if block.settings.reviewer_image != blank %}
-                <div class="testimonials__reviewer-image">
-                  {% render 'image',
-                    image: block.settings.reviewer_image,
-                    focal_point: 'image_presentation',
-                    disable_style: true
-                  %}
-                </div>
-              {% endif %}
-
-              {% if block.settings.reviewer_name != blank %}
-                <div class="flex flex-column overline">
-                  <span class="b">{{ 'sections.testimonials.reviewed_by' | t }}</span>
-                  <span data-theme-editor-setting="section.{{ id }}.block.{{ block.id }}.reviewer_name">{{ block.settings.reviewer_name }}</span>
-                </div>
-              {% endif %}
-            </div>
           {% endif %}
 
           {% unless block.settings.rating == 0 %}
@@ -160,6 +138,26 @@
           {% if block.settings.review != blank %}
             <div class="testimonials__review">&#8220;<span data-theme-editor-setting="section.{{ id }}.block.{{ block.id }}.review">{{ block.settings.review }}</span>&#8221;</div>
           {% endif %}
+
+          {% if block.settings.reviewer_image != blank or block.settings.reviewer_name != blank %}
+            <div class="testimonials__reviewer-wrapper flex mb3 mt3">
+              {% if block.settings.reviewer_image != blank %}
+                <div class="testimonials__reviewer-image">
+                  {% render 'image'
+                   , image: block.settings.reviewer_image,
+                   focal_point: 'image_presentation',
+                   disable_style: true %}
+                </div>
+              {% endif %}
+
+              {% if block.settings.reviewer_name != blank %}
+                <div class="flex flex-column overline">
+                  <span class="b">{{ 'sections.testimonials.reviewed_by' | t }}</span>
+                  <span data-theme-editor-setting="section.{{ id }}.block.{{ block.id }}.reviewer_name">{{ block.settings.reviewer_name }}</span>
+                </div>
+              {% endif %}
+            </div>
+          {% endif %}
         </div>
       {%- endfor -%}
     {% else %}
@@ -169,20 +167,20 @@
           <div class="testimonials__image carousel__slide-image db mb3">
             {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
           </div>
-         <div class="testimonials__review">&#8220;{{ 'homepage.onboarding.testimonial_review' | t }}&#8221;</div>
-          </div>
-          <div class="testimonials__reviewer-wrapper flex mb3">
-            <div class="testimonials__reviewer-image testimonials__reviewer-placeholder">
-              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-            </div>
-
-            <div class="flex flex-column overline">
-              <span class="b">{{ 'sections.testimonials.reviewed_by' | t }}</span>
-              <span>{{ 'homepage.onboarding.testimonial_author' | t }}</span>
-            </div>
+          <div class="testimonials__review">&#8220;{{ 'homepage.onboarding.testimonial_review' | t }}&#8221;</div>
+        </div>
+        <div class="testimonials__reviewer-wrapper flex mb3">
+          <div class="testimonials__reviewer-image testimonials__reviewer-placeholder">
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
           </div>
 
-         
+          <div class="flex flex-column overline">
+            <span class="b">{{ 'sections.testimonials.reviewed_by' | t }}</span>
+            <span>{{ 'homepage.onboarding.testimonial_author' | t }}</span>
+          </div>
+        </div>
+
+
       {% endfor %}
     {% endif %}
   </div>
@@ -194,7 +192,9 @@
     "name": "t:sections.testimonials.name",
     "class": "section-dynamic section-borderable",
     "disabled_on": {
-      "groups": ["header", "custom.overlay"],
+      "groups": [
+        "header", "custom.overlay"
+      ],
       "templates": ["password"]
     },
     "settings": [
@@ -211,8 +211,7 @@
           {
             "value": "default",
             "label": "t:sections.testimonials.settings.section_style.option_1"
-          },
-          {
+          }, {
             "value": "contrast",
             "label": "t:sections.testimonials.settings.section_style.option_2"
           }
@@ -228,8 +227,7 @@
       {
         "type": "header",
         "content": "t:sections.testimonials.settings.content_header.content"
-      },
-      {
+      }, {
         "type": "range",
         "id": "columns",
         "label": "t:sections.testimonials.settings.columns.label",
@@ -237,61 +235,76 @@
         "max": 4,
         "step": 1,
         "default": 3
-      },
-      {
+      }, {
         "id": "aspect_ratio",
         "type": "select",
         "label": "t:sections.testimonials.settings.aspect_ratio.label",
         "options": [
-          { "label": "t:sections.testimonials.settings.aspect_ratio.option_1", "value": "natural" },
-          { "label": "t:sections.testimonials.settings.aspect_ratio.option_2", "value": "square" },
-          { "label": "t:sections.testimonials.settings.aspect_ratio.option_3", "value": "landscape" },
-          { "label": "t:sections.testimonials.settings.aspect_ratio.option_4", "value": "portrait" }
+          {
+            "label": "t:sections.testimonials.settings.aspect_ratio.option_1",
+            "value": "natural"
+          }, {
+            "label": "t:sections.testimonials.settings.aspect_ratio.option_2",
+            "value": "square"
+          }, {
+            "label": "t:sections.testimonials.settings.aspect_ratio.option_3",
+            "value": "landscape"
+          }, {
+            "label": "t:sections.testimonials.settings.aspect_ratio.option_4",
+            "value": "portrait"
+          }
         ],
         "default": "natural"
-      },
-      {
+      }, {
         "type": "select",
         "id": "text_position",
         "label": "t:sections.testimonials.settings.text_position.label",
         "options": [
-          { "value": "top_left", "label": "t:sections.testimonials.settings.text_position.option_1" },
-          { "value": "top_center", "label": "t:sections.testimonials.settings.text_position.option_2" },
-          { "value": "top_right", "label": "t:sections.testimonials.settings.text_position.option_3" },
-          { "value": "middle_left", "label": "t:sections.testimonials.settings.text_position.option_4" },
-          { "value": "middle_right", "label": "t:sections.testimonials.settings.text_position.option_5" }
+          {
+            "value": "top_left",
+            "label": "t:sections.testimonials.settings.text_position.option_1"
+          },
+          {
+            "value": "top_center",
+            "label": "t:sections.testimonials.settings.text_position.option_2"
+          },
+          {
+            "value": "top_right",
+            "label": "t:sections.testimonials.settings.text_position.option_3"
+          },
+          {
+            "value": "middle_left",
+            "label": "t:sections.testimonials.settings.text_position.option_4"
+          }, {
+            "value": "middle_right",
+            "label": "t:sections.testimonials.settings.text_position.option_5"
+          }
         ],
         "default": "top_center"
-      },
-      {
+      }, {
         "type": "text",
         "id": "overline",
         "label": "t:sections.testimonials.settings.overline.label",
         "default": "Testimonials"
-      },
-      {
+      }, {
         "type": "text",
         "id": "title",
         "label": "t:sections.testimonials.settings.title.label",
         "default": "Testimonials Section"
-      },
-      {
+      }, {
         "type": "richtext",
         "id": "subheading",
         "label": "t:sections.testimonials.settings.subheading.label",
         "default": "<p>Use this section to showcase your product reviews.</p>"
-      },
-      {
+      }, {
         "type": "url",
         "id": "link",
         "label": "t:sections.testimonials.settings.link.label"
-      },
-      {
+      }, {
         "type": "text",
         "id": "link_text",
         "label": "t:sections.testimonials.settings.link_text.label"
-      },
-      {
+      }, {
         "type": "range",
         "id": "text_max_width",
         "label": "t:sections.testimonials.settings.text_max_width.label",
@@ -329,14 +342,12 @@
             "type": "image_picker",
             "id": "reviewer_image",
             "label": "t:sections.testimonials.blocks.testimonial.settings.reviewer_image.label"
-          },
-                    {
+          }, {
             "id": "review",
             "type": "richtext",
             "label": "t:sections.testimonials.blocks.testimonial.settings.review.label",
             "default": "<p>I absolutely love this product, but my favourite thing about it was the customer service and easy returns. I found what worked for me with ease. Thank you store!</p>"
-          },
-          {
+          }, {
             "type": "text",
             "id": "reviewer_name",
             "label": "t:sections.testimonials.blocks.testimonial.settings.reviewer_name.label",
