@@ -785,6 +785,7 @@ h5 {
   letter-spacing: 0 !important;
 }
 p,
+ul,
 ul li {
   font-family: var(--body-light) !important;
   font-weight: 300 !important;
