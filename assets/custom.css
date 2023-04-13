@@ -543,7 +543,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 @media screen and (min-width: 1500px) {
   /* Concept thématiques */
   #concept_themes .text-block.text-columns__feature:last-child {
-    margin-top: -17%;
+    margin-top: -17% !important;
   }
 }
 
