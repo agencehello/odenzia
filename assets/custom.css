@@ -82,6 +82,15 @@ section {
   font-weight: 400 !important;
   letter-spacing: 0 !important;
 }
+.testimonials h2:after {
+    content: '';
+    display: block;
+    max-width: 190px;
+    margin: 1em auto;
+    height: 1px;
+    background-color: var(--beige);
+    width: 190px;
+}
 
 /* Image with text */
 .image-with-text__text-block.image-with-text__text-block--left.animation--section-introduction {
