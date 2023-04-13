@@ -1046,7 +1046,7 @@ button.tablinks-cus.active {
   padding:0;
 }
 .product-page-wrapper .accordion__label {
-  margin: 24px 0;
+  margin: 24px 0 30px 0;
 }
 .product-page-wrapper .accordion__label:hover,
 .page-width .accordion__label:hover {
