@@ -365,6 +365,7 @@ section.section.newsletter input::placeholder {
   padding-top: 0;
 }
 .sib-form .entry__field {
+  border:none;
   border-left: 0;
   border-right: 0;
   border-top: 0;
@@ -401,8 +402,8 @@ section.section.newsletter input::placeholder {
   color: #000000;
 }
 .section.section--contrast .input {
-  font-weight: 300;
-  font-family: "Karla" !important;
+  font-weight: 300 !important;
+  font-family: var(--body-light) !important;
   color: black;
   background: var(--beige);
 }
