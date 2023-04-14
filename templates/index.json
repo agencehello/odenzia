@@ -12,7 +12,7 @@
             "overline": "",
             "title": "",
             "subheading": "<h1>Une parenthèse de douceur en pleine nature<\/h1>",
-            "link": "shopify:\/\/pages\/contact",
+            "link": "shopify:\/\/pages\/le-concept",
             "link_text": "Découvrir",
             "alignment": "center_center",
             "heading_text_size": 52,
@@ -209,7 +209,7 @@
         "cbdbcde7-b0ce-46ee-8b63-bfb7b8366cd0": {
           "type": "button",
           "settings": {
-            "link": "shopify:\/\/pages\/contact",
+            "link": "shopify:\/\/pages\/le-concept",
             "link_text": "En savoir plus"
           }
         }
@@ -366,7 +366,7 @@
         "389b3e24-2907-4bd3-9f89-757f7c055a4f": {
           "type": "button",
           "settings": {
-            "link": "shopify:\/\/collections\/all",
+            "link": "shopify:\/\/pages\/sur-mesure",
             "link_text": "Découvrir"
           }
         }
