@@ -278,6 +278,9 @@ span.devis {
 select {
   padding-left: 0;
 }
+form label {
+  font-family: var(--body-light);
+}
 select#objet-surmesure {
   border-bottom: 1px solid black;
   margin-bottom: 15px;
