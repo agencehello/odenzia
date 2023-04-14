@@ -284,6 +284,7 @@ form label {
 select#objet-surmesure {
   border-bottom: 1px solid black;
   margin-bottom: 15px;
+  font-family: var(--body-light) !important;
   font-weight: 300 !important;
 }
 label.inline {
