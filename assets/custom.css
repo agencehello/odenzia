@@ -336,6 +336,11 @@ label.inline {
   max-width: 1100px !important;
   margin: 0 auto 3em auto !important;
 }
+.label--above {
+  left: 0 !important;
+  padding-left: 0 !important;
+  color: var(--bleu);
+}
 
 /* NEWSLETTER FORM */
 section.section.newsletter.section--contrast.section--spacing-tall.animation.animation--newsletter {
