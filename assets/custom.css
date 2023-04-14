@@ -316,8 +316,10 @@ label.inline {
   outline: none !important;
   font-family: var(--body-light);
 }
-.contact__form .input {
+.contact__form input {
   font-family: var(--body-light);
+}
+.contact__form input::placeholder{
   color: black;
 }
 #contact_form button.bttn.bttn--full.bttn--primary {
