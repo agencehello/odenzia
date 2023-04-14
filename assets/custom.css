@@ -384,21 +384,21 @@ section.section.newsletter input::placeholder {
   border: none !important;
 }
 .sib-sms-select__number-input input::placeholder {
-  font-family: "Karla" !important;
+  font-family: var(--body) !important;
 }
 #sib-container input:-ms-input-placeholder {
   text-align: left;
-  font-family: "Karla" !important;
+  font-family: var(--body) !important;
   color: #000000;
 }
 #sib-container input::placeholder {
   text-align: left;
-  font-family: "Karla" !important;
+  font-family: var(--body) !important;
   color: #000000;
 }
 #sib-container textarea::placeholder {
   text-align: left;
-  font-family: "Karla" !important;
+  font-family: var(--body) !important;
   color: #000000;
 }
 .section.section--contrast .input {
