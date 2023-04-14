@@ -330,14 +330,6 @@ label.inline {
   max-width: 1100px !important;
   margin: 0 auto 3em auto !important;
 }
-field checkbox span{
-  color: var(--bleu) !important;
-}
-checkbox {
-  border-radius: 0 !important;
-  border: 1px solid var(--bleu);
-  
-}
 
 /* NEWSLETTER FORM */
 section.section.newsletter.section--contrast.section--spacing-tall.animation.animation--newsletter {
@@ -823,7 +815,9 @@ ul li {
   margin-bottom: 0;
 }
 p strong,
-ul li strong {
+ul li strong,
+p b,
+ul li b{
   font-family: var(--body) !important;
   font-weight: 400 !important;
 }
