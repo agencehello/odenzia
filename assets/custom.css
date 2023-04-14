@@ -336,6 +336,9 @@ label.inline {
 .contact__form textarea:hover {
   border-bottom: 1px solid black !important;
 }
+textarea:focus-visible {
+  outline:none !important;
+}
 .contact__inner {
   max-width: 1100px !important;
   margin: 0 auto 3em auto !important;
