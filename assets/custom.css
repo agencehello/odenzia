@@ -331,6 +331,7 @@ label.inline {
 }
 .contact__form textarea {
   border-bottom: 1px solid black;
+  margin-top: 15px;
 }
 .contact__form textarea:hover {
   border-bottom: 1px solid black !important;
