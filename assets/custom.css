@@ -279,6 +279,9 @@ span.devis {
   font-size: 42px !important;
   line-height: 46px !important;
 }
+.coordonnees {
+  margin-bottom: 15px;
+}
 
 /* CONTACT FORMS */
 select {
@@ -340,6 +343,9 @@ label.inline {
   left: 0 !important;
   padding-left: 0 !important;
   color: var(--bleu) !important;
+}
+.form-status {
+  background-color: var(--beige);
 }
 
 /* NEWSLETTER FORM */
