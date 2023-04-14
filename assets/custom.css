@@ -318,18 +318,19 @@ label.inline {
 }
 .contact__form .input {
   font-family: var(--body-light);
+  color: black;
 }
 #contact_form button.bttn.bttn--full.bttn--primary {
-  background-color: #094849;
-  outline: 1px solid #094849;
+  background-color: var(--bleu);
+  outline: 1px solid var(--bleu);
   outline-offset: 3px;
   width: auto;
   padding: 10px 33px;
 }
 #contact_form button.bttn.bttn--full.bttn--primary:hover {
-  color: #094849;
+  color: var(--bleu);
   background-color: transparent;
-  border: 1px solid #094849;
+  border: 1px solid var(--bleu);
   outline: none;
 }
 .contact__form textarea {
