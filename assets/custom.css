@@ -316,6 +316,9 @@ label.inline {
   outline: none !important;
   font-family: var(--body-light);
 }
+.contact__form .input {
+  font-family: var(--body-light);
+}
 #contact_form button.bttn.bttn--full.bttn--primary {
   background-color: #094849;
   outline: 1px solid #094849;
