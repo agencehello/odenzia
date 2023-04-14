@@ -284,7 +284,7 @@ form label {
 select#objet-surmesure {
   border-bottom: 1px solid black;
   margin-bottom: 15px;
-  font-weight: 300;
+  font-weight: 300 !important;
 }
 label.inline {
   display: flex;
