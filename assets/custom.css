@@ -274,6 +274,12 @@ span.devis {
   max-width: 20%;
 }
 
+/* PAGE CONTACT */
+contact__heading {
+  font-size: 42px;
+  line-height: 46px;
+}
+
 /* CONTACT FORMS */
 select {
   padding-left: 0;
