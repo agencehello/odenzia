@@ -339,7 +339,7 @@ label.inline {
 .label--above {
   left: 0 !important;
   padding-left: 0 !important;
-  color: var(--bleu);
+  color: var(--bleu) !important;
 }
 
 /* NEWSLETTER FORM */
