@@ -184,7 +184,9 @@
 
       {% render 'product-item-price' with product: product %}
       {% if product.price == 0 %}
-        <p>Infos à venir</p>
+        <div class="hide-price">
+          {{ product.price }} 
+        </div>
       {% endif %}
     </div>
 
