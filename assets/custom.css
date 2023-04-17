@@ -56,10 +56,6 @@ nav.header__nav.right {
 section {
   position: relative;
 }
-.bg-blue {
-  background-color: var(--bleu);
-  color: var(--beige);
-}
 
 /* SECTIONS */
 /* Témoignages */
@@ -962,7 +958,10 @@ span.bullet {
   background-color: var(--marron);
   color: var(--beige);
 }
-
+.bg-blue {
+  background-color: var(--bleu);
+  color: var(--beige);
+}
 /* PRODUCT PAGE */
 .product__media-container {
   padding-right: 5%;
