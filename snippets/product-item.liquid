@@ -183,6 +183,9 @@
       </div>
 
       {% render 'product-item-price' with product: product %}
+      {% if product.price > 0 %}
+        {{ product.price }}
+      {% endif %}
     </div>
 
   </div>
