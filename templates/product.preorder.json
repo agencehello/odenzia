@@ -9,12 +9,6 @@
             "title_text_size": 48
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-            "price_text_size": 18
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -32,7 +26,6 @@
       },
       "block_order": [
         "title",
-        "price",
         "description",
         "variant_picker"
       ],
