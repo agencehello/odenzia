@@ -486,7 +486,8 @@
       "sold_out": "Complet",
       "confirmed": "Séjour confirmé",
       "soon": "À venir",
-      "closed": "Réservations fermées"
+      "closed": "Réservations fermées",
+      "on_sale": "Promo"
     },
     "product": {
       "add_to_cart": "Ajouter au panier",
@@ -502,7 +503,7 @@
       "inventory_label": "Stock",
       "loader_label": "Ajouter au panier",
       "no_rates": "Tarif de livraison indisponible",
-      "on_sale": "En vente",
+      "on_sale": "Promo",
       "on_sale_from_html": "En réduction à partir de {{ price }}",
       "preorder": "Pré-commander",
       "quantity": "Quantité",
