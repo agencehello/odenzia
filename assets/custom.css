@@ -970,7 +970,11 @@ span.bullet {
   background-color: var(--beige);
   color: black;
 }
-
+.bg-promo {
+  bacgrkound-color: var(--bg);
+  stroke: 1px solid var(--bleu);
+  color: var(--bleu);
+}
 /* PRODUCT PAGE */
 .product__media-container {
   padding-right: 5%;
