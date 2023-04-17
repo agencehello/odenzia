@@ -1,1 +1,72 @@
-{"sections":{"main":{"type":"main-product","blocks":{"vendor":{"type":"vendor","settings":{}},"title":{"type":"title","settings":{}},"price":{"type":"price","settings":{}},"border":{"type":"border","settings":{}},"variant_picker":{"type":"variant_picker","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{}},"description":{"type":"description","settings":{}},"payment_feature_widget":{"type":"payment_feature_widget","settings":{}},"shipping_feature_widget":{"type":"shipping_feature_widget","settings":{}}},"block_order":["vendor","title","price","border","variant_picker","buy_buttons","description","payment_feature_widget","shipping_feature_widget"],"settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_text_size": 32
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_text_size": 14
+          }
+        },
+        "border": {
+          "type": "border",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_popup_option": "Size",
+            "variant_popup_text": "Size guide",
+            "variant_popup_page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "style": "paragraph"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "border",
+        "variant_picker",
+        "buy_buttons",
+        "description"
+      ],
+      "custom_css": [
+        ".product__meta {padding-left: 0 !important; align-self: center;}",
+        "#achat {display: none;}",
+        ".bttn:hover {background-color: #f0c9c6;}"
+      ],
+      "settings": {
+        "enable_animation": true,
+        "enable_full_width": false,
+        "image_size": "65",
+        "enable_thumbnails": true,
+        "thumbnail_position": "vertical",
+        "thumbnail_size": "medium",
+        "thumbnail_aspect_ratio": "square",
+        "enable_video_looping": true
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
