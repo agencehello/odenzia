@@ -485,7 +485,8 @@
       "low_stock": "Places limitées",
       "sold_out": "Complet",
       "confirmed": "Séjour confirmé",
-      "soon": "À venir"
+      "soon": "À venir",
+      "closed": "Réservations fermées"
     },
     "product": {
       "add_to_cart": "Ajouter au panier",
@@ -518,6 +519,7 @@
       "sold_out": "Complet",
       "confirmed": "Séjour confirmé",
       "soon": "À venir",
+      "closed": "Réservations fermées",
       "total_reviews": "Avis",
       "unavailable": "Sélectionnez les options",
       "unit_price_label": "Prix ​​à l'unité",
