@@ -31,7 +31,6 @@
     {%- if available == false %} price--sold-out {% endif -%}
     {%- if compare_at_price > price %} price--on-sale {% endif -%}
     {%- if product.price_varies == false and product.compare_at_price_varies %} price--compare-price-hidden {% endif -%}
-    {%- if product.price == 0 %} price--sold-out {%  endif -%}
   "
 >
   {% if show_vendor and product %}
