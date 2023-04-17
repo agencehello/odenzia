@@ -9,12 +9,6 @@
             "title_text_size": 48
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-            "price_text_size": 18
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -38,6 +32,12 @@
             "show_untracked_quantity": false
           }
         },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_text_size": 18
+          }
+        },
         "01cac063-784a-449c-93e4-62c4b6db038b": {
           "type": "quantity_selector",
           "settings": {
@@ -52,10 +52,10 @@
       },
       "block_order": [
         "title",
-        "price",
         "description",
         "variant_picker",
         "inventory_counter",
+        "price",
         "01cac063-784a-449c-93e4-62c4b6db038b",
         "buy_buttons"
       ],
