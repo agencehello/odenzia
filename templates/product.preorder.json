@@ -6,18 +6,19 @@
         "title": {
           "type": "title",
           "settings": {
-            "title_text_size": 32
+            "title_text_size": 48
           }
         },
         "price": {
           "type": "price",
           "settings": {
-            "price_text_size": 14
+            "price_text_size": 18
           }
         },
-        "border": {
-          "type": "border",
+        "description": {
+          "type": "description",
           "settings": {
+            "style": "paragraph"
           }
         },
         "variant_picker": {
@@ -27,32 +28,17 @@
             "variant_popup_text": "Size guide",
             "variant_popup_page": ""
           }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "style": "paragraph"
-          }
         }
       },
       "block_order": [
         "title",
         "price",
-        "border",
-        "variant_picker",
-        "buy_buttons",
-        "description"
+        "description",
+        "variant_picker"
       ],
       "custom_css": [
         ".product__meta {padding-left: 0 !important; align-self: center;}",
-        "#achat {display: none;}",
-        ".bttn:hover {background-color: #f0c9c6;}"
+        ".product-form__inner .product__price {display: none;}"
       ],
       "settings": {
         "enable_animation": true,
