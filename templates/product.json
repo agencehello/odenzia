@@ -62,7 +62,8 @@
       "custom_css": [
         ".product__meta {padding-left: 0 !important; align-self: center;}",
         ".product__policies,.product-form__controls-label-wraper {display: none;}",
-        ".bttn:hover {background-color: #f0c9c6;}"
+        ".bttn:hover {background-color: #f0c9c6;}",
+        ".product__description {margin-top: 25px;}"
       ],
       "settings": {
         "enable_animation": true,
