@@ -38,7 +38,6 @@
       ],
       "custom_css": [
         ".product__meta {padding-left: 0 !important; align-self: center;}",
-        ".product-form__inner .product__price {display: none;}",
         ".product__description {margin-top: 25px;}"
       ],
       "settings": {
