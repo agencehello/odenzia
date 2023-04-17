@@ -484,7 +484,8 @@
       "label": "Places",
       "low_stock": "Places limitées",
       "sold_out": "Complet",
-      "confirmed": "Séjour confirmé"
+      "confirmed": "Séjour confirmé",
+      "soon": "À venir"
     },
     "product": {
       "add_to_cart": "Ajouter au panier",
