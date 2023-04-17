@@ -93,6 +93,11 @@
             {{ 'products.product.confirmed' | t }}
           </div>
         {% endif %}
+        {% if product.tags contains 'À venir' %}
+          <div class="badge type-body-small ttu lh-title absolute top-0 right-0 mt3 mr3 bg-pink">
+            {{ 'products.product.confirmed' | t }}
+          </div>
+        {% endif %}
 
         {%- if show_thumbnails and thumbnail_position == 'vertical' -%}
           {% render 'product-thumbnails' with featured_media: featured_media, disable_style: disable_thumbnail_style %}
