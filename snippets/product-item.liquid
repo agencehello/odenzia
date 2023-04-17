@@ -183,7 +183,7 @@
       </div>
 
       {% render 'product-item-price' with product: product %}
-      {% if product.price != 0 %}
+      {% if product.price == 0 %}
         <p>Infos à venir</p>
       {% endif %}
     </div>
