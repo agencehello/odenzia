@@ -669,6 +669,9 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     top: -5%;
     left: 20%;
   }
+  #sur_mesure img {
+    padding: 5% !important;
+  }
   /* Filtres */
   .collection-flyout__heading {
     color: var(--bleu);
