@@ -1150,6 +1150,10 @@ button.tablinks-cus.active {
 .tabcontent-cus {
   padding: var(--padd-mob);
 }
+.img_tab {
+  display: flex;
+  justify-content: center;
+}
 figure {
   margin: 0;
 }
