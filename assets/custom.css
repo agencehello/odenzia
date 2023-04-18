@@ -777,7 +777,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   }
   /* Témoignages */
   .testimonials.carousel.section--contrast .testimonials__review {
-    max-width: 80% !important;
+    max-width: 90% !important;
   }
 }
 @media screen and (max-width: 789px) {
