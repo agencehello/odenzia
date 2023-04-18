@@ -648,7 +648,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   }
   span.pastille {
     position: absolute;
-    top: 30%;
+    bottom: 37%;
     left: 50%;
     transform: translate(-50%, -30%);
     z-index: 1;
