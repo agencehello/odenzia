@@ -1117,9 +1117,7 @@ button.tablinks-cus {
   background: transparent;
   border-style: none;
 }
-button.tablinks-cus:hover {
-  border-bottom: 1px solid black !important;
-}
+
 button.tablinks-cus.active {
   border-bottom: 1px solid var(--bleu) !important;
   color: var(--bleu) !important;
