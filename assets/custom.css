@@ -659,7 +659,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   }
   span.pastille {
     position: absolute;
-    top: 30%;
+    top: 39%;
     left: 50%;
     transform: translate(-50%, -30%);
     z-index: 1;
@@ -777,7 +777,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   }
   /* Témoignages */
   .testimonials.carousel.section--contrast .testimonials__review {
-    max-width: 90% !important;
+    max-width: 85% !important;
   }
 }
 @media screen and (max-width: 789px) {
