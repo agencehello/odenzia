@@ -2,6 +2,9 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "custom_css": [
+        "section {padding-bottom:0;}"
+      ],
       "settings": {
         "enable_animation": true,
         "content_max_width": 900
