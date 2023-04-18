@@ -738,9 +738,6 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   .template-product .accordion__group {
     border-color: var(--bleu) !important;
   }
-  .two_col {
-    margin: 0 5% !important;
-  }
   #programme .accordion__group {
     border-style: none !important;
   }
@@ -1149,6 +1146,7 @@ button.tablinks-cus.active {
   grid-template-columns: 1fr 1fr;
   gap: calc(var(--spacing-large) * 2);
   align-items: center;
+  margin: 0 5%;
 }
 .tabcontent-cus {
   padding: var(--padd-mob);
