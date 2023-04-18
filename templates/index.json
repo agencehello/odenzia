@@ -146,7 +146,7 @@
         ".text-block__subheading {font-family: \"Karla\"; font-weight: 400; text-transform: uppercase; color: #fffcf8;}"
       ],
       "settings": {
-        "section_id": "",
+        "section_id": "home-picto",
         "section_style": "default",
         "enable_animation": true,
         "columns": 4,
