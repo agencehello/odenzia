@@ -325,6 +325,7 @@
       "custom_css": [
         ".flex {justify-content: center;}",
         ".carousel__slide-image,.b {display: none;}",
+        ".carousel__navigation {bottom: 45% !important;}",
         ".carousel__next-button,.carousel__previous-button {background-color: var(--marron); color: var(--bg); box-shadow: none;}"
       ],
       "settings": {
