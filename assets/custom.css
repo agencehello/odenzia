@@ -795,7 +795,12 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   #reassurance .text-block:not(:last-child):after {
     content: none !important;
   }
+  /* Témoignages */
+  .testimonials.carousel.section--contrast .testimonials__review {
+    max-width: 100% !important;
+  }
 }
+
 /* Correction navigation */
 @media screen and (min-width: 958px) and (max-width: 1015px) {
   .nav.nav--depth-1 > li {
