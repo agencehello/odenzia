@@ -381,12 +381,9 @@
       ],
       "custom_css": [
         ".image-with-text--text-alignment-left .image-with-text__text-container {justify-content: start;}",
-        "img {padding: 10%;}",
         ".text-block__overline {color: #094849;}",
-        "h3 {margin-bottom: 10px !important;}",
         ".text-block__button {background-color: #094849; outline: 1px solid #094849; outline-offset: 3px;}",
-        ".text-block__button:hover {color: #094849; background-color: transparent; border: 1px solid #094849; outline: none;}",
-        ".text-block__subheading {max-width: 60rem !important;}"
+        ".text-block__button:hover {color: #094849; background-color: transparent; border: 1px solid #094849; outline: none;}"
       ],
       "settings": {
         "section_id": "sur_mesure",
