@@ -642,9 +642,17 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 }
 
 /* MOBILE */
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 989px) {
   .hide_mobile {
     display: none;
+  }
+  .text-block__item,
+  .text-block__subheading {
+    max-width: 100%;
+  }
+  /* Accueil */ 
+  #home-picto .text-columns__image {
+    max-width: 100% !important;
   }
   span.pastille {
     position: absolute;
@@ -657,11 +665,6 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   .image-hero span.pastille {
     top: -5%;
     left: 20%;
-  }
-  /* Accueil */
-  
-  #home-picto .text-columns__image{
-    max-width: 100% !important;
   }
   /* Filtres */
   .collection-flyout__heading {
