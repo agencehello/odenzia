@@ -3,7 +3,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "section {padding-bottom:0;}"
+        "section {padding-bottom: 0;}"
       ],
       "settings": {
         "enable_animation": true,
@@ -42,6 +42,9 @@
         "template--18491912683848__58204698-c956-4977-8387-b821788dc050-1681824582dd46f67f-0",
         "template--18491912683848__58204698-c956-4977-8387-b821788dc050-1681824582dd46f67f-1",
         "template--18491912683848__58204698-c956-4977-8387-b821788dc050-1681824582dd46f67f-2"
+      ],
+      "custom_css": [
+        "section {padding-top: 25px;}"
       ],
       "settings": {
         "section_max_width": 900,
