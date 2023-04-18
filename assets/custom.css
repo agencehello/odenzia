@@ -806,7 +806,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     letter-spacing: 0!important;
   }
   .footer__links {
-    line-height: 34px;
+    line-height: 34px important;
   }
 }
 @media screen and (max-width: 789px) {
