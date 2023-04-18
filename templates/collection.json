@@ -4,7 +4,8 @@
       "type": "main-collection-banner",
       "custom_css": [
         ".collection__container {padding-left: 0; padding-right: 0;}",
-        ".collection-banner {margin-top: 0;}"
+        ".collection-banner {margin-top: 0;}",
+        ".text-block__subheading {max-width: 700px !important;}"
       ],
       "settings": {
         "enable_animation": true,
