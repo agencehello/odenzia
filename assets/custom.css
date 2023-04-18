@@ -805,6 +805,9 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     color: #fffcf8!important;
     letter-spacing: 0!important;
   }
+  .footer__links {
+    line-height: 34px;
+  }
 }
 @media screen and (max-width: 789px) {
   /* Global layout */
