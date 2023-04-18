@@ -160,6 +160,12 @@ span.devis {
 #sur_mesure img {
     padding: 10%;
   }
+#sur_mesure h3 {
+  margin-bottom: 10px !important;
+}
+#sur_mesure .text-block__subheading {
+  max-width: 60rem;
+}
 #sur_mesure h3:first-child:before {
   content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-puce-bleu.svg?v=1680699739");
   margin-right: 10px;
