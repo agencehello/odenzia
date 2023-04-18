@@ -651,6 +651,9 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     max-width: 100% !important;
   }
   /* Accueil */ 
+  .slideshow__subheading {
+    max-width: 85% !important;
+  }
   #home-picto .text-columns__image {
     max-width: 100% !important;
   }
