@@ -44,7 +44,6 @@
         "template--18491912683848__58204698-c956-4977-8387-b821788dc050-1681824582dd46f67f-2"
       ],
       "custom_css": [
-        "section {padding-top: 25px;}",
         ".type-heading-2 {font-family: var(--title); font-size: 26px !important; line-height: 30px !important;}"
       ],
       "settings": {
