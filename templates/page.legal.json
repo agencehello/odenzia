@@ -3,11 +3,11 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "header {max-width:100% !important;}"
+        "header {max-width: 100% !important;}"
       ],
       "settings": {
         "enable_animation": true,
-        "content_max_width": 1100
+        "content_max_width": 900
       }
     },
     "bbc594b7-c1d0-467f-8565-23f5b5b1d813": {

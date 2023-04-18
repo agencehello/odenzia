@@ -4,7 +4,48 @@
       "type": "main-page",
       "settings": {
         "enable_animation": true,
-        "content_max_width": 500
+        "content_max_width": 900
+      }
+    },
+    "58204698-c956-4977-8387-b821788dc050": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "template--18491912683848__58204698-c956-4977-8387-b821788dc050-1681824582dd46f67f-0": {
+          "type": "item",
+          "settings": {
+            "style": "open",
+            "heading": "This is an example of a question that a customer might ask",
+            "content": "<p>This is an example of a response that you might give. It's good to be as thorough as possible in responses as that has a tendency to improve trust overall.<\/p>"
+          }
+        },
+        "template--18491912683848__58204698-c956-4977-8387-b821788dc050-1681824582dd46f67f-1": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "This is an example of a question that a customer might ask",
+            "content": "<p>This is an example of a response that you might give. It's good to be as thorough as possible in responses as that has a tendency to improve trust overall.<\/p>"
+          }
+        },
+        "template--18491912683848__58204698-c956-4977-8387-b821788dc050-1681824582dd46f67f-2": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "This is an example of a question that a customer might ask",
+            "content": "<p>This is an example of a response that you might give. It's good to be as thorough as possible in responses as that has a tendency to improve trust overall.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18491912683848__58204698-c956-4977-8387-b821788dc050-1681824582dd46f67f-0",
+        "template--18491912683848__58204698-c956-4977-8387-b821788dc050-1681824582dd46f67f-1",
+        "template--18491912683848__58204698-c956-4977-8387-b821788dc050-1681824582dd46f67f-2"
+      ],
+      "settings": {
+        "section_max_width": 900,
+        "enable_animation": true,
+        "section_style": "default",
+        "title": "",
+        "text_max_width": 60
       }
     },
     "3350887c-3d7e-4645-a004-13e10dbd6b95": {
@@ -149,6 +190,7 @@
   },
   "order": [
     "main",
+    "58204698-c956-4977-8387-b821788dc050",
     "3350887c-3d7e-4645-a004-13e10dbd6b95",
     "e497fa81-966a-4db5-aa95-aa2634706f06",
     "4e3f7c6a-9be5-4cfa-a50a-751a7ace93ff",
