@@ -642,7 +642,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 }
 
 /* MOBILE */
-@media screen and (max-width: 989px) {
+@media screen and (max-width: 959px) {
   .hide_mobile {
     display: none;
   }
