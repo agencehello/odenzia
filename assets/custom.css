@@ -648,7 +648,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   }
   .text-block__item,
   .text-block__subheading {
-    max-width: 100%;
+    max-width: 100% !important;
   }
   /* Accueil */ 
   #home-picto .text-columns__image {
@@ -771,6 +771,10 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   #formules .text-block.text-columns__feature {
     padding-left: 0 !important;
     padding-right: 0 !important;
+  }
+  /* Témoignages */
+  .testimonials.carousel.section--contrast .testimonials__review {
+    max-width: 80%;
   }
 }
 @media screen and (max-width: 789px) {
