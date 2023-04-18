@@ -229,6 +229,9 @@ span.devis {
     border-bottom: 1px solid var(--bleu) !important;
     border-radius: 0 !important;
   }
+  .filter-item__content:active {
+    border-radius: 0 !important;
+  }
   .collection-sidebar__heading:hover,
   .collection-sidebar__heading:hover:focus,
   .collection-sidebar__heading:hover span,
