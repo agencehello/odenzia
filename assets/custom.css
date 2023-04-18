@@ -678,9 +678,6 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     top: -5%;
     left: 20%;
   }
-  #sur_mesure img {
-    padding: 5% !important;
-  }
   /* Filtres */
   .collection-flyout__heading {
     color: var(--bleu);
@@ -791,6 +788,13 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   .testimonials.carousel.section--contrast .testimonials__review {
     max-width: 85% !important;
   }
+  /* Sur mesure */
+  #sur_mesure img {
+    padding: 5% !important;
+  }
+  #sur_mesure .text-block__subheading {
+    max-width: 100% !important;
+}
 }
 @media screen and (max-width: 789px) {
   /* Global layout */
