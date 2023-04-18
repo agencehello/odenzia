@@ -658,6 +658,11 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     top: -5%;
     left: 20%;
   }
+  /* Accueil */
+  
+  #home-picto img{
+    max-width: 100%;
+  }
   /* Filtres */
   .collection-flyout__heading {
     color: var(--bleu);
