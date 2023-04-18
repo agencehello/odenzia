@@ -661,7 +661,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   /* Accueil */
   
   #home-picto .text-columns__image{
-    max-width: 100%;
+    max-width: 100% !important;
   }
   /* Filtres */
   .collection-flyout__heading {
