@@ -862,7 +862,7 @@ ET TABLETTES /////////////////////////
     content: none;
   }
   .two_col {
-    display: block !important;
+    grid-template-columns: 1fr !important;
     margin: 0 !important;
   }
   .tablinks-cus {
