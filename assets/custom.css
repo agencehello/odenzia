@@ -78,7 +78,8 @@ section {
   outline-offset: 3px;
 }
 #sejours_slider .carousel__navigation {
-  bottom: 57% !important;
+  bottom: 62% !important;
+  transform: translateY(-62%);
 }
 #sejours_slider .carousel__next-button,
 .carousel__previous-button {
@@ -94,7 +95,6 @@ section {
 /* Témoignages */
 .testimonials.carousel.section--contrast {
   background-color: var(--marron);
-  padding: 120px;
   color: var(--beige);
   text-align: center;
 }
@@ -711,6 +711,10 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   .catchphrase .rich-text__subheading.rte {
     max-width: 50% !important;
   }
+  /* Témoignages */
+  .testimonials.carousel.section--contrast {
+    padding: 120px;
+  }
 }
 @media screen and (min-width: 990px) and (max-width: 1130px) {
   /* Concept thématiques */
@@ -891,8 +895,9 @@ ET TABLETTES /////////////////////////
     padding-right: 0 !important;
   }
   /* Témoignages */
-  .testimonials.carousel.section--contrast .testimonials__review {
-    max-width: 85% !important;
+  .testimonials__slide.carousel__slide {
+    width: 100% !important;
+    padding: 0 25px;
   }
   /* Sur mesure */
   #sur_mesure img {
