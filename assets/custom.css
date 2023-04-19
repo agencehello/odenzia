@@ -725,6 +725,11 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     left: unset !important;
     right: 5% !important;
   }
+  .product-item .badge,
+  .template-product .badge {
+    font-size: 10px !important;
+    line-height: 1.5em !important;
+  }
   .padding_mob {
     padding: 50px 0;
   }

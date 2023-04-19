@@ -84,7 +84,7 @@ Usage:
           </div>
         {%- endif -%}
 
-        <div class="card__badge">
+        <div class="card__badge absolute">
           {% if product.tags contains 'Séjour confirmé' %}
             <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">
               {{ 'products.product.confirmed' | t }}
