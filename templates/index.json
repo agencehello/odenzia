@@ -59,7 +59,7 @@
         "template--18287000387912__4cd28d26-6998-444f-b65e-4a3f908b11a4-1678800832f36e786e-2"
       ],
       "custom_css": [
-        "section {background-color: #094849; color: #fffcf8; padding: 120px 0 0 0;}",
+        "section {background-color: #094849; color: #fffcf8; padding: 6% 0 0 0;}",
         ".rich-text--center .rich-text__subheading {max-width: 60% !important;}",
         "p {font-family: \"Queens\" !important; font-size: 34px !important; line-height: 40px !important;}"
       ],
@@ -141,7 +141,7 @@
         "8ae1bc0b-fc2f-4247-84b4-234be223088f"
       ],
       "custom_css": [
-        "section {background-color: #094849; color: #fffcf8; padding: 60px 0 120px 0;}",
+        "section {background-color: #094849; color: #fffcf8; padding: 60px 0 6% 0;}",
         ".text-columns__content {display: flex; align-items: start; margin: auto; width: 80%;}",
         ".text-block__subheading {font-family: \"Karla\"; font-weight: 400; text-transform: uppercase; color: #fffcf8;}"
       ],
