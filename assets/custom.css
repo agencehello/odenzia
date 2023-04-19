@@ -205,8 +205,8 @@ span.devis {
   padding: 60px 0 6% 0;
 }
 #home-picto .text-columns__content {
-  display: flex;
-  align-items: start;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   margin: auto;
   width: 80%;
 }
@@ -710,6 +710,9 @@ ET TABLETTES /////////////////////////
   }
   #home-picto .text-columns__image {
     max-width: 100% !important;
+  }
+  #home-picto .text-columns__content {
+    grid-template-columns: repeat(2, 1fr);
   }
   span.pastille {
     position: absolute;
