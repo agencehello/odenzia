@@ -1255,7 +1255,7 @@ figure img {
 }
 .modalBoxStyle {
   background-color: var(--bg) !important;
-  border-radius: 0;
+  border-radius: 0 !important;
 }
 .formTitleStyle{
   font-family: var(--title) !important;
