@@ -926,14 +926,13 @@ ul li b {
   font-family: var(--body) !important;
   font-weight: 400 !important;
 }
-small {
+/*small {
   display: block;
   font-family: var(--body-light);
   font-size: 12px;
   line-height: 1.5em;
   color: var(--bleu) !important;
-}
-
+}*/
 .text-block__overline {
   font-family: var(--body-light);
   letter-spacing: 0;
