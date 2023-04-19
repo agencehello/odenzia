@@ -8,9 +8,8 @@
         ".cart-template__remove {width: 120px;}",
         ".meta {color: black;}",
         ".type-heading-1-small {font-family: \"Queens\" !important; font-size: 26px !important; line-height: 30px;}",
-        ".bttn--small {background-color: #c7a17e; color: var(--beige);}",
-        ".bttn--small:hover {background-color: #094849; color: var(--bg);}",
-        ".cart-template__dynamic-checkout-buttons {display: none;}"
+        ".bttn--small {background-color: var(--marron); color: var(--beige);}",
+        ".bttn--small:hover {background-color: var(--bleu); color: var(--bg);}"
       ],
       "settings": {
         "cart_ajax_enable": true,
