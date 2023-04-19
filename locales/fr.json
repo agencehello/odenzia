@@ -488,6 +488,7 @@
       "soon": "À venir",
       "last": "Dernières places",
       "new": "Nouveau",
+      "limited": "Places limitées",
       "on_sale": "Prix réduit"
     },
     "product": {
@@ -523,6 +524,7 @@
       "soon": "À venir",
       "last": "Dernières places",
       "new": "Nouveau",
+      "limited": "Places limitées",
       "total_reviews": "Avis",
       "unavailable": "Sélectionnez les options",
       "unit_price_label": "Prix ​​à l'unité",
