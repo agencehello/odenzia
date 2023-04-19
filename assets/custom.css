@@ -672,6 +672,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 
 /*///////////////////////////////////
 // ODENZIA MOBILE (max-width: 989px)
+ET TABLETTES /////////////////////////
 ////////////////////////////////////*/
 @media screen and (max-width: 989px) {
   .hide_mobile {
@@ -866,6 +867,18 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   /* Témoignages */
   .testimonials.carousel.section--contrast .testimonials__review {
     max-width: 100% !important;
+  }
+}
+
+/*/// TABLETTE ///*/
+@media screen and (min-width: 760px) and (max-width: 989px) {
+  /* Pastilles */
+  .image-with-text__image.db {
+    max-height: 70vh;
+  }
+  span.pastille {
+    top: 50vh;
+    transform: translate(-50%, 14vh);
   }
 }
 
