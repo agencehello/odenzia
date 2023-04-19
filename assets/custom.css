@@ -268,7 +268,7 @@ span.devis {
 
 /* COLLECTION PAGE */
 /* Header */
-.collection__container {
+header.collection__header {
   height: 50vh;
 }
 .image.image--animate.collection__image.lazyloaded {
