@@ -199,8 +199,8 @@ span.devis {
 /* Header */
 .collection__image,
 .collection__image-overlay {
-  height: 515px !important;
-  max-height: 515px !important;
+  height: 37vh !important;
+  max-height: 37vh !important;
 }
 /* Filtres */
 @media screen and (min-width: 960px) {
