@@ -60,10 +60,10 @@
       ],
       "custom_css": [
         "section {background-color: #094849; color: #fffcf8; padding: 6% 0 0 0;}",
-        ".rich-text--center .rich-text__subheading {max-width: 60% !important;}",
         "p {font-family: \"Queens\" !important; font-size: 34px !important; line-height: 40px !important;}"
       ],
       "settings": {
+        "section_id": "etroit",
         "section_style": "default",
         "enable_animation": true,
         "alignment": "center"
@@ -505,6 +505,7 @@
         ".rich-text__title {font-size: 26px !important; line-height: 30px !important; margin-bottom: 10px !important;}"
       ],
       "settings": {
+        "section_id": "",
         "section_style": "default",
         "enable_animation": true,
         "alignment": "center"
