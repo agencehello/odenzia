@@ -905,6 +905,17 @@ ET TABLETTES /////////////////////////
   .catchphrase .rich-text__subheading.rte {
     padding: 2rem 2rem 0 2rem;
   }
+  /* Featured collection row */
+  #sejours_slider .carousel__navigation {
+    top: 50% !important;
+    transform: translateY(-50%);
+  }
+  .carousel__previous-button {
+    left: 30px;
+  }
+  .carousel__next-button {
+    right: 30px;
+  }
   /* Footer */
   .footer__heading {
     font-family: var(--body) !important;
