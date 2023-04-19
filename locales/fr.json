@@ -489,6 +489,7 @@
       "last": "Dernières places",
       "new": "Nouveau",
       "limited": "Places limitées",
+      "cocrea": "Co-création",
       "on_sale": "Prix réduit"
     },
     "product": {
@@ -525,6 +526,7 @@
       "last": "Dernières places",
       "new": "Nouveau",
       "limited": "Places limitées",
+      "cocrea": "Co-création",
       "total_reviews": "Avis",
       "unavailable": "Sélectionnez les options",
       "unit_price_label": "Prix ​​à l'unité",
