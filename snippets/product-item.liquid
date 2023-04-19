@@ -109,14 +109,13 @@
         {{ 'products.product.cocrea' | t }}
       </div>
     {% endif %}
-    </div>
-    
     {% comment %} SOLD OUT BADGE {% endcomment %}
     {% unless product.available %}
       <div class="badge type-body-small ttu lh-title top-0 right-0 mt3 mr3 bg-sold-out same-as-bg">
         {{ 'products.product.sold_out' | t }}
       </div>
     {% endunless %}
+    </div>
   {% else %}
 
     <a
