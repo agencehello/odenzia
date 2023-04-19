@@ -487,6 +487,7 @@
       "confirmed": "Séjour confirmé",
       "soon": "À venir",
       "last": "Dernières places",
+      "new": "Nouveau",
       "on_sale": "Prix réduit"
     },
     "product": {
@@ -521,6 +522,7 @@
       "confirmed": "Séjour confirmé",
       "soon": "À venir",
       "last": "Dernières places",
+      "new": "Nouveau",
       "total_reviews": "Avis",
       "unavailable": "Sélectionnez les options",
       "unit_price_label": "Prix ​​à l'unité",
