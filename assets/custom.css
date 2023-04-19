@@ -1009,6 +1009,7 @@ span.bullet {
 
 /* BADGES */
 .card__badge {
+  display: flex;
   top: 0;
   right: 0;
 }
