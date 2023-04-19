@@ -486,8 +486,8 @@
       "sold_out": "Complet",
       "confirmed": "Séjour confirmé",
       "soon": "À venir",
-      "closed": "Réservations fermées",
-      "on_sale": "Promo"
+      "last": "Dernières places",
+      "on_sale": "Prix réduit"
     },
     "product": {
       "add_to_cart": "Ajouter au panier",
