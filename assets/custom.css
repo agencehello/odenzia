@@ -1259,20 +1259,24 @@ figure img {
 }
 .formTitleStyle{
   font-family: var(--title) !important;
-  line-height: 22px !important;
+  font-size: 26px !important;
+  line-height: 30px !important;
   color: black !important;
 }
 .fieldLabelTextStyle {
-  font-family: var(--body) !important;
+  font-family: var(--body-light) !important;
   font-size: 16px !important;
   line-height: 24px !important; 
+  color: black !important;
 }
 .restock-alerts-submit-button {
   padding: 14px;
   text-transform: uppercase;
+  font-family: var(--body);
+  font-size: 16px;
 }
 .restock-alerts-branding-text {
-  display:none;
+  display:none !important;
 }
 /* QUICK CART & CART */
 .quick-cart__tab-item .js-tab-link-recent {
