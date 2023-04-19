@@ -3,7 +3,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "section {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0556\/3839\/3160\/files\/odenzia-concept-1.jpg?v=1679308726\"); background-repeat: no-repeat; background-size: cover; padding-top: 9%; padding-bottom: 9%; color: #fffcf8;}"
+        "section {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0556\/3839\/3160\/files\/odenzia-concept-1.jpg?v=1679308726\"); background-repeat: no-repeat; background-size: cover; background-position: center; padding-top: 9%; padding-bottom: 9%; color: #fffcf8;}"
       ],
       "settings": {
         "enable_animation": true,
