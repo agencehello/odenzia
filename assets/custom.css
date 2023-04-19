@@ -909,12 +909,14 @@ ET TABLETTES /////////////////////////
   #sejours_slider .carousel__navigation {
     top: 50% !important;
     transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
   }
   .carousel__previous-button {
-    left: 30px;
+    left: 30px !important;
   }
   .carousel__next-button {
-    right: 30px;
+    right: 30px !important;
   }
   /* Footer */
   .footer__heading {
