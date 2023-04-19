@@ -954,9 +954,18 @@ ET TABLETTES /////////////////////////
     text-transform: uppercase !important;
     color: #fffcf8 !important;
     letter-spacing: 0 !important;
+    margin-left: 15px;
   }
-  .footer__links {
-    line-height: 34px important;
+  .footer__links ul {
+    text-align: center;
+    width: 100%;
+  }
+  .footer__header {
+    justify-content: center;
+    gap: 10px;
+  }
+  .footer__image--wrapper {
+    margin: 15px auto;
   }
 }
 @media screen and (max-width: 789px) {
