@@ -708,11 +708,23 @@ ET TABLETTES /////////////////////////
   .slideshow__subheading {
     max-width: 85% !important;
   }
-  #home-picto .text-columns__image {
-    max-width: 100% !important;
+  #home-picto {
+    padding-bottom: 60px;
   }
   #home-picto .text-columns__content {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto auto;
+    gap: 2em;
+  }
+  #home-picto .text-columns__image {
+    max-width: 100% !important;
+    min-height: 17vh;
+    margin-bottom: 0;
+  }
+  #home-picto .text-columns__feature:last-child {
+    display: flex;
+    grid-column: span 2;
+    max-width: 50%;
+    justify-self: center;
   }
   span.pastille {
     position: absolute;
