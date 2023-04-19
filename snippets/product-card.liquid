@@ -105,11 +105,6 @@ Usage:
               {{ 'products.product.new' | t }}
             </span>
           {% endif %}
-          {% if product.tags contains 'Places limitées' %}
-            <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">
-              {{ 'products.product.limited' | t }}
-            </span>
-          {% endif %}
           {% if product.tags contains 'Co-création' %}
             <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">
               {{ 'products.product.cocrea' | t }}
