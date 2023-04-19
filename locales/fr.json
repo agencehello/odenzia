@@ -505,7 +505,7 @@
       "inventory_label": "Stock",
       "loader_label": "Ajouter au panier",
       "no_rates": "Tarif de livraison indisponible",
-      "on_sale": "Promo",
+      "on_sale": "Prix réduit",
       "on_sale_from_html": "En réduction à partir de {{ price }}",
       "preorder": "Pré-commander",
       "quantity": "Quantité",
