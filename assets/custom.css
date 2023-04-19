@@ -765,6 +765,10 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   #programme h3 {
     margin: 0 0 10px 0 !important;
   }
+  /* Collections */
+  .collection__details {
+    position: absolute !important;
+  }
   /* Concept thématiques */
   #concept_themes .text-columns__content,
   #concept_themes .text-block.text-columns__feature {
