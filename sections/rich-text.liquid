@@ -22,7 +22,7 @@
   data-section-id="{{ section.id }}"
   data-section-type="rich-text"
   class="section rich-text{{ modifiers }}">
-  <div class="{% if section.settings.section_id != blank %}{{ section.settings.section_id }} {% endif %}rich-text__inner text-block animation--section-introduction">
+  <div class="{% if section.settings.section_class != blank %}{{ section.settings.section_class }} {% endif %}rich-text__inner text-block animation--section-introduction">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {% when 'overline' %}
@@ -74,8 +74,8 @@
       },
       {
         "type": "text",
-        "id": "section_id",
-        "label": "ID de section pour le CSS"
+        "id": "section_class",
+        "label": "Class de section pour le CSS"
       },
       {
         "type": "select",
