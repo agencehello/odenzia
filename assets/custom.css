@@ -1010,6 +1010,14 @@ span.bullet {
 .o-50 {
   opacity: 1;
 }
+.card__badge,
+.product__tags {
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  row-gap: 15px;
+  padding: 15px;
+}
 .product-item .badge,
 .template-product .badge {
   font-family: var(--body-light) !important;
