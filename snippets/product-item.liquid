@@ -113,6 +113,12 @@
             {{ 'products.product.limited' | t }}
           </div>
         {% endif %}
+
+        {% if product.tags contains 'Co-création' %}
+          <div class="badge type-body-small ttu lh-title absolute top-0 right-0 mt3 mr3 bg-cocrea">
+            {{ 'products.product.cocrea' | t }}
+          </div>
+        {% endif %}
     
     {% comment %} SOLD OUT BADGE {% endcomment %}
     {% unless product.available %}
