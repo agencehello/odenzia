@@ -22,7 +22,7 @@
   data-section-id="{{ section.id }}"
   data-section-type="rich-text"
   class="section rich-text{{ modifiers }}">
-  <div id="{{ section.settings.id }}" class="rich-text__inner text-block animation--section-introduction">
+  <div {% if section.settings.section_id != blank %}id="{{ section.settings.section_id }}"{% endif %}class="rich-text__inner text-block animation--section-introduction">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {% when 'overline' %}
@@ -69,12 +69,13 @@
     "class": "section-dynamic section-borderable",
     "settings": [
       {
-        "type": "text",
-        "id": "id"
-      },
-      {
         "type": "header",
         "content": "t:sections.rich_text.settings.style_header.content"
+      },
+      {
+        "type": "text",
+        "id": "section_id",
+        "label": "ID de section pour le CSS"
       },
       {
         "type": "select",
