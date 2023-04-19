@@ -1030,14 +1030,27 @@ span.bullet {
   background-color: var(--rose);
   color: var(--beige);
 }
-.bg-beige {
+.bg-beige-blue {
   background-color: var(--beige);
-  color: black;
+  color: var(--bleu);
+}
+.bg-beige-marron {
+  background-color: var(--beige);
+  color: var(--marron);
+}
+.bg-beige-pink {
+  background-color: var(--bg);
+  color: var(--rose);
 }
 .bg-promo {
-  bacgrkound-color: var(--bg);
+  background-color: var(--bg);
   stroke: 1px solid var(--bleu);
   color: var(--bleu);
+}
+.bg-cocrea {
+  background-color: var(--bg);
+  stroke: 1px solid var(--marron);
+  color: var(--marron);
 }
 /* PRODUCT PAGE */
 .product__media-container {
