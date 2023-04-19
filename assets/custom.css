@@ -732,14 +732,16 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     background-color: var(--beige);
   }
   /* Produit */
-  .template-product .badge {
-    left: unset !important;
-    right: 5% !important;
+  .template-product .card__badge {
+    width: 100%;
+    left: 60%;
+    transform: translateX(-50%);
   }
   .product-item .badge,
   .template-product .badge {
     font-size: 10px !important;
     line-height: 1.5em !important;
+    padding: 10px 15px;
   }
   .padding_mob {
     padding: 50px 0;
