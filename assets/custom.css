@@ -196,11 +196,6 @@ span.devis {
 }
 
 /* COLLECTION PAGE */
-/* Header */
-.collection__container .collection__details .text-block__heading {
-  font-size: 6.2vh !important;
-  line-height: 1em !important;
-}
 /* Filtres */
 @media screen and (min-width: 960px) {
   .collection--has-sidebar .collection__content {
