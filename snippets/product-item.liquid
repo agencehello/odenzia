@@ -78,34 +78,34 @@
     </a>
 
     {% comment %} SALE BADGE {% endcomment %}
-    <div class="card__badge">
+    <div class="card__badge absolute">
     {% if product.compare_at_price > product.price %}
-      <div class="badge type-body-small ttu lh-title absolute top-0 right-0 mt3 mr3 bg-sale same-as-bg bg-promo">
+      <div class="badge type-body-small ttu lh-title top-0 right-0 mt3 mr3 bg-sale same-as-bg bg-promo">
         {{ 'products.product.on_sale' | t }}
       </div>
     {% endif %}
     {% if product.tags contains 'Séjour confirmé' %}
-      <div class="badge type-body-small ttu lh-title absolute top-0 right-0 mt3 mr3 bg-blue">
+      <div class="badge type-body-small ttu lh-title top-0 right-0 mt3 mr3 bg-blue">
         {{ 'products.product.confirmed' | t }}
       </div>
     {% endif %}
     {% if product.tags contains 'À venir' %}
-      <div class="badge type-body-small ttu lh-title absolute top-0 right-0 mt3 mr3 bg-beige-blue">
+      <div class="badge type-body-small ttu lh-title top-0 right-0 mt3 mr3 bg-beige-blue">
         {{ 'products.product.soon' | t }}
       </div>
     {% endif %}
     {% if product.tags contains 'Dernières places' %}
-      <div class="badge type-body-small ttu lh-title absolute top-0 right-0 mt3 mr3 bg-pink">
+      <div class="badge type-body-small ttu lh-title top-0 right-0 mt3 mr3 bg-pink">
         {{ 'products.product.last' | t }}
       </div>
     {% endif %}
     {% if product.tags contains 'Nouveau' %}
-      <div class="badge type-body-small ttu lh-title absolute top-0 right-0 mt3 mr3 bg-new">
+      <div class="badge type-body-small ttu lh-title top-0 right-0 mt3 mr3 bg-new">
         {{ 'products.product.new' | t }}
       </div>
     {% endif %}
     {% if product.tags contains 'Co-création' %}
-      <div class="badge type-body-small ttu lh-title absolute top-0 right-0 mt3 mr3 bg-cocrea">
+      <div class="badge type-body-small ttu lh-title top-0 right-0 mt3 mr3 bg-cocrea">
         {{ 'products.product.cocrea' | t }}
       </div>
     {% endif %}
@@ -113,7 +113,7 @@
     
     {% comment %} SOLD OUT BADGE {% endcomment %}
     {% unless product.available %}
-      <div class="badge type-body-small ttu lh-title absolute top-0 right-0 mt3 mr3 bg-sold-out same-as-bg">
+      <div class="badge type-body-small ttu lh-title top-0 right-0 mt3 mr3 bg-sold-out same-as-bg">
         {{ 'products.product.sold_out' | t }}
       </div>
     {% endunless %}
