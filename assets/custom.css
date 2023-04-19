@@ -196,6 +196,11 @@ span.devis {
 }
 
 /* COLLECTION PAGE */
+/* Header */
+.collection__container h2 {
+  font-size: 6.2vh !important;
+  line-height: 1em !important;
+}
 /* Filtres */
 @media screen and (min-width: 960px) {
   .collection--has-sidebar .collection__content {
@@ -768,6 +773,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   /* Collections */
   .collection__details {
     position: absolute !important;
+    color: var(--bg);
   }
   /* Concept thématiques */
   #concept_themes .text-columns__content,
