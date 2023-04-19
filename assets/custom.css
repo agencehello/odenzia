@@ -651,11 +651,6 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     line-height: 22px !important;
     padding: 12px 20px !important;
   }
-  /* SECTIONS */
-  /* Texte Enrichi */
-  #etroit .rich-text__subheading.rte {
-    max-width: 50% !important;
-  }
 }
 @media screen and (min-width: 990px) and (max-width: 1130px) {
   /* Concept thématiques */
@@ -1403,8 +1398,8 @@ a#RecoverPassword,
   margin-top: 3em !important;
 }
 .new_customer a {
-  background-color: #094849;
-  outline: 1px solid #094849;
+  background-color: var(--bleu);
+  outline: 1px solid var(--bleu);
   outline-offset: 3px;
   width: fit-content;
   padding: 10px 33px;
@@ -1413,7 +1408,6 @@ a#RecoverPassword,
   display: block;
   margin: 2em auto 0 auto;
 }
-
 /* RECHERCHE */
 .search__input {
   box-shadow: none;
