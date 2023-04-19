@@ -741,6 +741,7 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   }
   .two_col {
     display: block !important;
+    margin: 0 !important;
   }
   .tablinks-cus {
     padding: var(--padd-mob) 0 !important;
