@@ -1253,6 +1253,27 @@ figure img {
   width: 16px !important;
   max-width: 16px !important;
 }
+.modalBoxStyle {
+  background-color: var(--bg) !important;
+  border-radius: 0;
+}
+.formTitleStyle{
+  font-family: var(--title) !important;
+  line-height: 22px !important;
+  color: black !important;
+}
+.fieldLabelTextStyle {
+  font-family: var(--body) !important;
+  font-size: 16px !important;
+  line-height: 24px !important; 
+}
+.restock-alerts-submit-button {
+  padding: 14px;
+  text-transform: uppercase;
+}
+.restock-alerts-branding-text {
+  display:none;
+}
 /* QUICK CART & CART */
 .quick-cart__tab-item .js-tab-link-recent {
   display: none !important;
