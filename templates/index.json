@@ -141,9 +141,7 @@
         "8ae1bc0b-fc2f-4247-84b4-234be223088f"
       ],
       "custom_css": [
-        "section {background-color: #094849; color: #fffcf8; padding: 60px 0 6% 0;}",
-        ".text-columns__content {display: flex; align-items: start; margin: auto; width: 80%;}",
-        ".text-block__subheading {font-family: \"Karla\"; font-weight: 400; text-transform: uppercase; color: #fffcf8;}"
+
       ],
       "settings": {
         "section_id": "home-picto",
