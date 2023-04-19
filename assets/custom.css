@@ -1243,6 +1243,7 @@ figure img {
 /* Notify when back in stock */
 .restock-alerts-notify-button {
   font-family:var(--body);
+  text-decoration: underline;
 }
 /* QUICK CART & CART */
 .quick-cart__tab-item .js-tab-link-recent {
