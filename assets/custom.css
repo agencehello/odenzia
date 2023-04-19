@@ -1010,7 +1010,6 @@ span.bullet {
 .o-50 {
   opacity: 1;
 }
-.card__badge,
 .product__tags {
   display:flex;
   flex-direction:column;
