@@ -888,7 +888,7 @@ ET TABLETTES /////////////////////////
     margin: 0 0 10px 0 !important;
   }
   /* Collections */
-  .collection__details {
+  .collection__container .collection__details {
     position: absolute !important;
     color: var(--bg);
     top: 50%;
