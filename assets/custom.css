@@ -1018,6 +1018,10 @@ span.bullet {
   top: 0;
   right: 0;
 }
+.template-product .card__badge {
+  z-index: 1;
+  right: calc(5% + 35px);
+}
 .o-50 {
   opacity: 1;
 }
@@ -1097,11 +1101,6 @@ span.bullet {
 }
 .product-form__option-select:hover {
   border-color: var(--marron) !important;
-}
-.template-product .badge {
-  z-index: 1;
-  position: absolute;
-  right: 11%;
 }
 .flickity-prev-next-button {
   background-color: var(--bleu);
