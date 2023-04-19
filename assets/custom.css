@@ -1266,7 +1266,7 @@ figure img {
 .fieldLabelTextStyle {
   font-family: var(--body-light) !important;
   font-size: 16px !important;
-  font-weight: 300 !important;
+  font-weight: 400 !important;
   line-height: 24px !important; 
   color: black !important;
 }
@@ -1278,6 +1278,10 @@ figure img {
 }
 .restock-alerts-branding-text {
   display:none !important;
+}
+.restock-alerts-email-input .inputStyle {
+  border-radius: 0 !important;
+  font-family: var(--body-light);
 }
 /* QUICK CART & CART */
 .quick-cart__tab-item .js-tab-link-recent {
