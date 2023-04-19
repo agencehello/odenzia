@@ -105,7 +105,7 @@ section {
 .b {
   display: none;
 }
-.testimonials__slides .carousel__navigation {
+.testimonials .carousel__navigation {
   bottom: 45% !important;
 }
 .testimonials .carousel__next-button,
