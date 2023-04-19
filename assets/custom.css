@@ -651,6 +651,11 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
     line-height: 22px !important;
     padding: 12px 20px !important;
   }
+  /* SECTIONS */
+  /* Texte Enrichi */
+  #etroit .rich-text__subheading.rte {
+    max-width: 50% !important;
+  }
 }
 @media screen and (min-width: 990px) and (max-width: 1130px) {
   /* Concept thématiques */
