@@ -95,9 +95,9 @@ Usage:
               {{ 'products.product.soon' | t }}
             </span>
           {% endif %}
-          {% if product.tags contains 'Réservations fermées' %}
+          {% if product.tags contains 'Dernières places' %}
             <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">
-              {{ 'products.product.closed' | t }}
+              {{ 'products.product.last' | t }}
             </span>
           {% endif %}
           {%- if product_card_product.available == false -%}
