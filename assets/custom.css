@@ -1321,7 +1321,7 @@ figure img {
   text-transform: uppercase;
 }
 .quick-cart__product-price-value {
-  font-family: var(--body-light);
+  font-family: var(--body);
   color: var(--bleu);
 }
 .quick-cart__product-details div,
