@@ -93,6 +93,7 @@ section {
   margin: 0 auto;
   max-width: 85%;
 }
+
 /* Formules */
 #formules .text-columns__content {
   gap: 50px;
@@ -156,6 +157,7 @@ span.devis {
   text-decoration: underline;
   text-underline-offset: 0.3em;
 }
+
 /* Sur-mesure */
 #sur_mesure img {
   padding: 10%;
@@ -178,6 +180,7 @@ span.devis {
   content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-puce-marron.svg?v=1680699739");
   margin-right: 10px;
 }
+
 /* Concept thématiques */
 #concept_themes .text-block.text-columns__feature {
   display: grid;
@@ -193,6 +196,25 @@ span.devis {
 #concept_themes .mb3.w-100.text-columns__image.db {
   max-width: 160px !important;
   margin: 0 30px 0 auto;
+}
+
+/* Colonne avec Images */
+#home-picto {
+  background-color: #094849;
+  color: #fffcf8;
+  padding: 60px 0 6% 0;
+}
+#home-picto .text-columns__content {
+  display: flex;
+  align-items: start;
+  margin: auto;
+  width: 80%;
+}
+#home-picto .text-block__subheading {
+  font-family: "Karla";
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fffcf8;
 }
 
 /* COLLECTION PAGE */
