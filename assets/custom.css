@@ -197,7 +197,7 @@ span.devis {
 
 /* COLLECTION PAGE */
 /* Header */
-.collection__container h2 {
+.collection__details h2 {
   font-size: 6.2vh !important;
   line-height: 1em !important;
 }
