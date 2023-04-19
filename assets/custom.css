@@ -915,6 +915,12 @@ ET TABLETTES /////////////////////////
     width: 100% !important;
     padding: 0 25px;
   }
+  .testimonials .carousel__previous-button {
+    left: 0 !important;
+  }
+  .testimonials .carousel__next-button {
+    right: 0 !important;
+  }
   /* Sur mesure */
   #sur_mesure img {
     padding: 5% !important;
