@@ -1006,7 +1006,8 @@ span.bullet {
   border-radius: 50%;
   margin: 0 10px 0 0;
 }
-/* Badge */
+
+/* BADGES */
 .o-50 {
   opacity: 1;
 }
@@ -1049,6 +1050,7 @@ span.bullet {
   border: 1px solid var(--rose);
   color: var(--rose);
 }
+
 /* PRODUCT PAGE */
 .product__media-container {
   padding-right: 5%;
@@ -1151,7 +1153,6 @@ div#achat {
   gap: 10px;
   margin: 2em 0;
 }
-
 /* Badge COMPLET */
 .bttn:disabled {
   opacity: 1;
@@ -1188,7 +1189,6 @@ button.tablinks-cus {
   background: transparent;
   border-style: none;
 }
-
 button.tablinks-cus.active {
   border-bottom: 1px solid var(--bleu) !important;
   color: var(--bleu) !important;
@@ -1239,6 +1239,10 @@ figure img {
 #infos-pratiques p {
   margin-top: 0;
   margin-bottom: 0;
+}
+/* Notify when back in stock */
+.restock-alerts-notify-button {
+  font-family:var(--body);
 }
 /* QUICK CART & CART */
 .quick-cart__tab-item .js-tab-link-recent {
