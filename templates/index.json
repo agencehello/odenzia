@@ -160,15 +160,10 @@
     "b881445f-7a33-4112-9eea-fa846c27b0c4": {
       "type": "featured-collection-row",
       "custom_css": [
-        "section {padding-top: 8%; padding-bottom: 8%;}",
-        ".text-block__overline {color: #094849;}",
-        ".text-block__button {background-color: transparent; color: #094849; border: solid 0.9px #094849;}",
-        ".text-block__button:hover {background-color: #094849; color: #fffcf8; outline: 1px solid #094849; outline-offset: 3px;}",
-        ".carousel__navigation {bottom: 57% !important;}",
-        ".carousel__next-button,.carousel__previous-button {background-color: #094849; color: #fffcf8; border-radius: 50%; box-shadow: none;}",
-        ".text-block {padding-left: 5%;}"
+
       ],
       "settings": {
+        "section_id": "sejours_slider",
         "section_style": "default",
         "enable_animation": true,
         "collection": "frontpage",
