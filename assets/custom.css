@@ -1245,7 +1245,7 @@ figure img {
   font-family:var(--body);
   text-decoration: underline;
   font-size: 16px;
-  margin-top: -2em;
+  margin-top: -2em !important;
 }
 /* QUICK CART & CART */
 .quick-cart__tab-item .js-tab-link-recent {
