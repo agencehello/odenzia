@@ -5,7 +5,7 @@
       "custom_css": [
         ".collection__container {padding-left: 0; padding-right: 0;}",
         ".collection-banner {margin-top: 0;}",
-        ".text-block__heading {font-size: 6.2vh !important;line-height: 1em !important;}",
+        ".text-block__heading {font-size: 6.2vh !important; line-height: 1em !important; margin-bottom: 40px;}",
         ".text-block__subheading {max-width: 700px !important;}"
       ],
       "settings": {
