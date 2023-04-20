@@ -1358,7 +1358,7 @@ a#RecoverPassword,
     justify-self: center;
   }
   #home-pictos .image__img {
-    object-fit:contain;
+    object-fit:contain !important;
   }
   /* Pastille */
   span.pastille {
