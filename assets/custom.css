@@ -1347,8 +1347,8 @@ a#RecoverPassword,
     gap: 2em;
   }
   #home-picto .text-columns__image {
-    max-width: 90% !important;
-    min-height: 15vh;
+    max-width: 100% !important;
+    min-height: 17vh;
     margin-bottom: 0;
   }
   #home-picto .text-columns__feature:last-child {
