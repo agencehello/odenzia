@@ -701,6 +701,9 @@ header.collection__header {
   right: 0;
   flex-direction: column;
 }
+.card_badge:nth-child(2) {
+  margin-top: 5% !important;
+}
 .template-product .card__badge {
   z-index: 1;
   right: calc(5% + 35px);
