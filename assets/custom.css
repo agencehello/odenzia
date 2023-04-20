@@ -1390,7 +1390,7 @@ opacity: 1;
   #home-picto .text-columns__content {
     grid-template-columns: 1fr 1fr;
     gap: 1em;
-    align-items: end;
+    align-items: baseline;
     width: 90%;
   }
   #home-picto .text-columns__image {
