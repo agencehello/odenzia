@@ -70,7 +70,7 @@
     {{ content_for_header }}
   </head>
 
-  <body class="template-{{ request.page_type | handle }} {{ page_title }} {% if settings.uppercase_headings %} g-uppercase{% endif %} secondary_button-style-{{ settings.button_secondary_style }}"
+  <body class="template-{{ request.page_type | handle }} {% if settings.uppercase_headings %} g-uppercase{% endif %} secondary_button-style-{{ settings.button_secondary_style }}"
     {% if settings.cart_type == 'flyout' %}
     data-enable-quick-cart="true"
     {% endif %}
