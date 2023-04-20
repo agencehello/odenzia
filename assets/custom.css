@@ -185,7 +185,6 @@ nav.header__nav.right {
   right: 50px;
 }
 
-
 /*/////// SECTIONS //////*/
 /* Featured collection row */
 .featured-collection-row__slide .product-item__details,
@@ -212,27 +211,27 @@ nav.header__nav.right {
   padding-bottom: 8%;
 }
 #sejours_slider .text-block__overline {
-  color: #094849;
+  color: var(--bleu);
 }
 #sejours_slider .text-block__button {
   background-color: transparent;
-  color: #094849;
-  border: solid 0.9px #094849;
+  color: var(--bleu);
+  border: solid 0.9px var(--bleu);
 }
 #sejours_slider .text-block__button:hover {
-  background-color: #094849;
-  color: #fffcf8;
-  outline: 1px solid #094849;
+  background-color: var(--bleu);
+  color: var(--bg);
+  outline: 1px solid var(--bleu);
   outline-offset: 3px;
 }
 #sejours_slider .carousel__navigation {
-  bottom: 62% !important;
-  transform: translateY(-62%);
+  bottom: 58% !important;
+  transform: translateY(-58%);
 }
 #sejours_slider .carousel__next-button,
 .carousel__previous-button {
-  background-color: #094849;
-  color: #fffcf8;
+  background-color: var(--bleu);
+  color: var(--bg);
   border-radius: 50%;
   box-shadow: none;
 }
