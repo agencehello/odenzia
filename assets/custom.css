@@ -701,7 +701,7 @@ header.collection__header {
   right: 0;
   flex-direction: column;
 }
-.card_badge:nth-child(2) {
+.card_badge:last-child {
   margin-top: 5% !important;
 }
 .template-product .card__badge {
