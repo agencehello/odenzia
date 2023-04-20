@@ -1108,8 +1108,38 @@ textarea:focus-visible {
   background-color: var(--rose);
   color: var(--beige);
 }
+.cart-template__dynamic-checkout-buttons {
+  display: none;
+}
 
 /* COMPTE CLIENT */
+.account__address .bttn--secondary {
+background-color: var(—bleu);
+outline: 1px solid var(—bleu);
+}
+.account__address .bttn--secondary:hover {
+opacity: .5;
+}
+.bttn:hover {
+opacity: .5;
+}
+.account__address-default {
+font-weight: 400 !important;
+}
+.account .input {
+font-family: var(—body-light);
+}
+#address-form .bttn--secondary {
+background-color: var(—bleu);
+outline: 1px solid var(—bleu);
+}
+#address-form .bttn--secondary:hover {
+opacity: .5;
+}
+.account__logout {
+font-style: inherit;
+}
+
 /* Connexion / inscription */
 .account input,
 .account textarea,
@@ -1175,6 +1205,11 @@ a#RecoverPassword,
   text-transform: uppercase;
   display: block;
   margin: 2em auto 0 auto;
+}
+.new_customer a:hover {
+background-color: var(—rose);
+outline: 1px solid var(—rose);
+opacity: 1;
 }
 
 /*///////////////////////////////////////
