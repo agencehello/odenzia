@@ -1209,7 +1209,8 @@ opacity: 1;
 .account .input {
   font-family: var(--body-light);
 }
-.account__logout {
+.account__logout a{
+  color: var(--marron);
   font-style: inherit;
 }
 
