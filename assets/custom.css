@@ -225,8 +225,8 @@ nav.header__nav.right {
   outline-offset: 3px;
 }
 #sejours_slider .carousel__navigation {
-  bottom: 58% !important;
-  transform: translateY(-58%);
+  bottom: 60% !important;
+  transform: translateY(-60%);
 }
 #sejours_slider .carousel__next-button,
 .carousel__previous-button {
@@ -1377,6 +1377,14 @@ a#RecoverPassword,
     left: 20%;
   }
   /* Featured collection row */
+  #sejours_slider {
+    padding-top: 10% !important;
+    padding-bottom: 10% !important;
+  }
+  #sejours_slider .text-block {
+    padding-left: 0 !important;
+    margin-bottom: 10%;
+  }
   #sejours_slider .carousel__navigation {
     top: 50% !important;
     transform: translateY(-50%);
@@ -1384,10 +1392,10 @@ a#RecoverPassword,
     height: 30px;
   }
   .carousel__previous-button {
-    left: 30px !important;
+    left: 20px !important;
   }
   .carousel__next-button {
-    right: 30px !important;
+    right: 20px !important;
   }
   /* Collection page */
   .collection__container .collection__details {
