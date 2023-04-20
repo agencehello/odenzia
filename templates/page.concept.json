@@ -368,6 +368,7 @@
         "section {background-color: #094849; color: #fffcf8; padding: 120px 0 0 0;}"
       ],
       "settings": {
+        "section_id": "",
         "section_style": "default",
         "enable_animation": true,
         "alignment": "center"
@@ -463,6 +464,7 @@
         ".text-block {padding-left: 5%;}"
       ],
       "settings": {
+        "section_id": "sejours_slider",
         "section_style": "default",
         "enable_animation": true,
         "collection": "frontpage",
@@ -575,6 +577,7 @@
         ".rich-text__title {font-size: 26px !important; line-height: 30px !important; margin-bottom: 10px !important;}"
       ],
       "settings": {
+        "section_id": "",
         "section_style": "default",
         "enable_animation": true,
         "alignment": "center"
