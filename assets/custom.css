@@ -1357,7 +1357,7 @@ a#RecoverPassword,
     max-width: 50%;
     justify-self: center;
   }
-  #home-pictos .image__img {
+  #home-pictos img {
     object-fit:contain !important;
   }
   /* Pastille */
