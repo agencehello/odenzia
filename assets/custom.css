@@ -457,14 +457,6 @@ span.devis {
   max-width: 65%;
 }
 
-/* Banner page */
-.banner_page {
-  height: 50vh;
-  max-height: 50vh;
-  color: var(--beige);
-  justify-content: center;
-}
-
 /* FOOTER */
 .footer__groups {
   padding-top: 2%;
