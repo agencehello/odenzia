@@ -701,8 +701,8 @@ header.collection__header {
   right: 0;
   flex-direction: column;
   gap: 10px;
-  margin-top: 4%;
-  margin-right: 4%;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 .badge {
   margin: 0;
@@ -710,6 +710,7 @@ header.collection__header {
 .template-product .card__badge {
   z-index: 1;
   right: calc(5% + 35px);
+  margin-t
 }
 .o-50 {
   opacity: 1;
