@@ -1114,33 +1114,26 @@ textarea:focus-visible {
 }
 
 /* COMPTE CLIENT */
-.account__address .bttn--secondary {
-background-color: var(—bleu);
-outline: 1px solid var(—bleu);
+.account .bttn--full {
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+  background-color: var(--marron);
+  color: var(--beige);
+  border: none !important;
+  padding-left: 15px !important;
+  width: 50%;
+  margin: auto;
+  outline: 1px solid var(--marron) !important;
+  outline-offset: 3px;
+  width: auto;
+  padding: 10px 33px !important;
 }
-.account__address .bttn--secondary:hover {
-opacity: .5;
+.account .bttn.bttn--full {
+  margin: 1em auto 0 auto !important;
 }
-.bttn:hover {
-opacity: .5;
+.account .bttn--full:hover {
+  background-color: var(--bleu);
 }
-.account__address-default {
-font-weight: 400 !important;
-}
-.account .input {
-font-family: var(—body-light);
-}
-#address-form .bttn--secondary {
-background-color: var(—bleu);
-outline: 1px solid var(—bleu);
-}
-#address-form .bttn--secondary:hover {
-opacity: .5;
-}
-.account__logout {
-font-style: inherit;
-}
-
 /* Connexion / inscription */
 .account input,
 .account textarea,
@@ -1163,27 +1156,6 @@ font-style: inherit;
 }
 .account input::placeholder {
   color: #000000;
-}
-.account .bttn--full {
-  margin-top: 25px !important;
-  margin-bottom: 25px !important;
-  background-color: var(--marron);
-  color: var(--beige);
-  border: none !important;
-  padding-left: 15px !important;
-  width: 50%;
-  margin: auto;
-  outline: 1px solid var(--marron) !important;
-  outline-offset: 3px;
-  width: auto;
-  padding: 10px 33px !important;
-}
-.account .bttn.bttn--full {
-  margin: 1em auto 0 auto !important;
-}
-.account .bttn--full:hover {
-  background-color: var(--bleu);
-  outline: 1px solid var(--bleu) !important;
 }
 a#RecoverPassword,
 .login__links a {
@@ -1212,6 +1184,24 @@ background-color: var(—rose);
 outline: 1px solid var(—rose);
 opacity: 1;
 }
+/* Adresses */
+.account__address-default {
+  font-weight: 400 !important;
+}
+.account .input {
+  font-family: var(—body-light);
+}
+#address-form .bttn--secondary {
+  background-color: var(—bleu);
+  outline: 1px solid var(—bleu);
+}
+#address-form .bttn--secondary:hover {
+  opacity: .5;
+}
+.account__logout {
+  font-style: inherit;
+}
+
 
 /*///////////////////////////////////////
 // ODENZIA DESKTOP (min-width: 990px) //
