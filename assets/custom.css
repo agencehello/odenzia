@@ -1549,7 +1549,6 @@ opacity: 1;
     text-transform: uppercase !important;
     color: var(--bg) !important;
     letter-spacing: 0 !important;
-    margin-left: 15px;
   }
   .footer__header {
     gap: 10px;
@@ -1622,6 +1621,9 @@ opacity: 1;
   /* Footer */
   .footer__header {
     justify-content: center;
+  }
+  .footer__heading {
+      margin-left: 15px;
   }
   .footer__links ul {
       text-align: center;
