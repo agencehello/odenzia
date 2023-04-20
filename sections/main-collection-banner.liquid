@@ -69,18 +69,11 @@
   {%- if collection.all_products_count > 0 -%}
     <div class="collection__container">
       <header role="banner" class="collection__header">
-        <div
-          class="
-            collection__details
-            {% if show_collection_image == false or collection.image == blank %}collection__details--no-image{% endif %}
-          "
-        >
+        <div class="collection__details {% if show_collection_image == false or collection.image == blank %}collection__details--no-image{% endif %}">
           {% assign collection_subheading = '' %}
-
           {% if show_description %}
             {% assign collection_subheading = collection.description %}
           {% endif %}
-
           {%
             render 'text-block',
             modifiers: 'animation--section-introduction',

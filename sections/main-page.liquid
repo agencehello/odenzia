@@ -2,6 +2,9 @@
   data-section-id="{{ section.id }}"
   data-section-type="page"
 >
+  {% if class_page contains 'banner_page' %}
+  <div class="collection__details">
+  {% endif %}
   <div class="page__header center animation--section-introduction">
     <h1 class="type-heading-1 tc mt0 mb5">{{ page.title }}</h1>
   </div>
@@ -11,6 +14,9 @@
       {{ page.content }}
     </div>
   </div>
+  {% if class_page contains 'banner_page' %}
+  </div>
+  {% endif %}
 </section>
 
 {% schema %}
