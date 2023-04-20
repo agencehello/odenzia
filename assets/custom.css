@@ -1344,7 +1344,7 @@ a#RecoverPassword,
   #home-picto .text-columns__content {
     grid-template-columns: auto auto;
     gap: 2em;
-    align-items: center;
+    align-items: end;
   }
   #home-picto .text-columns__image {
     max-width: 100% !important;
