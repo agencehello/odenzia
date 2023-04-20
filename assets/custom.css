@@ -1388,9 +1388,10 @@ opacity: 1;
     padding-bottom: 60px;
   }
   #home-picto .text-columns__content {
-    grid-template-columns: 50% 50%;
-    gap: 2em;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
     align-items: end;
+    width: 90%;
   }
   #home-picto .text-columns__image {
     max-width: 100% !important;
