@@ -1114,6 +1114,7 @@ textarea:focus-visible {
 }
 
 /* COMPTE CLIENT */
+/* Connexion / inscription */
 .account .bttn--full {
   margin-top: 25px !important;
   margin-bottom: 25px !important;
@@ -1133,8 +1134,8 @@ textarea:focus-visible {
 }
 .account .bttn--full:hover {
   background-color: var(--bleu);
+  outline: 1px solid var(--bleu) !important;
 }
-/* Connexion / inscription */
 .account input,
 .account textarea,
 .account select,
@@ -1185,6 +1186,10 @@ outline: 1px solid var(—rose);
 opacity: 1;
 }
 /* Adresses */
+.account__address-inner .bttn--full {
+  background-color: var(--bleu) !important;
+  outline: none !important;
+}
 .account__address-default {
   font-weight: 400 !important;
 }
