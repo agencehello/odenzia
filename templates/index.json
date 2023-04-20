@@ -59,7 +59,7 @@
         "template--18287000387912__4cd28d26-6998-444f-b65e-4a3f908b11a4-1678800832f36e786e-2"
       ],
       "custom_css": [
-
+        "section {background-color: var(--bleu); color: var(--bg); padding: 6% 0 0 0;}"
       ],
       "settings": {
         "section_id": "catchphrase",
