@@ -1212,7 +1212,7 @@ opacity: 1;
 .account__logout {
   font-style: inherit;
 }
-.account__logout {
+.account__logout a {
   color: var(--marron);
 }
 
