@@ -430,8 +430,8 @@ span.devis {
 
 /* Bandeau pictos */
 .catchphrase {
-  background-color: (var--bleu);
-  color: (var--bg);
+  background-color: var(--bleu);
+  color: var(--bg);
   padding: 6% 0 0 0;
 }
 .catchphrase p {
