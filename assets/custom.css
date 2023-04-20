@@ -429,10 +429,10 @@ span.devis {
   margin: 0 30px 0 auto;
 }
 
-/* Colonnes avec Images */
+/* Bandeau pictos */
 #home-picto {
-  background-color: #094849;
-  color: #fffcf8;
+  background-color: var(--bleu);
+  color: var(--bg);
   padding: 60px 0 6% 0;
 }
 #home-picto .text-columns__content {
@@ -442,10 +442,10 @@ span.devis {
   width: 80%;
 }
 #home-picto .text-block__subheading {
-  font-family: "Karla";
+  font-family: var(--body);
   font-weight: 400;
   text-transform: uppercase;
-  color: #fffcf8;
+  color: var(--bg);
 }
 
 /* Slideshow */
@@ -1192,6 +1192,7 @@ a#RecoverPassword,
   div#sib-container {
     max-width: 60% !important;
   }
+  /* Pastille */
   span.pastille {
     position: absolute;
     top: 15%;
@@ -1228,7 +1229,7 @@ a#RecoverPassword,
     line-height: 22px !important;
     padding: 12px 20px !important;
   }
-  /* Texte enrichi */
+  /* Bandeau pictos */
   .catchphrase .rich-text__subheading.rte {
     max-width: 50% !important;
   }
@@ -1252,7 +1253,7 @@ a#RecoverPassword,
 }
 
 @media screen and (min-width: 960px) {
-  /* Filtres • COLLECTION PAGE */
+  /* Filtres */
   .collection--has-sidebar .collection__content {
     display: block;
   }
@@ -1320,7 +1321,7 @@ a#RecoverPassword,
 
 /*//////////////////////////////////////
 // ODENZIA MOBILE (max-width: 989px) //
-ET TABLETTES /////////////////////////
+// & TABLETTES ///////////////////////
 ///////////////////////////////////*/
 @media screen and (max-width: 989px) {
   .hide_mobile {
@@ -1330,9 +1331,13 @@ ET TABLETTES /////////////////////////
   .text-block__subheading {
     max-width: 100% !important;
   }
-  /* Accueil */
+  /* Slideshow */
   .slideshow__subheading {
     max-width: 85% !important;
+  }
+  /* Bandeau pictos */
+  .catchphrase .rich-text__subheading.rte {
+    padding: 2rem 2rem 0 2rem;
   }
   #home-picto {
     padding-bottom: 60px;
@@ -1352,6 +1357,7 @@ ET TABLETTES /////////////////////////
     max-width: 50%;
     justify-self: center;
   }
+  /* Pastille */
   span.pastille {
     position: absolute;
     top: 30%;
@@ -1364,7 +1370,20 @@ ET TABLETTES /////////////////////////
     top: -5%;
     left: 20%;
   }
-    /* Collection page */
+  /* Featured collection row */
+  #sejours_slider .carousel__navigation {
+    top: 50% !important;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+  }
+  .carousel__previous-button {
+    left: 30px !important;
+  }
+  .carousel__next-button {
+    right: 30px !important;
+  }
+  /* Collection page */
   .collection__container .collection__details {
     position: absolute !important;
     color: var(--bg);
@@ -1412,7 +1431,7 @@ ET TABLETTES /////////////////////////
   .collection__tag {
     background-color: var(--beige);
   }
-  /* Produit */
+  /* Produits */
   .template-product .card__badge {
     width: 100%;
     left: 60%;
@@ -1434,6 +1453,7 @@ ET TABLETTES /////////////////////////
   .infos_inline .info span {
     min-width: 30px;
   }
+  /* Tabs */
   .accordion.break .accordion__text {
     display: block !important;
     padding-bottom: 10px !important;
@@ -1529,23 +1549,6 @@ ET TABLETTES /////////////////////////
   }
   #sur_mesure .text-block__subheading {
     max-width: 100% !important;
-  }
-  /* Texte enrichi */
-  .catchphrase .rich-text__subheading.rte {
-    padding: 2rem 2rem 0 2rem;
-  }
-  /* Featured collection row */
-  #sejours_slider .carousel__navigation {
-    top: 50% !important;
-    transform: translateY(-50%);
-    width: 30px;
-    height: 30px;
-  }
-  .carousel__previous-button {
-    left: 30px !important;
-  }
-  .carousel__next-button {
-    right: 30px !important;
   }
 }
 
