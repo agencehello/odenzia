@@ -699,6 +699,7 @@ header.collection__header {
   display: flex;
   top: 0;
   right: 0;
+  flex-direction: column;
 }
 .template-product .card__badge {
   z-index: 1;
@@ -1226,7 +1227,7 @@ a#RecoverPassword,
   #formules {
     padding-top: 0;
   }
-  /* Produits */
+  /* Badges */
   .product-item .badge,
   .template-product .badge {
     font-size: 14px !important;
@@ -1445,7 +1446,7 @@ a#RecoverPassword,
   .collection__tag {
     background-color: var(--beige);
   }
-  /* Produits */
+  /* Badges */
   .template-product .card__badge {
     width: 100%;
     left: 60%;
@@ -1453,10 +1454,11 @@ a#RecoverPassword,
   }
   .product-item .badge,
   .template-product .badge {
-    font-size: 10px !important;
+    font-size: 14px !important;
     line-height: 1.5em !important;
-    padding: 10px 15px;
+    padding: 8px 14px;
   }
+  /* Metafields produits */
   .padding_mob {
     padding: 50px 0;
   }
