@@ -704,6 +704,7 @@ header.collection__header {
   gap: 10px;
   margin-top: 20px;
   margin-right: 20px;
+  text-align: center;
 }
 .badge {
   margin: 0;
@@ -1238,7 +1239,7 @@ a#RecoverPassword,
   .product-item .badge,
   .template-product .badge {
     font-size: 14px !important;
-    line-height: 22px !important;
+    line-height: 1.5em !important;
     padding: 12px 20px !important;
   }
   /* Bandeau pictos */
@@ -1369,8 +1370,7 @@ a#RecoverPassword,
     grid-column: span 2;
     max-width: 50%;
     justify-self: center;
-  }
-  
+  }  
   /* Pastille */
   span.pastille {
     position: absolute;
@@ -1454,11 +1454,6 @@ a#RecoverPassword,
     background-color: var(--beige);
   }
   /* Badges */
-  .template-product .card__badge {
-    width: 100%;
-    left: 60%;
-    transform: translateX(-50%);
-  }
   .product-item .badge,
   .template-product .badge {
     font-size: 14px !important;
