@@ -1552,7 +1552,6 @@ opacity: 1;
     margin-left: 15px;
   }
   .footer__header {
-    justify-content: center;
     gap: 10px;
   }
   .footer__image--wrapper {
@@ -1621,10 +1620,13 @@ opacity: 1;
 
 @media screen and (max-width: 608px) {
   /* Footer */
+  .footer__header {
+    justify-content: center;
+  }
   .footer__links ul {
       text-align: center;
       width: 100%;
-    }
+  }
 }
 
 /*/////////////////////
