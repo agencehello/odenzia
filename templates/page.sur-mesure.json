@@ -3,7 +3,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "section {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0556\/3839\/3160\/files\/odenzia-sur-mesure-1.jpg?v=1679308730\"); background-repeat: no-repeat; background-size: cover; background-position: center; padding-top: 9%; padding-bottom: 9%; color: #fffcf8;}"
+        "section {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0556\/3839\/3160\/files\/odenzia-sur-mesure-1.jpg?v=1679308730\"); background-repeat: no-repeat; background-size: cover; background-position: center; height: 50vh; max-height: 50vh; color: var(--bg);}"
       ],
       "settings": {
         "enable_animation": true,
@@ -291,6 +291,7 @@
         ".rich-text__title {font-size: 26px !important; line-height: 30px !important; margin-bottom: 10px !important;}"
       ],
       "settings": {
+        "section_id": "",
         "section_style": "default",
         "enable_animation": true,
         "alignment": "center"
