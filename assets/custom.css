@@ -1449,6 +1449,10 @@ a#RecoverPassword,
   .collection__tag {
     background-color: var(--beige);
   }
+  /* Produit */
+  .product__media-container {
+    padding-right: 0 !important;
+  }
   /* Metafields produits */
   .padding_mob {
     padding: 50px 0;
