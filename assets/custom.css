@@ -459,10 +459,6 @@ span.devis {
 
 /* Banner page */
 .banner_page {
-  background-image: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-concept-1.jpg?v=1679308726");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   height: 50vh;
   max-height: 50vh;
   color: var(--beige);
