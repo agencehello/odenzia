@@ -1343,7 +1343,7 @@ ET TABLETTES /////////////////////////
   }
   #home-picto .text-columns__image {
     max-width: 90% !important;
-    min-height: 17vh;
+    min-height: 15vh;
     margin-bottom: 0;
   }
   #home-picto .text-columns__feature:last-child {
