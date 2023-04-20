@@ -1190,6 +1190,10 @@ opacity: 1;
   background-color: var(--bleu) !important;
   outline: none !important;
 }
+.account__address-inner .bttn--full:hover {
+  background-color: var(--marron) !important;
+  outline: none !important;
+}
 .account__address-default {
   font-weight: 400 !important;
 }
