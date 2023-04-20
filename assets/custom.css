@@ -1191,7 +1191,7 @@ opacity: 1;
   outline: none !important;
 }
 .account__address-inner .bttn--full:hover {
-  background-color: var(--marron) !important;
+  background-color: var(--rose) !important;
   outline: none !important;
 }
 .account__address-default {
