@@ -1357,6 +1357,9 @@ a#RecoverPassword,
     max-width: 50%;
     justify-self: center;
   }
+  #home-pictos .image__img {
+    object-fit:contain;
+  }
   /* Pastille */
   span.pastille {
     position: absolute;
