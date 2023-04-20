@@ -714,7 +714,7 @@ header.collection__header {
 }
 .template-product .card__badge {
   z-index: 1;
-  right: 20px;
+  right: calc(5% + 20px);
 }
 .o-50 {
   opacity: 1;
