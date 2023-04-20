@@ -714,7 +714,7 @@ header.collection__header {
 }
 .template-product .card__badge {
   z-index: 1;
-  right: calc(5% - 20px);
+  right: calc(5% + 40px);
 }
 .o-50 {
   opacity: 1;
@@ -1483,6 +1483,10 @@ opacity: 1;
   }
   .collection__tag {
     background-color: var(--beige);
+  }
+  /* Badge */
+  .template-product .card__badge {
+    right: 0;
   }
   /* Produit */
   .product__media-container {
