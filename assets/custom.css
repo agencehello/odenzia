@@ -1207,14 +1207,7 @@ opacity: 1;
   font-weight: 400 !important;
 }
 .account .input {
-  font-family: var(—body-light);
-}
-#address-form .bttn--secondary {
-  background-color: var(—bleu);
-  outline: 1px solid var(—bleu);
-}
-#address-form .bttn--secondary:hover {
-  opacity: .5;
+  font-family: var(--body-light);
 }
 .account__logout {
   font-style: inherit;
