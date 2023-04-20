@@ -429,6 +429,16 @@ span.devis {
 }
 
 /* Bandeau pictos */
+.catchphrase {
+  background-color: (var--bleu);
+  color: (var--bg);
+  padding: 6% 0 0 0;
+}
+.catchphrase p {
+  font-family: var(--title) !important;
+  font-size: 34px !important;
+  line-height: 40px !important;
+}
 #home-picto {
   background-color: var(--bleu);
   color: var(--bg);
@@ -1357,6 +1367,7 @@ a#RecoverPassword,
     max-width: 50%;
     justify-self: center;
   }
+  
   /* Pastille */
   span.pastille {
     position: absolute;
