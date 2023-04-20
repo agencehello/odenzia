@@ -700,9 +700,12 @@ header.collection__header {
   top: 0;
   right: 0;
   flex-direction: column;
+  gap: 10px;
+  margin-top: 4%;
+  margin-right: 4%;
 }
-.card__badge:last-child {
-  margin-top: 5% !important;
+.badge {
+  margin: 0;
 }
 .template-product .card__badge {
   z-index: 1;
