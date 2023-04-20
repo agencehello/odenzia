@@ -767,9 +767,6 @@ header.collection__header {
 .product__media-container {
   padding-right: 5%;
 }
-.product__media-action {
-  display: none;
-}
 .product-form__inner .product__price {
   font-family: var(--title);
   line-height: 24px;
@@ -1324,6 +1321,10 @@ a#RecoverPassword,
   }
   label.filter-item__content.filter-item__content--checkbox.checked span {
     color: var(--bleu) !important;
+  }
+  /* Produit */
+  .product__media-action {
+  display: none;
   }
 }
 
