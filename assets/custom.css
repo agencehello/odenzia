@@ -1194,10 +1194,10 @@ opacity: 1;
   background-color: var(--rose) !important;
   outline: none !important;
 }
-.account__address-inner .bttn--full .bttn--secondary {
+.account__address-inner .bttn--secondary {
   background-color: var(--marron) !important;
 }
-.account__address-inner .bttn--full .bttn--secondary:hover {
+.account__address-inner .bttn--secondary:hover {
   background-color: var(--bleu) !important;
 }
 .account__address-default {
