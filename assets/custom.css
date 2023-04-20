@@ -1212,9 +1212,6 @@ opacity: 1;
 .account__logout {
   font-style: inherit;
 }
-.account__logout a {
-  color: var(--marron);
-}
 
 
 /*///////////////////////////////////////
@@ -1441,7 +1438,8 @@ opacity: 1;
     right: 20px !important;
   }
   /* Collection page */
-  .collection__container .collection__details {
+  .collection__container .collection__details, 
+  .page .collection__details {
     position: absolute !important;
     color: var(--bg);
     top: 50%;
