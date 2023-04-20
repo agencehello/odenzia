@@ -689,7 +689,8 @@ button.sib-form-block__button.sib-form-block__button-with-loader:hover {
 header.collection__header {
   height: 50vh;
 }
-.image.image--animate.collection__image.lazyloaded {
+.image.image--animate.collection__image.lazyloaded,
+.collection__image-overlay{
   height: 50vh !important;
   max-height: 50vh !important;
 }
