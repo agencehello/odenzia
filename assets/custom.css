@@ -1200,6 +1200,9 @@ opacity: 1;
 .account__address-inner .bttn--secondary:hover {
   background-color: var(--bleu) !important;
 }
+.account button:hover {
+  background-color: var(--rose) !important;
+}
 .account__address-default {
   font-weight: 400 !important;
 }
