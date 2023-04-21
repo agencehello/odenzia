@@ -364,7 +364,7 @@
         "h2 {max-width: 65% !important;}"
       ],
       "settings": {
-        "section_id": "certi",
+        "section_id": "certif",
         "section_style": "default",
         "enable_animation": true,
         "alignment": "center"
