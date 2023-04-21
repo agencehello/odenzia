@@ -1624,13 +1624,6 @@ a#RecoverPassword,
   }
 }
 
-@media screen and (min-width: 960px) and (max-width: 989px) {
-  /* Produit */
-  .product__media-container {
-    padding-right: 5% !important;
-  }
-}
-
 @media screen and (max-width: 789px) {
   /* Global layout */
   .grid-display.grid-display--one-quarter {
@@ -1666,9 +1659,19 @@ a#RecoverPassword,
   }
 }
 
-/*/////////////////////
-// ODENZIA TABLETTE //
-///////////////////*/
+/*/////////////////////////////////
+// ODENZIA CORRECTIONS TABLETTE //
+///////////////////////////////*/
+@media screen and (min-width: 960px) and (max-width: 989px) {
+  /* Produit */
+  .product__media-container {
+    padding-right: 5%;
+  }
+  .template-product .card__badge {
+    right: calc(5% + 20px);
+  }
+}
+
 @media screen and (min-width: 760px) and (max-width: 989px) {
   /* Pastilles */
   .image-with-text__image.db {
