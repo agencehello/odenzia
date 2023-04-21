@@ -1652,7 +1652,7 @@ a#RecoverPassword,
     max-width: 85% !important;
   }
   /* Certifications • Page Concept */
-  #certifications .rich-text__title.text-block__item.text-block__heading {
+  #certifications .text-block__heading {
     max-width: 85% !important;
   }
 }
