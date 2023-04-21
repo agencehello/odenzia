@@ -1421,10 +1421,6 @@ a#RecoverPassword,
   .hide_mobile {
     display: none;
   }
-  /* Global layout */
-  .text-block__subheading {
-    max-width: 100% !important;
-  }
   /* Slideshow */
   .slideshow__subheading {
     max-width: 85% !important;
@@ -1505,7 +1501,7 @@ a#RecoverPassword,
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 90%; 
+    max-width: 85%; 
   }
   /* Filtres */
   .collection-flyout__heading {
@@ -1615,6 +1611,10 @@ a#RecoverPassword,
   .footer__image--wrapper {
     margin: 15px auto;
   }
+  /* Image with text */
+  .text-block__subheading {
+    max-width: 100% !important;
+  }
   /* Thèmes • Page Concept */
   #concept_themes .text-columns__content,
   #concept_themes .text-block.text-columns__feature {
@@ -1639,15 +1639,9 @@ a#RecoverPassword,
   #sur_mesure img {
     padding: 0 !important;
   }
-  #sur_mesure .text-block__subheading {
-    max-width: 100% !important;
-  }
   /* Image with text • Pages Concept & Sur mesure */
   #concept_block img {
     padding: 0 !important;
-  }
-  #concept_block .text-block__subheading {
-    max-width: 100% !important;
   }
   /* Image with text on background-color */
   #img_text_bg .image-with-text__text-container {
