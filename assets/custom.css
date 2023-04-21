@@ -217,7 +217,7 @@ button {
 #sejours_slider .text-block__button {
   background-color: transparent;
   color: var(--bleu);
-  outine: 1px solid var(--bleu);
+  outline: 1px solid var(--bleu);
   outline-offset: 3px;
 }
 #sejours_slider .text-block__button:hover {
