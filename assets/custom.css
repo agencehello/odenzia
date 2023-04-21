@@ -423,9 +423,10 @@ span.devis {
   text-decoration: underline;
   text-underline-offset: 0.3em;
 }
-#formule .text-block__subheading p{
+#formule .text-columns__feature p{
   text-align: left !important;
 }
+
 /* ACCUEIL */
 /* Bandeau pictos */
 .catchphrase p {
