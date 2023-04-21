@@ -1423,6 +1423,10 @@ a#RecoverPassword,
   .hide_mobile {
     display: none;
   }
+  /* Global layout */
+  a:-webkit-any-link:focus-visible {
+    outline: none !important
+  }
   /* Slideshow */
   .slideshow__subheading {
     max-width: 85% !important;
