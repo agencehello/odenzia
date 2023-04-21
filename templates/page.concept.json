@@ -264,9 +264,7 @@
         "template--18296477090120__b99437b4-189f-4806-a918-deda9324ee61-1679493546eac55003-0"
       ],
       "custom_css": [
-        "section {background-color: #c7a17e; color: #fcf2e5; padding: 140px 0;}",
-        "h3 {font-size: 34px !important; line-height: 40px !important;}",
-        ".quote__author {font-family: \"Karla\" !important; font-weight: 400 !important; letter-spacing: 0 !important; font-size: 16px !important;}"
+        "section {background-color: var(--marron); color: var(--beige); padding: 12% 0;}"
       ],
       "settings": {
         "section_style": "default",
