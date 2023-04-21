@@ -1442,6 +1442,10 @@ a#RecoverPassword,
     grid-template-columns: 1fr 1fr;
     gap: 2em;
     align-items: baseline;
+    width: 70%;
+  }
+  #home-picto .text-columns--alignment-center .text-columns__feature {
+    padding: 0;
   }
   #home-picto .text-columns__image {
     max-width: 100% !important;
