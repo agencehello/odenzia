@@ -426,7 +426,7 @@ span.bullet {
   padding: 10%;
 }
 #contact .image-with-text--text-alignment-left .image-with-text__text-container {
-  justify-content: start;
+  justify-content: start !important;
 }
 
 /* ACCUEIL */
