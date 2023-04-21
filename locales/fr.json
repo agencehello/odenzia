@@ -566,7 +566,7 @@
   "sections": {
     "drawer_menu": {
       "account": {
-        "logged_in": "Déconnexion",
+        "logged_in": "Mon compte",
         "logged_out": "S'inscrire \/ Se connecter"
       },
       "currency": "Monnaie",
