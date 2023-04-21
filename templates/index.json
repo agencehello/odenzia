@@ -214,10 +214,10 @@
         "cbdbcde7-b0ce-46ee-8b63-bfb7b8366cd0"
       ],
       "custom_css": [
-        "section {padding: 0 !important; background-color: #fcf2e5;}",
-        ".text-block__overline {color: #efbfbb;}",
-        ".text-block__button {background-color: #efbfbb; outline: 1px solid #efbfbb; outline-offset: 3px;}",
-        ".text-block__button:hover {color: #efbfbb; background-color: transparent; border: 1px solid #efbfbb; outline: none;}"
+        "section {padding: 0 !important; background-color: var(--beige);}",
+        ".text-block__overline {color: var(--rose);}",
+        ".text-block__button {background-color: var(--rose); outline: 1px solid var(--rose); outline-offset: 3px;}",
+        ".text-block__button:hover {color: var(--rose); background-color: transparent;}"
       ],
       "settings": {
         "section_id": "",
@@ -370,9 +370,9 @@
       ],
       "custom_css": [
         ".image-with-text--text-alignment-left .image-with-text__text-container {justify-content: start;}",
-        ".text-block__overline {color: #094849;}",
-        ".text-block__button {background-color: #094849; outline: 1px solid #094849; outline-offset: 3px;}",
-        ".text-block__button:hover {color: #094849; background-color: transparent; border: 1px solid #094849; outline: none;}"
+        ".text-block__overline {color: var(--bleu);}",
+        ".text-block__button {background-color: var(--bleu); outline: 1px solid var(--bleu); outline-offset: 3px;}",
+        ".text-block__button:hover {color: var(--bleu); background-color: transparent; border: 1px solid var(--bleu); outline: none;}"
       ],
       "settings": {
         "section_id": "sur_mesure",
