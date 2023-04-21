@@ -1192,6 +1192,7 @@ a#RecoverPassword,
 }
 .account__address-inner .bttn--full:hover {
   background-color: var(--rose) !important;
+  color: var(--bg) !important;
   outline: none !important;
 }
 .account__address-inner .bttn--secondary {
@@ -1199,6 +1200,7 @@ a#RecoverPassword,
 }
 .account__address-inner .bttn--secondary:hover {
   background-color: var(--bleu) !important;
+  color: var(--bg) !important;
 }
 .account button:hover {
   background-color: var(--rose) !important;
