@@ -1652,7 +1652,7 @@ a#RecoverPassword,
     max-width: 85% !important;
   }
   /* Certifications • Page Concept */
-  #certif h2 {
+  #certif .certifications .rich-text__inner .text-block .animation--section-introduction {
     padding: 6% 0 !important;
   }
 }
