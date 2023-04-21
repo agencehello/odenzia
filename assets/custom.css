@@ -1422,7 +1422,6 @@ a#RecoverPassword,
     display: none;
   }
   /* Global layout */
-  .text-block__item,
   .text-block__subheading {
     max-width: 100% !important;
   }
