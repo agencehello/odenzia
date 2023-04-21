@@ -323,6 +323,33 @@ span.bullet {
   justify-content: center;
 }
 
+/* Sur mesure */
+#sur_mesure img {
+  padding: 10%;
+}
+#sur_mesure h3 {
+  margin-bottom: 10px !important;
+}
+#sur_mesure .text-block__subheading {
+  max-width: 60rem !important;
+}
+#sur_mesure .image-with-text__text-block {
+  max-width: 100% !important;
+}
+#sur_mesure h3:first-child:before {
+  content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-puce-bleu.svg?v=1680699739");
+  margin-right: 10px;
+}
+#sur_mesure h3:nth-child(3n + 3):before {
+  content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-puce-rose.svg?v=1680699739");
+  margin-right: 10px;
+}
+#sur_mesure h3:nth-child(5):before {
+  content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-puce-marron.svg?v=1680699739");
+  margin-right: 10px;
+}
+
+/* PAGE SUR MESURE */
 /* Formules */
 #formules .text-columns__content {
   gap: 50px;
@@ -387,32 +414,7 @@ span.devis {
   text-underline-offset: 0.3em;
 }
 
-/* Sur mesure */
-#sur_mesure img {
-  padding: 10%;
-}
-#sur_mesure h3 {
-  margin-bottom: 10px !important;
-}
-#sur_mesure .text-block__subheading {
-  max-width: 60rem !important;
-}
-#sur_mesure .image-with-text__text-block {
-  max-width: 100% !important;
-}
-#sur_mesure h3:first-child:before {
-  content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-puce-bleu.svg?v=1680699739");
-  margin-right: 10px;
-}
-#sur_mesure h3:nth-child(3n + 3):before {
-  content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-puce-rose.svg?v=1680699739");
-  margin-right: 10px;
-}
-#sur_mesure h3:nth-child(5):before {
-  content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-puce-marron.svg?v=1680699739");
-  margin-right: 10px;
-}
-
+/* ACCUEIL */
 /* Bandeau pictos */
 .catchphrase p {
   font-family: var(--title) !important;
@@ -1473,7 +1475,8 @@ a#RecoverPassword,
     right: 20px !important;
   }
   /* Collection page */
-  .collection__container .collection__details {
+  .collection__container .collection__details,
+  .collection__details {
     position: absolute !important;
     color: var(--bg);
     top: 50%;
