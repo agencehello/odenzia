@@ -41,12 +41,10 @@
         "template--18296477090120__7fdb40bc-1672-4988-bab0-ac2a79447ebe-1678982418ec0d5b93-2"
       ],
       "custom_css": [
-        "img {padding: 10%;}",
-        ".text-block__overline {color: #094849;}",
-        ".text-block__subheading {max-width: 60rem !important;}"
+        ".text-block__overline {color: var(--bleu);}"
       ],
       "settings": {
-        "section_id": "",
+        "section_id": "concept_block",
         "section_style": "default",
         "enable_animation": true,
         "svg_url": "",
