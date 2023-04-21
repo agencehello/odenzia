@@ -105,7 +105,7 @@
           "type": "heading",
           "settings": {
             "heading": "Une question ? Une envie ? Contactez-nous !",
-            "text_max_width": 46
+            "text_max_width": 45
           }
         }
       },
@@ -113,7 +113,7 @@
         "template--18491912028488__d0c19374-7693-44c6-ab77-9e09cc68b7d4-16808720046eea9fce-1"
       ],
       "custom_css": [
-        ".image-with-text__text-container {padding-left: 0;}"
+
       ],
       "settings": {
         "section_id": "contact",
@@ -171,7 +171,6 @@
       ],
       "custom_css": [
         ".flex {justify-content: center;}",
-        ".carousel__slide-image,.b {display: none;}",
         ".carousel__navigation {bottom: 45% !important;}",
         ".carousel__next-button,.carousel__previous-button {background-color: var(--marron); color: var(--bg); box-shadow: none;}"
       ],
