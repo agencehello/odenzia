@@ -1665,10 +1665,10 @@ a#RecoverPassword,
 @media screen and (min-width: 960px) and (max-width: 989px) {
   /* Produit */
   .product__media-container {
-    padding-right: 3%;
+    padding-right: 3% !important;
   }
   .template-product .card__badge {
-    right: calc(3% + 20px);
+    right: calc(3% + 20px) !important;
   }
 }
 
