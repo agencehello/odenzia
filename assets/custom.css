@@ -1444,8 +1444,8 @@ a#RecoverPassword,
     align-items: baseline;
     width: 70%;
   }
-  #home-picto .text-columns--alignment-center .text-columns__feature {
-    padding: 0;
+  #home-picto .text-columns__feature {
+    padding: 0 !important;
   }
   #home-picto .text-columns__image {
     max-width: 100% !important;
