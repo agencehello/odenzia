@@ -176,7 +176,7 @@
         "template--18296477090120__9c9caa21-fc62-4a55-9113-84ac2dbb0400-1678982418ec0d5b93-2"
       ],
       "custom_css": [
-        "section {padding:0 !important; background-color: var(--beige);}",
+        "section {padding: 0 !important; background-color: var(--beige);}",
         ".text-block__overline {color: var(--marron);}",
         ".image-with-text__text-container {padding-left: 0;}"
       ],
@@ -469,7 +469,7 @@
         "title": "Nos séjours 100% féminins",
         "subheading": "<p>Découvrez nos séjours, créés et organisés par Maëva, le temps d’une journée, d’un week-end ou encore d’une semaine pour vous recentrer sur vous-même.<\/p>",
         "link_text": "Découvrir",
-        "text_max_width": 36
+        "text_max_width": 25
       }
     },
     "2990e9b0-f15c-4b66-97bc-890504cd1c65": {
