@@ -645,7 +645,6 @@ button.sib-form-block__button.sib-form-block__button-with-loader {
 button.sib-form-block__button.sib-form-block__button-with-loader:hover {
   background-color: var(--bleu) !important;
   color: var(--beige) !important;
-  transition: 0.5s;
   outline: 1px solid var(--bleu);
   outline-offset: 3px;
 }
