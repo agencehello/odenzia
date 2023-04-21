@@ -360,7 +360,8 @@
         "template--18296477090120__b7c4fa87-a093-490c-bf28-140dcdb19587-16789842351e5f94c5-1"
       ],
       "custom_css": [
-        "section {background-color: var(--bleu); color: var(--bg); padding: 6% 0 0 0;}"
+        "section {background-color: var(--bleu); color: var(--bg); padding: 6% 0 0 0;}",
+        "h2 {max-width: 65% !important;}"
       ],
       "settings": {
         "section_id": "certifications",
