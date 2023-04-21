@@ -1644,6 +1644,10 @@ a#RecoverPassword,
   #img_text_bg .image-with-text__text-container {
     margin-top: 0 !important;
   }
+  /* Quote text • Page Concept */
+  .quote__text {
+    max-width: 85% !important;
+  }
 }
 
 @media screen and (max-width: 789px) {
