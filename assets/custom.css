@@ -1638,6 +1638,7 @@ a#RecoverPassword,
   /* Image with text on background-color */
   #img_text_bg .text-block__subheading {
     max-width: 85% !important;
+    margin: auto;
   }
 }
 
