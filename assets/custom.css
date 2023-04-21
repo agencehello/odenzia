@@ -1136,8 +1136,7 @@ textarea:focus-visible {
   margin: 1em auto 0 auto !important;
 }
 .account .bttn--full:hover {
-  background-color: var(--bleu);
-  outline: 1px solid var(--bleu) !important;
+  background-color: var(--bg);
 }
 .account input,
 .account textarea,
