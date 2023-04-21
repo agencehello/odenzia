@@ -217,13 +217,12 @@ button {
 #sejours_slider .text-block__button {
   background-color: transparent;
   color: var(--bleu);
-  border: solid 0.9px var(--bleu);
+  outine: 1px solid var(--bleu);
+  outline-offset: 3px;
 }
 #sejours_slider .text-block__button:hover {
   background-color: var(--bleu);
   color: var(--bg);
-  outline: 1px solid var(--bleu);
-  outline-offset: 3px;
 }
 #sejours_slider .carousel__navigation {
   bottom: 60% !important;
