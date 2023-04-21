@@ -423,7 +423,7 @@ span.devis {
   text-decoration: underline;
   text-underline-offset: 0.3em;
 }
-#formules .text-columns__feature p{
+#formules .text-columns--alignment-center .text-columns__feature p {
   text-align: left !important;
 }
 
