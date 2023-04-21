@@ -442,7 +442,7 @@ span.bullet {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   margin: auto;
-  width: 80%;
+  width: 85%;
 }
 #home-picto .text-block__subheading {
   font-family: var(--body);
