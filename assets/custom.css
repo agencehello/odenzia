@@ -398,7 +398,7 @@ span.devis {
   max-width: 60rem !important;
 }
 #sur_mesure .image-with-text__text-block {
-  max-width: 100%;
+  max-width: 100% !important;
 }
 #sur_mesure h3:first-child:before {
   content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-puce-bleu.svg?v=1680699739");
@@ -1621,6 +1621,13 @@ a#RecoverPassword,
   }
   #sur_mesure .text-block__subheading {
     max-width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 960px) and (max-width: 989px) {
+  /* Produit */
+  .product__media-container {
+    padding-right: 5% !important;
   }
 }
 
