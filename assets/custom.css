@@ -371,7 +371,7 @@ span.bullet {
   margin: 0;
 }
 #formules .text-block__subheading.type-body-regular.rte {
-  padding: 2em 1em;
+  padding: 2em;
 }
 #formules .text-block.text-columns__feature:first-child h3 {
   background-color: var(--bleu);
@@ -409,9 +409,6 @@ span.bullet {
 }
 #formules .text-block__heading {
   max-width: 100% !important;
-}
-#formules .text-block__subheading.type-body-regular.rte {
-  padding: 3em 2em;
 }
 #formules .rte strong {
   font-family: var(--body);
