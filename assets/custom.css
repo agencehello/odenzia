@@ -1137,6 +1137,7 @@ textarea:focus-visible {
 }
 .account .bttn--full:hover {
   background-color: var(--bg);
+  color: var(--marron);
 }
 .account input,
 .account textarea,
@@ -1183,9 +1184,9 @@ a#RecoverPassword,
   margin: 2em auto 0 auto;
 }
 .new_customer a:hover {
-background-color: var(—rose);
-outline: 1px solid var(—rose);
-opacity: 1;
+  background-color: var(--bg);
+  opacity: 1;
+  color: var(--bleu);
 }
 /* Adresses */
 .account__address-inner .bttn--full {
