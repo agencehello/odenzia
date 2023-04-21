@@ -1656,7 +1656,7 @@ a#RecoverPassword,
     max-width: 65% !important;
   }
   #certifications {
-    padding: 6% 0;
+    padding: 6% 0 !important
   }
 }
 
