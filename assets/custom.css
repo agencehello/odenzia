@@ -173,8 +173,7 @@ nav.header__nav.right {
 
 /*////// ELEMENTS //////*/
 /* Buttons */
-.text-block__button,
-button {
+.text-block__button {
   padding: 10px 33px;
 }
 
