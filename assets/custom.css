@@ -610,10 +610,16 @@ input.input_replaced {
   line-height: initial;
 }
 button.sib-form-block__button.sib-form-block__button-with-loader {
-  border: 1px solid var(--bleu) !important;
+  outline: 1px solid var(--bleu);
+  outline-offset: 3px;
   border-radius: 0 !important;
   padding: 10px 33px;
   font-family: "Karla" !important;
+  color: var(--bleu);
+}
+button.sib-form-block__button.sib-form-block__button-with-loader:hover {
+  background-color: var(--bleu) !important;
+  color: var(--beige) !important;
 }
 .sib-sms-select__title {
   background-color: unset;
@@ -641,12 +647,6 @@ button.sib-form-block__button.sib-form-block__button-with-loader {
   font-family: "Karla" !important;
   text-transform: uppercase;
   font-size: 16px !important;
-}
-button.sib-form-block__button.sib-form-block__button-with-loader:hover {
-  background-color: var(--bleu) !important;
-  color: var(--beige) !important;
-  outline: 1px solid var(--bleu);
-  outline-offset: 3px;
 }
 .sib-form .checkbox {
   border-radius: 0px !important;
