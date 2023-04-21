@@ -425,10 +425,6 @@ span.bullet {
 #contact img {
   padding: 10%;
 }
-#contact .image-with-text__text-container {
-  justify-content: start;
-  padding-left: 10%;
-}
 
 /* ACCUEIL */
 /* Bandeau pictos */
@@ -1643,6 +1639,10 @@ a#RecoverPassword,
   }
   #formules .text-block__subheading.type-body-regular.rte {
     padding: 5% !important;
+  }
+  /* Formulaire Sur mesure */
+  #contact img {
+    padding: 0 !important;
   }
   /* Sur mesure */
   #sur_mesure img {
