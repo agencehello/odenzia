@@ -1566,7 +1566,7 @@ a#RecoverPassword,
   }
   /* Tabs */
   section#tabs {
-    margin: 60px 0 !important;
+    margin-bottom: 80px !important;
   }
   .accordion.break .accordion__text {
     display: block !important;
