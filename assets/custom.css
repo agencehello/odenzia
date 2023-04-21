@@ -331,6 +331,11 @@ span.bullet {
   max-width: 60rem !important;
 }
 
+/* Image with text on background-color */
+#img_text_bg .image-with-text__text-block.image-with-text__text-block--left.animation--section-introduction {
+  max-width: 85% !important;
+  }
+
 /* Sur mesure */
 #sur_mesure img {
   padding: 10%;
@@ -448,7 +453,7 @@ span.devis {
   max-width: 65%;
 }
 
-
+/* PAGE CONCEPT */
 /* Thèmes */
 #concept_themes .text-block.text-columns__feature {
   display: grid;
@@ -1634,11 +1639,6 @@ a#RecoverPassword,
   }
   #concept_block .text-block__subheading {
     max-width: 100% !important;
-  }
-  /* Image with text on background-color */
-  #img_text_bg .text-block__subheading {
-    max-width: 85% !important;
-    margin: auto;
   }
 }
 
