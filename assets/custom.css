@@ -1635,6 +1635,10 @@ a#RecoverPassword,
   #concept_block .text-block__subheading {
     max-width: 100% !important;
   }
+  /* Image with text on background-color */
+  #img_text_bg {
+    padding: 5% 0;
+  }
 }
 
 @media screen and (max-width: 789px) {
