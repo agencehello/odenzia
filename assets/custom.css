@@ -1041,6 +1041,7 @@ label.inline {
   outline-offset: 3px;
   width: auto;
   padding: 10px 33px;
+  margin-top: 5px;
 }
 #contact_form button.bttn.bttn--full.bttn--primary:hover {
   color: var(--bleu);
