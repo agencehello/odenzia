@@ -1487,6 +1487,17 @@ a#RecoverPassword,
   .carousel__next-button {
     right: 20px !important;
   }
+  /* Témoignages */
+  .testimonials__slide.carousel__slide {
+    width: 100% !important;
+    padding: 0 25px;
+  }
+  .testimonials .carousel__previous-button {
+    left: 0 !important;
+  }
+  .testimonials .carousel__next-button {
+    right: 0 !important;
+  }
   /* Banner */
   .collection__container .collection__details,
   .collection__details {
@@ -1605,7 +1616,7 @@ a#RecoverPassword,
   .footer__image--wrapper {
     margin: 15px auto;
   }
-  /* Concept thèmes */
+  /* Thèmes • Page Concept */
   #concept_themes .text-columns__content,
   #concept_themes .text-block.text-columns__feature {
     display: block !important;
@@ -1620,21 +1631,10 @@ a#RecoverPassword,
     max-width: 110px !important;
     margin: 0 0 20px 0;
   }
-  /* Formules */
+  /* Formules • Page Sur mesure */
   #formules .text-block.text-columns__feature {
     padding-left: 0 !important;
     padding-right: 0 !important;
-  }
-  /* Témoignages */
-  .testimonials__slide.carousel__slide {
-    width: 100% !important;
-    padding: 0 25px;
-  }
-  .testimonials .carousel__previous-button {
-    left: 0 !important;
-  }
-  .testimonials .carousel__next-button {
-    right: 0 !important;
   }
   /* Sur mesure */
   #sur_mesure img {
@@ -1657,6 +1657,10 @@ a#RecoverPassword,
   /* Quote text • Page Concept */
   .quote__text {
     max-width: 85% !important;
+  }
+  /* Certifications • Page Concept */
+  #certifications .rich-text__title {
+    max-width: 50% !important;
   }
 }
 
