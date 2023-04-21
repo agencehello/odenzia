@@ -1636,8 +1636,8 @@ a#RecoverPassword,
     max-width: 100% !important;
   }
   /* Image with text on background-color */
-  #img_text_bg {
-    padding: 5% 0;
+  #img_text_bg .text-block__subheading {
+    max-width: 85% !important;
   }
 }
 
