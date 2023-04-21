@@ -334,7 +334,7 @@ span.bullet {
 /* Image with text on background-color */
 #img_text_bg .image-with-text__text-block.image-with-text__text-block--left.animation--section-introduction {
   max-width: 85% !important;
-  }
+}
 
 /* Sur mesure */
 #sur_mesure img {
@@ -1639,6 +1639,10 @@ a#RecoverPassword,
   }
   #concept_block .text-block__subheading {
     max-width: 100% !important;
+  }
+  /* Image with text on background-color */
+  #img_text_bg .image-with-text__text-container {
+    margin-top: 0 !important;
   }
 }
 
