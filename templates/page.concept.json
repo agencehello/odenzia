@@ -181,7 +181,7 @@
         ".image-with-text__text-container {padding-left: 0;}"
       ],
       "settings": {
-        "section_id": "",
+        "section_id": "img_text_bg",
         "section_style": "default",
         "enable_animation": true,
         "svg_url": "",
