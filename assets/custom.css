@@ -323,7 +323,7 @@ span.bullet {
   justify-content: center;
 }
 
-/* Image with text • PAGE CONCEPT & SUR MESURE */
+/* Image with text • PAGES CONCEPT & SUR MESURE */
 #concept_block img {
   padding: 10%;
 }
@@ -1629,6 +1629,12 @@ a#RecoverPassword,
     max-width: 100% !important;
   }
   /* Image with text • Pages Concept & Sur mesure */
+  #concept_block img {
+    padding: 0 !important;
+  }
+  #concept_block .text-block__subheading {
+    max-width: 100% !important;
+  }
 }
 
 @media screen and (max-width: 789px) {
