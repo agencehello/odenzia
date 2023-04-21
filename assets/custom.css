@@ -1601,6 +1601,9 @@ a#RecoverPassword,
   #programme h3 {
     margin: 0 0 10px 0 !important;
   }
+  #infos-pratiques {
+    margin: 0 !important;
+  }
   /* Footer */
   .footer__heading {
     font-family: var(--body) !important;
