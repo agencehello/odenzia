@@ -3,9 +3,10 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "section {padding-bottom: 0;}"
+
       ],
       "settings": {
+        "class_page": "",
         "enable_animation": true,
         "content_max_width": 900
       }
@@ -44,6 +45,7 @@
         "template--18491912683848__58204698-c956-4977-8387-b821788dc050-1681824582dd46f67f-2"
       ],
       "custom_css": [
+        "section {padding-top: 0;}",
         ".type-heading-2 {font-family: var(--title); font-size: 26px !important; line-height: 30px !important;}"
       ],
       "settings": {
@@ -153,6 +155,7 @@
         ".rich-text__title {font-size: 26px !important; line-height: 30px !important; margin-bottom: 10px !important;}"
       ],
       "settings": {
+        "section_id": "",
         "section_style": "default",
         "enable_animation": true,
         "alignment": "center"
