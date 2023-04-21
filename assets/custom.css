@@ -1482,6 +1482,7 @@ a#RecoverPassword,
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-width: 90%; 
   }
   .collection__container .text-block {
     max-width: 90%;
