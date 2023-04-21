@@ -470,6 +470,16 @@ span.devis {
   max-width: 160px !important;
   margin: 0 30px 0 auto;
 }
+/* Citation */
+.quote__item h3 {
+  font-size: 34px !important;
+  line-height: 40px !important;
+}
+.quote__author {
+  font-family: var(--body) !important;
+  letter-spacing: 0 !important;
+  font-size: 14px !important;
+}
 
 /* FOOTER */
 .footer__groups {
