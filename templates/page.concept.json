@@ -228,6 +228,7 @@
         "4aa6850d-3a0c-4eea-b447-fd7ec11fc357"
       ],
       "custom_css": [
+        "img {padding: 0 !important;}",
         ".text-block__overline {color: var(--rose);}"
       ],
       "settings": {
