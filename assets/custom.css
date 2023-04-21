@@ -1022,6 +1022,9 @@ figure img {
 .coordonnees {
   margin-bottom: 15px;
 }
+#contact img {
+  padding: 10%;
+}
 
 /* CONTACT FORMS */
 select {
