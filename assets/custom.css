@@ -1045,8 +1045,6 @@ label.inline {
 #contact_form button.bttn.bttn--full.bttn--primary:hover {
   color: var(--bleu);
   background-color: transparent;
-  border: 1px solid var(--bleu);
-  outline: none;
 }
 .contact__form textarea {
   border-bottom: 1px solid black;
