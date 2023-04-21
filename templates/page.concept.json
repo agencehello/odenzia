@@ -178,7 +178,7 @@
       "custom_css": [
         "section {padding: 0 !important; background-color: var(--beige);}",
         ".text-block__overline {color: var(--marron);}",
-        ".image-with-text__text-container {padding-left: 0;}"
+        ".image-with-text__text-container {padding: 0 50px;}"
       ],
       "settings": {
         "section_id": "img_text_bg",
