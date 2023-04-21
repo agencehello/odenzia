@@ -1099,7 +1099,7 @@ textarea:focus-visible {
 .form-status {
   background-color: var(--beige);
 }
-#contact__form checkbox {
+#contact__form .checkbox span {
   border-radius: 0!important;
   border: 1px solid var(--bleu) !important;
   background-color: var(--bg) !important;
