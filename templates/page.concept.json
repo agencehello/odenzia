@@ -352,7 +352,7 @@
           "type": "title",
           "settings": {
             "title": "Les certifications Odenzia",
-            "text_max_width": 43
+            "text_max_width": 50
           }
         }
       },
@@ -360,10 +360,10 @@
         "template--18296477090120__b7c4fa87-a093-490c-bf28-140dcdb19587-16789842351e5f94c5-1"
       ],
       "custom_css": [
-        "section {background-color: #094849; color: #fffcf8; padding: 120px 0 0 0;}"
+        "section {background-color: var(--bleu); color: var(--bg); padding: 6% 0 0 0;}"
       ],
       "settings": {
-        "section_id": "",
+        "section_id": "certifications",
         "section_style": "default",
         "enable_animation": true,
         "alignment": "center"
@@ -428,9 +428,9 @@
         "223d935a-8e0a-451a-a957-c4d56e12c8ab"
       ],
       "custom_css": [
-        "section {background-color: #094849; color: #fffcf8; padding: 60px 0 120px 0;}",
+        "section {background-color: var(--bleu); color: var(--bg); padding: 3% 0 6% 0;}",
         ".text-columns__content {align-items: start; margin: auto; width: 80%;}",
-        ".text-block__heading {font-family: \"Karla\" !important; font-weight: 400 !important; font-size: 18px !important; line-height: 24px !important;}",
+        ".text-block__heading {font-family: var(--body) !important; font-size: 18px !important; line-height: 24px !important;}",
         ".text-columns__image {max-width: 1px; width: 1px; height: 45px; max-height: 45px;}"
       ],
       "settings": {
