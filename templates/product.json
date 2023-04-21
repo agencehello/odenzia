@@ -80,7 +80,7 @@
     "e4783266-2e82-4d9d-836b-d2ee4f3bec94": {
       "type": "featured-collection-grid",
       "custom_css": [
-        ".text-block__overline {color: #efbfbb;}",
+        ".text-block__overline {color: var(--rose);}",
         ".text-block__heading {font-size: 26px !important; line-height: 30px !important;}"
       ],
       "settings": {
@@ -200,6 +200,7 @@
         ".rich-text__title {font-size: 26px !important; line-height: 30px !important; margin-bottom: 10px !important;}"
       ],
       "settings": {
+        "section_id": "",
         "section_style": "default",
         "enable_animation": true,
         "alignment": "center"
