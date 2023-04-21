@@ -1637,6 +1637,9 @@ a#RecoverPassword,
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
+  #formules .text-block__subheading.type-body-regular.rte {
+    padding: 5% !important;
+  }
   /* Sur mesure */
   #sur_mesure img {
     padding: 0 !important;
