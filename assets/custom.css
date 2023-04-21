@@ -1484,10 +1484,7 @@ a#RecoverPassword,
     transform: translate(-50%, -50%);
     max-width: 90%; 
   }
-  .collection__container .text-block {
-    max-width: 90%;
-    margin: 0 auto;
-  }
+
   /* Filtres */
   .collection-flyout__heading {
     color: var(--bleu);
