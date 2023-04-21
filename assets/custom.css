@@ -413,23 +413,6 @@ span.devis {
   margin-right: 10px;
 }
 
-/* Concept thématiques */
-#concept_themes .text-block.text-columns__feature {
-  display: grid;
-  grid-template-columns: 0.4fr 1.6fr;
-  grid-template-rows: 1fr;
-  gap: 0px 30px;
-  grid-template-areas: ". .";
-  align-items: flex-start;
-}
-#concept_themes .text-columns__content {
-  gap: 50px 80px;
-}
-#concept_themes .mb3.w-100.text-columns__image.db {
-  max-width: 160px !important;
-  margin: 0 30px 0 auto;
-}
-
 /* Bandeau pictos */
 .catchphrase p {
   font-family: var(--title) !important;
@@ -457,6 +440,31 @@ span.devis {
 /* Slideshow */
 .slideshow__subheading {
   max-width: 65%;
+}
+
+/* PAGE CONCEPT */
+#concept_block img {
+  padding: 10%;
+}
+#concept_block .text-block__subheading {
+  max-width: 60rem !important;
+}
+
+/* Thématiques */
+#concept_themes .text-block.text-columns__feature {
+  display: grid;
+  grid-template-columns: 0.4fr 1.6fr;
+  grid-template-rows: 1fr;
+  gap: 0px 30px;
+  grid-template-areas: ". .";
+  align-items: flex-start;
+}
+#concept_themes .text-columns__content {
+  gap: 50px 80px;
+}
+#concept_themes .mb3.w-100.text-columns__image.db {
+  max-width: 160px !important;
+  margin: 0 30px 0 auto;
 }
 
 /* FOOTER */
