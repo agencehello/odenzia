@@ -1218,6 +1218,26 @@ a#RecoverPassword,
   color: var(--marron);
 }
 
+/* COOKIES CONSENT */
+.cc-banner .cc-message {
+  font-family: var(--body-light) !important;
+}
+.cc-btn {
+  border-radius: 0 !important;
+  font-family: var(--body) !important;
+}
+.cc-settings {
+  border: 1px solid var(--beige) !important;
+}
+.cc-deny {
+  background-color: transparent !important;
+  border: 1px solid var(--beige) !important;
+}
+.cc-btn:hover {
+  opacity: .5 !important;
+}
+
+
 
 /*///////////////////////////////////////
 // ODENZIA DESKTOP (min-width: 990px) //
