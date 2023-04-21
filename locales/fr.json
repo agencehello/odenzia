@@ -299,7 +299,7 @@
     },
     "menu": {
       "login_register": "Connexion \/ Inscription",
-      "logout": "Déconnexion"
+      "logout": "Mon compte"
     },
     "meta": {
       "page": "Page {{ page }}",
