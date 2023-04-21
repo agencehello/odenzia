@@ -421,10 +421,14 @@ span.bullet {
 #formules a {
   text-decoration: none !important;
 }
-
-
-
-
+/* Formulaire */
+#contact img {
+  padding: 10%;
+}
+#contact .image-with-text__text-container {
+  justify-content: start;
+  padding-left: 10%;
+}
 
 /* ACCUEIL */
 /* Bandeau pictos */
@@ -1021,9 +1025,6 @@ figure img {
 }
 .coordonnees {
   margin-bottom: 15px;
-}
-#contact img {
-  padding: 10%;
 }
 
 /* CONTACT FORMS */
