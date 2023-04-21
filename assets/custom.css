@@ -1236,8 +1236,10 @@ a#RecoverPassword,
 .cc-btn:hover {
   opacity: .5 !important;
 }
-
-
+.isense-close-icon:after {
+  content: "x" !important;
+  font-weight: 300 !important;
+}
 
 /*///////////////////////////////////////
 // ODENZIA DESKTOP (min-width: 990px) //
