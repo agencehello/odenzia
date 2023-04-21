@@ -385,6 +385,11 @@ span.bullet {
 }
 #formules span.devis {
   text-decoration: none;
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+  text-underline-offset: 0.3em;
+  margin-top: 20px
 }
 #formules .text-block.text-columns__feature:last-child h3 {
   background-color: var(--marron);
@@ -402,6 +407,9 @@ span.bullet {
   max-width: 100% !important;
   padding: 0;
 }
+#formules .text-block__heading {
+  max-width: 100% !important;
+}
 #formules .text-block__subheading.type-body-regular.rte {
   padding: 3em 2em;
 }
@@ -416,14 +424,9 @@ span.bullet {
 #formules a {
   text-decoration: none !important;
 }
-span.devis {
-  text-align: center;
-  display: block;
-  text-transform: uppercase;
-  text-decoration: underline;
-  text-underline-offset: 0.3em;
-  margin-top: 20px
-}
+
+
+
 
 
 /* ACCUEIL */
