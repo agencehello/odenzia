@@ -34,10 +34,7 @@
         "template--18294114582856__786700a4-e365-420a-92f9-1e1b885259f1-1679306569c64b1287-2"
       ],
       "custom_css": [
-        ".image-with-text--text-alignment-left .image-with-text__text-container {justify-content: center;}",
-        "img {padding: 10%;}",
-        "h3 {margin-bottom: 10px !important;}",
-        ".text-block__subheading {max-width: 60rem !important;}"
+        ".image-with-text--text-alignment-left .image-with-text__text-container {justify-content: center;}"
       ],
       "settings": {
         "section_id": "sur_mesure",

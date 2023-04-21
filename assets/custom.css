@@ -346,6 +346,9 @@ span.bullet {
 #sur_mesure .text-block__subheading {
   max-width: 60rem !important;
 }
+#sur_mesure .image-with-text--text-alignment-left .image-with-text__text-container {
+  justify-content: center;
+}
 #sur_mesure h3:first-child:before {
   content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-puce-bleu.svg?v=1680699739");
   margin-right: 10px;
