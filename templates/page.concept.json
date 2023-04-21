@@ -176,8 +176,8 @@
         "template--18296477090120__9c9caa21-fc62-4a55-9113-84ac2dbb0400-1678982418ec0d5b93-2"
       ],
       "custom_css": [
-        "section {padding-left: 0; padding-top: 0; padding-bottom: 0; background-color: #fcf2e5;}",
-        ".text-block__overline {color: #c7a17e;}",
+        "section {padding:0 !important; background-color: var(--beige);}",
+        ".text-block__overline {color: var(--marron);}",
         ".image-with-text__text-container {padding-left: 0;}"
       ],
       "settings": {
@@ -228,12 +228,10 @@
         "4aa6850d-3a0c-4eea-b447-fd7ec11fc357"
       ],
       "custom_css": [
-        "img {padding: 10%;}",
-        ".text-block__overline {color: #efbfbb;}",
-        ".text-block__subheading {max-width: 60rem !important;}"
+        ".text-block__overline {color: var(--rose);}"
       ],
       "settings": {
-        "section_id": "",
+        "section_id": "concept_block",
         "section_style": "default",
         "enable_animation": true,
         "svg_url": "",
@@ -328,11 +326,10 @@
       ],
       "custom_css": [
         ".image-with-text--text-alignment-left .image-with-text__text-container {justify-content: start;}",
-        "img {padding: 10%;}",
-        ".text-block__overline {color: #094849;}"
+        ".text-block__overline {color: var(--bleu);}"
       ],
       "settings": {
-        "section_id": "",
+        "section_id": "concept_block",
         "section_style": "default",
         "enable_animation": true,
         "svg_url": "",

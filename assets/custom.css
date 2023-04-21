@@ -450,7 +450,7 @@ span.devis {
   max-width: 60rem !important;
 }
 
-/* Thématiques */
+/* Thèmes */
 #concept_themes .text-block.text-columns__feature {
   display: grid;
   grid-template-columns: 0.4fr 1.6fr;
@@ -726,7 +726,7 @@ header.collection__header {
 }
 .template-product .card__badge {
   z-index: 1;
-  right: calc(5% + 40px);
+  right: calc(5% + 5%);
 }
 .o-50 {
   opacity: 1;
@@ -1676,7 +1676,7 @@ a#RecoverPassword,
     padding-right: 3% !important;
   }
   .template-product .card__badge {
-    right: calc(3% + 20px) !important;
+    right: calc(3% + 3%) !important;
   }
   div#achat {
     display:block !important;
