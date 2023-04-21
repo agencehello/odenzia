@@ -170,9 +170,7 @@
         "97307ee4-4882-4ed2-a8bb-acc4276e546d"
       ],
       "custom_css": [
-        ".flex {justify-content: center;}",
-        ".carousel__navigation {bottom: 45% !important;}",
-        ".carousel__next-button,.carousel__previous-button {background-color: var(--marron); color: var(--bg); box-shadow: none;}"
+
       ],
       "settings": {
         "section_style": "contrast",
