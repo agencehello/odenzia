@@ -1334,6 +1334,20 @@ a#RecoverPassword,
   color: var(--bleu) !important;
   margin-top: 10px !important;
 }
+
+/* GLOBO • QUESTIONNAIRE DE SÉJOUR */
+.globo-form-app.boxed-layout {
+  box-shadow: none !important;
+}
+.globo-form-control input, .globo-form-control textarea, .globo-form-control select {
+  background-color: transparent;
+  border-radius: 0;
+  border-bottom: 1px solid #000000;
+}
+.globo-form-id-2380 .globo-form-app .globo-label, .globo-form-id-2380 .globo-form-app .globo-form-control label.globo-label, .globo-form-id-2380 .globo-form-app .globo-form-control label.globo-label span.label-content {
+  font-size: 16px;
+}
+
 /*///////////////////////////////////////
 // ODENZIA DESKTOP (min-width: 990px) //
 /////////////////////////////////////*/
