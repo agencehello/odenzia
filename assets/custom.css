@@ -1350,6 +1350,10 @@ a#RecoverPassword,
 .globo-form-control {
   margin-bottom: 3rem !important;
 }
+.globo-form-id-2380 .globo-form-app .globo-form-control .checkbox-wrapper .checkbox-input ~ .checkbox-label:before {
+  border: 1px solid #000000 !important;
+  box-shadow: none !important;
+}
 
 /*///////////////////////////////////////
 // ODENZIA DESKTOP (min-width: 990px) //
