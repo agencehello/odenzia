@@ -1340,15 +1340,15 @@ a#RecoverPassword,
   box-shadow: none !important;
 }
 .globo-form-control input, .globo-form-control textarea, .globo-form-control select {
-  background-color: transparent;
-  border-radius: 0;
+  background-color: transparent !important;
+  border-radius: 0 !important;
   border-bottom: 1px solid #000000;
 }
 .globo-form-id-2380 .globo-form-app .globo-label, .globo-form-id-2380 .globo-form-app .globo-form-control label.globo-label, .globo-form-id-2380 .globo-form-app .globo-form-control label.globo-label span.label-content {
-  font-size: 16px;
+  font-size: 16px !important;
 }
 .globo-form-control {
-  margin-bottom: 3rem;
+  margin-bottom: 3rem !important;
 }
 
 /*///////////////////////////////////////
