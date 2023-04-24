@@ -253,9 +253,15 @@
         "settings": {
         }
       },
-      "9144908965052497053": {
-        "type": "shopify:\/\/apps\/glo-related-products-upsell\/blocks\/app-embed\/75cf2d86-3988-45e7-8f28-ada23c99704f",
+      "18228966181090706294": {
+        "type": "shopify:\/\/apps\/upsell-cross-sell-selleasy\/blocks\/app-embed\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
         "disabled": false,
+        "settings": {
+        }
+      },
+      "3066834073402364550": {
+        "type": "shopify:\/\/apps\/sellup-upsell-add-ons\/blocks\/global_sellup\/001ec440-29ea-4cbf-9265-4963fa825261",
+        "disabled": true,
         "settings": {
         }
       }
