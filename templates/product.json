@@ -23,13 +23,10 @@
             "variant_popup_page": ""
           }
         },
-        "inventory_counter": {
-          "type": "inventory_counter",
+        "578519df-4600-4b65-b159-f2eb61b95272": {
+          "type": "text",
           "settings": {
-            "show_label": true,
-            "inventory_max": "",
-            "low_inventory_threshold": "",
-            "show_untracked_quantity": false
+            "text": "{{ product.metafields.custom.date | metafield_tag }}"
           }
         },
         "price": {
@@ -59,7 +56,7 @@
         "title",
         "description",
         "variant_picker",
-        "inventory_counter",
+        "578519df-4600-4b65-b159-f2eb61b95272",
         "price",
         "01cac063-784a-449c-93e4-62c4b6db038b",
         "buy_buttons",
