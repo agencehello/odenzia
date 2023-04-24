@@ -41,10 +41,10 @@
     assign modifiers = modifiers | append: ' carousel--columns-wrap-around'
   endif
 
-  assign collection_link = '#'
+  assign collection_link = '/collections/les-sejours'
 
   if featured_collection != blank
-    assign collection_link = featured_collection.url
+    assign collection_link = '/collections/les-sejours'
   endif
 -%}
 
