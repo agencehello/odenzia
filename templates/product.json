@@ -48,6 +48,11 @@
           "settings": {
             "show_dynamic_checkout": false
           }
+        },
+        "96cfab4e-fde1-4668-8102-1e6f55674995": {
+          "type": "shopify:\/\/apps\/upsell-cross-sell-selleasy\/blocks\/lb-upsell-addon-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -57,7 +62,8 @@
         "inventory_counter",
         "price",
         "01cac063-784a-449c-93e4-62c4b6db038b",
-        "buy_buttons"
+        "buy_buttons",
+        "96cfab4e-fde1-4668-8102-1e6f55674995"
       ],
       "custom_css": [
         ".product__meta {padding-left: 0 !important; align-self: center;}",
