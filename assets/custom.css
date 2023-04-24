@@ -1347,6 +1347,9 @@ a#RecoverPassword,
 .globo-form-id-2380 .globo-form-app .globo-label, .globo-form-id-2380 .globo-form-app .globo-form-control label.globo-label, .globo-form-id-2380 .globo-form-app .globo-form-control label.globo-label span.label-content {
   font-size: 16px;
 }
+.globo-form-control {
+  margin-bottom: 3rem;
+}
 
 /*///////////////////////////////////////
 // ODENZIA DESKTOP (min-width: 990px) //
