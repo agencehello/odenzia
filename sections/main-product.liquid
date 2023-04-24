@@ -484,14 +484,12 @@
     <section id="tabs">
       <div class="hide_mobile">
         <div class="tab-customize">
-          {% if product.metafields.custom.programme != blank %}
-            <button
-              class="tablinks-cus"
-              onclick="openTab(event, 'tab-1')"
-              id="tab-cus-active">
-              <h2>Programme</h2>
-            </button>
-          {% endif %}
+          <button
+            class="tablinks-cus"
+            onclick="openTab(event, 'tab-1')"
+            id="tab-cus-active">
+            <h2>Programme</h2>
+          </button>
           {% if product.metafields.custom.h_bergement != blank %}
             <button class="tablinks-cus" onclick="openTab(event, 'tab-2')">
               <h2>Hébergement</h2>
