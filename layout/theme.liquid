@@ -86,7 +86,7 @@
     {% render 'header-overlay' %}
 
     <div class="theme-editor-scroll-offset"></div>
-    <main id="main-content">{{ content_for_layout }}</main>
+    <main id="main-content"><div class="globoRecommendationsTop"></div>{{ content_for_layout }}<div class="globoRecommendationsBottom"></div></main>
     {% section 'popup' %}
     {% section 'footer' %}
     {% render 'cart-drawer' %}

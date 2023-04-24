@@ -30,7 +30,7 @@
 
               <div class="cart-template__details">
 
-                <a class="mb1 dib" href="{{ item.url }}">{{ item.product.title }}</a>
+                <a class="mb1 dib" href="{{ item.url }}">{{ item.product.title }}<span class="ga_cart_upsell" data-productid="{{ item.product_id }}"></span></a>
 
                 {% unless item.product.has_only_default_variant %}
                   <p class="type-body-small mt0 mb1">{{ item.variant.title }}</p>
@@ -62,7 +62,7 @@
                 {%- assign property_size = item.properties | size -%}
 
                 {% if property_size > 0 %}
-                  {% for p in item.properties %}
+                  {%- for p in item.properties -%}{% if p.first == '_bundle' %}{% continue %}{% endif %}{% if p.first == '__is_bundle_product' %}{% continue %}{% endif %}{% if p.first == '_upsell_bundle' %}{% continue %}{% endif %}{% if p.first == '_bundle' %}{% continue %}{% endif %}{% if p.first == '__is_bundle_product' %}{% continue %}{% endif %}{% if p.first == '_upsell_bundle' %}{% continue %}{% endif %}
                     {% unless p.last == blank %}
                     {{ p.first }}:
 
