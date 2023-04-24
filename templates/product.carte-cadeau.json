@@ -29,6 +29,11 @@
             "price_text_size": 18
           }
         },
+        "97313e97-fc4d-4f06-8226-b01296812dda": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -41,6 +46,7 @@
         "description",
         "variant_picker",
         "price",
+        "97313e97-fc4d-4f06-8226-b01296812dda",
         "buy_buttons"
       ],
       "custom_css": [
