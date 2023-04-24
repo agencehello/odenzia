@@ -1282,8 +1282,19 @@ a#RecoverPassword,
 .lb-upsell-ppa-card-cont .lb-spc-cont {
   background: transparent !important;
 }
+.lb-spc-body {
+  align-items: flex-start !important;
+}
 .lb-upsell-product-page-card .lb-spc-image-cont {
   display: none;
+}
+.lb-upsell-product-page-card .lb-spc-details-cont {
+  margin: 0 8px !important;
+  font-family: var(--body-light) !important;
+  font-size: 16px !important;  
+}
+.lb-upsell-product-page-card .lb-spc-details-price-cont {
+  color: var(--bleu) !important;
 }
 /*///////////////////////////////////////
 // ODENZIA DESKTOP (min-width: 990px) //
