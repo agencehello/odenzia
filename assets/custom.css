@@ -1269,6 +1269,9 @@ a#RecoverPassword,
   background-color: var(--beige) !important;
   padding: 1px 20px !important;
 }
+.lb-upsell-ppa-title-cont {
+  margin: 0 !important;
+}
 .lb-upsell-ppa-title {
   font-family: var(--body-light) !important;
   font-size: 16px !important;  
@@ -1278,12 +1281,14 @@ a#RecoverPassword,
 }
 .lb-upsell-ppa-card-cont .lb-spc-cont {
   background: transparent !important;
+  max-width: 100% !important;
 }
 .lb-upsell-product-page-card .lb-spc-image-cont {
   display: none;
 }
 .lb-upsell-product-page-card .lb-spc-details-cont {
   display: flex;
+  align-items: center;
   margin: 0 8px !important;
 }
 .lb-upsell-product-page-card .lb-spc-details-name {
@@ -1292,9 +1297,14 @@ a#RecoverPassword,
 }
 .lb-spc-details-price {
   color: var(--bleu) !important;
-  font-family: var(--body-light) !important;
+  font-family: var(--title) !important;
   font-size: 16px !important; 
 }
+.lb-upsell-ppa-card-cont-list-lt .lb-upsell-ppa-card-product {
+  margin-bottom: 16px !important;
+}
+
+
 /*///////////////////////////////////////
 // ODENZIA DESKTOP (min-width: 990px) //
 /////////////////////////////////////*/
