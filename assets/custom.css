@@ -1264,18 +1264,20 @@ a#RecoverPassword,
   opacity: .5 !important;
 }
 
-/* UPSELL APP */
-#launchtip_upsell_select_wrapper .check_image {
-  display: none !important;
+/* SELLEASY APP • OPTIONS */
+.lb-upsell-ppa-card-cont {
+  background-color: var(--beige) !important;
+  padding: 10px 20px !important;
 }
-#launchtip_upsell_select_wrapper input[type=checkbox] + label:before {
-  border-radius: 0 !important;
-  border: 1px solid var(--bleu) !important;
+.lb-upsell-ppa-title-cont {
+  margin: 0 !important;
 }
-#launchtip_upsell_select_wrapper input[type=checkbox]:checked + label:before {
-  background-color: var(--bleu) !important;
-  border-color: var(--bleu) !important;
-  color: var(--bg) !important;
+.lb-upsell-ppa-title {
+  font-family: var(--body-light) !important;
+  font-size: 16px !important;  
+}
+.lb-upsell-ppa-card-cont .lb-spc-border {
+  border: none !important;
 }
 
 /*///////////////////////////////////////
