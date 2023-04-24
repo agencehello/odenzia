@@ -1311,6 +1311,9 @@ a#RecoverPassword,
 .lb-prod-prev-body-cont-height {
   border-radius: 0 !important;
 }
+.lb-prod-prev-body-cont-height {
+  min-height: 40vh;
+}
 .lb-prod-prev-header,
 .lb-prod-prev-body-cont-height {
   background: var(--bg) !important;
@@ -1318,7 +1321,16 @@ a#RecoverPassword,
 .lb-prod-prev-img {
   object-fit: cover !important;
 }
-
+.lb-prod-prev-title {
+  font-family: var(--title) !important;
+  font-size: 36px !important;
+}
+.lb-prod-prev-price-cont {
+  font-family: var(--title) !important;
+  font-size: 18px !important;
+  color: var(--bleu) !important;
+  margin-top: 10px !important;
+}
 /*///////////////////////////////////////
 // ODENZIA DESKTOP (min-width: 990px) //
 /////////////////////////////////////*/
