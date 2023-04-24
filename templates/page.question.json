@@ -3,10 +3,31 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "class_page": "",
+        "enable_animation": true,
+        "content_max_width": 600
+      }
+    },
+    "16823502702b93f8d3": {
+      "type": "apps",
+      "blocks": {
+        "a371d2c0-e1d2-4563-8730-74a91b921038": {
+          "type": "shopify:\/\/apps\/powerful-contact-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MjM4MA==\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "a371d2c0-e1d2-4563-8730-74a91b921038"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16823502702b93f8d3"
   ]
 }
