@@ -1307,7 +1307,16 @@ a#RecoverPassword,
 .lb-upsell-ppa-card-cont-list-lt .lb-upsell-ppa-card-product {
   margin-bottom: 16px !important;
 }
-
+.lb-prod-prev-cont {
+  border-radius: 0 !important;
+}
+.lb-prod-prev-header,
+.lb-prod-prev-body-cont-height {
+  background: var(--bg) !important;
+}
+.lb-prod-prev-img {
+  object-fit: cover !important;
+}
 
 /*///////////////////////////////////////
 // ODENZIA DESKTOP (min-width: 990px) //
