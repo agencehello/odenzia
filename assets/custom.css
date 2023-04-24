@@ -1353,6 +1353,8 @@ a#RecoverPassword,
 .globo-form-id-2380 .globo-form-app .globo-form-control .checkbox-wrapper .checkbox-input ~ .checkbox-label:before {
   border: 1px solid #000000 !important;
   box-shadow: none !important;
+  border-radius: 0 !important;
+  background-color: var(--bg) !important;
 }
 
 /*///////////////////////////////////////
