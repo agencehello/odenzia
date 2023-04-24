@@ -1274,6 +1274,11 @@ a#RecoverPassword,
   width: 1em !important;
   height: 1em !important;
 }
+#launchtip_upsell_select_wrapper input[type=checkbox]:checked + label:before {
+  background-color: var(--bleu) !important;
+  border-color: var(--bleu) !important;
+  color: var(--bg) !important;
+}
 
 /*///////////////////////////////////////
 // ODENZIA DESKTOP (min-width: 990px) //
