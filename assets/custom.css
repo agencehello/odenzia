@@ -1267,10 +1267,11 @@ a#RecoverPassword,
 /* SELLEASY APP • OPTIONS */
 .lb-upsell-ppa-card-cont {
   background-color: var(--beige) !important;
-  padding: 10px 20px !important;
+  padding: 8px 20px !important;
 }
 .lb-upsell-ppa-title-cont {
   margin: 0 !important;
+  margin-top: 0 !important;
 }
 .lb-upsell-ppa-title {
   font-family: var(--body-light) !important;
