@@ -872,6 +872,10 @@ span.participantes {
   content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-participantes.svg?v=1680776418");
   display: flex;
 }
+span.date {
+  content: url("https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-participantes.svg?v=1680776418");
+  display: flex;
+}
 /* Quantity • PRODUCT PAGE, QUICK CART & CART */
 .product-form__quantity-button,
 .product-form__quantity input,
