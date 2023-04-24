@@ -1307,7 +1307,8 @@ a#RecoverPassword,
 .lb-upsell-ppa-card-cont-list-lt .lb-upsell-ppa-card-product {
   margin-bottom: 16px !important;
 }
-.lb-prod-prev-cont {
+.lb-prod-prev-cont,
+.lb-prod-prev-body-cont .lb-prod-prev-body-cont-height {
   border-radius: 0 !important;
 }
 .lb-prod-prev-header,
