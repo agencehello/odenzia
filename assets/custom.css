@@ -1295,7 +1295,7 @@ a#RecoverPassword,
   font-family: var(--body-light) !important;
   font-size: 16px !important;  
 }
-.lb-spc-details-price span {
+.lb-spc-details-price-cont .lb-spc-details-price-wrap .lb-spc-details-price {
   color: var(--bleu) !important;
   font-family: var(--title) !important;
   font-size: 16px !important; 
