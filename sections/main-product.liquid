@@ -199,6 +199,11 @@
 
       <div class="product__meta">
         <div class="product__meta-inner">
+          <div class="inventoryWrapper">
+            {% if current_variant.inventory_quantity > 0 and current_variant.inventory_management == 'shopify' %}
+              <p>Places disponibles : {{ current_variant.inventory_quantity }}</p>
+            {% endif %}
+          </div>
           {% form 'product', 
  product, 
  id: form_id, 
@@ -1837,3 +1842,9 @@
     ]
   }
 {% endschema %}
+
+<script>
+  {% for variant in product.variants %}
+    variantStock[{{- variant.id -}}] = {{ variant.inventory_quantity }};
+  {% endfor %}
+</script>
