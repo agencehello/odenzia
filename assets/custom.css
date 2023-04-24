@@ -1279,22 +1279,20 @@ a#RecoverPassword,
 .lb-upsell-ppa-card-cont .lb-spc-cont {
   background: transparent !important;
 }
-.lb-spc-body {
-  align-items: flex-start !important;
-}
 .lb-upsell-product-page-card .lb-spc-image-cont {
   display: none;
 }
 .lb-upsell-product-page-card .lb-spc-details-cont {
+  display: flex;
   margin: 0 8px !important;
-  font-family: var(--body-light) !important;
-  font-size: 16px !important;  
 }
 .lb-upsell-product-page-card .lb-spc-details-name {
+  font-family: var(--body-light) !important;
   font-size: 16px !important;  
 }
 .lb-spc-details-price {
   color: var(--bleu) !important;
+  font-family: var(--body-light) !important;
   font-size: 16px !important; 
 }
 /*///////////////////////////////////////
