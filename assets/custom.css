@@ -1268,6 +1268,12 @@ a#RecoverPassword,
 #launchtip_upsell_select_wrapper .check_image {
   display: none !important;
 }
+#launchtip_upsell_select_wrapper input[type=checkbox] + label:before {
+  border-radius: 0 !important;
+  border: 1px solid var(--bleu) !important;
+  width: 1em !important;
+  height: 1em !important;
+}
 
 /*///////////////////////////////////////
 // ODENZIA DESKTOP (min-width: 990px) //
