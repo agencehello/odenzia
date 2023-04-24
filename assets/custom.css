@@ -1264,6 +1264,10 @@ a#RecoverPassword,
   opacity: .5 !important;
 }
 
+/* UPSELL APP */
+#launchtip_upsell_select_wrapper .check_image {
+  display: none !important;
+}
 
 /*///////////////////////////////////////
 // ODENZIA DESKTOP (min-width: 990px) //
