@@ -3,7 +3,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "section {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0556\/3839\/3160\/files\/odenzia-concept-1.jpg?v=1679308726\"); background-repeat: no-repeat; background-size: cover; background-position: center; height: 50vh; max-height: 50vh; color: var(--beige); justify-content: center;}"
+        "section {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0556\/3839\/3160\/files\/odenzia-questionnaire-sejours.jpg?v=1682351999\"); background-repeat: no-repeat; background-size: cover; background-position: center; height: 50vh; max-height: 50vh; color: var(--beige); justify-content: center;}"
       ],
       "settings": {
         "class_page": "banner_page",
