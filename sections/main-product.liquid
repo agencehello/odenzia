@@ -346,6 +346,12 @@
                       </div>
                     {%- endif -%}
                     <div class="info">
+                      {%- if product.metafields.custom.date != blank -%}
+                        <span class="date"></span>
+            			 {{ product.metafields.custom.date | metafield_tag }}
+                      {%- endif -%}
+                    </div>
+                    <div class="info">
                       {%- if product.metafields.custom.lieu != blank -%}
                         <span class="lieu"></span>
                         {{ product.metafields.custom.lieu | metafield_tag }}
@@ -357,12 +363,6 @@
                         {{ product.metafields.custom.participantes | metafield_tag }}
                       {%- endif -%}
                     </div>
-                    <div class="info">
-                      {%- if product.metafields.custom.date != blank -%}
-                        <span class="date"></span>
-            			 {{ product.metafields.custom.date | metafield_tag }}
-                      {%- endif -%}
-                  </div>
                   </div>
                   {%- when 'share' -%}
                   <div {{ block.shopify_attributes }} class="product__share-container">
