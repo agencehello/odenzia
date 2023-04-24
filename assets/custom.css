@@ -1267,7 +1267,7 @@ a#RecoverPassword,
 /* SELLEASY APP • OPTIONS */
 .lb-upsell-ppa-card-cont {
   background-color: var(--beige) !important;
-  padding: 8px 20px !important;
+  padding: 1px 20px !important;
 }
 .lb-upsell-ppa-title-cont {
   margin: 0 !important;
