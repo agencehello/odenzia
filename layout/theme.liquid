@@ -68,6 +68,9 @@
     {% endif %}
 
     {{ content_for_header }}
+    <script>
+      var variantStock = {};
+    </script>
   </head>
 
   <body class="template-{{ request.page_type | handle }} {% if settings.uppercase_headings %} g-uppercase{% endif %} secondary_button-style-{{ settings.button_secondary_style }}"
