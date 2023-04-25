@@ -6,6 +6,7 @@
         "header {max-width: 100% !important;}"
       ],
       "settings": {
+        "class_page": "",
         "enable_animation": true,
         "content_max_width": 900
       }
@@ -109,6 +110,7 @@
         ".rich-text__title {font-size: 26px !important; line-height: 30px !important; margin-bottom: 10px !important;}"
       ],
       "settings": {
+        "section_id": "",
         "section_style": "default",
         "enable_animation": true,
         "alignment": "center"
@@ -118,7 +120,7 @@
       "type": "instafeed",
       "settings": {
         "heading_size": 20,
-        "feed_width": 100,
+        "feed_width": 90,
         "html_area": ""
       }
     },
