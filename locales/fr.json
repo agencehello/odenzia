@@ -148,7 +148,7 @@
       "view_addresses": "Afficher les adresses"
     },
     "activate_account": {
-      "cancel": "Décliner l'invitation",
+      "cancel": "Annuler",
       "password": "Mot de passe",
       "password_confirm": "Confirmer le mot de passe",
       "submit": "Activer le compte",
@@ -160,7 +160,7 @@
       "add_new": "Ajouter une nouvelle adresse",
       "address1": "Adresse",
       "address2": "Appartement, suite, etc.",
-      "cancel": "annuler",
+      "cancel": "Annuler",
       "city": "Ville",
       "company": "Société",
       "country": "Pays\/Région",
@@ -172,11 +172,11 @@
       "first_name": "Prénom",
       "last_name": "Nom de famille",
       "phone": "Téléphone",
-      "province": "Province",
+      "province": "Région",
       "set_default": "Définir comme adresse par défaut",
       "title": "Vos adresses",
       "update": "Mise à jour de l'adresse",
-      "zip": "Code postal\/ZIP"
+      "zip": "Code postal"
     },
     "login": {
       "email": "E-mail",
@@ -194,11 +194,11 @@
       "billing_address": "Adresse de facturation",
       "cancelled": "Commande annulée le {{ date }}",
       "cancelled_reason": "Raison : {{ reason }}",
-      "date": "Placé sur {{ date }}",
+      "date": "Commande passée le {{ date }}",
       "discount": "Remise",
-      "fulfilled_at": "Date de réalisation",
-      "fulfillment_status": "État d'avancement de la mise en œuvre",
-      "payment_status": "État des paiements",
+      "fulfilled_at": "Réalisé ",
+      "fulfillment_status": "Statut de la commande",
+      "payment_status": "Paiement",
       "price": "Prix",
       "product": "Produit",
       "quantity": "Quantité",
@@ -216,11 +216,11 @@
     },
     "orders": {
       "date": "Date",
-      "fulfillment_status": "État d'avancement de la mise en œuvre",
+      "fulfillment_status": "Statut de la commande",
       "none": "Vous n'avez pas encore passé de commande.",
-      "order_number": "Commander",
+      "order_number": "Commande",
       "order_number_link": "Numéro de commande {{ number }}",
-      "payment_status": "État des paiements",
+      "payment_status": "Paiement",
       "title": "Historique des commandes",
       "total": "Total"
     },
