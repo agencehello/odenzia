@@ -32,13 +32,13 @@
       ],
       "custom_css": [
         "section {padding-top: 0;}",
-        "p {font-family: var(--body);}"
+        ".rich-text--center {font-family: var(--body);}"
       ],
       "settings": {
         "section_id": "",
         "section_style": "default",
         "enable_animation": true,
-        "alignment": "center"
+        "alignment": "left"
       }
     },
     "10850eaf-d41f-46c9-b1a0-ef26d80e63ed": {
