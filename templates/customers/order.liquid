@@ -8,7 +8,7 @@
 
 
   {% if order.cancelled %}
-    {%- assign cancelled_at = order.cancelled_at | date: "%d/%m/%y, %R" -%}
+    {%- assign cancelled_at = order.cancelled_at | date: "%d/%m/%y" -%}
     <p>{{ 'customer.order.cancelled' | t: date: cancelled_at }}</p>
     <p>{{ 'customer.order.cancelled_reason' | t: reason: order.cancel_reason }}</p>
   {% endif %}
@@ -46,7 +46,7 @@
               {% if line_item.fulfillment %}
                 <dl>
                   <dt>{{ 'customer.order.fulfilled_at' | t }}</dt>
-                  <dd>{{ line_item.fulfillment.created_at | date: "%B %d, %Y" }}</dd>
+                  <dd>{{ line_item.fulfillment.created_at | date: "%d/%m/%y, %R" }}</dd>
 
                   {% if line_item.fulfillment.tracking_url %}
                     <dt>{{ 'customer.order.tracking_url' | t }}</dt>
