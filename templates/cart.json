@@ -31,8 +31,7 @@
         "template--18491912323400__966a485f-e381-431b-bae1-61bb3f86252b-16824268787fd06ab4-2"
       ],
       "custom_css": [
-        "section {padding-top: 0;}",
-        ".rich-text--center {font-family: var(--body);}"
+        "section {padding-top: 0; display: flex; justify-content: flex-end;}"
       ],
       "settings": {
         "section_id": "",
