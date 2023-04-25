@@ -196,7 +196,7 @@
       "cancelled_reason": "Raison : {{ reason }}",
       "date": "Commande passée le {{ date }}",
       "discount": "Remise",
-      "fulfilled_at": "Réalisé ",
+      "fulfilled_at": "Date de commande",
       "fulfillment_status": "Statut de la commande",
       "payment_status": "Paiement",
       "price": "Prix",
