@@ -1391,6 +1391,19 @@ a#RecoverPassword,
 .form-overlay-box {
   background: var(--bg) !important;
 }
+.globo-form-app .message.success {
+  background-color: var(--bleu) !important;
+  color: var(--bg) !important; 
+}
+.globo-form-app .message .dismiss {
+  color: var(--bg) !important;
+}
+.globo-form-control .help-block.error {
+  color: var(--rose) !important;
+}
+.globo-form-control.has-error input:not(.item__quantity) {
+  border-color: var(--rose) !important;
+}
 /*///////////////////////////////////////
 // ODENZIA DESKTOP (min-width: 990px) //
 /////////////////////////////////////*/
