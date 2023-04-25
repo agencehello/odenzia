@@ -1257,7 +1257,9 @@ a#RecoverPassword,
 .account .rte-table thead {
   background-color: var(--beige) !important;
 }
-.account .rte-table th {
+.account .rte-table th,
+.account .rte-table dt
+{
   font-weight: 400 !important;
 }
 .account .rte-table td {
