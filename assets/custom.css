@@ -1377,6 +1377,9 @@ a#RecoverPassword,
   outline: 1px solid var(--bleu);
   outline-offset: 3px;
   color: var(--bg) !important;
+  font-size: 16px !important;
+  font-family: var(--body) !important;
+  text-transform: uppercase;
 }
 .globo-form-id-2380 .globo-form-app .footer button.submit:hover {
   background-color: transparent !important;
