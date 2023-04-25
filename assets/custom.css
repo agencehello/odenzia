@@ -1253,8 +1253,9 @@ a#RecoverPassword,
   color: var(--marron);
 }
 /* Historique de commandes */
-.account__table .rte-table {
-  background-color: var(--beige);
+
+.account .rte-table thead {
+  background-color: var(--beige) !important;
 }
 .account .rte-table th {
   font-weight: 400 !important;
@@ -1262,9 +1263,6 @@ a#RecoverPassword,
 .account .rte-table td {
   font-family: var(--body-light) !important;
   font-weight: 300 !important;
-}
-.account .rte-table thead {
-  background-color: var(--beige) !important;
 }
 .account .rte-table dd {
   margin-left: 0 !important;
