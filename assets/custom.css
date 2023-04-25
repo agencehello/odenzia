@@ -1362,9 +1362,11 @@ a#RecoverPassword,
 .iti--separate-dial-code .iti__selected-dial-code {
   font-family: var(--body-light) !important;
 }
-.globo-form-app p {
+.globo-form-app form>p {
   display: none !important;
 }
+
+
 /*///////////////////////////////////////
 // ODENZIA DESKTOP (min-width: 990px) //
 /////////////////////////////////////*/
