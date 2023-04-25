@@ -339,16 +339,16 @@
                     </div>
                   {%- endcase -%}
                   <div class="infos_inline">
-                    {%- if product.metafields.custom.dur_e != blank -%}
+                    {%- if product.metafields.custom.date != blank -%}
                       <div class="info">
-                        <span class="duree"></span>
-                        {{ product.metafields.custom.dur_e | metafield_tag }}
+                        <span class="date"></span>
+                        {{ product.metafields.custom.date | metafield_tag }}
                       </div>
                     {%- endif -%}
                     <div class="info">
-                      {%- if product.metafields.custom.date != blank -%}
-                        <span class="date"></span>
-            			 {{ product.metafields.custom.date | metafield_tag }}
+                      {%- if product.metafields.custom.dur_e != blank -%}
+                        <span class="duree"></span>
+            			 {{ product.metafields.custom.dur_e | metafield_tag }}
                       {%- endif -%}
                     </div>
                   </div>
