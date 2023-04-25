@@ -1344,7 +1344,8 @@ a#RecoverPassword,
   border-radius: 0 !important;
   border-bottom: 1px solid #000000;
 }
-.globo-form-id-2380 .globo-form-app .globo-label, .globo-form-id-2380 .globo-form-app .globo-form-control label.globo-label, .globo-form-id-2380 .globo-form-app .globo-form-control label.globo-label span.label-content {
+.globo-form-id-2380 .globo-form-app .globo-label, .globo-form-id-2380 .globo-form-app .globo-form-control label.globo-label, .globo-form-id-2380 .globo-form-app .globo-form-control label.globo-label span.label-content,
+.globo-form-control .flat-input {
   font-size: 16px !important;
 }
 .globo-form-control {
@@ -1365,8 +1366,15 @@ a#RecoverPassword,
 .globo-form-app form>p {
   display: none !important;
 }
-
-
+.globo-form-id-2380 .globo-form-app .footer button.submit {
+  border-radius: 0 !important;
+  padding: 10px 33px !important;
+  outline: 1px solid var(--bleu);
+  outline-offset: 3px;
+}
+.globo-form-id-2380 .globo-form-app .footer button.submit:hover {
+  background-color: transparent !important;
+}
 /*///////////////////////////////////////
 // ODENZIA DESKTOP (min-width: 990px) //
 /////////////////////////////////////*/
