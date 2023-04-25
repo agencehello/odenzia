@@ -1386,7 +1386,12 @@ a#RecoverPassword,
   background-color: transparent !important;
   color: var(--bleu) !important;
 }
-
+.form-container-overlayboxs {
+  background-color: #fcf2e5c4 !important;
+}
+.form-overlay-box {
+  background: var(--bg) !important;
+}
 /*///////////////////////////////////////
 // ODENZIA DESKTOP (min-width: 990px) //
 /////////////////////////////////////*/
