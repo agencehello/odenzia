@@ -8,7 +8,7 @@
 
 
   {% if order.cancelled %}
-    {%- assign cancelled_at = order.cancelled_at | date: "%d/%m/%y" -%}
+    {%- assign cancelled_at = order.cancelled_at | date: "%d/%m/%y, %R" -%}
     <p>{{ 'customer.order.cancelled' | t: date: cancelled_at }}</p>
     <p>{{ 'customer.order.cancelled_reason' | t: reason: order.cancel_reason }}</p>
   {% endif %}
