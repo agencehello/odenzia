@@ -1,14 +1,14 @@
 <section class="section account order">
 
   <h1 class="account__heading type-heading-1">{{ 'customer.order.title' | t: name: order.name }}</h1>
-  <h2 class="account__section-heading type-heading-1">{{ 'customer.order.date' | t: date: order.created_at | date: "%B %d, %Y %I:%M%p" }}</h2>
+  <h2 class="account__section-heading type-heading-1">{{ 'customer.order.date' | t: date: order.created_at | date: "%d/%m/%y" }}</h2>
 
   <p><a class="db tc underline mb4" href="{{ routes.account_url }}">{{ 'customer.account.return' | t }}</a></p>
 
 
 
   {% if order.cancelled %}
-    {%- assign cancelled_at = order.cancelled_at | date: "%B %d, %Y %I:%M%p" -%}
+    {%- assign cancelled_at = order.cancelled_at | date: "%d/%m/%y" -%}
     <p>{{ 'customer.order.cancelled' | t: date: cancelled_at }}</p>
     <p>{{ 'customer.order.cancelled_reason' | t: reason: order.cancel_reason }}</p>
   {% endif %}
