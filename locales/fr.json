@@ -61,7 +61,7 @@
       "taxes_and_shipping_at_checkout": "Les taxes et les frais d'expédition sont calculés au moment du paiement.",
       "taxes_and_shipping_policy_at_checkout_html": "Les taxes et <a href=\"{{ link }}\">les frais d'expédition<\/a> au moment du paiement.",
       "taxes_included_and_shipping_policy_html": "Les taxes sont incluses et la livraison <a href=\"{{ link }}\"><\/a> est calculée à la fin de la commande.",
-      "taxes_included_but_shipping_at_checkout": "Toutes taxes comprises. Les éventuels frais de port sont calculés à la prochaine étape.",
+      "taxes_included_but_shipping_at_checkout": "Toutes taxes comprises.",
       "title": "Panier",
       "update": "Mise à jour"
     },
