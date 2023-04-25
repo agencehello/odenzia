@@ -1373,9 +1373,10 @@ a#RecoverPassword,
 .globo-form-id-2380 .globo-form-app .footer button.submit {
   border-radius: 0 !important;
   border: none !important;
-  padding: 10px 33px !important;
+  padding: 15px 40px !important;
   outline: 1px solid var(--bleu);
   outline-offset: 3px;
+  color: var(--bg) !important;
 }
 .globo-form-id-2380 .globo-form-app .footer button.submit:hover {
   background-color: transparent !important;
