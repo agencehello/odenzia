@@ -295,7 +295,7 @@
       "type": "instafeed",
       "settings": {
         "heading_size": 20,
-        "feed_width": 100,
+        "feed_width": 90,
         "html_area": ""
       }
     },
