@@ -849,13 +849,14 @@ header.collection__header {
 /* Metafields */
 .product-form__inner .infos_inline {
   justify-content: space-between;
-  margin-top: 1.5em;
+  margin: 15px 0;
   gap: 15px 0;
 }
 .info {
   display: flex;
   align-items: center;
   gap: 10px;
+  width: 50%;
 }
 .info span {
   max-height: 30px;
