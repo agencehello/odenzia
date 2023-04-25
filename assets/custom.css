@@ -1356,7 +1356,15 @@ a#RecoverPassword,
   border-radius: 0 !important;
   background-color: var(--bg) !important;
 }
-
+.iti--separate-dial-code .iti__selected-flag {
+  background-color: transparent !important;
+}
+.iti--separate-dial-code .iti__selected-dial-code {
+  font-family: var(--body-light) !important;
+}
+.globo-form-app p {
+  display: none !important;
+}
 /*///////////////////////////////////////
 // ODENZIA DESKTOP (min-width: 990px) //
 /////////////////////////////////////*/
