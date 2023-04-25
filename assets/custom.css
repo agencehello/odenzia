@@ -1686,6 +1686,9 @@ a#RecoverPassword,
     flex-direction: column;
     gap: 15px;
   }
+  .info {
+    width: 100% !important;
+  }
   .infos_inline .info span {
     min-width: 30px;
   }
