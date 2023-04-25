@@ -1258,8 +1258,8 @@ a#RecoverPassword,
   background-color: var(--beige) !important;
 }
 .account .rte-table th,
-.account .rte-table dt
-{
+.account .rte-table dt {
+  font-family: var(--body) !important;
   font-weight: 400 !important;
 }
 .account .rte-table td {
