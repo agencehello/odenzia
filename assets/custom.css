@@ -1145,6 +1145,10 @@ textarea:focus-visible {
 .cart-template__dynamic-checkout-buttons {
   display: none;
 }
+.cart-template__details a{
+  font-family: var(--title);
+  font-size: 18px;
+}
 
 /* COMPTE CLIENT */
 /* Connexion / inscription */
