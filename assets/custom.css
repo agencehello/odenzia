@@ -1426,13 +1426,6 @@ a#RecoverPassword,
   border-color: var(--rose) !important;
 }
 
-/* ORDER PRINTER • FACTURES */
-.invoice {
-  background-color: var(--bg) !important;
-  font-family: var(--body-light) !important;
-}
-
-
 /*///////////////////////////////////////
 // ODENZIA DESKTOP (min-width: 990px) //
 /////////////////////////////////////*/
