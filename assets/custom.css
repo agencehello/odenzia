@@ -753,11 +753,12 @@ header.collection__header {
   letter-spacing: 0 !important;
 }
 /* Complet */
-.bttn:disabled {
+/* & ajout au panier impossible */ .bttn:disabled {
   opacity: 1;
   background-color: var(--marron);
   color: var(--beige);
   pointer-events: none;
+  line-height: 18px;
 }
 .bg-sold-out {
   background-color: var(--marron);
