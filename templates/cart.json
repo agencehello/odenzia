@@ -22,7 +22,7 @@
         "template--18491912323400__966a485f-e381-431b-bae1-61bb3f86252b-16824268787fd06ab4-2": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Pour un paiement en 3 fois, réservez directement avec Maëva : <br\/><\/em><a href=\"mailto:contact@odenzia.com\" target=\"_blank\" title=\"mailto:contact@odenzia.com\"><em>contact@odenzia.com<\/em><\/a><\/p>",
+            "text": "<p><em>Pour un paiement en 3 fois, réservez directement avec Maëva : <\/em><a href=\"mailto:contact@odenzia.com\" target=\"_blank\" title=\"mailto:contact@odenzia.com\"><em>contact@odenzia.com<\/em><\/a><\/p>",
             "text_max_width": 50
           }
         }
