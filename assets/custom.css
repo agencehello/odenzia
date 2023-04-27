@@ -1150,6 +1150,16 @@ textarea:focus-visible {
   font-size: 18px;
 }
 
+/* TUNNEL DE COMMANDE */
+/* Paiement */
+.btn {
+  border-radius: 0 !important;
+  padding: 15px 30px !important;
+}
+.content-box {
+  border-radius: 0 !important;
+}
+
 /* COMPTE CLIENT */
 /* Connexion / inscription */
 .account .bttn--full {
