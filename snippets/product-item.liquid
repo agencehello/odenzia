@@ -109,6 +109,11 @@
         {{ 'products.product.cocrea' | t }}
       </div>
     {% endif %}
+    {% if product.tags contains 'Ealy bird' %}
+      <div class="badge type-body-small ttu lh-title top-0 right-0 mt3 mr3 bg-early">
+        {{ 'products.product.early' | t }}
+      </div>
+    {% endif %}
     {% comment %} SOLD OUT BADGE {% endcomment %}
     {% unless product.available %}
       <div class="badge type-body-small ttu lh-title top-0 right-0 mt3 mr3 bg-sold-out same-as-bg">
