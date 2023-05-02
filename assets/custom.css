@@ -787,6 +787,11 @@ header.collection__header {
   border: 1px solid var(--marron);
   color: var(--marron);
 }
+.bg-early {
+  background-color: #6B908F;
+  border: 1px solid #6B908F;
+  color: var(--bg);
+}
 .bg-new {
   background-color: var(--bg);
   border: 1px solid var(--rose);
