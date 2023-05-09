@@ -7,7 +7,6 @@
         "other": "{{ count }} articles",
         "zero": "0 articles"
       },
-      "back_to_blog": "Retour à {{ title }}",
       "by_author": "Par {{ author }}",
       "featured": "En avant :",
       "posted_in": "Publié dans",
@@ -490,6 +489,7 @@
       "new": "Nouveau",
       "cocrea": "Co-création",
       "early": "Early bird",
+      "end": "Terminé",
       "on_sale": "Prix réduit"
     },
     "product": {
@@ -527,6 +527,7 @@
       "new": "Nouveau",
       "cocrea": "Co-création",
       "early": "Early bird",
+      "end": "Terminé",
       "total_reviews": "Avis",
       "unavailable": "Sélectionnez les options",
       "unit_price_label": "Prix ​​à l'unité",
