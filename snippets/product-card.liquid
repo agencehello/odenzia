@@ -115,6 +115,11 @@ Usage:
               {{ 'products.product.early' | t }}
             </span>
           {% endif %}
+          {% if product.tags contains 'Terminé' %}
+            <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">
+              {{ 'products.product.end' | t }}
+            </span>
+          {% endif %}
           {%- if product_card_product.available == false -%}
             <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">
               {{ 'products.product.sold_out' | t }}
