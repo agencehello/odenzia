@@ -797,7 +797,10 @@ header.collection__header {
   border: 1px solid var(--rose);
   color: var(--rose);
 }
-
+.bg-end {
+  background-color: var(--beige);
+  color: var(--marron);
+}
 /* PRODUCT PAGE */
 .product__media-container {
   padding-right: 5%;
