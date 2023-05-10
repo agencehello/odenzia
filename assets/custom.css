@@ -767,11 +767,11 @@ header.collection__header {
 /* Badges avec tags */
 .bg-blue {
   background-color: var(--bleu);
-  color: var(--beige);
+  color: var(--bg);
 }
 .bg-pink {
   background-color: var(--rose);
-  color: var(--beige);
+  color: var(--bg);
 }
 .bg-beige-blue {
   background-color: var(--beige);
