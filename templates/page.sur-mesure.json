@@ -84,6 +84,9 @@
         "template--18491912028488__7925151b-699a-4b99-b111-2f8b495a27a1-1680864219a3243a52-0",
         "template--18491912028488__7925151b-699a-4b99-b111-2f8b495a27a1-1680864219a3243a52-1"
       ],
+      "custom_css": [
+        ".rte ul {margin-top: 15px;}"
+      ],
       "settings": {
         "section_id": "formules",
         "section_style": "default",
