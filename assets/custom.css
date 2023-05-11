@@ -771,7 +771,7 @@ header.collection__header {
   color: var(--bg);
 }
 .bg-pink {
-  background-color: var(--rose);
+  background-color: #EAB9B5;
   color: var(--bg);
 }
 .bg-beige-blue {
@@ -779,19 +779,14 @@ header.collection__header {
   color: var(--bleu);
 }
 .bg-promo {
-  background-color: var(--bg);
-  border: 1px solid var(--bleu);
-  color: var(--bleu);
+   background-color: #6B908F;
+  border: 1px solid #6B908F;
+  color: var(--bg);
 }
 .bg-cocrea {
   background-color: var(--bg);
   border: 1px solid var(--marron);
   color: var(--marron);
-}
-.bg-early {
-  background-color: #6B908F;
-  border: 1px solid #6B908F;
-  color: var(--bg);
 }
 .bg-new {
   background-color: var(--bg);
