@@ -75,7 +75,9 @@ ul li {
 p strong,
 ul li strong,
 p b,
-ul li b {
+ul li b,
+h5 b, 
+h5 strong {
   font-family: var(--body) !important;
   font-weight: 400 !important;
 }
