@@ -1948,10 +1948,14 @@ a#RecoverPassword,
   }
 }
 
-@media screen and (min-width: 630px) and (max-width: 989px) {
+@media screen and (min-width: 608px) and (max-width: 989px) {
   /* Accueil • Pictos */
-    #home-picto .text-columns__image {
+  #home-picto .text-columns__image {
     max-width: 50% !important;
+  }
+  /* Concept • Banner */
+  .collection__details {
+    transform: translate(-50%,-50%);
   }
 }
 
