@@ -771,8 +771,9 @@ header.collection__header {
   color: var(--bg);
 }
 .bg-pink {
-  background-color: #EAB9B5;
+  background-color: var(--rose);
   color: var(--bg);
+  font-family: var(--body);
 }
 .bg-promo {
    background-color: #6B908F;
