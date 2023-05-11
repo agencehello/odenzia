@@ -970,6 +970,10 @@ figure {
 figure img {
   max-width: 100%;
 }
+#intervenants h5 {
+  font-family: var(--body) !important;
+  margin-bottom: 0 !important;
+}
 #infos-pratiques {
   max-width: 80%;
   margin: auto;
