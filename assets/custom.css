@@ -1302,10 +1302,15 @@ a#RecoverPassword,
 }
 .cc-settings {
   border: 1px solid var(--beige) !important;
+  font-family: var(--body) !important;
 }
 .cc-deny {
   background-color: transparent !important;
   border: 1px solid var(--beige) !important;
+  font-family: var(--body) !important;
+}
+.cc-allow {
+  font-family: var(--body) !important;
 }
 .cc-btn:hover {
   opacity: .5 !important;
@@ -1626,7 +1631,7 @@ a#RecoverPassword,
     padding: 0 !important;
   }
   #home-picto .text-columns__image {
-    max-width: 100% !important;
+    max-width: 90% !important;
     min-height: 17vh;
     margin-bottom: 0;
   }
@@ -1943,6 +1948,12 @@ a#RecoverPassword,
   }
 }
 
+@media screen and (min-width: 630px) and (max-width: 989px) {
+  /* Accueil • Pictos */
+    #home-picto .text-columns__image {
+    max-width: 50% !important;
+  }
+}
 
 
 /*////// FONT FACE ///////*/
