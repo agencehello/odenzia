@@ -860,6 +860,7 @@ header.collection__header {
   justify-content: space-between;
   margin: 15px 0;
   gap: 15px 0;
+  display: flex;
 }
 .info {
   display: flex;
