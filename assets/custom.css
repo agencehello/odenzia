@@ -240,7 +240,7 @@ nav.header__nav.right {
 
 /* Listing produits */
 .infos_inline {
-  display: flex;
+  /* display: flex; */
   flex-flow: wrap;
   width: 100%;
   align-items: baseline;
