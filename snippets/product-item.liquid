@@ -190,12 +190,13 @@
       {%- endif -%}
       
       <div class="infos_inline">
-      {%- if product.metafields.custom.dur_e != blank -%}
-        {{ product.metafields.custom.dur_e | metafield_tag }}
-      {%- endif -%}
       {%- if product.metafields.custom.date != blank -%}
         {{ product.metafields.custom.date | metafield_tag | replace: '<p>', '<span class="bullet"></span> <p>' }}
       {%- endif -%}
+      {%- if product.metafields.custom.dur_e != blank -%}
+        {{ product.metafields.custom.dur_e | metafield_tag | replace: '<p>', '<span class="bullet"></span> <p>' }}
+      {%- endif -%}
+
       {%- if product.metafields.custom.lieu != blank -%}
         {{ product.metafields.custom.lieu | metafield_tag | replace: '<p>', '<span class="bullet"></span> <p>' }}
       {%- endif -%}
