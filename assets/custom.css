@@ -753,7 +753,8 @@ header.collection__header {
   letter-spacing: 0 !important;
 }
 /* Complet */
-/* & ajout au panier impossible */ .bttn:disabled {
+/* & ajout au panier impossible */ 
+.bttn:disabled {
   opacity: 1;
   background-color: var(--marron);
   color: var(--beige);
@@ -797,10 +798,7 @@ header.collection__header {
   border: 1px solid var(--rose);
   color: var(--rose);
 }
-.bg-end {
-  background-color: var(--beige);
-  color: var(--marron);
-}
+
 /* PRODUCT PAGE */
 .product__media-container {
   padding-right: 5%;
