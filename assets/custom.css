@@ -1687,7 +1687,8 @@ a#RecoverPassword,
     right: 0 !important;
   }
   /* Banner */
-  .collection__container .collection__details {
+  .collection__container .collection__details,
+  .collection__details {
     position: absolute !important;
     color: var(--bg);
     top: 50%;
