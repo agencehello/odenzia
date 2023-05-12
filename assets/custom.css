@@ -1592,7 +1592,7 @@ a#RecoverPassword,
     /* display: none !important; */
   }
   .collection-top-bar__active-elements > a {
-    bacgrkound-color: var(--beige)
+    bacgrkound-color: var(--beige) !important;
   }
   label.filter-item__content.filter-item__content--checkbox.checked {
     border-bottom: 1px solid var(--bleu);
