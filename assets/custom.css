@@ -1594,10 +1594,14 @@ a#RecoverPassword,
   }
   .collection__top-row {
     /* display: none !important; */
+    margin-top: 1%;
     margin-bottom: 3%;
   }
   .collection-top-bar__active-elements {
     justify-content: center !important;
+  }
+  .collection__tag:hover {
+    color: var(--bleu);
   }
   label.filter-item__content.filter-item__content--checkbox.checked {
     border-bottom: 1px solid var(--bleu);
