@@ -197,7 +197,7 @@
       "date": "Commande passée le {{ date }}",
       "discount": "Remise",
       "fulfilled_at": "Date de commande",
-      "fulfillment_status": "Confirmation du séjour",
+      "fulfillment_status": "Statut de la réservation",
       "payment_status": "Paiement",
       "price": "Prix",
       "product": "Produit",
@@ -216,7 +216,7 @@
     },
     "orders": {
       "date": "Date",
-      "fulfillment_status": "Confirmation du séjour",
+      "fulfillment_status": "Statut de la réservation",
       "none": "Vous n'avez pas encore passé de commande.",
       "order_number": "Commande",
       "order_number_link": "Numéro de commande {{ number }}",
