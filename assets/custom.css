@@ -1539,7 +1539,7 @@ a#RecoverPassword,
   }
   .collection__sidebar {
     width: 90% !important;
-    margin: 3% auto;
+    margin: 3% auto 0 auto; 
     text-align: center;
   }
   .collection-sidebar__group {
