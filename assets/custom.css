@@ -1589,7 +1589,10 @@ a#RecoverPassword,
     color: var(--bleu) !important;
   }
   .collection__top-row {
-    display: none !important;
+    /* display: none !important; */
+  }
+  .collection-top-bar__active-elements > a {
+    bacgrkound-color: var(--beige)
   }
   label.filter-item__content.filter-item__content--checkbox.checked {
     border-bottom: 1px solid var(--bleu);
