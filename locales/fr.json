@@ -669,6 +669,13 @@
       "marketing": {
         "accept_marketing_checkbox_label": "Inscrivez-vous à la newsletter Odenzia et recevez toutes les informations concernant votre séjour."
       }
+    },
+    "notices": {
+      "order": {
+        "fulfillment_status": {
+          "unfulfilled": "Non confirmé"
+        }
+      }
     }
   }
 }
