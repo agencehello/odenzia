@@ -68,7 +68,8 @@
     {% endif %}
 
     {{ content_for_header }}
-  </head>
+    {% render 'rapid-search-settings' %}
+</head>
 
   <body class="template-{{ request.page_type | handle }} {% if settings.uppercase_headings %} g-uppercase{% endif %} secondary_button-style-{{ settings.button_secondary_style }}"
     {% if settings.cart_type == 'flyout' %}
