@@ -724,6 +724,10 @@ header.collection__header {
   height: 50vh !important;
   max-height: 50vh !important;
 }
+/* Filtres */
+.collection-top-bar__active-elements > a {
+  background-color: var(--beige) !important;
+}
 
 /* BADGES • Collection + Product page */
 .card__badge {
@@ -1594,9 +1598,6 @@ a#RecoverPassword,
   }
   .collection-top-bar__active-elements {
     justify-content: center !important;
-  }
-  .collection__tag > a {
-    backgound-color: var(--beige) !important;
   }
   label.filter-item__content.filter-item__content--checkbox.checked {
     border-bottom: 1px solid var(--bleu);
