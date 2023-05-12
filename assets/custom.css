@@ -1592,6 +1592,9 @@ a#RecoverPassword,
     /* display: none !important; */
     margin-bottom: 3%;
   }
+  .collection-top-bar__active-elements {
+    justify-content: center !important;
+  }
   .collection__tag > a {
     backgound-color: var(--beige) !important;
   }
