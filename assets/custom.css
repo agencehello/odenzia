@@ -1591,7 +1591,7 @@ a#RecoverPassword,
   /*.collection__top-row {
     display: none !important;
   }*/
-  a .collection__tag {
+  .collection__tag a {
     backgound-color: var(--beige) !important;
   }
   label.filter-item__content.filter-item__content--checkbox.checked {
