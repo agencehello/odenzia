@@ -142,7 +142,7 @@
   },
   "customer": {
     "account": {
-      "details": "Details du compte",
+      "details": "Informations du compte",
       "return": "Retourner aux détails du compte",
       "title": "Mon compte",
       "view_addresses": "Afficher les adresses"
