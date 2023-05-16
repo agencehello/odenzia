@@ -674,8 +674,18 @@
       "order": {
         "fulfillment_status": {
           "unfulfilled": "Non confirmé"
+        },
+        "financial_status": {
+          "paid": "Payée",
+          "unpaid": "Non payée",
+          "partially_paid": "Partiellement payée"
         }
       }
+    }
+  },
+  "customer_accounts": {
+    "order_details": {
+      "paid_amount": "Payée"
     }
   }
 }
