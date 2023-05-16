@@ -673,7 +673,8 @@
     "notices": {
       "order": {
         "fulfillment_status": {
-          "unfulfilled": "Non confirmé"
+          "unfulfilled": "Non confirmé",
+          "fulfilled": "Confirmé"
         },
         "financial_status": {
           "paid": "Payée",
