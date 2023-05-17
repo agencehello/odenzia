@@ -17,32 +17,149 @@
         "template--18491912683848__58204698-c956-4977-8387-b821788dc050-1681824582dd46f67f-0": {
           "type": "item",
           "settings": {
-            "style": "open",
-            "heading": "This is an example of a question that a customer might ask",
-            "content": "<p>This is an example of a response that you might give. It's good to be as thorough as possible in responses as that has a tendency to improve trust overall.<\/p>"
+            "style": "closed",
+            "heading": "Ces séjours sont-ils réservés uniquement aux femmes ?",
+            "content": "<p>Sans cas contraire (précisé sur la fiche produit du séjour), tous les séjours Odenzia sont 100% féminins.<\/p>"
           }
         },
         "template--18491912683848__58204698-c956-4977-8387-b821788dc050-1681824582dd46f67f-1": {
           "type": "item",
           "settings": {
             "style": "closed",
-            "heading": "This is an example of a question that a customer might ask",
-            "content": "<p>This is an example of a response that you might give. It's good to be as thorough as possible in responses as that has a tendency to improve trust overall.<\/p>"
+            "heading": "Le yoga est-il accessible aux débutantes ?",
+            "content": "<p>Chez Odenzia, nous pensons que nous avons malheureusement tendance, nous femmes, à nous dévaloriser, surtout lorsqu’il s’agit de compétences et capacités physiques. Nous sommes pourtant capables de bien plus que nous le pensons. Ensemble, nous mettons de côté nos craintes et nos appréhensions pour se dépasser dans la bienveillance, la douceur, l’entraide et surtout le plaisir. Ici pas de performance physique, juste du plaisir !!<\/p>"
           }
         },
         "template--18491912683848__58204698-c956-4977-8387-b821788dc050-1681824582dd46f67f-2": {
           "type": "item",
           "settings": {
             "style": "closed",
-            "heading": "This is an example of a question that a customer might ask",
-            "content": "<p>This is an example of a response that you might give. It's good to be as thorough as possible in responses as that has a tendency to improve trust overall.<\/p>"
+            "heading": "Est-il possible de réserver une chambre seule ?",
+            "content": "<p>Lorsque cela est possible, vous pouvez réserver une chambre privée lors de votre réservation. Tous les types de chambres disponibles sont indiqués sur la fiche produit du séjour.<\/p>"
+          }
+        },
+        "1d51d4a4-25a9-49d1-9e8e-c81a7e08f523": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "Est-il possible de réserver une nuitée supplémentaire pour la veille du séjour ?",
+            "content": "<p>Lorsque cela est possible, vous pouvez réserver une nuitée supplémentaire lors de votre réservation. Toutes les options disponibles sont indiquées sur la fiche produit du séjour. En cas de doute, n’hésitez pas à nous contacter à <a href=\"mailto:contact@odenzia.com\">contact@odenzia.com<\/a><\/p>"
+          }
+        },
+        "40519f73-ad69-48c0-bf19-aabcb6672061": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "Est-ce que vous organisez un départ groupé pour rejoindre le lieu du séjour ?",
+            "content": "<p>Une fois le départ du séjour confirmé, nous vous mettrons en relation avec les autres participantes afin de pouvoir organiser des covoiturages. Dans tous les cas, le transport jusqu’au lieu du rendez-vous n’est pas pris en charge par Odenzia. Vous êtes donc responsable de votre propre moyen de transport.<\/p>"
+          }
+        },
+        "ee67256d-1f8d-4bee-9e73-48afd1f80dee": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "Puis-je participer en ayant un régime alimentaire particulier ?",
+            "content": "<p>Sur tous les séjours Odenzia, la cuisine est adaptée à tous régimes alimentaires : végétariens, végétaliens, gluten-free, lactose-free… Nous vous invitons à préciser votre régime alimentaire, ainsi que toute allergie ou intolérance, sur le formulaire à remplir en ligne lors de votre inscription à un séjour.<\/p>"
+          }
+        },
+        "04dde844-a4dc-45a7-95d7-c118cd739b8d": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "Est-ce que je dois amener mon propre matériel ?",
+            "content": "<p>Sans cas contraire, tout le matériel de yoga est fourni : tapis, bolsters, briques, sangles, couvertures… En fonction du type de séjour, d’autre type de matériel peut être fourni comme du matériel de bivouac : tentes, matelas, réchaud, popotes…La liste exacte du matériel fourni est précisé dans les informatiques pratiques de chaque séjour.<\/p>"
+          }
+        },
+        "f48b0743-30ce-4368-b64c-482ae2f61bcb": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "Les animaux sont-ils acceptés durant les séjours ?",
+            "content": "<p>Les animaux ne sont pas acceptés sur les séjours Odenzia.<\/p>"
+          }
+        },
+        "1c90a74a-93cf-401e-9b34-4b8cbdfae463": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "Je ne suis pas disponible aux dates proposées. Avez-vous prévu des séjours similaires ?",
+            "content": "<p>Toutes les dates proposées par Odenzia sont disponibles en ligne, sur le site internet. Nous vous conseillons de vous abonner à notre newsletter pour être tenue au courant des nouveautés et annonces des nouveaux séjours.<\/p>"
+          }
+        },
+        "bf5d224f-3e0a-4b78-a350-60234371abf7": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "Est-ce que je peux m’inscrire sur une liste d’attente si un séjour est déjà complet ?",
+            "content": "<p>Une liste d’attente est en effet disponible lorsqu’un séjour est complet. Il vous suffit de vous connecter (ou de créer) à votre compte client, puis de renseigner votre adresse email en cliquant sur « M’alerter d’une place disponible » sur la fiche produit du séjour.<\/p>"
+          }
+        },
+        "6155e8e1-3899-4347-9a48-87e6eb9fafe3": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "Puis-je régler mon séjour en plusieurs fois ?",
+            "content": "<p>Pour toute demande de réservation en plusieurs fois, merci de nous contacter par email à <a href=\"mailto:contact@odenzia.com\">contact@odenzia.com<\/a><\/p>"
+          }
+        },
+        "ca9cf381-4b96-4d14-8419-f33a4e0aca40": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "J’ai réservé ma place, à quel moment le séjour est-il confirmé ?",
+            "content": "<p>Dès lors que le nombre minimum de participantes est atteint (au plus tard un mois avant le début du séjour), vous recevrez un email de confirmation de départ. Vous pourrez lors officiellement bloquer les dates dans votre agenda et commencer à organiser vos transports jusqu’au lieu du rendez-vous.<\/p>"
+          }
+        },
+        "621c1663-ca65-42de-8358-a818475a53c0": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "Que se passe-t-il si le séjour n’est pas confirmé ?",
+            "content": "<p>Si le départ n'est malheureusement pas confirmé, vous serez alors prévenus et intégralement remboursée du montant déjà réglé.<\/p>"
+          }
+        },
+        "7cabfafe-30ca-47a0-bbe2-ed2bbd4054f4": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "Quelle est la durée de validité de vos cartes cadeaux ?",
+            "content": "<p>Toute carte cadeau Odenzia est valable sur un an. La date de commande est celle faisant foi, et non la date du début du séjour. Cela signifie que vous avez une année complète pour passer commande sur le site internet et ainsi réserver un séjour (même si ce dernier a lieu au-delà de l’année écoulée).<\/p>"
+          }
+        },
+        "9f997839-4b31-4808-8255-5b00b669a55f": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "Est-ce qu’Odenzia peut organiser un événement personnalisé pour mon groupe d’amis ?",
+            "content": "<p>Tout à fait ! Que ce soit pour célébrer un EVJF, un anniversaire ou tout changement de vie, Odenzia vous accompagne dans la création de votre événement sur-mesure, en adéquation avec vos envies et besoins, partout en France et à l’étranger.<\/p>"
+          }
+        },
+        "df2cb5d5-0222-4f70-8cee-ba55cc7c73a2": {
+          "type": "item",
+          "settings": {
+            "style": "closed",
+            "heading": "Est-ce que les séjours sur-mesure sont également 100% féminins ?",
+            "content": "<p>Les séjours sur-mesure sont totalement personnalisables. Vous êtes donc libres de choisir le nombre, ainsi que le genre des <a href=\"http:\/\/participant.es\">participant.es<\/a>, <\/p>"
           }
         }
       },
       "block_order": [
         "template--18491912683848__58204698-c956-4977-8387-b821788dc050-1681824582dd46f67f-0",
         "template--18491912683848__58204698-c956-4977-8387-b821788dc050-1681824582dd46f67f-1",
-        "template--18491912683848__58204698-c956-4977-8387-b821788dc050-1681824582dd46f67f-2"
+        "template--18491912683848__58204698-c956-4977-8387-b821788dc050-1681824582dd46f67f-2",
+        "1d51d4a4-25a9-49d1-9e8e-c81a7e08f523",
+        "40519f73-ad69-48c0-bf19-aabcb6672061",
+        "ee67256d-1f8d-4bee-9e73-48afd1f80dee",
+        "04dde844-a4dc-45a7-95d7-c118cd739b8d",
+        "f48b0743-30ce-4368-b64c-482ae2f61bcb",
+        "1c90a74a-93cf-401e-9b34-4b8cbdfae463",
+        "bf5d224f-3e0a-4b78-a350-60234371abf7",
+        "6155e8e1-3899-4347-9a48-87e6eb9fafe3",
+        "ca9cf381-4b96-4d14-8419-f33a4e0aca40",
+        "621c1663-ca65-42de-8358-a818475a53c0",
+        "7cabfafe-30ca-47a0-bbe2-ed2bbd4054f4",
+        "9f997839-4b31-4808-8255-5b00b669a55f",
+        "df2cb5d5-0222-4f70-8cee-ba55cc7c73a2"
       ],
       "custom_css": [
         "section {padding-top: 0;}",
