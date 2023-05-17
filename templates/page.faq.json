@@ -162,7 +162,7 @@
         "df2cb5d5-0222-4f70-8cee-ba55cc7c73a2"
       ],
       "custom_css": [
-        "section {padding-top: 0;}",
+        "section {padding-top: 0; margin-bottom: 5%;}",
         ".type-heading-2 {font-family: var(--title); font-size: 26px !important; line-height: 30px !important;}"
       ],
       "settings": {
