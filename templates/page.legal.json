@@ -3,7 +3,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "header {max-width: 100% !important;}"
+
       ],
       "settings": {
         "class_page": "",
