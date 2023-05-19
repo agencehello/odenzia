@@ -70,7 +70,7 @@ ul li {
   line-height: 24px !important;
   letter-spacing: 0 !important;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 p strong,
 ul li strong,
