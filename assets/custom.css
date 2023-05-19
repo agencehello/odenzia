@@ -1372,6 +1372,9 @@ a#RecoverPassword,
 }
 .lb-prod-prev-img {
   object-fit: cover !important;
+  width: 200px !important;
+  height: 293px !important;
+  
 }
 .lb-prod-prev-title {
   font-family: var(--title) !important;
