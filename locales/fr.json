@@ -654,7 +654,8 @@
         "gift_card_and_discount_placeholder": "Carte cadeau ou code promo",
         "remove_gift_card_label": "Retirer la carte cadeau",
         "gift_card_has_been_applied": "La carte cadeau a été appliquée",
-        "gift_card_has_been_removed": "La carte cadeau a été retirée"
+        "gift_card_has_been_removed": "La carte cadeau a été retirée",
+        "vat_label_html": "TVA de {{amount}} incluse"
       },
       "delivery_options": {
         "free_total_label": "Offert"
