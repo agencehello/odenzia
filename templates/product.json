@@ -67,7 +67,7 @@
         "enable_full_width": true,
         "image_size": "50",
         "enable_thumbnails": true,
-        "thumbnail_position": "vertical",
+        "thumbnail_position": "horizontal",
         "thumbnail_size": "medium",
         "thumbnail_aspect_ratio": "square",
         "enable_video_looping": true
