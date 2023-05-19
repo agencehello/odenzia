@@ -1329,7 +1329,7 @@ a#RecoverPassword,
   margin: 0 !important;
 }
 .lb-upsell-ppa-title {
-  font-family: var(--body-light) !important;
+  font-family: var(--body) !important;
   font-size: 16px !important;  
 }
 .lb-upsell-ppa-card-cont .lb-spc-border {
@@ -1364,7 +1364,7 @@ a#RecoverPassword,
   border-radius: 0 !important;
 }
 .lb-prod-prev-body-cont-height {
-  min-height: 45vh;
+  min-height: 35vh;
 }
 .lb-prod-prev-header,
 .lb-prod-prev-body-cont-height {
