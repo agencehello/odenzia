@@ -1,5 +1,6 @@
 /* Use this file to add custom css to the theme.
 Last Edit @AgenceHello 04.2023 */
+
 :root {
   --beige: #fcf2e5;
   --marron: #c7a17e;
@@ -1659,7 +1660,7 @@ a#RecoverPassword,
   /* Pastille */
   span.pastille {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -30%);
     z-index: 1;
