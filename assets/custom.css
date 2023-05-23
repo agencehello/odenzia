@@ -1660,7 +1660,7 @@ a#RecoverPassword,
   /* Pastille */
   span.pastille {
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -30%);
     z-index: 1;
