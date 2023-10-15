@@ -38,7 +38,7 @@
       "settings": {
         "enable_animation": true,
         "enable_full_width": false,
-        "image_size": "65",
+        "image_size": "50",
         "enable_thumbnails": true,
         "thumbnail_position": "horizontal",
         "thumbnail_size": "medium",
