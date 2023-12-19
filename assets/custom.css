@@ -945,7 +945,7 @@ button.tablinks-cus.active {
   background-color: unset;
   color: var(--bleu);
 }
-#tabs button .metafield-rich_text_field p {
+#programme #tabs button .metafield-rich_text_field p {
   font-family: var(--title) !important;
   font-weight: 300 !important;
   font-size: 26px !important;
@@ -1792,9 +1792,6 @@ a#RecoverPassword,
   .tablinks-cus {
     padding: var(--padd-mob) 0 !important;
   }
-  #tabs button .metafield-rich_text_field p {
-    margin-bottom: 0;
-  }
   .accordion.break {
     margin: 1.5em 0;
   }
@@ -1815,13 +1812,7 @@ a#RecoverPassword,
     max-width: 100% !important;
     margin: 0 !important;
   }
-  #programme h3,
-  #hebergement h3,
-  #intervernants h3,
-  #infos-pratiques h3 {
-    margin-bottom: 15px !important;
-  }
-  
+
   /* Footer */
   .footer__heading {
     font-family: var(--body) !important;
