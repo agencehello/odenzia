@@ -945,7 +945,7 @@ button.tablinks-cus.active {
   background-color: unset;
   color: var(--bleu);
 }
-#programme #tabs button .metafield-rich_text_field p {
+#tabs button .metafield-rich_text_field p {
   font-family: var(--title) !important;
   font-weight: 300 !important;
   font-size: 26px !important;
