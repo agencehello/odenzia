@@ -490,6 +490,7 @@ span.bullet {
 .footer__groups {
   padding-top: 2%;
   align-items: top;
+  padding-left: 6%;
 }
 #shopify-section-footer h4 {
   font-family: var(--body) !important;
