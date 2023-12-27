@@ -19,14 +19,14 @@
           "settings": {
             "style": "closed",
             "heading": "Ces séjours sont-ils réservés uniquement aux femmes ?",
-            "content": "<p>Sans cas contraire (précisé sur la fiche produit du séjour), tous les séjours Odenzia sont 100% féminins.<\/p>"
+            "content": "<p>Sauf cas contraire (précisé sur la fiche produit du séjour), tous les séjours Odenzia sont 100% féminins.<\/p>"
           }
         },
         "template--18491912683848__58204698-c956-4977-8387-b821788dc050-1681824582dd46f67f-1": {
           "type": "item",
           "settings": {
             "style": "closed",
-            "heading": "Le activités sont-elles accessibles aux débutantes ?",
+            "heading": "Les activités sont-elles accessibles aux débutantes ?",
             "content": "<p>Sur tous les séjours Odenzia, les activités proposées sont accessibles à toutes. Selon nous, ces séjours sont l’occasion idéale de tester sans pression ou de se perfectionner sans comparaison. Par exemple, lors des séances de yoga les mouvements sont adaptés à chaque corps et aux possibilités de chaque participante. Ici pas de performance physique, juste du plaisir !!<\/p>"
           }
         },

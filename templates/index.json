@@ -11,7 +11,7 @@
             "mobile_focal_point": "image_presentation",
             "overline": "",
             "title": "",
-            "subheading": "<h1>Des séjours aventure &      bien-être 100% féminins<\/h1>",
+            "subheading": "<h1>Des séjours aventure &     bien-être <br\/>100% féminins<\/h1>",
             "link": "shopify:\/\/pages\/le-concept",
             "link_text": "Découvrir",
             "alignment": "center_center",
@@ -20,7 +20,7 @@
             "heading_max_width": 60,
             "text_max_width": 50,
             "text_container_color": "rgba(0,0,0,0)",
-            "text_color": "#fffcf8",
+            "text_color": "#094849",
             "color_text_button": "#fffcf8",
             "color_background_button": "#efbfbb",
             "overlay_color": "#fffcf8",
@@ -50,7 +50,7 @@
         "template--18287000387912__4cd28d26-6998-444f-b65e-4a3f908b11a4-1678800832f36e786e-2": {
           "type": "text",
           "settings": {
-            "text": "<p>Une aventure féminine mêlant activités outdoor & expression corporelle, pour se déconnecter du quotidien et se dépasser ensemble <\/p>",
+            "text": "<p>Une aventure féminine mêlant activités outdoor & expression corporelle, <br\/>pour se déconnecter du quotidien et se dépasser ensemble <\/p>",
             "text_max_width": 50
           }
         }
