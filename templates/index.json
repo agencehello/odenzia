@@ -20,7 +20,7 @@
             "heading_max_width": 60,
             "text_max_width": 50,
             "text_container_color": "rgba(0,0,0,0)",
-            "text_color": "#094849",
+            "text_color": "#fffcf8",
             "color_text_button": "#fffcf8",
             "color_background_button": "#efbfbb",
             "overlay_color": "#fffcf8",
