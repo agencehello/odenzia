@@ -1253,6 +1253,9 @@ a#RecoverPassword,
   font-family: var(--body-light) !important;
 }
 /* Adresses */
+.account__address-inner {
+  background-color: var(--beige) !important;
+}
 .account__address-inner .bttn--full {
   background-color: var(--bleu) !important;
   outline: none !important;
