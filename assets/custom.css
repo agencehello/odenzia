@@ -968,13 +968,17 @@ button.tablinks-cus.active {
   margin-bottom: 5px !important;
 }
 
+#infos-pratiques .metafield-rich_text_field {
+  margin-bottom: 40px;
+}
+
 #infos-pratiques .btn-faq-product {
   color: var(--bg);
   text-transform: uppercase;
   background-color: var(--bleu);
   outline: 1px solid var(--bleu);
   outline-offset: 3px;
-  padding: 12px 33px;
+  padding: 15px 33px;
 }
 
 #infos-pratiques .btn-faq-product:hover {
