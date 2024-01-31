@@ -821,6 +821,17 @@ header.collection__header {
   font-size: 16px;
   line-height: 24px;
 }
+
+.product__description ul,
+.metafield-rich_text_field ul {
+  padding-left: 18px;
+}
+
+.product__description ul li,
+.metafield-rich_text_field ul li {
+  margin-bottom: 0;
+}
+
 /* Variantes */
 .product-form__option-label-wrapper label,
 .product-form__option-select {
