@@ -873,6 +873,7 @@ header.collection__header {
   margin: 15px 0;
   gap: 15px 0;
   display: flex;
+  margin-top: 20px;
 }
 .info {
   display: flex;
