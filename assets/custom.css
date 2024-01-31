@@ -975,7 +975,6 @@ button.tablinks-cus.active {
   outline: 1px solid var(--bleu);
   outline-offset: 3px;
   padding: 10px 33px;
-  margin-top: 30px;
 }
 
 #infos-pratiques .btn-faq-product:hover {
