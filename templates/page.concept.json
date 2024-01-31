@@ -50,7 +50,7 @@
       ],
       "custom_css": [
         ".text-block__overline {color: var(--bleu);}",
-        ".text-block__button {background-color: var(--bleu); outline: 1px solid var(--bleu); outline-offset: 3px; margin-top: 30px;}",
+        ".text-block__button {background-color: var(--bleu); outline: 1px solid var(--bleu); outline-offset: 3px; margin-top: 24px;}",
         ".text-block__button:hover {color: var(--bleu); background-color: transparent;}"
       ],
       "settings": {
