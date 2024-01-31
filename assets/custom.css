@@ -968,16 +968,16 @@ button.tablinks-cus.active {
   margin-bottom: 5px !important;
 }
 
-#infos-pratiques .btn-faq-product {
+#infos-pratiques .btn-faq-product a{
   color: var(--bg);
   text-transform: uppercase;
   background-color: var(--bleu);
   outline: 1px solid var(--bleu);
   outline-offset: 3px;
-  padding: 10px 33px;
+  padding: 12px 33px;
 }
 
-#infos-pratiques .btn-faq-product:hover {
+#infos-pratiques .btn-faq-product a:hover {
   color: var(--bleu);
   background-color: transparent;
 }
