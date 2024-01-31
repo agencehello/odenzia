@@ -969,6 +969,8 @@ button.tablinks-cus.active {
 }
 
 #infos-pratiques .metafield-rich_text_field a {
+  color: var(--bg);
+  text-transform: uppercase;
   background-color: var(--bleu);
   outline: 1px solid var(--bleu);
   outline-offset: 3px;
