@@ -967,6 +967,15 @@ button.tablinks-cus.active {
 #infos-pratiques .metafield-rich_text_field h3 {
   margin-bottom: 5px !important;
 }
+
+#infos-pratiques .metafield-rich_text_field a {
+  background-color: var(--bleu);
+  outline: 1px solid var(--bleu);
+  outline-offset: 3px;
+  padding: 10px 33px;
+  margin-top: 30px;
+}
+
 .template-product .accordion__group {
   border-bottom: 1px solid var(--bleu);
 }
