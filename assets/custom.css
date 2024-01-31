@@ -1922,6 +1922,12 @@ a#RecoverPassword,
     margin-top: 10% !important;
   }
 }
+@media screen and (max-width: 959px) {
+  /* Image • Page Produit */
+  .flickity-enabled.is-draggable {
+    margin-bottom: -200px;
+  }
+}
 
 @media screen and (max-width: 789px) {
   /* Global layout */
