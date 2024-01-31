@@ -33,15 +33,25 @@
             "subheading": "<p><strong>Odenzia<\/strong>, du basque <em>Ozeano <\/em>(océan) et <em>Mendi <\/em>(montagne).<\/p><p><strong>Ici pas de performance<\/strong> : la force du collectif nous porte vers les sommets et nous prouve que nous sommes capables de bien plus que nous le pensons. <strong>Autorisons-nous à rayonner ! <\/strong>Libérée des soucis de l’organisation, prenez le temps de vous déconnecter de vos contraintes personnelles et professionnelles pour renouer avec vous-même et votre essence profonde…<\/p><p>Depuis avril 2021, Maëva vous partage ses coups de cœur, ses activités et ses hébergements favoris pour vous faire <strong>vivre un moment hors du temps<\/strong>… Tous les séjours sont concoctés et testés en conditions réelles. Une invitation à <strong>s’évader de son quotidien<\/strong>, à <strong>se laisser porter par la nature<\/strong> et à <strong>se reconnecter à sa force intérieure<\/strong>, dans des lieux authentiques et typiques.<\/p><p>Les séjours Odenzia sont le combo parfait entre <strong>l’apaisement de l’esprit, le mouvement du corps<\/strong> et de <strong>belles rencontres<\/strong>.<\/p>",
             "text_max_width": 50
           }
+        },
+        "button_BHw9wA": {
+          "type": "button",
+          "settings": {
+            "link": "shopify:\/\/collections\/les-sejours",
+            "link_text": "Découvrir les séjours"
+          }
         }
       },
       "block_order": [
         "template--18296477090120__7fdb40bc-1672-4988-bab0-ac2a79447ebe-1678982418ec0d5b93-0",
         "template--18296477090120__7fdb40bc-1672-4988-bab0-ac2a79447ebe-1678982418ec0d5b93-1",
-        "template--18296477090120__7fdb40bc-1672-4988-bab0-ac2a79447ebe-1678982418ec0d5b93-2"
+        "template--18296477090120__7fdb40bc-1672-4988-bab0-ac2a79447ebe-1678982418ec0d5b93-2",
+        "button_BHw9wA"
       ],
       "custom_css": [
-        ".text-block__overline {color: var(--bleu);}"
+        ".text-block__overline {color: var(--bleu);}",
+        ".text-block__button {background-color: var(--bleu); outline: 1px solid var(--bleu); outline-offset: 3px; margin-top: 30px;}",
+        ".text-block__button:hover {color: var(--bleu); background-color: transparent;}"
       ],
       "settings": {
         "section_id": "concept_block",
