@@ -978,6 +978,11 @@ button.tablinks-cus.active {
   margin-top: 30px;
 }
 
+#infos-pratiques .metafield-rich_text_field a:hover {
+  color: var(--bleu);
+  background-color: transparent;
+}
+
 .template-product .accordion__group {
   border-bottom: 1px solid var(--bleu);
 }
