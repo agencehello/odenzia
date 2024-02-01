@@ -80,10 +80,12 @@
     {% endif %}
     data-enable-reveal-animations="{{ settings.enable_reveal_animations }}">
     <header class="header-container">
+      
       {% unless template == 'product.marque-blanche' %}
         {% section 'utility-bar' %}     
         {% section 'header' %}
       {% endunless %}
+      
     </header>
     {% render 'quick-add' %}
     {% render 'header-overlay' %}
@@ -91,7 +93,11 @@
     <div class="theme-editor-scroll-offset"></div>
     <main id="main-content"><div class="globoRecommendationsTop"></div>{{ content_for_layout }}<div class="globoRecommendationsBottom"></div></main>
     {% section 'popup' %}
-    {% section 'footer' %}
+    
+    {% unless template == 'product.marque-blanche' %}
+      {% section 'footer' %}
+    {% endunless %}
+    
     {% render 'cart-drawer' %}
     {% render 'modal' %}
     {% render 'store-availability-drawer' %}
