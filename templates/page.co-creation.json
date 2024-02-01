@@ -78,11 +78,23 @@
             "link": "#contact",
             "link_text": "Devis sur mesure"
           }
+        },
+        "column_4NC33c": {
+          "type": "column",
+          "settings": {
+            "image_max_width": 50,
+            "title": "Column heading",
+            "subheading": "<p>Column text<\/p>",
+            "text_max_width": 36,
+            "link": "",
+            "link_text": "Read more"
+          }
         }
       },
       "block_order": [
         "template--18491912028488__7925151b-699a-4b99-b111-2f8b495a27a1-1680864219a3243a52-0",
-        "template--18491912028488__7925151b-699a-4b99-b111-2f8b495a27a1-1680864219a3243a52-1"
+        "template--18491912028488__7925151b-699a-4b99-b111-2f8b495a27a1-1680864219a3243a52-1",
+        "column_4NC33c"
       ],
       "custom_css": [
         ".rte ul {margin-top: 15px;}"
@@ -91,7 +103,7 @@
         "section_id": "formules",
         "section_style": "default",
         "enable_animation": false,
-        "columns": 2,
+        "columns": 3,
         "overline": "",
         "title": "Les formules",
         "subheading": "",
@@ -134,59 +146,6 @@
         "text_container_color": "",
         "color_background_gradient": "",
         "button_background_color": "#000000"
-      }
-    },
-    "6c748c60-f490-4f4a-a99e-8b97b9331ce8": {
-      "type": "testimonials",
-      "blocks": {
-        "201018f1-b2a7-4ba3-a576-c23cb2a46fdb": {
-          "type": "testimonial",
-          "settings": {
-            "product_link": "",
-            "rating": 0,
-            "review": "<p>On a passé une super journée où le rire était au rendez-vous. Organisation au top, découverte de nouvelles activités... Bref, un bon moment passé entre collègues. Merci à Odenzia.<\/p>",
-            "reviewer_name": "Danièle"
-          }
-        },
-        "e863bb26-ca5a-4952-a260-3a917005b3ee": {
-          "type": "testimonial",
-          "settings": {
-            "product_link": "",
-            "rating": 0,
-            "review": "<p>Une parenthèse de douceur dans un cadre magnifique. L’idéal pour se ressourcer le temps d’un week-end rempli d’air iodé, du bruit des vagues, de partages, de découvertes, de gourmandises. Et entourés d’une équipe à l’écoute, bienveillante et très professionnelle. Merci encore pour cela !<\/p>",
-            "reviewer_name": "Carine"
-          }
-        },
-        "97307ee4-4882-4ed2-a8bb-acc4276e546d": {
-          "type": "testimonial",
-          "settings": {
-            "product_link": "",
-            "rating": 0,
-            "review": "<p>Organisation parfaite. Lieu superbe. Une équipe qui met à l'aise, à l'écoute et qui s'adapte. Ateliers très enrichissants ! Génial !<\/p>",
-            "reviewer_name": "Anne-Catherine"
-          }
-        }
-      },
-      "block_order": [
-        "201018f1-b2a7-4ba3-a576-c23cb2a46fdb",
-        "e863bb26-ca5a-4952-a260-3a917005b3ee",
-        "97307ee4-4882-4ed2-a8bb-acc4276e546d"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "section_style": "contrast",
-        "enable_animation": true,
-        "columns": 1,
-        "aspect_ratio": "natural",
-        "text_position": "top_center",
-        "overline": "",
-        "title": "Nos participantes adorées",
-        "subheading": "",
-        "link": "",
-        "link_text": "",
-        "text_max_width": 50
       }
     },
     "0660518b-0bc9-4f1f-aa59-d5ab4c0c8c85": {
@@ -338,7 +297,6 @@
     "786700a4-e365-420a-92f9-1e1b885259f1",
     "7925151b-699a-4b99-b111-2f8b495a27a1",
     "d0c19374-7693-44c6-ab77-9e09cc68b7d4",
-    "6c748c60-f490-4f4a-a99e-8b97b9331ce8",
     "0660518b-0bc9-4f1f-aa59-d5ab4c0c8c85",
     "f0a15b9e-1ae4-4dc3-9aec-22662f701f1a",
     "b180e576-30d7-4368-a81a-a21975814ffa",
