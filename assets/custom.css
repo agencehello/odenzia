@@ -1756,7 +1756,9 @@ a#RecoverPassword,
     max-width: 85%; 
   }
   /* Désactiver animation hover • Page collection */
-  
+  .product-item__image-wrapper:hover .product-item__image.not-first, .product-item__image-wrapper:focus .product-item__image.not-first, .product-item__image-wrapper:focus-within .product-item__image.not-first {
+    display: none;
+  }
   /* Filtres */
   .collection-flyout__heading {
     color: var(--bleu);
