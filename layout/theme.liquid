@@ -81,7 +81,9 @@
     data-enable-reveal-animations="{{ settings.enable_reveal_animations }}">
     <header class="header-container">
       {% section 'utility-bar' %}
-      {% section 'header' %}
+      {% unless template.name == 'product.marque-blanche' %}
+        {% section 'header' %}
+      {% endunless %}
     </header>
     {% render 'quick-add' %}
     {% render 'header-overlay' %}
