@@ -976,14 +976,14 @@ button.tablinks-cus.active {
 #infos-pratiques .btn-faq-product {
   color: var(--bg);
   text-transform: uppercase;
-  background-color: var(--bleu);
-  outline: 1px solid var(--bleu);
+  background-color: var(--marron);
+  outline: 1px solid var(--marron);
   outline-offset: 3px;
   padding: 15px 33px;
 }
 
 #infos-pratiques .btn-faq-product:hover {
-  color: var(--bleu);
+    color: var(--marron);
   background-color: transparent;
 }
 
