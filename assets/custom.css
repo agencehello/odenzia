@@ -394,16 +394,6 @@ span.bullet {
   text-underline-offset: 0.3em;
   margin-top: 20px
 }
-#formules .text-block.text-columns__feature:nth-child(2) h3 {
-  background-color: var(--rose);
-}
-#formules .text-block.text-columns__feature:nth-child(2) {
-  border-color: var(--rose);
-}
-#formules .text-block.text-columns__feature:nth-child(2) a.text-block__button,
-#formules .text-block.text-columns__feature:nth-child(2) span.devis {
-  color: var(--rose);
-}
 #formules .text-block.text-columns__feature:last-child h3 {
   background-color: var(--marron);
 }
@@ -444,7 +434,19 @@ span.bullet {
 }
 
 /* PAGE CO-CRÉATION */
-
+#formules .text-block.text-columns__feature:nth-child(2) h3 {
+  background-color: var(--rose);
+}
+#formules .text-block.text-columns__feature:nth-child(2) {
+  border-color: var(--rose);
+}
+#formules .text-block.text-columns__feature:nth-child(2) a.text-block__button,
+#formules .text-block.text-columns__feature:nth-child(2) span.devis {
+  color: var(--rose);
+}
+.shopify-section-template--20650525819208__7925151b-699a-4b99-b111-2f8b495a27a1 #formules .text-columns__content {
+  gap: 30px;
+}
 
 /* ACCUEIL */
 /* Bandeau pictos */
