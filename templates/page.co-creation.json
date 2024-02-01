@@ -126,7 +126,7 @@
         "section_id": "sejours_slider",
         "section_style": "default",
         "enable_animation": true,
-        "collection": "",
+        "collection": "sejours-en-co-creation",
         "columns": 3,
         "aspect_ratio": "square",
         "text_position": "left",
