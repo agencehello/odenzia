@@ -445,7 +445,7 @@ span.bullet {
   color: var(--rose);
 }
 .shopify-section-template--20650525819208__7925151b-699a-4b99-b111-2f8b495a27a1 #formules .text-columns__content {
-  gap: 30px;
+  gap: 30px !important;
 }
 
 /* ACCUEIL */
