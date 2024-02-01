@@ -113,6 +113,30 @@
         "text_max_width": 50
       }
     },
+    "featured_collection_row_qwHYg7": {
+      "type": "featured-collection-row",
+      "custom_css": [
+        "section {padding-top: 8%; padding-bottom: 8%;}",
+        ".text-block__overline {color: var(--bleu);}",
+        ".text-block__button {background-color: transparent; color: var(--bleu); outline: 1px solid var(--bleu); outline-offset: 3px;}",
+        ".text-block__button:hover {background-color: transparent; color: var(--bleu);}",
+        ".carousel__navigation {background-color: var(--bleu);}"
+      ],
+      "settings": {
+        "section_id": "sejours_slider",
+        "section_style": "default",
+        "enable_animation": true,
+        "collection": "",
+        "columns": 3,
+        "aspect_ratio": "square",
+        "text_position": "left",
+        "overline": "Collection",
+        "title": "Nos séjours en co-création",
+        "subheading": "<p>Add a subheading to provide more details about this collection.<\/p>",
+        "link_text": "Découvrir",
+        "text_max_width": 25
+      }
+    },
     "d0c19374-7693-44c6-ab77-9e09cc68b7d4": {
       "type": "image-with-text",
       "blocks": {
@@ -296,6 +320,7 @@
     "main",
     "786700a4-e365-420a-92f9-1e1b885259f1",
     "7925151b-699a-4b99-b111-2f8b495a27a1",
+    "featured_collection_row_qwHYg7",
     "d0c19374-7693-44c6-ab77-9e09cc68b7d4",
     "0660518b-0bc9-4f1f-aa59-d5ab4c0c8c85",
     "f0a15b9e-1ae4-4dc3-9aec-22662f701f1a",
