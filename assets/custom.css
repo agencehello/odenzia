@@ -964,8 +964,7 @@ button.tablinks-cus.active {
   line-height: 30px !important;
   margin: 26px 0 !important;
 }
-#infos-pratiques .metafield-rich_text_field h3,
-#temoignages .metafield-rich_text_field h3{
+#infos-pratiques .metafield-rich_text_field h3 {
   margin-bottom: 5px !important;
 }
 
@@ -1017,13 +1016,11 @@ figure img {
   font-family: var(--body) !important;
   margin-bottom: 0 !important;
 }
-#infos-pratiques,
-#temoignages {
+#infos-pratiques {
   max-width: 80%;
   margin: auto;
 }
-#infos-pratiques p,
-#temoignages p {
+#infos-pratiques p {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -1848,8 +1845,7 @@ a#RecoverPassword,
   #programme h3 {
     margin: 0 0 10px 0 !important;
   }
-  #infos-pratiques,
-  #temoignages {
+  #infos-pratiques {
     max-width: 100% !important;
     margin: 0 !important;
   }
