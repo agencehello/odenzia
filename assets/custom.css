@@ -1757,7 +1757,7 @@ a#RecoverPassword,
   }
   /* Page collection */
   .product-item__image-wrapper:focus-within .product-item__image.not-first {
-    display: none;
+    display: none !important;
   }
   /* Filtres */
   .collection-flyout__heading {
