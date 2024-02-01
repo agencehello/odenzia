@@ -970,7 +970,7 @@ button.tablinks-cus.active {
 }
 
 #infos-pratiques .metafield-rich_text_field {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 #infos-pratiques .btn-faq-product {
@@ -1921,12 +1921,6 @@ a#RecoverPassword,
   /* Image • Page Contact */
   .contact__image {
     margin-top: 10% !important;
-  }
-}
-@media screen and (max-width: 959px) {
-  /* Image • Page Produit */
-  .flickity-enabled.is-draggable {
-    margin-bottom: -150px;
   }
 }
 
