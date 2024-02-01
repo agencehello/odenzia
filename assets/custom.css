@@ -435,7 +435,7 @@ span.bullet {
 
 /* PAGE CO-CRÉATION */
 #cocrea_formules .text-columns__content {
-  gap: 30px !important;
+  gap: 30px;
 }
 #cocrea_formules h3 {
   color: white;
@@ -1994,6 +1994,9 @@ a#RecoverPassword,
     padding: 0 !important;
   }
   /* Formules • Page Co-création */
+  #cocrea_formules .text-columns__content {
+  gap: 50px !important;
+  }
   #cocrea_formules .text-block.text-columns__feature {
     padding-left: 0 !important;
     padding-right: 0 !important;
