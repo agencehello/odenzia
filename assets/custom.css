@@ -426,7 +426,7 @@ span.bullet {
 }
 #formules a:hover {
   opacity: 1;
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 /* Formulaire */
 #contact img {
