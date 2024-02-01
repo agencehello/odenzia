@@ -517,6 +517,11 @@
               <h2>Infos pratiques</h2>
             </button>
           {% endif %}
+          {% if product.metafields.custom.temoignages != blank %}
+            <button class="tablinks-cus" onclick="openTab(event, 'tab-5')">
+              <h2>Témoignages</h2>
+            </button>
+          {% endif %}
         </div>
       </div>
 
