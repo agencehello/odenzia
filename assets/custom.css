@@ -964,27 +964,6 @@ button.tablinks-cus.active {
   line-height: 30px !important;
   margin: 26px 0 !important;
 }
-#infos-pratiques .metafield-rich_text_field h3 {
-  margin-bottom: 5px !important;
-}
-
-#infos-pratiques .metafield-rich_text_field {
-  margin-bottom: 50px;
-}
-
-#infos-pratiques .btn-faq-product {
-  color: var(--bg);
-  text-transform: uppercase;
-  background-color: var(--marron);
-  outline: 1px solid var(--marron);
-  outline-offset: 3px;
-  padding: 15px 33px;
-}
-
-#infos-pratiques .btn-faq-product:hover {
-    color: var(--marron);
-  background-color: transparent;
-}
 
 .template-product .accordion__group {
   border-bottom: 1px solid var(--bleu);
@@ -1020,9 +999,31 @@ figure img {
   max-width: 80%;
   margin: auto;
 }
+#infos-pratiques .metafield-rich_text_field h3 {
+  margin-bottom: 5px !important;
+}
+#infos-pratiques .metafield-rich_text_field {
+  margin-bottom: 50px;
+}
 #infos-pratiques p {
   margin-top: 0;
   margin-bottom: 0;
+}
+#infos-pratiques .btn-faq-product {
+  color: var(--bg);
+  text-transform: uppercase;
+  background-color: var(--marron);
+  outline: 1px solid var(--marron);
+  outline-offset: 3px;
+  padding: 15px 33px;
+}
+#infos-pratiques .btn-faq-product:hover {
+  color: var(--marron);
+  background-color: transparent;
+}
+#temoignages {
+  max-width: 60%;
+  margin: auto;
 }
 /* Notify when back in stock */
 .restock-alerts-notify-button {
