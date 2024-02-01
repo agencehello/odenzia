@@ -1017,11 +1017,13 @@ figure img {
   font-family: var(--body) !important;
   margin-bottom: 0 !important;
 }
-#infos-pratiques {
+#infos-pratiques,
+#temoignages {
   max-width: 80%;
   margin: auto;
 }
-#infos-pratiques p {
+#infos-pratiques p,
+#temoignages p {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -1846,7 +1848,8 @@ a#RecoverPassword,
   #programme h3 {
     margin: 0 0 10px 0 !important;
   }
-  #infos-pratiques {
+  #infos-pratiques,
+  #temoignages {
     max-width: 100% !important;
     margin: 0 !important;
   }
