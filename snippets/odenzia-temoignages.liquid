@@ -1,6 +1,7 @@
 <div id="temoignages">
 
   {% if product.metafields.custom.temoignages != blank %}
+    <h3>Vos témoignages</h3>
     {{ product.metafields.custom.temoignages | metafield_tag }}
   {% endif %}
 
