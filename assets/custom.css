@@ -1977,6 +1977,10 @@ a#RecoverPassword,
     max-width: 110px !important;
     margin: 0 0 20px 0;
   }
+  /* Sur mesure */
+  #sur_mesure img {
+    padding: 0 !important;
+  }
   /* Formules • Page Sur mesure */
   #formules .text-block.text-columns__feature {
     padding-left: 0 !important;
@@ -1989,9 +1993,13 @@ a#RecoverPassword,
   #contact img {
     padding: 0 !important;
   }
-  /* Sur mesure */
-  #sur_mesure img {
-    padding: 0 !important;
+  /* Formules • Page Co-création */
+  #cocrea_formules .text-block.text-columns__feature {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  #cocrea_formules .text-block__subheading.type-body-regular.rte {
+    padding: 5% !important;
   }
   /* Image with text • Pages Concept & Sur mesure */
   #concept_block img {
