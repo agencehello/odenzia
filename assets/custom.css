@@ -386,14 +386,6 @@ span.bullet {
 #formules .text-block.text-columns__feature:first-child span.devis {
   color: var(--bleu);
 }
-#formules span.devis {
-  text-decoration: none;
-  text-align: center;
-  display: block;
-  text-transform: uppercase;
-  text-underline-offset: 0.3em;
-  margin-top: 20px
-}
 #formules .text-block.text-columns__feature:last-child h3 {
   background-color: var(--marron);
 }
@@ -403,6 +395,14 @@ span.bullet {
 #formules .text-block.text-columns__feature:last-child a.text-block__button,
 #formules .text-block.text-columns__feature:last-child span.devis {
   color: var(--marron);
+}
+#formules span.devis {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+  text-underline-offset: 0.3em;
+  margin-top: 20px
 }
 #formules .text-block.text-columns__feature {
   background-color: var(--beige);
@@ -434,18 +434,79 @@ span.bullet {
 }
 
 /* PAGE CO-CRÉATION */
-#formules .text-block.text-columns__feature:nth-child(2) h3 {
+#cocrea_formules .text-columns__content {
+  gap: 30px !important;
+}
+#cocrea_formules h3 {
+  color: white;
+  padding: 20px;
+  width: 100%;
+  margin: 0;
+}
+#cocrea_formules .text-block__subheading.type-body-regular.rte {
+  padding: 2em;
+}
+#cocrea_formules .text-block.text-columns__feature:first-child h3 {
+  background-color: var(--bleu);
+}
+#cocrea_formules .text-block.text-columns__feature:first-child {
+  border-color: var(--bleu);
+}
+#cocrea_formules .text-block.text-columns__feature:first-child a.text-block__button,
+#cocrea_formules .text-block.text-columns__feature:first-child span.devis {
+  color: var(--bleu);
+}
+#cocrea_formules .text-block.text-columns__feature:nth-child(2) h3 {
   background-color: var(--rose);
 }
-#formules .text-block.text-columns__feature:nth-child(2) {
+#cocrea_formules .text-block.text-columns__feature:nth-child(2) {
   border-color: var(--rose);
 }
-#formules .text-block.text-columns__feature:nth-child(2) a.text-block__button,
-#formules .text-block.text-columns__feature:nth-child(2) span.devis {
+#cocrea_formules .text-block.text-columns__feature:nth-child(2) a.text-block__button,
+#cocrea_formules .text-block.text-columns__feature:nth-child(2) span.devis {
   color: var(--rose);
 }
-.shopify-section-template--20650525819208__7925151b-699a-4b99-b111-2f8b495a27a1 #formules .text-columns__content {
-  gap: 30px !important;
+#cocrea_formules .text-block.text-columns__feature:last-child h3 {
+  background-color: var(--marron);
+}
+#cocrea_formules .text-block.text-columns__feature:last-child {
+  border-color: var(--marron);
+}
+#cocrea_formules .text-block.text-columns__feature:last-child a.text-block__button,
+#cocrea_formules .text-block.text-columns__feature:last-child span.devis {
+  color: var(--marron);
+}
+#cocrea_formules span.devis {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+  text-underline-offset: 0.3em;
+  margin-top: 20px
+}
+#cocrea_formules .text-block.text-columns__feature {
+  background-color: var(--beige);
+  border: 1px solid;
+  max-width: 100% !important;
+  padding: 0;
+}
+#cocrea_formules .text-block__heading {
+  max-width: 100% !important;
+}
+#cocrea_formules .rte strong {
+  font-family: var(--body);
+  font-weight: 400 !important;
+}
+#cocrea_formules .text-block__button {
+  width: 100%;
+  background-color: unset;
+}
+#cocrea_formules a {
+  text-decoration: none !important;
+}
+#cocrea_formules a:hover {
+  opacity: 1;
+  text-decoration: underline !important;
 }
 
 /* ACCUEIL */
