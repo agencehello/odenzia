@@ -397,7 +397,7 @@ span.bullet {
 #formules .text-block.text-columns__feature:nth-child(2) h3 {
   background-color: var(--rose);
 }
-#formules .text-block.text-columns__feature::nth-child(2) {
+#formules .text-block.text-columns__feature:nth-child(2) {
   border-color: var(--rose);
 }
 #formules .text-block.text-columns__feature:last-child h3 {
