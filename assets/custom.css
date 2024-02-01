@@ -394,6 +394,12 @@ span.bullet {
   text-underline-offset: 0.3em;
   margin-top: 20px
 }
+#formules .text-block.text-columns__feature:nth-child(2) h3 {
+  background-color: var(--rose);
+}
+#formules .text-block.text-columns__feature::nth-child(2) {
+  border-color: var(--rose);
+}
 #formules .text-block.text-columns__feature:last-child h3 {
   background-color: var(--marron);
 }
@@ -432,6 +438,9 @@ span.bullet {
 #contact img {
   padding: 10%;
 }
+
+/* PAGE CO-CRÉATION */
+
 
 /* ACCUEIL */
 /* Bandeau pictos */
