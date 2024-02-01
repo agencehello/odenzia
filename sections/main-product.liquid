@@ -595,6 +595,25 @@
         </div>
       {% endif %}
 
+      {% if product.metafields.custom.temoignages != blank %}
+        <div class="hide_desktop accordion">
+          <div class="accordion__group">
+            <button
+              class="accordion__label extra"
+              aria-expanded="false"
+              aria-controls="accordion--tab5">
+              Infos pratiques
+            </button>
+            <div id="accordion--infos" class="accordion__text">
+              {% render 'odenzia-temoignages' %}
+            </div>
+          </div>
+        </div>
+        <div id="tab-4" class="hide_mobile tabcontent-cus">
+          {% render 'odenzia-temoignages' %}
+        </div>
+      {% endif %}
+      
     </section>
     {% comment %}
     End Tab features Desktop
