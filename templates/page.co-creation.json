@@ -100,7 +100,7 @@
         ".rte ul {margin-top: 15px;}"
       ],
       "settings": {
-        "section_id": "formules",
+        "section_id": "cocrea_formules",
         "section_style": "default",
         "enable_animation": false,
         "columns": 3,
