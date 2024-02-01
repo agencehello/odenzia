@@ -1022,7 +1022,7 @@ figure img {
   background-color: transparent;
 }
 #temoignages {
-  max-width: 60%;
+  max-width: 50%;
   margin: auto;
 }
 /* Notify when back in stock */
@@ -1849,6 +1849,10 @@ a#RecoverPassword,
   #infos-pratiques {
     max-width: 100% !important;
     margin: 0 !important;
+  }
+  #temoignages {
+  max-width: 100% !important;
+  margin: 0 !important;
   }
 
   /* Footer */
