@@ -80,8 +80,8 @@
     {% endif %}
     data-enable-reveal-animations="{{ settings.enable_reveal_animations }}">
     <header class="header-container">
-      {% section 'utility-bar' %}
       {% unless template.name == 'product.marque-blanche' %}
+        {% section 'utility-bar' %}     
         {% section 'header' %}
       {% endunless %}
     </header>
