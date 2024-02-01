@@ -421,8 +421,8 @@ span.bullet {
   width: 100%;
   background-color: unset;
 }
-#formules a {
-  text-decoration: none !important;
+#formules a:hover {
+  opacity: 1;
 }
 /* Formulaire */
 #contact img {
