@@ -1360,7 +1360,7 @@ a#RecoverPassword,
   color: var(--bleu);
 }
 .account__auth-wrapper {
-  max-width: 550px;
+  max-width: 650px;
 }
 /* Adresses */
 .account__address-inner {
