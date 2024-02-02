@@ -2035,6 +2035,10 @@ a#RecoverPassword,
   .contact__image {
     margin-top: 10% !important;
   }
+  /* Formulaire d'inscription clients */
+  .birthday {
+    width: 100% !important;
+  }
 }
 
 @media screen and (max-width: 789px) {
