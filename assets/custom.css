@@ -2048,7 +2048,7 @@ a#RecoverPassword,
     padding: 0 !important;
   }
   .account .input {
-    margin-top: 20px;
+    margin-top: 20px !important;
   }
 }
 
