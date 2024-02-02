@@ -2047,6 +2047,9 @@ a#RecoverPassword,
   .account__auth-wrapper {
     padding: 0 !important;
   }
+  .account .input {
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 789px) {
