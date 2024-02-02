@@ -177,18 +177,24 @@
   <div class="relative">
     
     <input
-      id="custom.covoiturage"
       type="text"
       name="customer[note][custom.covoiturage]"
+      id="custom.covoiturage"
       placeholder="Êtes-vous intéressé.e par du covoiturage ?"
     >
     <label for="custom.covoiturage" class="label--above">Êtes-vous intéressé.e par du covoiturage ?</label>
   </div>
   
   <div class="relative">
+    <input
+      type="text"
+      name="customer[note][custom.contact_urgence]"
+      id="custom.contact_urgence"
+      class="input"
+      autocorrect="off"
+      placeholder="Personne à contacter en cas d'urgence (prénom, nom et numéro de téléphone)"
+      >
     <label for="custom.contact_urgence" class="label--above">Personne à contacter en cas d'urgence (prénom, nom et numéro de téléphone)</label>
-    <textarea id="custom.contact_urgence" style="width: 100%;" rows=2
-              name="customer[note][custom.contact_urgence]"></textarea>
   </div>
 
       <input
