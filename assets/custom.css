@@ -1313,6 +1313,12 @@ textarea:focus-visible {
 input::-webkit-date-and-time-value {
     text-align: left!important;
 }
+input[type="date"] {
+    display:block;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    min-height: 1.2em;
+}
 .account :focus-visible {
   outline: none;
   border-bottom: 0.8px solid #000000;
