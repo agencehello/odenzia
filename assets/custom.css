@@ -947,7 +947,7 @@ header.collection__header {
 .flickity-prev-next-button.next {
   right: -10px;
 }
-/* Metafields */
+/* Metafields produits */
 .product-form__inner .infos_inline {
   justify-content: space-between;
   margin: 15px 0;
@@ -1361,8 +1361,8 @@ a#RecoverPassword,
   opacity: 1;
   color: var(--bleu);
 }
-#RegisterForm-birthday {
-  font-family: var(--body-light) !important;
+.account__auth-wrapper {
+  max-width: 550px;
 }
 /* Adresses */
 .account__address-inner {
