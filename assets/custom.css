@@ -1328,8 +1328,6 @@ textarea:focus-visible {
 }
 .account form label.label--above {
   padding-left: 5px !important;
-  left: 0;
-  color: #000000;
 }
 .account input::placeholder {
   color: #000000;
