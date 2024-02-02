@@ -1329,13 +1329,17 @@ textarea:focus-visible {
 .account input::placeholder {
   color: #000000;
 }
+
 a#RecoverPassword,
 .login__links a {
   color: var(--marron);
   font-size: 12px;
 }
+.account__auth-wrapper {
+  text-align: left !important;
+}
 .login__heading,
-.account__auth-wrapper-heading{ 
+.account__auth-wrapper-heading { 
   margin-bottom: 40px;
 }
 .account h3 {
