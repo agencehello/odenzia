@@ -1317,7 +1317,9 @@ textarea:focus-visible {
 .account input::placeholder {
   color: #000000;
 }
-
+.login__links {
+  text-align: center !important;
+}
 a#RecoverPassword,
 .login__links a {
   color: var(--marron);
