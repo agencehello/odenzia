@@ -1366,10 +1366,6 @@ a#RecoverPassword,
   opacity: 1;
   color: var(--bleu);
 }
-.contact__form-input-side-by-side {
-  display: flex;
-  justify-content: space-between;
-}
 .input-register {
   width: 100%;
   margin: 10px auto;
@@ -1653,6 +1649,11 @@ a#RecoverPassword,
   /* Témoignages */
   .testimonials.carousel.section--contrast {
     padding: 120px;
+  }
+  /* Formulaire d'inscription clients */
+  .contact__form-input-side-by-side {
+  display: flex;
+  justify-content: space-between;
   }
 }
 
