@@ -1352,7 +1352,9 @@ a#RecoverPassword,
   opacity: 1;
   color: var(--bleu);
 }
-
+.account .input {
+  margin-bottom: 30px;
+}
 /* Adresses */
 .account__address-inner {
   background-color: var(--beige) !important;
@@ -1379,9 +1381,6 @@ a#RecoverPassword,
 .account__address-default {
   font-weight: 400 !important;
 }
-.account .input {
-  font-family: var(--body-light);
-}
 .account__logout {
   font-style: inherit;
 }
@@ -1389,7 +1388,6 @@ a#RecoverPassword,
   color: var(--marron);
 }
 /* Historique de commandes */
-
 .account .rte-table thead {
   background-color: var(--beige) !important;
 }
