@@ -1582,6 +1582,11 @@ a#RecoverPassword,
   border-color: var(--rose) !important;
 }
 
+/* RECAPTCHA */
+.rc-anchor-invisible {
+  display: none;
+}
+
 /*///////////////////////////////////////
 // ODENZIA DESKTOP (min-width: 990px) //
 /////////////////////////////////////*/
