@@ -1368,7 +1368,7 @@ a#RecoverPassword,
 }
 .input-register {
   width: 100%;
-  margin: auto;
+  margin: 10px auto;
 }
 /* Adresses */
 .account__address-inner {
