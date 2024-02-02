@@ -19,7 +19,6 @@
             name="customer[last_name]"
             id="{{ form_id }}-last_name"
             class="input"
-            autocomplete="family-name"
             autocorrect="off"
             placeholder=""
             {% if form.last_name %}value="{{ form.last_name }}"{% endif %}>         
@@ -33,7 +32,6 @@
             name="customer[first_name]"
             id="{{ form_id }}-first_name"
             class="input"
-            autocomplete="given-name"
             autocorrect="off"
             placeholder=""
             {% if form.first_name %}value="{{ form.first_name }}"{% endif %}>
@@ -95,7 +93,6 @@
         type="date"
         name="customer[note][facts.birth_date]"
         id="facts.birth_date"
-        class="input"
         autocorrect="off"         
         placeholder=""
         >
