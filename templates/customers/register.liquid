@@ -20,7 +20,7 @@
             autocorrect="off"
             placeholder="{{ 'customer.register.last_name' | t }}"
             {% if form.last_name %}value="{{ form.last_name }}"{% endif %}>
-          <label for="{{ form_id }}-last_name" class="label--above">
+          <label for="{{ form_id }}-last_name">
             {{ 'customer.register.last_name' | t }}
           </label>
         </div>
@@ -34,7 +34,7 @@
             autocorrect="off"
             placeholder="{{ 'customer.register.first_name' | t }}"
             {% if form.first_name %}value="{{ form.first_name }}"{% endif %}>
-          <label for="{{ form_id }}-first_name" class="label--above">
+          <label for="{{ form_id }}-first_name">
             {{ 'customer.register.first_name' | t }}
           </label>
         </div>
@@ -54,7 +54,7 @@
           autocapitalize="off"
           {% if form.errors contains 'email' %}aria-describedby="{{ form_id }}-email-error"{% endif %}
           required>
-        <label for="{{ form_id }}-email" class="label--above">
+        <label for="{{ form_id }}-email">
           {{ 'customer.register.email' | t }}
         </label>
       </div>
@@ -70,7 +70,7 @@
           autocorrect="off"
           autocapitalize="off"
           required>
-        <label for="{{ form_id }}-password" class="label--above">
+        <label for="{{ form_id }}-password">
           {{ 'customer.register.password' | t }}
         </label>
       </div>
@@ -86,7 +86,7 @@
         autocorrect="off"
         placeholder="Numéro de téléphone"
         >
-        <label for="custom.tel" class="label--above">Numéro de téléphone</label>
+        <label for="custom.tel">Numéro de téléphone</label>
     </div>
   
       <div class="relative">      
@@ -98,7 +98,7 @@
         autocorrect="off"         
         placeholder="Date de naissance"
         >
-        <label for="facts.birth_date" class="label--above">Date de naissance</label>
+        <label for="facts.birth_date">Date de naissance</label>
       </div>
     </div>
   
@@ -111,7 +111,7 @@
       autocorrect="off"
       placeholder="Pratiquez-vous une activité physique ?"
       >
-    <label for="custom.acti_physique" class="label--above">Pratiquez-vous une activité physique ?</label>
+    <label for="custom.acti_physique">Pratiquez-vous une activité physique ?</label>
   </div>
 
   <div class="relative">
@@ -123,7 +123,7 @@
       autocorrect="off"
       placeholder="Pratiquez-vous le yoga ? À quelle fréquence ?"
       >
-    <label for="custom.yoga" class="label--above">Pratiquez-vous le yoga ? À quelle fréquence ?</label>
+    <label for="custom.yoga">Pratiquez-vous le yoga ? À quelle fréquence ?</label>
   </div>
 
   <div class="relative">
@@ -135,7 +135,7 @@
       autocorrect="off"
       placeholder="Suivez-vous un régime alimentaire particulier ?"
       >
-    <label for="custom.regime_alim" class="label--above">Suivez-vous un régime alimentaire particulier ?</label>
+    <label for="custom.regime_alim">Suivez-vous un régime alimentaire particulier ?</label>
   </div>
 
   <div class="relative">
@@ -147,7 +147,7 @@
       autocorrect="off"
       placeholder="Avez-vous une allergie ou intolérance alimentaire ?"
       >
-    <label for="custom.allergie_ou_into_alim" class="label--above">Avez-vous une allergie ou intolérance alimentaire ?</label>
+    <label for="custom.allergie_ou_into_alim">Avez-vous une allergie ou intolérance alimentaire ?</label>
   </div>
 
   <div class="relative">
@@ -159,7 +159,7 @@
       autocorrect="off"
       placeholder="Avez-vous d'autres allergies à signaler (plantes, médicaments, etc) ?"
       >
-    <label for="custom.autres_allergies" class="label--above">Avez-vous d'autres allergies à signaler (plantes, médicaments, etc) ?</label>
+    <label for="custom.autres_allergies">Avez-vous d'autres allergies à signaler (plantes, médicaments, etc) ?</label>
   </div>
 
   <div class="relative">
@@ -171,7 +171,7 @@
       autocorrect="off"
       placeholder="Avez-vous un problème de santé ou un traitement médical à signaler ?"
       >
-    <label for="custom.sante" class="label--above">Avez-vous un problème de santé ou un traitement médical à signaler ?</label>
+    <label for="custom.sante">Avez-vous un problème de santé ou un traitement médical à signaler ?</label>
   </div>
 
   <div class="relative">
@@ -183,7 +183,7 @@
       class="input"
       placeholder="Êtes-vous intéressé.e par du covoiturage ?"
     >
-    <label for="custom.covoiturage" class="label--above">Êtes-vous intéressé.e par du covoiturage ?</label>
+    <label for="custom.covoiturage">Êtes-vous intéressé.e par du covoiturage ?</label>
   </div>
   
   <div class="relative">
@@ -195,7 +195,7 @@
       autocorrect="off"
       placeholder="Personne à contacter en cas d'urgence (prénom, nom et numéro de téléphone)"
       >
-    <label for="custom.contact_urgence" class="label--above">Personne à contacter en cas d'urgence (prénom, nom et numéro de téléphone)</label>
+    <label for="custom.contact_urgence">Personne à contacter en cas d'urgence (prénom, nom et numéro de téléphone)</label>
   </div>
 
       <input
