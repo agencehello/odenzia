@@ -79,24 +79,26 @@
     <div class="contact__form-input-side-by-side">
       <div class="relative">
         <input
-        type="text"
+        type="number"
         name="customer[note][custom.tel]"
         id="custom.tel"
         class="input"
-        autocorrect='off'
+        autocorrect="off"
         placeholder="Numéro de téléphone"
         >
         <label for="custom.tel" class="label--above">Numéro de téléphone</label>
     </div>
   
-      <div class="relative">
-        <label for="facts.birth_date">Date de naissance</label>
+      <div class="relative">      
         <input
-          id="facts.birth_date"
-          type="date"
-          name="customer[note][facts.birth_date]"
-          placeholder="birth_date"
+        type="date"
+        name="customer[note][facts.birth_date]"
+        id="facts.birth_date"
+        class="input"
+        autocorrect="off"         
+        placeholder="birth_date"
         >
+        <label for="facts.birth_date" class="label--above">Date de naissance</label>
       </div>
     </div>
   
