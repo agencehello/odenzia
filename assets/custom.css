@@ -1310,9 +1310,6 @@ textarea:focus-visible {
   border-bottom: 0.8px solid #000000;
   padding-left: 0;
 }
-input::-webkit-date-and-time-value {
-    text-align: left!important;
-}
 .account :focus-visible {
   outline: none;
   border-bottom: 0.8px solid #000000;
