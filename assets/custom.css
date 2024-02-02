@@ -1584,7 +1584,7 @@ a#RecoverPassword,
 
 /* RECAPTCHA */
 .rc-anchor-invisible {
-  display: none;
+  display: none !important;
 }
 
 /*///////////////////////////////////////
