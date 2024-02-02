@@ -1176,25 +1176,13 @@ label.inline {
   align-items: baseline;
 }
 #contact_form input {
-  border-bottom: 1px solid black !important;
+  border-bottom: .8px solid black !important;
   padding-left: 0;
   margin-bottom: 20px;
   outline: none !important;
+  font-family: var(--body-light);
 }
 #contact_form input::placeholder {
-  color: black;
-}
-#contact_form input {
-  border-bottom: 1px solid;
-  padding-left: 0;
-  margin-bottom: 20px;
-  outline: none !important;
-  font-family: var(--body-light);
-}
-.contact__form .input {
-  font-family: var(--body-light);
-}
-.contact__form .input::placeholder {
   color: black;
 }
 #contact_form button.bttn.bttn--full.bttn--primary {
