@@ -21,7 +21,7 @@
             class="input"
             autocomplete="family-name"
             autocorrect="off"
-            placeholder="{{ 'customer.register.last_name' | t }}"
+            placeholder=""
             {% if form.last_name %}value="{{ form.last_name }}"{% endif %}>         
         </div>
         <div>
@@ -35,7 +35,7 @@
             class="input"
             autocomplete="given-name"
             autocorrect="off"
-            placeholder="{{ 'customer.register.first_name' | t }}"
+            placeholder=""
             {% if form.first_name %}value="{{ form.first_name }}"{% endif %}>
         </div>
       </div>
@@ -49,7 +49,7 @@
           name="customer[email]"
           id="{{ form_id }}-email"
           class="input {% if form.errors contains 'email' %}input-error{% endif %}"
-          placeholder="{{ 'customer.register.email' | t }}"
+          placeholder=""
           value="{% if form.email %}{{ form.email }}{% endif %}"
           spellcheck="false"
           autocomplete="email"
@@ -68,7 +68,7 @@
           name="customer[password]"
           id="{{ form_id }}-password"
           class="input {% if form.errors contains 'password' %}input-error{% endif %}"
-          placeholder="{{ 'customer.register.password' | t }}"
+          placeholder=""
           {% if form.errors contains 'password' %}aria-describedby="{{ form_id }}-password-error"{% endif %}
           autocorrect="off"
           autocapitalize="off"
@@ -85,7 +85,7 @@
         id="custom.tel"
         class="input"
         autocorrect="off"
-        placeholder="Numéro de téléphone"
+        placeholder=""
         >
     </div>
   
@@ -97,7 +97,7 @@
         id="facts.birth_date"
         class="input"
         autocorrect="off"         
-        placeholder="Date de naissance"
+        placeholder=""
         >
       </div>
     </div>
@@ -110,7 +110,7 @@
       id="custom.acti_physique"
       class="input"
       autocorrect="off"
-      placeholder="Pratiquez-vous une activité physique ?"
+      placeholder=""
       >   
   </div>
 
@@ -122,7 +122,7 @@
       id="custom.yoga"
       class="input"
       autocorrect="off"
-      placeholder="Pratiquez-vous le yoga ? À quelle fréquence ?"
+      placeholder=""
       >   
   </div>
 
@@ -134,7 +134,7 @@
       id="custom.regime_alim"
       class="input"
       autocorrect="off"
-      placeholder="Suivez-vous un régime alimentaire particulier ?"
+      placeholder=""
       >   
   </div>
 
@@ -146,7 +146,7 @@
       id="custom.allergie_ou_into_alim"
       class="input"
       autocorrect="off"
-      placeholder="Avez-vous une allergie ou intolérance alimentaire ?"
+      placeholder=""
       >
   </div>
 
@@ -158,7 +158,7 @@
       id="custom.autres_allergies"
       class="input"
       autocorrect="off"
-      placeholder="Avez-vous d'autres allergies à signaler (plantes, médicaments, etc) ?"
+      placeholder=""
       >
   </div>
 
@@ -170,7 +170,7 @@
       id="custom.sante"
       class="input"
       autocorrect="off"
-      placeholder="Avez-vous un problème de santé ou un traitement médical à signaler ?"
+      placeholder=""
       >
   </div>
 
@@ -181,7 +181,7 @@
       name="customer[note][custom.covoiturage]"
       id="custom.covoiturage"
       class="input"
-      placeholder="Êtes-vous intéressé.e par du covoiturage ?"
+      placeholder=""
     >
   </div>
   
@@ -193,7 +193,7 @@
       id="custom.contact_urgence"
       class="input"
       autocorrect="off"
-      placeholder="Personne à contacter en cas d'urgence (prénom, nom et numéro de téléphone)"
+      placeholder=""
       >
   </div>
 
