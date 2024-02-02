@@ -1340,6 +1340,10 @@ a#RecoverPassword,
   color: var(--marron);
   font-size: 12px;
 }
+.login__heading,
+.account__auth-wrapper-heading{ 
+  margin-bottom: 45px;
+}
 .account h3 {
   margin-bottom: 10px;
 }
