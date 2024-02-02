@@ -1291,6 +1291,9 @@ textarea:focus-visible {
 
 /* COMPTE CLIENT */
 /* Connexion / inscription */
+.account__auth-wrapper {
+  max-width: 650px;
+}
 .account .bttn--full {
   margin-top: 25px !important;
   margin-bottom: 25px !important;
@@ -1359,8 +1362,13 @@ a#RecoverPassword,
   opacity: 1;
   color: var(--bleu);
 }
-.account__auth-wrapper {
-  max-width: 650px;
+.contact__form-input-side-by-side {
+  display: flex;
+  justify-content: space-between;
+}
+.input-register {
+  width: 100%;
+  margin: auto;
 }
 /* Adresses */
 .account__address-inner {
