@@ -1317,6 +1317,7 @@ input[type="date"] {
     display:block;
     -webkit-appearance: textfield;
     -moz-appearance: textfield;
+    width: 100%;
 }
 .account :focus-visible {
   outline: none;
