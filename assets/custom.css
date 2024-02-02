@@ -1326,12 +1326,6 @@ textarea:focus-visible {
   outline: none;
   border-bottom: 0.8px solid #000000;
 }
-.account form label.label--above {
-  padding-left: 5px !important;
-  text-align: left !important;
-  line-height: 20px;
-  obile
-}
 .account input::placeholder {
   color: #000000;
 }
@@ -1366,10 +1360,7 @@ a#RecoverPassword,
   opacity: 1;
   color: var(--bleu);
 }
-.input-register {
-  width: 100%;
-  margin: 10px auto;
-}
+
 /* Adresses */
 .account__address-inner {
   background-color: var(--beige) !important;
@@ -2046,9 +2037,6 @@ a#RecoverPassword,
   /* Formulaire d'inscription clients */
   .account__auth-wrapper {
     padding: 0 !important;
-  }
-  .account .input {
-    margin-top: 20px !important;
   }
 }
 
