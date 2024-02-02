@@ -1354,6 +1354,7 @@ a#RecoverPassword,
 }
 .account .input {
   margin-bottom: 30px;
+  font-family: var(--body);
 }
 /* Adresses */
 .account__address-inner {
