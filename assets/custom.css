@@ -2042,10 +2042,6 @@ a#RecoverPassword,
   .account__auth-wrapper {
     padding: 0 !important;
   }
-  input[type="date"] {
-    width: 92px !important;
-  }
-}
 
 @media screen and (max-width: 789px) {
   /* Global layout */
