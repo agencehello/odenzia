@@ -1317,8 +1317,6 @@ input[type="date"] {
     display:block;
     -webkit-appearance: textfield;
     -moz-appearance: textfield;
-    min-width: 92% !important;
-    padding: 12px 16px 12px 0 !important;
 }
 .account :focus-visible {
   outline: none;
@@ -1656,6 +1654,9 @@ a#RecoverPassword,
   .contact__form-input-side-by-side {
   display: flex;
   justify-content: space-between;
+  }
+  .contact__form-input-side-by-side div{
+  width: 50%;
   }
 }
 
@@ -2040,6 +2041,9 @@ a#RecoverPassword,
   /* Formulaire d'inscription clients */
   .account__auth-wrapper {
     padding: 0 !important;
+  }
+  input[type="date"] {
+    width: 92px !important;
   }
 }
 
