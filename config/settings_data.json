@@ -264,6 +264,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "15290509065857316580": {
+        "type": "shopify:\/\/apps\/singleton-rich-registration\/blocks\/app-block\/81a599e5-cd59-4686-a388-f502f75b25c2",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
