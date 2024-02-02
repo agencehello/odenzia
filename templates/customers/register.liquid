@@ -11,6 +11,9 @@
 
       <div class="contact__form-input-side-by-side">
         <div>
+          <label for="{{ form_id }}-last_name">
+            {{ 'customer.register.last_name' | t }}
+          </label>
           <input
             type="text"
             name="customer[last_name]"
@@ -19,12 +22,12 @@
             autocomplete="family-name"
             autocorrect="off"
             placeholder="{{ 'customer.register.last_name' | t }}"
-            {% if form.last_name %}value="{{ form.last_name }}"{% endif %}>
-          <label for="{{ form_id }}-last_name">
-            {{ 'customer.register.last_name' | t }}
-          </label>
+            {% if form.last_name %}value="{{ form.last_name }}"{% endif %}>         
         </div>
         <div>
+          <label for="{{ form_id }}-first_name">
+            {{ 'customer.register.first_name' | t }}
+          </label>
           <input
             type="text"
             name="customer[first_name]"
@@ -34,13 +37,13 @@
             autocorrect="off"
             placeholder="{{ 'customer.register.first_name' | t }}"
             {% if form.first_name %}value="{{ form.first_name }}"{% endif %}>
-          <label for="{{ form_id }}-first_name">
-            {{ 'customer.register.first_name' | t }}
-          </label>
         </div>
       </div>
 
       <div>
+        <label for="{{ form_id }}-email">
+          {{ 'customer.register.email' | t }}
+        </label>
         <input
           type="email"
           name="customer[email]"
@@ -53,13 +56,13 @@
           autocorrect="off"
           autocapitalize="off"
           {% if form.errors contains 'email' %}aria-describedby="{{ form_id }}-email-error"{% endif %}
-          required>
-        <label for="{{ form_id }}-email">
-          {{ 'customer.register.email' | t }}
-        </label>
+          required>        
       </div>
 
       <div>
+         <label for="{{ form_id }}-password">
+          {{ 'customer.register.password' | t }}
+        </label>
         <input
           type="password"
           name="customer[password]"
@@ -70,14 +73,12 @@
           autocorrect="off"
           autocapitalize="off"
           required>
-        <label for="{{ form_id }}-password">
-          {{ 'customer.register.password' | t }}
-        </label>
       </div>
 
       <!-- Custom metafields -->
     <div class="contact__form-input-side-by-side">
       <div>
+        <label for="custom.tel">Numéro de téléphone</label>
         <input
         type="number"
         name="customer[note][custom.tel]"
@@ -86,10 +87,10 @@
         autocorrect="off"
         placeholder="Numéro de téléphone"
         >
-        <label for="custom.tel">Numéro de téléphone</label>
     </div>
   
-      <div>      
+      <div>     
+        <label for="facts.birth_date">Date de naissance</label>
         <input
         type="date"
         name="customer[note][facts.birth_date]"
@@ -98,11 +99,11 @@
         autocorrect="off"         
         placeholder="Date de naissance"
         >
-        <label for="facts.birth_date">Date de naissance</label>
       </div>
     </div>
   
   <div>
+    <label for="custom.acti_physique">Pratiquez-vous une activité physique ?</label>
     <input
       type="text"
       name="customer[note][custom.acti_physique]"
@@ -110,11 +111,11 @@
       class="input"
       autocorrect="off"
       placeholder="Pratiquez-vous une activité physique ?"
-      >
-    <label for="custom.acti_physique">Pratiquez-vous une activité physique ?</label>
+      >   
   </div>
 
   <div>
+    <label for="custom.yoga">Pratiquez-vous le yoga ? À quelle fréquence ?</label>
     <input
       type="text"
       name="customer[note][custom.yoga]"
@@ -122,11 +123,11 @@
       class="input"
       autocorrect="off"
       placeholder="Pratiquez-vous le yoga ? À quelle fréquence ?"
-      >
-    <label for="custom.yoga">Pratiquez-vous le yoga ? À quelle fréquence ?</label>
+      >   
   </div>
 
   <div>
+    <label for="custom.regime_alim">Suivez-vous un régime alimentaire particulier ?</label>
     <input
       type="text"
       name="customer[note][custom.regime_alim]"
@@ -134,11 +135,11 @@
       class="input"
       autocorrect="off"
       placeholder="Suivez-vous un régime alimentaire particulier ?"
-      >
-    <label for="custom.regime_alim">Suivez-vous un régime alimentaire particulier ?</label>
+      >   
   </div>
 
   <div>
+    <label for="custom.allergie_ou_into_alim">Avez-vous une allergie ou intolérance alimentaire ?</label>
     <input
       type="text"
       name="customer[note][custom.allergie_ou_into_alim]"
@@ -147,10 +148,10 @@
       autocorrect="off"
       placeholder="Avez-vous une allergie ou intolérance alimentaire ?"
       >
-    <label for="custom.allergie_ou_into_alim">Avez-vous une allergie ou intolérance alimentaire ?</label>
   </div>
 
   <div>
+    <label for="custom.autres_allergies">Avez-vous d'autres allergies à signaler (plantes, médicaments, etc) ?</label>
     <input
       type="text"
       name="customer[note][custom.autres_allergies]"
@@ -159,10 +160,10 @@
       autocorrect="off"
       placeholder="Avez-vous d'autres allergies à signaler (plantes, médicaments, etc) ?"
       >
-    <label for="custom.autres_allergies">Avez-vous d'autres allergies à signaler (plantes, médicaments, etc) ?</label>
   </div>
 
   <div>
+    <label for="custom.sante">Avez-vous un problème de santé ou un traitement médical à signaler ?</label>
     <input
       type="text"
       name="customer[note][custom.sante]"
@@ -171,10 +172,10 @@
       autocorrect="off"
       placeholder="Avez-vous un problème de santé ou un traitement médical à signaler ?"
       >
-    <label for="custom.sante">Avez-vous un problème de santé ou un traitement médical à signaler ?</label>
   </div>
 
   <div>   
+    <label for="custom.covoiturage">Êtes-vous intéressé.e par du covoiturage ?</label>
     <input
       type="text"
       name="customer[note][custom.covoiturage]"
@@ -182,10 +183,10 @@
       class="input"
       placeholder="Êtes-vous intéressé.e par du covoiturage ?"
     >
-    <label for="custom.covoiturage">Êtes-vous intéressé.e par du covoiturage ?</label>
   </div>
   
   <div>
+    <label for="custom.contact_urgence">Personne à contacter en cas d'urgence (prénom, nom et numéro de téléphone)</label>
     <input
       type="text"
       name="customer[note][custom.contact_urgence]"
@@ -194,7 +195,6 @@
       autocorrect="off"
       placeholder="Personne à contacter en cas d'urgence (prénom, nom et numéro de téléphone)"
       >
-    <label for="custom.contact_urgence">Personne à contacter en cas d'urgence (prénom, nom et numéro de téléphone)</label>
   </div>
 
       <input
