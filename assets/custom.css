@@ -2041,6 +2041,10 @@ a#RecoverPassword,
   .contact__image {
     margin-top: 10% !important;
   }
+  /* Formulaire d'inscription clients */
+  .account__auth-wrapper {
+    padding: 0 !important;
+  }
 }
 
 @media screen and (max-width: 789px) {
