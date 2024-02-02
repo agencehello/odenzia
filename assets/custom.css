@@ -1317,9 +1317,7 @@ input[type="date"] {
     display:block;
     -webkit-appearance: textfield;
     -moz-appearance: textfield;
-    min-width: 80% !important;
-    width: 100% !important;
-    max-width: 100% !important;
+    min-width: 90% !important;
     padding: 12px 16px 12px 0 !important;
 }
 .account :focus-visible {
