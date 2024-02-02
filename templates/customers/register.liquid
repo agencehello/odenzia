@@ -76,18 +76,79 @@
       </div>
 
       <!-- Custom metafields -->
-      <div class="relative">
-        <input
+    <div class="contact__form-input-side-by-side">
+      <div class="field">
+      <input
+        id="custom.tel"
+        type="text"
+        name="customer[note][custom.tel]"
+        placeholder="tel"
+      >
+      <label for="custom.tel">Téléphone</label>
+    </div>
+  
+      <div class="field">
+      <input
+          id="facts.birth_date"
           type="date"
-          name="customer[note][Birthday]"
-          id="{{ form_id }}-birthday"
-          placeholder="Date d'anniversaire"
-          required>
-        <label for="{{ form_id }}-birthday" class="label--above">
-          Date d'anniversaire
-        </label>
+          name="customer[note][facts.birth_date]"
+          placeholder="birth_date"
+        >
+        <label for="facts.birth_date">Birth date</label>
       </div>
-      {{ customer.metafields.facts.birth_date }}
+    </div>
+  
+  <div>
+    <label for="custom.acti_physique">Activité physique</label>
+    <textarea id="custom.acti_physique" style="width: 100%;" rows=4
+              name="customer[note][custom.acti_physique]"></textarea>
+  </div>
+
+  <div>
+    <label for="custom.yoga">Pratique du yoga</label>
+    <textarea id="custom.yoga" style="width: 100%;" rows=4
+              name="customer[note][custom.yoga]"></textarea>
+  </div>
+
+  <div>
+    <label for="custom.regime_alim">Régime alimentaire</label>
+    <textarea id="custom.regime_alim" style="width: 100%;" rows=4
+              name="customer[note][custom.regime_alim]"></textarea>
+  </div>
+
+  <div>
+    <label for="custom.allergie_ou_into_alim">Allergie ou intolérance alimentaire</label>
+    <textarea id="custom.allergie_ou_into_alim" style="width: 100%;" rows=4
+              name="customer[note][custom.allergie_ou_into_alim]"></textarea>
+  </div>
+
+  <div>
+    <label for="custom.autres_allergies">Autres allergies</label>
+    <textarea id="custom.autres_allergies" style="width: 100%;" rows=4
+              name="customer[note][custom.autres_allergies]"></textarea>
+  </div>
+
+  <div>
+    <label for="custom.sante">Problème de santé ou traitement médical</label>
+    <textarea id="custom.sante" style="width: 100%;" rows=4
+              name="customer[note][custom.sante]"></textarea>
+  </div>
+
+  <div class="field">
+    <input
+      id="custom.covoiturage"
+      type="text"
+      name="customer[note][custom.covoiturage]"
+      placeholder="covoiturage"
+    >
+    <label for="custom.covoiturage">Covoiturage</label>
+  </div>
+  
+  <div>
+    <label for="custom.contact_urgence">Personne à contacter en cas d'urgence</label>
+    <textarea id="custom.contact_urgence" style="width: 100%;" rows=4
+              name="customer[note][custom.contact_urgence]"></textarea>
+  </div>
 
       <input
         type="submit"
