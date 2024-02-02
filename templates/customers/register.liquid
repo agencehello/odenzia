@@ -10,7 +10,7 @@
       {% render 'form-status', form: form, form_id: form_id, success_message: success_msg %}
 
       <div class="contact__form-input-side-by-side">
-        <div class="relative">
+        <div>
           <input
             type="text"
             name="customer[last_name]"
@@ -24,7 +24,7 @@
             {{ 'customer.register.last_name' | t }}
           </label>
         </div>
-        <div class="relative">
+        <div>
           <input
             type="text"
             name="customer[first_name]"
@@ -40,7 +40,7 @@
         </div>
       </div>
 
-      <div class="relative">
+      <div>
         <input
           type="email"
           name="customer[email]"
@@ -59,7 +59,7 @@
         </label>
       </div>
 
-      <div class="relative">
+      <div>
         <input
           type="password"
           name="customer[password]"
@@ -77,7 +77,7 @@
 
       <!-- Custom metafields -->
     <div class="contact__form-input-side-by-side">
-      <div class="relative">
+      <div>
         <input
         type="number"
         name="customer[note][custom.tel]"
@@ -89,7 +89,7 @@
         <label for="custom.tel">Numéro de téléphone</label>
     </div>
   
-      <div class="relative">      
+      <div>      
         <input
         type="date"
         name="customer[note][facts.birth_date]"
@@ -102,7 +102,7 @@
       </div>
     </div>
   
-  <div class="relative">
+  <div>
     <input
       type="text"
       name="customer[note][custom.acti_physique]"
@@ -114,7 +114,7 @@
     <label for="custom.acti_physique">Pratiquez-vous une activité physique ?</label>
   </div>
 
-  <div class="relative">
+  <div>
     <input
       type="text"
       name="customer[note][custom.yoga]"
@@ -126,7 +126,7 @@
     <label for="custom.yoga">Pratiquez-vous le yoga ? À quelle fréquence ?</label>
   </div>
 
-  <div class="relative">
+  <div>
     <input
       type="text"
       name="customer[note][custom.regime_alim]"
@@ -138,7 +138,7 @@
     <label for="custom.regime_alim">Suivez-vous un régime alimentaire particulier ?</label>
   </div>
 
-  <div class="relative">
+  <div>
     <input
       type="text"
       name="customer[note][custom.allergie_ou_into_alim]"
@@ -150,7 +150,7 @@
     <label for="custom.allergie_ou_into_alim">Avez-vous une allergie ou intolérance alimentaire ?</label>
   </div>
 
-  <div class="relative">
+  <div>
     <input
       type="text"
       name="customer[note][custom.autres_allergies]"
@@ -162,7 +162,7 @@
     <label for="custom.autres_allergies">Avez-vous d'autres allergies à signaler (plantes, médicaments, etc) ?</label>
   </div>
 
-  <div class="relative">
+  <div>
     <input
       type="text"
       name="customer[note][custom.sante]"
@@ -174,8 +174,7 @@
     <label for="custom.sante">Avez-vous un problème de santé ou un traitement médical à signaler ?</label>
   </div>
 
-  <div class="relative">
-    
+  <div>   
     <input
       type="text"
       name="customer[note][custom.covoiturage]"
@@ -186,7 +185,7 @@
     <label for="custom.covoiturage">Êtes-vous intéressé.e par du covoiturage ?</label>
   </div>
   
-  <div class="relative">
+  <div>
     <input
       type="text"
       name="customer[note][custom.contact_urgence]"
