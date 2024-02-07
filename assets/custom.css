@@ -1363,7 +1363,7 @@ a#RecoverPassword,
   color: var(--bleu);
 }
 .account .input,
-.account .select {
+.account select {
   margin-bottom: 30px;
   font-family: var(--body);
 }
