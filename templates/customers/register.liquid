@@ -176,14 +176,16 @@
 
   <div>   
     <label for="custom.covoiturage">Êtes-vous intéressé.e par du covoiturage ?</label>
-    <input
-      type="text"
+    <select     
       name="customer[note][custom.covoiturage]"
       id="custom.covoiturage"
-      class="input"
       placeholder=""
     required>
+    <option value="Oui">Oui</option>
+    <option value="Non">Non</option>
   </div>  
+
+
   
   <div>
     <label for="custom.contact_urgence">Personne à contacter en cas d'urgence (prénom, nom et numéro de téléphone)</label>
