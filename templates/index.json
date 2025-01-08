@@ -20,7 +20,7 @@
             "mobile_focal_point": "image_presentation",
             "overline": "",
             "title": "",
-            "subheading": "<h1>Des séjours aventure &     bien-être <br/>100% féminins</h1>",
+            "subheading": "<h1>Séjours aventure &     bien-être <br/>100% féminins</h1>",
             "link": "shopify://pages/le-concept",
             "link_text": "Découvrir",
             "alignment": "center_center",
@@ -176,7 +176,7 @@
         "text_position": "left",
         "overline": "Intimistes & authentiques",
         "title": "Nos séjours 100% féminins",
-        "subheading": "<p>Découvrez nos séjours, créés et organisés par Maëva et Louise, pour partir à l'aventure entre femmes, le temps d'une journée, d'un week-end ou d'une semaine.</p>",
+        "subheading": "<p>Découvrez les séjours, créés et organisés par Maëva, pour partir à l'aventure entre femmes, le temps d'une journée, d'un week-end ou d'une semaine.</p>",
         "link_text": "Découvrir",
         "text_max_width": 25
       }
@@ -403,7 +403,7 @@
           "settings": {
             "image": "shopify://shop_images/odenzia-reassurance-1.svg",
             "image_max_width": 20,
-            "title": "Agence de voyage certifiée",
+            "title": "Séjours testés & approuvés",
             "subheading": "",
             "text_max_width": 16,
             "link": "",
@@ -427,7 +427,7 @@
           "settings": {
             "image": "shopify://shop_images/odenzia-reassurance-3.svg",
             "image_max_width": 20,
-            "title": "Séjours en groupe & sur-mesure",
+            "title": "Petit groupe 100% féminin",
             "subheading": "",
             "text_max_width": 16,
             "link": "",
@@ -453,7 +453,6 @@
         "template--18287000387912__14ac884f-7c8a-4032-95a8-e27d61f55b64-1678811057313f18f9-2",
         "20b4babd-51d7-48f8-bcc8-b2c675fef744"
       ],
-      "disabled": true,
       "custom_css": [],
       "settings": {
         "section_id": "reassurance",
