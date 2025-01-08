@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "color_accent": "#094849",
@@ -48,8 +57,8 @@
     "share_facebook": false,
     "share_twitter": false,
     "share_pinterest": false,
-    "social_facebook_link": "https:\/\/www.facebook.com\/Odenzia",
-    "social_instagram_link": "https:\/\/www.instagram.com\/odenzia\/",
+    "social_facebook_link": "https://www.facebook.com/Odenzia",
+    "social_instagram_link": "https://www.instagram.com/odenzia/",
     "social_pinterest_link": "",
     "social_snapchat_link": "",
     "social_tumblr_link": "",
@@ -68,9 +77,9 @@
     "cart_type": "flyout",
     "cart_quick_shop_enabled": false,
     "cart_quick_shop_show_quantity_input": true,
-    "favicon": "shopify:\/\/shop_images\/favicon-odenzia_4d258815-09ff-4821-8c86-ce7061827a01.png",
+    "favicon": "shopify://shop_images/favicon-odenzia_4d258815-09ff-4821-8c86-ce7061827a01.png",
     "checkout_header_image": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/logo-full-odenzia.svg",
+    "checkout_logo_image": "shopify://shop_images/logo-full-odenzia.svg",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
     "checkout_body_background_color": "#fffcf8",
@@ -129,9 +138,7 @@
       },
       "header": {
         "type": "header",
-        "custom_css": [
-
-        ],
+        "custom_css": [],
         "settings": {
           "header_style": "icon",
           "nav_position": "inline_left",
@@ -139,13 +146,13 @@
           "show_cart_icon": true,
           "show_search": true,
           "show_search_mobile_icon": false,
-          "logo": "shopify:\/\/shop_images\/logo-odenzia-header.svg",
+          "logo": "shopify://shop_images/logo-odenzia-header.svg",
           "logo_max_size": 130,
           "menu": "left-menu",
           "menu-right": "right-menu",
           "menu-mobile": "main-menu",
           "transparent_index_header_enabled": false,
-          "transparent_logo": "shopify:\/\/shop_images\/logo-odenzia-header.svg",
+          "transparent_logo": "shopify://shop_images/logo-odenzia-header.svg",
           "transparent_header_foreground_color": "#fffcf8",
           "transparent_header_border_color": "#094849",
           "transparent_header_border_opacity": 100
@@ -185,7 +192,7 @@
               "title": "",
               "show_title_on_desktop": true,
               "text": "",
-              "image": "shopify:\/\/shop_images\/logo-odenzia-footer.svg",
+              "image": "shopify://shop_images/logo-odenzia-footer.svg",
               "image_max_width": 180,
               "image_placement": "below_text"
             }
@@ -222,9 +229,7 @@
           "718cf56b-ad39-49f0-ac70-aba9d276b82c",
           "731e76e9-65d9-4007-a195-92141e095bd3"
         ],
-        "custom_css": [
-
-        ],
+        "custom_css": [],
         "settings": {
           "show_locale_selector": false,
           "show_currency_selector": false,
@@ -233,43 +238,25 @@
       },
       "popup": {
         "type": "popup",
-        "settings": {
-        }
+        "settings": {}
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "11349500561483629931": {
-        "type": "shopify:\/\/apps\/ReStock\/blocks\/app-embed\/b399b727-6c85-44fc-9e21-63114bd72054",
+        "type": "shopify://apps/ReStock/blocks/app-embed/b399b727-6c85-44fc-9e21-63114bd72054",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "2153490007123654574": {
-        "type": "shopify:\/\/apps\/consentmo-gdpr\/blocks\/gdpr_cookie_consent\/4fbe573f-a377-4fea-9801-3ee0858cae41",
+        "type": "shopify://apps/consentmo-gdpr/blocks/gdpr_cookie_consent/4fbe573f-a377-4fea-9801-3ee0858cae41",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "18228966181090706294": {
-        "type": "shopify:\/\/apps\/upsell-cross-sell-selleasy\/blocks\/app-embed\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+        "type": "shopify://apps/upsell-cross-sell-selleasy/blocks/app-embed/790c1a03-a71f-4bc1-9869-00dad526d3c2",
         "disabled": false,
-        "settings": {
-        }
-      },
-      "6279071938380501511": {
-        "type": "shopify:\/\/apps\/powerful-contact-form-builder\/blocks\/app-embed\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "15290509065857316580": {
-        "type": "shopify:\/\/apps\/singleton-rich-registration\/blocks\/app-block\/81a599e5-cd59-4686-a388-f502f75b25c2",
-        "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -386,8 +373,7 @@
             "announcement-bar-0",
             "1601761564951"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "header": {
           "type": "header",
@@ -451,7 +437,7 @@
                 "desktop_padding": 0,
                 "collapse_on_mobile": false,
                 "show_title_on_desktop": true,
-                "text": "<p>Subscribe for store updates and discounts.<\/p>"
+                "text": "<p>Subscribe for store updates and discounts.</p>"
               }
             }
           },
@@ -467,9 +453,7 @@
           }
         }
       },
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Natural": {
       "color_accent": "#ae877b",
@@ -584,8 +568,7 @@
             "announcement-bar-0",
             "1602188457696"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "header": {
           "type": "header",
@@ -649,7 +632,7 @@
                 "desktop_padding": 0,
                 "collapse_on_mobile": false,
                 "show_title_on_desktop": true,
-                "text": "<p>Subscribe for store updates and discounts.<\/p>"
+                "text": "<p>Subscribe for store updates and discounts.</p>"
               }
             }
           },
@@ -665,9 +648,7 @@
           }
         }
       },
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     },
     "Modern": {
       "color_accent": "#c47961",
@@ -769,8 +750,7 @@
             "announcement-bar-0",
             "51c6b612-4c82-4885-b651-5b184c8665ff"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "header": {
           "type": "header",
@@ -834,7 +814,7 @@
                 "desktop_padding": 0,
                 "collapse_on_mobile": false,
                 "show_title_on_desktop": true,
-                "text": "<p>Subscribe for store updates and discounts.<\/p>"
+                "text": "<p>Subscribe for store updates and discounts.</p>"
               }
             }
           },
@@ -850,14 +830,10 @@
           }
         }
       },
-      "content_for_index": [
-
-      ]
+      "content_for_index": []
     }
   },
   "platform_customizations": {
-    "custom_css": [
-
-    ]
+    "custom_css": []
   }
 }
