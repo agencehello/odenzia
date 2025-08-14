@@ -101,7 +101,7 @@
   },
   "collections": {
     "catalog": {
-      "title": "Séjours"
+      "title": "Produits"
     },
     "filters": {
       "all_tags": "Voir tout",
@@ -120,14 +120,14 @@
         "one": "Produit {{ count }} ",
         "other": "{{ count }} Produits"
       },
-      "no_matches": "Désolé, il n'y a pas de séjours dans cette catégorie",
+      "no_matches": "Désolé, il n'y a pas de produit dans cette catégorie",
       "no_products": "Aucun séjour",
       "show": "Voir",
       "sort": "Trier",
       "swatch_heading": "Disponible {{ option_name }}s",
       "template_label": "Articles par page",
       "view_all": "Tout voir",
-      "view_all_label": "Voir tous les séjours de la catégorie {{ collection_name }} "
+      "view_all_label": "Voir tous les produits de la catégorie {{ collection_name }} "
     },
     "sorting": {
       "sort": "Trier : {{ label }}",
