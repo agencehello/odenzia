@@ -332,7 +332,7 @@
       "next": "Suivant",
       "orders": "Commandes",
       "previous": "Précédent",
-      "products": "Séjours",
+      "products": "Produits",
       "viewing": "Vous regardez {{ of }} de {{ total }}"
     },
     "password_page": {
@@ -374,7 +374,7 @@
       "number_of_results_found": "{{ results_count }} résultats trouvés",
       "one_result_found": "1 résultat trouvé",
       "placeholder": "Recherchez",
-      "products": "Séjours",
+      "products": "Produits",
       "quick_search": "Recherche rapide",
       "quick_search_results": {
         "one": "Résultat",
@@ -450,7 +450,7 @@
       "go": "Aller au panier",
       "items_count": {
         "one": "Séjour",
-        "other": "Séjours"
+        "other": "Produits"
       },
       "title": "Panier"
     },
@@ -479,8 +479,8 @@
   },
   "list-collections": {
     "general": {
-      "count_text": "Séjours",
-      "count_text_singular": "Séjour"
+      "count_text": "Produits",
+      "count_text_singular": "Produit"
     },
     "onboarding": {
       "collection": "Catégories"
@@ -559,7 +559,7 @@
     "headings": {
       "articles": "Articles",
       "pages": "Pages",
-      "products": "Séjours"
+      "products": "Produits"
     },
     "no_article_results": "Aucun résultat pour",
     "no_page_results": "Aucun résultat pour",
@@ -588,7 +588,7 @@
       "search_placeholder": "Recherche"
     },
     "featured_collections": {
-      "count_text": "Séjours",
+      "count_text": "Produits",
       "count_text_singular": "Séjour"
     },
     "featured_product": {
