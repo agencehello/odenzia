@@ -503,7 +503,7 @@
       "on_sale": "Prix réduit"
     },
     "product": {
-      "add_to_cart": "Je participe",
+      "add_to_cart": "Je réserve",
       "add_to_quick_shop": "Ajout rapide",
       "availability": "Disponibilité",
       "back_to_collection": "Retour à {{ title }}",
@@ -514,7 +514,7 @@
       "get_shipping_rates": "Obtenir les tarifs",
       "include_taxes": "Taxes incluses",
       "inventory_label": "Stock",
-      "loader_label": "Je participe",
+      "loader_label": "Je réserve",
       "no_rates": "Tarif de livraison indisponible",
       "on_sale": "Prix réduit",
       "on_sale_from_html": "En réduction à partir de {{ price }}",
