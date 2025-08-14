@@ -121,7 +121,7 @@
         "other": "{{ count }} Produits"
       },
       "no_matches": "Désolé, il n'y a pas de produit dans cette catégorie",
-      "no_products": "Aucun séjour",
+      "no_products": "Aucun produit",
       "show": "Voir",
       "sort": "Trier",
       "swatch_heading": "Disponible {{ option_name }}s",
@@ -354,7 +354,7 @@
       "method": "Paiement"
     },
     "products": {
-      "no_recently_viewed": "Aucun séjour récemment consulté.",
+      "no_recently_viewed": "Aucun produit récemment consulté.",
       "quick_cart": "Ajouter",
       "recently_viewed": "Récemment consultés",
       "selling_plan_one_time": "Achat unique",
@@ -449,7 +449,7 @@
       "checkout": "Procéder au paiement",
       "go": "Aller au panier",
       "items_count": {
-        "one": "Séjour",
+        "one": "Produit",
         "other": "Produits"
       },
       "title": "Panier"
@@ -589,14 +589,14 @@
     },
     "featured_collections": {
       "count_text": "Produits",
-      "count_text_singular": "Séjour"
+      "count_text_singular": "Produit"
     },
     "featured_product": {
       "gallery_thumbnail_alt": "Charger l'image dans la visionneuse de la galerie, {{ imageAlt }}",
       "model_thumbnail_alt": "Charger le modèle 3D dans le visualiseur de la galerie, {{ imageAlt }}",
-      "title": "Séjour à la une",
+      "title": "Produit à la une",
       "video_thumbnail_alt": "Charger et lire la vidéo dans la visionneuse de la galerie, {{ imageAlt }}",
-      "view_product": "Voir le séjour"
+      "view_product": "Voir"
     },
     "map": {
       "address_error": "Erreur de recherche de cette adresse",
