@@ -46,7 +46,7 @@
         "button_BHw9wA": {
           "type": "button",
           "settings": {
-            "link": "shopify://collections/les-sejours",
+            "link": "shopify://collections/yoga-en-ligne",
             "link_text": "Découvrir les séjours"
           }
         }
@@ -377,7 +377,7 @@
         "section_id": "sejours_slider",
         "section_style": "default",
         "enable_animation": true,
-        "collection": "les-sejours",
+        "collection": "yoga-en-ligne",
         "columns": 3,
         "aspect_ratio": "square",
         "text_position": "left",
