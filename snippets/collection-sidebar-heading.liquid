@@ -3,9 +3,9 @@
   class="collection-sidebar__heading{% if collapse_filter_groups %} closed{% endif %}"
   data-heading="{{ heading }}">
   <span data-sidebar-title>
-    {% if heading contains 'Séjours' %}Filtrer les
+    {% if heading contains 'Séjours' %}Filtrer{% comment %}les{% endcomment %}
     {% endif %}
-    {{ heading }}{% if heading contains 'Séjours' %}
-      :{% endif %}
+    {% comment %}{{ heading }}{% if heading contains 'Séjours' %}
+      :{% endif %}{% endcomment %}
   </span>
 </a>
