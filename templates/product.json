@@ -89,11 +89,11 @@
       "settings": {
         "section_style": "default",
         "enable_animation": true,
-        "collection": "yoga-en-ligne",
+        "collection": "experiences",
         "products_per_row": 3,
         "total_row": 1,
         "aspect_ratio": "square",
-        "overline": "Les séjours Odenzia",
+        "overline": "Les expériences Odenzia",
         "title": "À découvrir aussi",
         "subheading": "",
         "link_text": "",
@@ -109,7 +109,7 @@
           "settings": {
             "image": "shopify://shop_images/odenzia-reassurance-1.svg",
             "image_max_width": 20,
-            "title": "Séjours testés & approuvés",
+            "title": "Aventures féminines en pleine nature",
             "subheading": "",
             "text_max_width": 16,
             "link": "",
@@ -121,7 +121,7 @@
           "settings": {
             "image": "shopify://shop_images/odenzia-reassurance-2.svg",
             "image_max_width": 20,
-            "title": "Accompagnement personnalisé",
+            "title": "Séances de yoga en ligne & en présentiel",
             "subheading": "",
             "text_max_width": 16,
             "link": "",
@@ -133,7 +133,7 @@
           "settings": {
             "image": "shopify://shop_images/odenzia-reassurance-3.svg",
             "image_max_width": 20,
-            "title": "Petit groupe 100% féminin",
+            "title": "Accompagnement personnalisé",
             "subheading": "",
             "text_max_width": 16,
             "link": "",
