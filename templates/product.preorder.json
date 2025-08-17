@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -52,9 +61,9 @@
         "template--18491912487240__347a5587-ee43-4231-a70e-f3f3823b3b49-1682411372edae58da-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/odenzia-reassurance-1.svg",
+            "image": "shopify://shop_images/odenzia-reassurance-1.svg",
             "image_max_width": 20,
-            "title": "Agence de voyage certifiée",
+            "title": "Aventures féminines en pleine nature",
             "subheading": "",
             "text_max_width": 16,
             "link": "",
@@ -64,9 +73,9 @@
         "template--18491912487240__347a5587-ee43-4231-a70e-f3f3823b3b49-1682411372edae58da-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/odenzia-reassurance-2.svg",
+            "image": "shopify://shop_images/odenzia-reassurance-2.svg",
             "image_max_width": 20,
-            "title": "Accompagnement personnalisé",
+            "title": "Séances de yoga en ligne & en présentiel",
             "subheading": "",
             "text_max_width": 16,
             "link": "",
@@ -76,9 +85,9 @@
         "template--18491912487240__347a5587-ee43-4231-a70e-f3f3823b3b49-1682411372edae58da-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/odenzia-reassurance-3.svg",
+            "image": "shopify://shop_images/odenzia-reassurance-3.svg",
             "image_max_width": 20,
-            "title": "Séjours en groupe & sur-mesure",
+            "title": "Accompagnement personnalisé",
             "subheading": "",
             "text_max_width": 16,
             "link": "",
@@ -88,7 +97,7 @@
         "2e808428-4cd7-4087-ab71-7ca3fe897ee5": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/odenzia-reassurance-4.svg",
+            "image": "shopify://shop_images/odenzia-reassurance-4.svg",
             "image_max_width": 20,
             "title": "Paiements sécurisés (CB, Mastercard & en 3 fois)",
             "subheading": "",
@@ -172,7 +181,7 @@
         "template--18491912487240__75ae5ec4-614f-496a-b08b-a48a4e9fa869-1682411597379733d2-2": {
           "type": "subheading",
           "settings": {
-            "subheading": "<p>Inscrivez-vous à la newsletter Odenzia<\/p>",
+            "subheading": "<p>Inscrivez-vous à la newsletter Odenzia</p>",
             "text_max_width": 50
           }
         }
