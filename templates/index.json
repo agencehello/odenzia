@@ -346,7 +346,7 @@
         "template--18287000387912__9872c483-f65d-4fff-8c8f-5fb226e2a83f-16788101545e75e92e-1": {
           "type": "heading",
           "settings": {
-            "heading": "Pratique avec moi",
+            "heading": "Sur-mesure",
             "text_max_width": 46
           }
         },
@@ -422,7 +422,7 @@
         "button_GNMyNk": {
           "type": "button",
           "settings": {
-            "link": "shopify://pages/sur-mesure",
+            "link": "shopify://collections/yoga-en-ligne",
             "link_text": "Découvrir"
           }
         }
@@ -459,7 +459,7 @@
           "settings": {
             "image": "shopify://shop_images/odenzia-reassurance-1.svg",
             "image_max_width": 20,
-            "title": "Séjours testés & approuvés",
+            "title": "Aventures féminines en pleine nature",
             "subheading": "",
             "text_max_width": 16,
             "link": "",
@@ -471,7 +471,7 @@
           "settings": {
             "image": "shopify://shop_images/odenzia-reassurance-2.svg",
             "image_max_width": 20,
-            "title": "Accompagnement personnalisé",
+            "title": "Séances de yoga en ligne & en présentiel",
             "subheading": "",
             "text_max_width": 16,
             "link": "",
@@ -483,7 +483,7 @@
           "settings": {
             "image": "shopify://shop_images/odenzia-reassurance-3.svg",
             "image_max_width": 20,
-            "title": "Petit groupe 100% féminin",
+            "title": "Accompagnement personnalisé",
             "subheading": "",
             "text_max_width": 16,
             "link": "",
