@@ -46,8 +46,8 @@
         "button_BHw9wA": {
           "type": "button",
           "settings": {
-            "link": "shopify://collections/yoga-en-ligne",
-            "link_text": "Découvrir les séjours"
+            "link": "shopify://collections/experiences",
+            "link_text": "Découvrir les expériences"
           }
         }
       },
@@ -229,7 +229,7 @@
         "b87a0c6b-c4f3-4b63-93c2-671565556eaa": {
           "type": "heading",
           "settings": {
-            "heading": "Maëva, créatrice & accompagnatrice des séjours",
+            "heading": "Maëva, professeure de yoga & créatrice d'aventures féminines en pleine nature",
             "text_max_width": 50
           }
         },
@@ -377,13 +377,13 @@
         "section_id": "sejours_slider",
         "section_style": "default",
         "enable_animation": true,
-        "collection": "yoga-en-ligne",
+        "collection": "experiences",
         "columns": 3,
         "aspect_ratio": "square",
         "text_position": "left",
         "overline": "Intimistes & authentiques",
-        "title": "Nos séjours 100% féminins",
-        "subheading": "<p>Découvrez nos séjours, créés et organisés par Maëva et Louise, pour partir à l'aventure entre femmes le temps d'une journée, un week-end ou encore une semaine. </p>",
+        "title": "Nos expériences 100% féminines",
+        "subheading": "<p>Découvrez toutes les expériences créées et organisées par Maëva avec passion et authenticité.</p><p>Des expériences uniques combinant aventure & bien-être pensées pour vous déconnecter du quotidien, vous recentrer sur vous-même et vous faire découvrir de nouvelles pratiques.</p>",
         "link_text": "Découvrir",
         "text_max_width": 25
       }
