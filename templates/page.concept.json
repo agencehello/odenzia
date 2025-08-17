@@ -216,6 +216,30 @@
         "text_max_width": 36
       }
     },
+    "b99437b4-189f-4806-a918-deda9324ee61": {
+      "type": "quote",
+      "blocks": {
+        "template--18296477090120__b99437b4-189f-4806-a918-deda9324ee61-1679493546eac55003-0": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>Odenzia est un savoureux mélange de tout ce qui me passionne. Je suis heureuse de partager mes coups de cœur avec vous à travers des aventures uniques. À chaque expérience, son lot d’aventures et de surprises !</p>",
+            "author": "Maëva"
+          }
+        }
+      },
+      "block_order": [
+        "template--18296477090120__b99437b4-189f-4806-a918-deda9324ee61-1679493546eac55003-0"
+      ],
+      "custom_css": [
+        "section {background-color: var(--marron); color: var(--beige); padding: 12% 0;}"
+      ],
+      "settings": {
+        "section_style": "default",
+        "enable_animation": true,
+        "timer": 15,
+        "text_max_width": 32
+      }
+    },
     "9c9caa21-fc62-4a55-9113-84ac2dbb0400": {
       "type": "image-with-text",
       "blocks": {
@@ -266,30 +290,6 @@
         "text_container_color": "",
         "color_background_gradient": "",
         "button_background_color": "#000000"
-      }
-    },
-    "b99437b4-189f-4806-a918-deda9324ee61": {
-      "type": "quote",
-      "blocks": {
-        "template--18296477090120__b99437b4-189f-4806-a918-deda9324ee61-1679493546eac55003-0": {
-          "type": "quote",
-          "settings": {
-            "quote": "<p>Odenzia est un savoureux mélange de tout ce qui me passionne. Je suis heureuse de partager mes coups de cœur avec vous à travers des aventures uniques. À chaque expérience, son lot d’aventures et de surprises !</p>",
-            "author": "Maëva"
-          }
-        }
-      },
-      "block_order": [
-        "template--18296477090120__b99437b4-189f-4806-a918-deda9324ee61-1679493546eac55003-0"
-      ],
-      "custom_css": [
-        "section {background-color: var(--marron); color: var(--beige); padding: 12% 0;}"
-      ],
-      "settings": {
-        "section_style": "default",
-        "enable_animation": true,
-        "timer": 15,
-        "text_max_width": 32
       }
     },
     "df21a47a-138b-407e-8f98-4f485ce9bd5f": {
@@ -532,11 +532,11 @@
   "order": [
     "main",
     "f2d32630-5224-4aae-8e0c-00ca5290e606",
+    "b99437b4-189f-4806-a918-deda9324ee61",
+    "df21a47a-138b-407e-8f98-4f485ce9bd5f",
     "7fdb40bc-1672-4988-bab0-ac2a79447ebe",
     "f84f2009-67c8-48d6-8c16-b4739a97f37b",
     "9c9caa21-fc62-4a55-9113-84ac2dbb0400",
-    "b99437b4-189f-4806-a918-deda9324ee61",
-    "df21a47a-138b-407e-8f98-4f485ce9bd5f",
     "550717f5-27a3-4c8b-8a97-c5b755335c9e",
     "89acaece-9628-44bf-919c-4c0bb3f2536a",
     "2990e9b0-f15c-4b66-97bc-890504cd1c65",
