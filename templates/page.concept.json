@@ -71,6 +71,27 @@
         "button_background_color": "#000000"
       }
     },
+    "df21a47a-138b-407e-8f98-4f485ce9bd5f": {
+      "type": "image-hero",
+      "settings": {
+        "enable_animation": true,
+        "image_aspect": "custom",
+        "desktop_height": 70,
+        "mobile_height": 50,
+        "svg_url": "https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-pastille-sejours-feminins-2.svg?v=1680863771",
+        "image": "shopify://shop_images/odenzia-concept-5.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "alignment": "center_center",
+        "text_container_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "color_text_button": "#181818",
+        "color_background_button": "#ffffff",
+        "overlay_color": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0
+      }
+    },
     "b99437b4-189f-4806-a918-deda9324ee61": {
       "type": "quote",
       "blocks": {
@@ -93,27 +114,6 @@
         "enable_animation": true,
         "timer": 15,
         "text_max_width": 32
-      }
-    },
-    "df21a47a-138b-407e-8f98-4f485ce9bd5f": {
-      "type": "image-hero",
-      "settings": {
-        "enable_animation": true,
-        "image_aspect": "custom",
-        "desktop_height": 70,
-        "mobile_height": 50,
-        "svg_url": "https://cdn.shopify.com/s/files/1/0556/3839/3160/files/odenzia-pastille-sejours-feminins-2.svg?v=1680863771",
-        "image": "shopify://shop_images/odenzia-concept-5.jpg",
-        "focal_point": "image_presentation",
-        "mobile_focal_point": "image_presentation",
-        "alignment": "center_center",
-        "text_container_color": "rgba(0,0,0,0)",
-        "text_color": "#ffffff",
-        "color_text_button": "#181818",
-        "color_background_button": "#ffffff",
-        "overlay_color": "#000000",
-        "color_overlay_gradient": "",
-        "overlay_opacity": 0
       }
     },
     "image_with_text_gUpTnW": {
@@ -588,9 +588,9 @@
   "order": [
     "main",
     "f2d32630-5224-4aae-8e0c-00ca5290e606",
+    "image_with_text_gUpTnW",
     "b99437b4-189f-4806-a918-deda9324ee61",
     "df21a47a-138b-407e-8f98-4f485ce9bd5f",
-    "image_with_text_gUpTnW",
     "7fdb40bc-1672-4988-bab0-ac2a79447ebe",
     "f84f2009-67c8-48d6-8c16-b4739a97f37b",
     "9c9caa21-fc62-4a55-9113-84ac2dbb0400",
