@@ -67,7 +67,7 @@
     "social_youtube_link": "",
     "search_max_result_size": 4,
     "search_show_products": true,
-    "search_show_articles": false,
+    "search_show_articles": true,
     "search_show_pages": true,
     "search_show_price": true,
     "search_show_vendor": false,
