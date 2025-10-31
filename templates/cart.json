@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -22,7 +31,7 @@
         "template--18491912323400__966a485f-e381-431b-bae1-61bb3f86252b-16824268787fd06ab4-2": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Pour un paiement en 3 fois, réservez directement avec Maëva : <\/em><a href=\"mailto:contact@odenzia.com\" target=\"_blank\" title=\"mailto:contact@odenzia.com\"><em>contact@odenzia.com<\/em><\/a><\/p>",
+            "text": "<p><em>Pour un paiement en 3 fois, réservez directement avec Maëva : </em><a href=\"mailto:contact@odenzia.com\" target=\"_blank\" title=\"mailto:contact@odenzia.com\"><em>contact@odenzia.com</em></a></p>",
             "text_max_width": 50
           }
         }
@@ -47,9 +56,9 @@
         "template--18491912323400__10850eaf-d41f-46c9-b1a0-ef26d80e63ed-1681210080e841d90e-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/odenzia-reassurance-1.svg",
+            "image": "shopify://shop_images/odenzia-reassurance-1.svg",
             "image_max_width": 20,
-            "title": "Agence de voyage certifiée",
+            "title": "Aventures féminines en pleine nature",
             "subheading": "",
             "text_max_width": 16,
             "link": "",
@@ -59,9 +68,9 @@
         "template--18491912323400__10850eaf-d41f-46c9-b1a0-ef26d80e63ed-1681210080e841d90e-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/odenzia-reassurance-2.svg",
+            "image": "shopify://shop_images/odenzia-reassurance-2.svg",
             "image_max_width": 20,
-            "title": "Accompagnement personnalisé",
+            "title": "Séances de yoga en ligne & en présentiel",
             "subheading": "",
             "text_max_width": 16,
             "link": "",
@@ -71,9 +80,9 @@
         "template--18491912323400__10850eaf-d41f-46c9-b1a0-ef26d80e63ed-1681210080e841d90e-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/odenzia-reassurance-3.svg",
+            "image": "shopify://shop_images/odenzia-reassurance-3.svg",
             "image_max_width": 20,
-            "title": "Séjours en groupe & sur-mesure",
+            "title": "Accompagnement personnalisé",
             "subheading": "",
             "text_max_width": 16,
             "link": "",
@@ -83,7 +92,7 @@
         "c25f1186-4b8d-4ba6-8588-086672e12259": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/odenzia-reassurance-4.svg",
+            "image": "shopify://shop_images/odenzia-reassurance-4.svg",
             "image_max_width": 20,
             "title": "Paiements sécurisés (CB, Mastercard & en 3 fois)",
             "subheading": "",
