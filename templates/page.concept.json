@@ -257,7 +257,7 @@
         "button_BHw9wA": {
           "type": "button",
           "settings": {
-            "link": "shopify://collections/experiences",
+            "link": "shopify://collections/sejours",
             "link_text": "Découvrir les expériences"
           }
         }
@@ -493,7 +493,7 @@
         "section_id": "sejours_slider",
         "section_style": "default",
         "enable_animation": true,
-        "collection": "experiences",
+        "collection": "sejours",
         "columns": 3,
         "aspect_ratio": "square",
         "text_position": "left",
