@@ -15,19 +15,11 @@
   data-section-type="mosaic-grid-2-column"
 >
   <div class="mosaic-grid-2-column__inner">
-    {%
-      render 'text-block' with
-      modifiers: 'mb5 animation--section-introduction',
-      heading_alignment: section.settings.heading_alignment,
-      text_max_width: section.settings.text_max_width,
-      overline: section.settings.title,
-      heading: section.settings.heading,
-      subheading: section.settings.subheading,
-    %}
+    {% render 'text-block' with modifiers, modifiers: 'mb5 animation--section-introduction', heading_alignment: section.settings.heading_alignment, text_max_width: section.settings.text_max_width, overline: section.settings.title, heading: section.settings.heading, subheading: section.settings.subheading %}
 
     <div class="mosaic-grid-2-column__grid">
       {%- for block in section.blocks -%}
-        {%- render 'mosaic-grid-item' with block: block -%}
+        {%- render 'mosaic-grid-item' with block, block: block -%}
       {%- endfor -%}
     </div>
   </div>
@@ -831,3 +823,28 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%
+          render 'text-block' with
+          modifiers: 'mb5 animation--section-introduction',
+          heading_alignment: section.settings.heading_alignment,
+          text_max_width: section.settings.text_max_width,
+          overline: section.settings.title,
+          heading: section.settings.heading,
+          subheading: section.settings.subheading,
+        %}
+  to: "{% render 'text-block' with modifiers, modifiers: 'mb5 animation--section-introduction',
+    heading_alignment: section.settings.heading_alignment, text_max_width: section.settings.text_max_width,
+    overline: section.settings.title, heading: section.settings.heading, subheading:
+    section.settings.subheading %}"
+  position: 492..796
+- from: "{%- render 'mosaic-grid-item' with block: block -%}"
+  to: "{%- render 'mosaic-grid-item' with block, block: block -%}"
+  position: 893..951
+{% endcomment %}

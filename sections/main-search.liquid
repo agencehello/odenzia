@@ -58,7 +58,7 @@
       <div class="search-template__partial" data-partial>
         {% if show_filters or show_sort %}
           <div class="search-template__top-row">
-            {% render 'active-filters' with resource: search %}
+            {% render 'active-filters' with resource, resource: search %}
           </div>
         {% endif %}
         <p class="search-template__no-results">{{ 'search.no_results_html' | t: terms: search.terms }}</p>
@@ -67,18 +67,14 @@
 
       {% if show_filters or show_sort %}
         <div class="search-template__filter-buttons">
-          {% render 'filter-buttons' with
-            resource: search,
-            show_sort: show_sort,
-            show_filters: show_filters
-          %}
+          {% render 'filter-buttons' with resource, resource: search, show_sort: show_sort, show_filters: show_filters %}
         </div>
       {% endif %}
 
       <div class="search-template__partial" data-partial>
         {% if show_filters or show_sort %}
           <div class="search-template__top-row">
-            {% render 'active-filters' with resource: search %}
+            {% render 'active-filters' with resource, resource: search %}
           </div>
         {% endif %}
 
@@ -181,10 +177,7 @@
         {% if paginate.pages > 1 %}
           <div class="search-template__pagination">
             <hr class="mt0 mb3 b--solid b--default bb" style="border-top: none;" />
-            {% render 'pagination' with
-              type: 'general.search.results',
-              paginate: paginate
-            %}
+            {% render 'pagination' with type, type: 'general.search.results', paginate: paginate %}
           </div>
         {% endif %}
       </div>
@@ -237,3 +230,33 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'active-filters' with resource: search %}"
+  to: "{% render 'active-filters' with resource, resource: search %}"
+  position: 1761..1822
+- from: |-
+    {% render 'filter-buttons' with
+                resource: search,
+                show_sort: show_sort,
+                show_filters: show_filters
+              %}
+  to: "{% render 'filter-buttons' with resource, resource: search, show_sort: show_sort,
+    show_filters: show_filters %}"
+  position: 2101..2212
+- from: "{% render 'active-filters' with resource: search %}"
+  to: "{% render 'active-filters' with resource, resource: search %}"
+  position: 2409..2470
+- from: |-
+    {% render 'pagination' with
+                  type: 'general.search.results',
+                  paginate: paginate
+                %}
+  to: "{% render 'pagination' with type, type: 'general.search.results', paginate:
+    paginate %}"
+  position: 8633..8720
+{% endcomment %}

@@ -4,7 +4,7 @@
       <div class="lightbox__image-nav-inner">
         {%- for image in images -%}
           <button type="button" class="lightbox__image-nav-image" data-nav-item data-index="{{ forloop.index0 }}">
-            {% render 'image' with image: image, disable_style: true %}
+            {% render 'image' with image, image: image, disable_style: true %}
           </button>
         {%- endfor -%}
       </div>
@@ -45,9 +45,22 @@
           data-slide
           data-slide-index="{{ forloop.index0 }}"
         >
-          {% render 'image' with image: image, disable_style: true %}
+          {% render 'image' with image, image: image, disable_style: true %}
         </div>
       {%- endfor -%}
     </div>
   </div>
 </div>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'image' with image: image, disable_style: true %}"
+  to: "{% render 'image' with image, image: image, disable_style: true %}"
+  position: 311..377
+- from: "{% render 'image' with image: image, disable_style: true %}"
+  to: "{% render 'image' with image, image: image, disable_style: true %}"
+  position: 1481..1547
+{% endcomment %}

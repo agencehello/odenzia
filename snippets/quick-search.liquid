@@ -18,7 +18,7 @@
     aria-label="{{ 'general.accessibility.quick_search' | t }}"
   >
     {%- if header_style_is_icon -%}
-      {% render 'icon-header-button' with icon: 'search' %}
+      {% render 'icon-header-button' with icon, icon: 'search' %}
     {%- else -%}
       {%- if show_search_mobile_icon -%}
         {%- assign mobile_only_icon = 'mobile-only-icon' -%}
@@ -76,3 +76,13 @@
 
   <div class="search__overlay"></div>
 </div>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'icon-header-button' with icon: 'search' %}"
+  to: "{% render 'icon-header-button' with icon, icon: 'search' %}"
+  position: 769..828
+{% endcomment %}

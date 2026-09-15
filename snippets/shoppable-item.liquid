@@ -53,11 +53,7 @@
       <a href="{{ product_item.url }}" class="shoppable-item__product-card-inner">
         <div class="shoppable-item__image-link">
           {%- if product_item.featured_media != blank -%}
-            {% render 'image' with
-              id: product_item.featured_media.id,
-              image: product_item.media[0].preview_image,
-              wrapper_class: 'shoppable-item__image'
-            %}
+            {% render 'image' with id, id: product_item.featured_media.id, image: product_item.media[0].preview_image, wrapper_class: 'shoppable-item__image' %}
           {%- endif -%}
         </div>
 
@@ -91,4 +87,19 @@
       </a>
     </div>
   {%- endunless -%}
-</div>
+</div>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {% render 'image' with
+                  id: product_item.featured_media.id,
+                  image: product_item.media[0].preview_image,
+                  wrapper_class: 'shoppable-item__image'
+                %}
+  to: "{% render 'image' with id, id: product_item.featured_media.id, image: product_item.media[0].preview_image,
+    wrapper_class: 'shoppable-item__image' %}"
+  position: 1869..2017
+{%- endcomment -%}

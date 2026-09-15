@@ -1,5 +1,14 @@
 <span class="icon-header-button {{ class }}">
   <span class="icon-header-button__icon">
-    {% render 'icon' with icon: icon %}
+    {% render 'icon' with icon, icon: icon %}
   </span>
-</span>
+</span>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'icon' with icon: icon %}"
+  to: "{% render 'icon' with icon, icon: icon %}"
+  position: 92..133
+{%- endcomment -%}

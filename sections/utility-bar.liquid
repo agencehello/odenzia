@@ -1,7 +1,4 @@
-{% render 'frame--utility-bar' with
-  id: section.id,
-  section: section,
-%}
+{% render 'frame--utility-bar' with id, id: section.id, section: section %}
 
 {% schema %}
   {
@@ -86,4 +83,17 @@
       ]
     }
   }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {% render 'frame--utility-bar' with
+      id: section.id,
+      section: section,
+    %}
+  to: "{% render 'frame--utility-bar' with id, id: section.id, section: section %}"
+  position: 0..75
+{%- endcomment -%}

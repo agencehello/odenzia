@@ -21,11 +21,7 @@
       --text-max-width: {{ section.settings.text_max_width }}em;
     "
   >
-    {%
-      render 'text-block' with
-      modifiers: 'collapsible-row-list__title mb3 animation--section-introduction',
-      heading: section.settings.title,
-    %}
+    {% render 'text-block' with modifiers, modifiers: 'collapsible-row-list__title mb3 animation--section-introduction', heading: section.settings.title %}
     {% for block in section.blocks %}
       <div class="collapsible-row-list-item">
         <button
@@ -178,3 +174,19 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%
+          render 'text-block' with
+          modifiers: 'collapsible-row-list__title mb3 animation--section-introduction',
+          heading: section.settings.title,
+        %}
+  to: "{% render 'text-block' with modifiers, modifiers: 'collapsible-row-list__title
+    mb3 animation--section-introduction', heading: section.settings.title %}"
+  position: 662..813
+{% endcomment %}

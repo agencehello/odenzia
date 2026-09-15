@@ -47,7 +47,7 @@
   endif
 -%}
 
-{% capture "form_classes" -%}
+{% capture form_classes -%}
   product-form product-form-{{ section.id }}
   {%- unless section.settings.show_variant_labels %}
     product-form--hide-variant-labels
@@ -132,7 +132,7 @@
         </div>
 
         {%- if show_thumbnails and thumbnail_position == 'vertical' -%}
-          {% render 'product-thumbnails' with featured_media: featured_media, disable_style: disable_thumbnail_style %}
+          {% render 'product-thumbnails' with featured_media, featured_media: featured_media, disable_style: disable_thumbnail_style %}
         {%- endif -%}
 
         <div class="product__media">
@@ -170,7 +170,7 @@
         {% endif %}
 
         {%- if show_thumbnails and thumbnail_position == 'horizontal' -%}
-          {% render 'product-thumbnails' with featured_media: featured_media, disable_style: disable_thumbnail_style %}
+          {% render 'product-thumbnails' with featured_media, featured_media: featured_media, disable_style: disable_thumbnail_style %}
         {%- endif -%}
 
         {%- for block in section.blocks -%}
@@ -181,7 +181,7 @@
  or block.type == 'shipping_feature_widget' 
  -%}
             {%- if block.settings.column == 'left' -%}
-              {% render 'product-feature-widget' with block: block, left_column: true %}
+              {% render 'product-feature-widget' with block, block: block, left_column: true %}
             {%- endif -%}
           {%- elsif block.type == 'complementary_products' and block.settings.column == 'left' -%}
             {% render 'complementary-products', block: block, left_column: true %}
@@ -244,7 +244,7 @@
                   {%- when 'product_rating' -%}
                   {%- if product.metafields.reviews.rating.value != blank -%}
                     <div {{ block.shopify_attributes }} class="product__rating">
-                      {% render 'product-rating' with product: product, star_color: block.settings.star_color %}
+                      {% render 'product-rating' with product, product: product, star_color: block.settings.star_color %}
                     </div>
                   {%- endif -%}
                   {%- when 'price' -%}
@@ -271,10 +271,7 @@
                   {%- when 'variant_picker' -%}
                   {% unless product.has_only_default_variant %}
                     <div {{ block.shopify_attributes }}class="product-form__controls-group product-form__controls-group--options"data-product-variantsdata-enable-dynamic-product-options="{{ settings.enable_dynamic_product_options }}"data-current-variant-id="{{ current_variant.id }}">
-                      {%
-                         render 'product-form-options' with
-                       product: product,
-                       block: block %}
+                      {% render 'product-form-options' with product, product: product, block: block %}
                     </div>
                   {% endunless %}
                   {%- when 'buy_buttons' -%}
@@ -285,31 +282,17 @@
                           {{ 'products.product.quantity_error' | t }}
                         </div>
                       {%- endunless -%}
-                      {% render 'product-quantity' with 
-                       product: product,
-                       form_id: form_id,
-                       show_quantity_input: true %}
+                      {% render 'product-quantity' with product, product: product, form_id: form_id, show_quantity_input: true %}
                       <div class="product__quantity-error hidden" data-quantity-error>
                         {{ 'products.product.quantity_error' | t }}
                       </div>
                     </div>
                     <div class="buy">
-                      {% render 'product-buy-buttons' with 
-                       product: product,
-                       current_variant: current_variant,
-                       show_dynamic_checkout: block.settings.show_dynamic_checkout,
-                       form: form %}
+                      {% render 'product-buy-buttons' with product, product: product, current_variant: current_variant, show_dynamic_checkout: block.settings.show_dynamic_checkout, form: form %}
                     </div>
                   </div>
                   {%- when 'inventory_counter' -%}
-                  {%-
-                      render 'inventory-counter' with
-                    product: product,
-                    show_label: block.settings.show_label,
-                    inventory_max: block.settings.inventory_max,
-                    low_inventory_threshold: block.settings.low_inventory_threshold,
-                    show_untracked_quantity: block.settings.show_untracked_quantity,
-                    current_variant: current_variant, -%}
+                  {%- render 'inventory-counter' with product, product: product, show_label: block.settings.show_label, inventory_max: block.settings.inventory_max, low_inventory_threshold: block.settings.low_inventory_threshold, show_untracked_quantity: block.settings.show_untracked_quantity, current_variant: current_variant -%}
                   {%- when 'description' -%}
                   {%- case block.settings.style -%}
                     {%- when 'paragraph' -%}
@@ -384,7 +367,7 @@
                       data-social-share
                       aria-haspopup="true">
                       <span class="product__share-text">
-                        {%- render 'icon-share' with non_focusable: true -%}
+                        {%- render 'icon-share' with non_focusable, non_focusable: true -%}
                         {{ 'general.social.share' | t }}
                       </span>
 
@@ -392,11 +375,7 @@
                         class="product__share-icons"
                         aria-hidden="true"
                         aria-label="{{ 'general.social.alt_text.share_menu' | t }}">
-                        {%
-                           render 'share-icons' with
-                         url: product.url,
-                         title: product.title,
-                         image: product.featured_image %}
+                        {% render 'share-icons' with url, url: product.url, title: product.title, image: product.featured_image %}
                       </div>
                     </button>
                   </div>
@@ -423,27 +402,27 @@
                   </div>
                   {%- when 'feature_widget' -%}
                   <div class="product__feature-widget{% if block.settings.column == 'left' %} product__feature-widget--left-column{% endif %}">
-                    {% render 'product-feature-widget' with block: block %}
+                    {% render 'product-feature-widget' with block, block: block %}
                   </div>
                   {%- when 'feature_video_widget' -%}
                   <div class="product__feature-widget{% if block.settings.column == 'left' %} product__feature-widget--left-column{% endif %}">
-                    {% render 'product-feature-widget' with block: block %}
+                    {% render 'product-feature-widget' with block, block: block %}
                   </div>
                   {%- when 'payment_feature_widget' -%}
                   <div class="product__feature-widget{% if block.settings.column == 'left' %} product__feature-widget--left-column{% endif %}">
-                    {% render 'product-feature-widget' with block: block %}
+                    {% render 'product-feature-widget' with block, block: block %}
                   </div>
                   {%- when 'shipping_feature_widget' -%}
                   <div class="product__feature-widget{% if block.settings.column == 'left' %} product__feature-widget--left-column{% endif %}">
-                    {% render 'product-feature-widget' with block: block %}
+                    {% render 'product-feature-widget' with block, block: block %}
                   </div>
                   {%- when 'security_feature_widget' -%}
                   <div class="product__feature-widget{% if block.settings.column == 'left' %} product__feature-widget--left-column{% endif %}">
-                    {% render 'product-feature-widget' with block: block %}
+                    {% render 'product-feature-widget' with block, block: block %}
                   </div>
                   {%- when 'complementary_products' -%}
                   <div class="product__complementary_products{% if block.settings.column == 'left' %} product__complementary_products--left-column{% endif %}">
-                    {% render 'complementary-products' with block: block %}
+                    {% render 'complementary-products' with block, block: block %}
                   </div>
                 {%- endcase -%}
               {%- endfor -%}
@@ -453,10 +432,7 @@
               If the user chooses to not include this block we need to add with a hidden class.
               {% endcomment %}
               {%- if has_quantity_selector == false -%}
-                {%
-                   render 'product-quantity' with
-                 product: product,
-                 show_quantity_input: false %}
+                {% render 'product-quantity' with product, product: product, show_quantity_input: false %}
               {%- endif -%}
 
               {%- comment -%}
@@ -486,8 +462,8 @@
       </div>
 
       {%- assign images = product.media | where: 'media_type', 'image' -%}
-      {% render 'lightbox' with images: images %}
-      {% render 'reviews-drawer' with product: product %}
+      {% render 'lightbox' with images, images: images %}
+      {% render 'reviews-drawer' with product, product: product %}
     </section>
 
     {% comment %}
@@ -1872,4 +1848,111 @@
       }
     ]
   }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: '{% capture "form_classes" -%}'
+  to: "{% capture form_classes -%}"
+  position: 1629..1656
+- from: "{% render 'product-thumbnails' with featured_media: featured_media, disable_style:
+    disable_thumbnail_style %}"
+  to: "{% render 'product-thumbnails' with featured_media, featured_media: featured_media,
+    disable_style: disable_thumbnail_style %}"
+  position: 5184..5309
+- from: "{% render 'product-thumbnails' with featured_media: featured_media, disable_style:
+    disable_thumbnail_style %}"
+  to: "{% render 'product-thumbnails' with featured_media, featured_media: featured_media,
+    disable_style: disable_thumbnail_style %}"
+  position: 6688..6813
+- from: "{% render 'product-feature-widget' with block: block, left_column: true %}"
+  to: "{% render 'product-feature-widget' with block, block: block, left_column: true
+    %}"
+  position: 7180..7261
+- from: "{% render 'product-rating' with product: product, star_color: block.settings.star_color
+    %}"
+  to: "{% render 'product-rating' with product, product: product, star_color: block.settings.star_color
+    %}"
+  position: 9885..9984
+- from: |-
+    {%
+                             render 'product-form-options' with
+                           product: product,
+                           block: block %}
+  to: "{% render 'product-form-options' with product, product: product, block: block
+    %}"
+  position: 11737..11817
+- from: "{% render 'product-quantity' with \n                       product: product,\n
+    \                      form_id: form_id,\n                       show_quantity_input:
+    true %}"
+  to: "{% render 'product-quantity' with product, product: product, form_id: form_id,
+    show_quantity_input: true %}"
+  position: 12308..12415
+- from: "{% render 'product-buy-buttons' with \n                       product: product,\n
+    \                      current_variant: current_variant,\n                       show_dynamic_checkout:
+    block.settings.show_dynamic_checkout,\n                       form: form %}"
+  to: "{% render 'product-buy-buttons' with product, product: product, current_variant:
+    current_variant, show_dynamic_checkout: block.settings.show_dynamic_checkout,
+    form: form %}"
+  position: 12687..12859
+- from: |-
+    {%-
+                          render 'inventory-counter' with
+                        product: product,
+                        show_label: block.settings.show_label,
+                        inventory_max: block.settings.inventory_max,
+                        low_inventory_threshold: block.settings.low_inventory_threshold,
+                        show_untracked_quantity: block.settings.show_untracked_quantity,
+                        current_variant: current_variant, -%}
+  to: "{%- render 'inventory-counter' with product, product: product, show_label:
+    block.settings.show_label, inventory_max: block.settings.inventory_max, low_inventory_threshold:
+    block.settings.low_inventory_threshold, show_untracked_quantity: block.settings.show_untracked_quantity,
+    current_variant: current_variant -%}"
+  position: 12981..13294
+- from: "{%- render 'icon-share' with non_focusable: true -%}"
+  to: "{%- render 'icon-share' with non_focusable, non_focusable: true -%}"
+  position: 17110..17177
+- from: |-
+    {%
+                               render 'share-icons' with
+                             url: product.url,
+                             title: product.title,
+                             image: product.featured_image %}
+  to: "{% render 'share-icons' with url, url: product.url, title: product.title, image:
+    product.featured_image %}"
+  position: 17498..17604
+- from: "{% render 'product-feature-widget' with block: block %}"
+  to: "{% render 'product-feature-widget' with block, block: block %}"
+  position: 19085..19147
+- from: "{% render 'product-feature-widget' with block: block %}"
+  to: "{% render 'product-feature-widget' with block, block: block %}"
+  position: 19391..19453
+- from: "{% render 'product-feature-widget' with block: block %}"
+  to: "{% render 'product-feature-widget' with block, block: block %}"
+  position: 19699..19761
+- from: "{% render 'product-feature-widget' with block: block %}"
+  to: "{% render 'product-feature-widget' with block, block: block %}"
+  position: 20008..20070
+- from: "{% render 'product-feature-widget' with block: block %}"
+  to: "{% render 'product-feature-widget' with block, block: block %}"
+  position: 20317..20379
+- from: "{% render 'complementary-products' with block: block %}"
+  to: "{% render 'complementary-products' with block, block: block %}"
+  position: 20641..20703
+- from: |-
+    {%
+                       render 'product-quantity' with
+                     product: product,
+                     show_quantity_input: false %}
+  to: "{% render 'product-quantity' with product, product: product, show_quantity_input:
+    false %}"
+  position: 21107..21197
+- from: "{% render 'lightbox' with images: images %}"
+  to: "{% render 'lightbox' with images, images: images %}"
+  position: 22186..22237
+- from: "{% render 'reviews-drawer' with product: product %}"
+  to: "{% render 'reviews-drawer' with product, product: product %}"
+  position: 22244..22304
+{%- endcomment -%}

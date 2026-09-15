@@ -7,16 +7,12 @@
     aria-haspopup="true"
   >
     <span class="product__share-text">
-      {%- render 'icon-share' with non_focusable: true -%}
+      {%- render 'icon-share' with non_focusable, non_focusable: true -%}
       {{ 'general.social.share' | t }}
     </span>
 
     <div class="product__share-icons" aria-hidden="true" aria-label="{{ 'general.social.alt_text.share_menu' | t }}">
-      {% render 'share-icons' with
-        url: article.url,
-        title: article.title,
-        image: article.featured_image
-      %}
+      {% render 'share-icons' with url, url: article.url, title: article.title, image: article.featured_image %}
     </div>
   </button>
 </div>
@@ -70,12 +66,7 @@
             {{ block.shopify_attributes }}
           >
             <div class="article__image-constraint">
-              {%
-                render 'image' with
-                image: article.image,
-                disable_style: image_is_constrained,
-                animate: true
-              %}
+              {% render 'image' with image, image: article.image, disable_style: image_is_constrained, animate: true %}
             </div>
           </div>
         {% endif %}
@@ -132,7 +123,7 @@
 
         {% if blog.comments_enabled? %}
           <div class="article__comments center" style="--content-max-width: {{ block.settings.content_max_width }}px;">
-            {% render 'comments' with article: article %}
+            {% render 'comments' with article, article: article %}
           </div>
         {% endif %}
     {%- endcase -%}
@@ -296,3 +287,35 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- render 'icon-share' with non_focusable: true -%}"
+  to: "{%- render 'icon-share' with non_focusable, non_focusable: true -%}"
+  position: 253..320
+- from: |-
+    {% render 'share-icons' with
+            url: article.url,
+            title: article.title,
+            image: article.featured_image
+          %}
+  to: "{% render 'share-icons' with url, url: article.url, title: article.title, image:
+    article.featured_image %}"
+  position: 497..603
+- from: |-
+    {%
+                    render 'image' with
+                    image: article.image,
+                    disable_style: image_is_constrained,
+                    animate: true
+                  %}
+  to: "{% render 'image' with image, image: article.image, disable_style: image_is_constrained,
+    animate: true %}"
+  position: 2376..2481
+- from: "{% render 'comments' with article: article %}"
+  to: "{% render 'comments' with article, article: article %}"
+  position: 4513..4567
+{% endcomment %}

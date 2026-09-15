@@ -98,28 +98,12 @@
 
 {%- capture header_nav -%}
   <nav class="header__nav left" role="navigation">
-    {%
-      render 'navmenu' with
-      menu: menu,
-      depth: 1,
-      max_depth: 3,
-      blocks: section.blocks,
-      top_level: true,
-      has_triggers: true
-    %}
+    {% render 'navmenu' with menu, menu: menu, depth: 1, max_depth: 3, blocks: section.blocks, top_level: true, has_triggers: true %}
   </nav>
 {%- endcapture -%}
 {%- capture header_nav_right -%}
   <nav class="header__nav right" role="navigation">
-    {%
-      render 'navmenu' with
-      menu: menu-right,
-      depth: 1,
-      max_depth: 3,
-      blocks: section.blocks,
-      top_level: true,
-      has_triggers: true
-    %}
+    {% render 'navmenu' with menu, menu: menu-right, depth: 1, max_depth: 3, blocks: section.blocks, top_level: true, has_triggers: true %}
   </nav>
 {%- endcapture -%}
 
@@ -195,14 +179,14 @@
         {%- endif -%}
 
         <div class="no-js-menu no-js-menu--desktop">
-          {% render 'no-js-navmenu' with menu: menu %}
-          {% render 'no-js-navmenu' with menu: menu-right %}
+          {% render 'no-js-navmenu' with menu, menu: menu %}
+          {% render 'no-js-navmenu' with menu, menu: menu-right %}
         </div>
 
         <div class="mobile-nav">
           <a href="#" id="mobile-nav" class="mobile-nav__trigger" aria-label="{{ 'layout.navigation.menu' | t }}">
             <div class="header__menu-icon">
-              {% render 'icon-header-button' with icon: 'drawer' %}
+              {% render 'icon-header-button' with icon, icon: 'drawer' %}
             </div>
           </a>
         </div>
@@ -271,7 +255,7 @@
                   aria-label="{% if customer.id == null %}{{ 'layout.navigation.login' | t }}{% else %}{ 'layout.navigation.account' | t }}{% endif %}"
                 >
                   {%- if header_style_is_icon -%}
-                    {% render 'icon-header-button' with icon: 'account' %}
+                    {% render 'icon-header-button' with icon, icon: 'account' %}
                   {%- else -%}
                     {%- if customer.id == null -%}
                       {{ 'layout.navigation.login' | t }}
@@ -291,7 +275,7 @@
                   aria-controls="cart-flyout-drawer"
                 >
                   {%- if header_style_is_icon -%}
-                    {% render 'icon-header-button' with icon: 'cart' %}
+                    {% render 'icon-header-button' with icon, icon: 'cart' %}
                     <div class="quick-cart__icon-indicator js-cart-count{% unless cart.item_count > 0 %} hidden{% endunless %}">
                       <span class="quick-cart__indicator-inner">
                         {{ cart.item_count }}
@@ -318,7 +302,7 @@
       {%- endif -%}
     </div>
     <div class="no-js-menu no-js-menu--mobile">
-      {% render 'no-js-navmenu' with menu: menu-mobile %}
+      {% render 'no-js-navmenu' with menu, menu: menu-mobile %}
     </div>
   </div>
 </section>
@@ -419,3 +403,54 @@
     }
   </script>
 {% endif %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%
+          render 'navmenu' with
+          menu: menu,
+          depth: 1,
+          max_depth: 3,
+          blocks: section.blocks,
+          top_level: true,
+          has_triggers: true
+        %}
+  to: "{% render 'navmenu' with menu, menu: menu, depth: 1, max_depth: 3, blocks:
+    section.blocks, top_level: true, has_triggers: true %}"
+  position: 3184..3313
+- from: |-
+    {%
+          render 'navmenu' with
+          menu: menu-right,
+          depth: 1,
+          max_depth: 3,
+          blocks: section.blocks,
+          top_level: true,
+          has_triggers: true
+        %}
+  to: "{% render 'navmenu' with menu, menu: menu-right, depth: 1, max_depth: 3, blocks:
+    section.blocks, top_level: true, has_triggers: true %}"
+  position: 3431..3566
+- from: "{% render 'no-js-navmenu' with menu: menu %}"
+  to: "{% render 'no-js-navmenu' with menu, menu: menu %}"
+  position: 6271..6321
+- from: "{% render 'no-js-navmenu' with menu: menu-right %}"
+  to: "{% render 'no-js-navmenu' with menu, menu: menu-right %}"
+  position: 6332..6388
+- from: "{% render 'icon-header-button' with icon: 'drawer' %}"
+  to: "{% render 'icon-header-button' with icon, icon: 'drawer' %}"
+  position: 6611..6670
+- from: "{% render 'icon-header-button' with icon: 'account' %}"
+  to: "{% render 'icon-header-button' with icon, icon: 'account' %}"
+  position: 9413..9473
+- from: "{% render 'icon-header-button' with icon: 'cart' %}"
+  to: "{% render 'icon-header-button' with icon, icon: 'cart' %}"
+  position: 10271..10328
+- from: "{% render 'no-js-navmenu' with menu: menu-mobile %}"
+  to: "{% render 'no-js-navmenu' with menu, menu: menu-mobile %}"
+  position: 11320..11377
+{% endcomment %}

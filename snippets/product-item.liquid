@@ -31,20 +31,10 @@
         <div class="product-item__images">
           {% comment %} used for size {% endcomment %}
           <div class="product-item__sizer">
-            {%
-              render 'image' with
-              image: product.featured_media.preview_image,
-              id: product.featured_media.id,
-              disable_style: includes_aspect_ratio
-            %}
+            {% render 'image' with image, image: product.featured_media.preview_image, id: product.featured_media.id, disable_style: includes_aspect_ratio %}
           </div>
           <div class="product-item__image first">
-            {%
-              render 'image' with
-              image: product.featured_media.preview_image,
-              id: product.featured_media.id,
-              disable_style: includes_aspect_ratio
-            %}
+            {% render 'image' with image, image: product.featured_media.preview_image, id: product.featured_media.id, disable_style: includes_aspect_ratio %}
           </div>
 
           {%- if settings.show_secondary_image_on_hover -%}
@@ -56,23 +46,13 @@
             {% endif %}
 
             <div class="product-item__image not-first">
-              {%
-                render 'image' with
-                image: image_two,
-                id: image_two.id,
-                disable_style: true
-              %}
+              {% render 'image' with image, image: image_two, id: image_two.id, disable_style: true %}
             </div>
           {%- endif -%}
         </div>
       {% else %}
         <div class="product-item__image">
-          {%
-            render 'image' with
-            image: product.featured_media.preview_image,
-            id: product.featured_media.id,
-            disable_style: includes_aspect_ratio
-          %}
+          {% render 'image' with image, image: product.featured_media.preview_image, id: product.featured_media.id, disable_style: includes_aspect_ratio %}
         </div>
       {% endif %}
     </a>
@@ -202,8 +182,58 @@
       {%- endif -%}
       </div>
 
-      {% render 'product-item-price' with product: product %}
+      {% render 'product-item-price' with product, product: product %}
     </div>
 
   </div>
 </div>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%
+                  render 'image' with
+                  image: product.featured_media.preview_image,
+                  id: product.featured_media.id,
+                  disable_style: includes_aspect_ratio
+                %}
+  to: "{% render 'image' with image, image: product.featured_media.preview_image,
+    id: product.featured_media.id, disable_style: includes_aspect_ratio %}"
+  position: 1271..1416
+- from: |-
+    {%
+                  render 'image' with
+                  image: product.featured_media.preview_image,
+                  id: product.featured_media.id,
+                  disable_style: includes_aspect_ratio
+                %}
+  to: "{% render 'image' with image, image: product.featured_media.preview_image,
+    id: product.featured_media.id, disable_style: includes_aspect_ratio %}"
+  position: 1496..1641
+- from: |-
+    {%
+                    render 'image' with
+                    image: image_two,
+                    id: image_two.id,
+                    disable_style: true
+                  %}
+  to: "{% render 'image' with image, image: image_two, id: image_two.id, disable_style:
+    true %}"
+  position: 2127..2215
+- from: |-
+    {%
+                render 'image' with
+                image: product.featured_media.preview_image,
+                id: product.featured_media.id,
+                disable_style: includes_aspect_ratio
+              %}
+  to: "{% render 'image' with image, image: product.featured_media.preview_image,
+    id: product.featured_media.id, disable_style: includes_aspect_ratio %}"
+  position: 2343..2488
+- from: "{% render 'product-item-price' with product: product %}"
+  to: "{% render 'product-item-price' with product, product: product %}"
+  position: 7529..7593
+{% endcomment %}

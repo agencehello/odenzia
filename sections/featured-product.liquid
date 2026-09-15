@@ -41,7 +41,7 @@
   endif
 -%}
 
-{% capture "form_classes" -%}
+{% capture form_classes -%}
   product-form product-form-{{ section.id }}
   {%- unless section.settings.show_variant_labels %} product-form--hide-variant-labels {% endunless %}
   {%- if show_dynamic_checkout and product.has_only_default_variant %}
@@ -102,7 +102,7 @@
               {%- if product != blank -%}
                 {%- if product.metafields.reviews.rating.value != blank -%}
                   <div {{ block.shopify_attributes }} class="product__rating">
-                    {% render 'product-rating' with product: product, star_color: block.settings.star_color %}
+                    {% render 'product-rating' with product, product: product, star_color: block.settings.star_color %}
                   </div>
                 {%- endif -%}
               {%- endif -%}
@@ -135,22 +135,13 @@
                     data-enable-dynamic-product-options="{{ settings.enable_dynamic_product_options }}"
                     data-current-variant-id="{{ current_variant.id }}"
                   >
-                    {%
-                      render 'product-form-options' with
-                      product: product,
-                      block: block
-                    %}
+                    {% render 'product-form-options' with product, product: product, block: block %}
                   </div>
                 {% endunless %}
               {%- endif -%}
             {%- when 'quantity_selector' -%}
               {%- if product != blank -%}
-                {%
-                  render 'product-quantity' with
-                  product: product,
-                  form_id: form_id,
-                  show_quantity_input: true
-                %}
+                {% render 'product-quantity' with product, product: product, form_id: form_id, show_quantity_input: true %}
                 <div class="product__quantity-error hidden" data-quantity-error>
                   {{ 'products.product.quantity_error' | t }}
                 </div>
@@ -163,26 +154,11 @@
                   </div>
                 {%- endunless -%}
 
-                {%
-                  render 'product-buy-buttons' with
-                  product: product,
-                  current_variant: current_variant,
-                  show_dynamic_checkout: block.settings.show_dynamic_checkout,
-                  form: form,
-                  is_featured_product: true
-                %}
+                {% render 'product-buy-buttons' with product, product: product, current_variant: current_variant, show_dynamic_checkout: block.settings.show_dynamic_checkout, form: form, is_featured_product: true %}
               {%- endif -%}
             {%- when 'inventory_counter' -%}
               {%- if product != blank -%}
-                {%-
-                  render 'inventory-counter' with
-                  product: product,
-                  show_label: block.settings.show_label,
-                  inventory_max: block.settings.inventory_max,
-                  low_inventory_threshold: block.settings.low_inventory_threshold,
-                  show_untracked_quantity: block.settings.show_untracked_quantity,
-                  current_variant: current_variant
-                -%}
+                {%- render 'inventory-counter' with product, product: product, show_label: block.settings.show_label, inventory_max: block.settings.inventory_max, low_inventory_threshold: block.settings.low_inventory_threshold, show_untracked_quantity: block.settings.show_untracked_quantity, current_variant: current_variant -%}
               {%- endif -%}
             {%- when 'description' -%}
               {%- case block.settings.style -%}
@@ -250,7 +226,7 @@
                     aria-haspopup="true"
                   >
                     <span class="product__share-text">
-                      {%- render 'icon-share' with non_focusable: true -%}
+                      {%- render 'icon-share' with non_focusable, non_focusable: true -%}
                       {{ 'general.social.share' | t }}
                     </span>
 
@@ -259,12 +235,7 @@
                       aria-hidden="true"
                       aria-label="{{ 'general.social.alt_text.share_menu' | t }}"
                     >
-                      {%
-                        render 'share-icons' with
-                        url: product.url,
-                        title: product.title,
-                        image: product.featured_image
-                      %}
+                      {% render 'share-icons' with url, url: product.url, title: product.title, image: product.featured_image %}
                     </div>
                   </button>
                 </div>
@@ -315,11 +286,7 @@
         {% endcomment %}
         {%- if product != blank -%}
           {%- if has_quantity_selector == false -%}
-            {%
-              render 'product-quantity' with
-              product: product,
-              show_quantity_input: false
-            %}
+            {% render 'product-quantity' with product, product: product, show_quantity_input: false %}
           {%- endif -%}
         {%- endif -%}
 
@@ -374,23 +341,11 @@
             {%- when 'quantity_selector' -%}
               {%- if product != blank -%}
                 {%- assign has_quantity_selector = true -%}
-                {%
-                  render 'product-quantity' with
-                  product: product,
-                  show_quantity_input: true
-                %}
+                {% render 'product-quantity' with product, product: product, show_quantity_input: true %}
               {%- endif -%}
             {%- when 'inventory_counter' -%}
               {%- if product != blank -%}
-                {%-
-                  render 'inventory-counter' with
-                  product: product,
-                  show_label: block.settings.show_label,
-                  inventory_max: block.settings.inventory_max,
-                  low_inventory_threshold: block.settings.low_inventory_threshold,
-                  show_untracked_quantity: block.settings.show_untracked_quantity,
-                  current_variant: current_variant
-                -%}
+                {%- render 'inventory-counter' with product, product: product, show_label: block.settings.show_label, inventory_max: block.settings.inventory_max, low_inventory_threshold: block.settings.low_inventory_threshold, show_untracked_quantity: block.settings.show_untracked_quantity, current_variant: current_variant -%}
               {%- endif -%}
             {%- when 'description' -%}
               {%- case block.settings.style -%}
@@ -446,7 +401,7 @@
                     aria-haspopup="true"
                   >
                     <span class="product__share-text">
-                      {%- render 'icon-share' with non_focusable: true -%}
+                      {%- render 'icon-share' with non_focusable, non_focusable: true -%}
                       {{ 'general.social.share' | t }}
                     </span>
 
@@ -455,12 +410,7 @@
                       aria-hidden="true"
                       aria-label="{{ 'general.social.alt_text.share_menu' | t }}"
                     >
-                      {%
-                        render 'share-icons' with
-                        url: product.url,
-                        title: product.title,
-                        image: product.featured_image
-                      %}
+                      {% render 'share-icons' with url, url: product.url, title: product.title, image: product.featured_image %}
                     </div>
                   </button>
                 </div>
@@ -900,4 +850,85 @@
 </script>
 {% endif %}
 
-<!-- GPO installed -->
+<!-- GPO installed -->{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: '{% capture "form_classes" -%}'
+  to: "{% capture form_classes -%}"
+  position: 1303..1330
+- from: "{% render 'product-rating' with product: product, star_color: block.settings.star_color
+    %}"
+  to: "{% render 'product-rating' with product, product: product, star_color: block.settings.star_color
+    %}"
+  position: 3984..4083
+- from: "{%\r\n                      render 'product-form-options' with\r\n                      product:
+    product,\r\n                      block: block\r\n                    %}"
+  to: "{% render 'product-form-options' with product, product: product, block: block
+    %}"
+  position: 5955..6035
+- from: "{%\r\n                  render 'product-quantity' with\r\n                  product:
+    product,\r\n                  form_id: form_id,\r\n                  show_quantity_input:
+    true\r\n                %}"
+  to: "{% render 'product-quantity' with product, product: product, form_id: form_id,
+    show_quantity_input: true %}"
+  position: 6230..6337
+- from: "{%\r\n                  render 'product-buy-buttons' with\r\n                  product:
+    product,\r\n                  current_variant: current_variant,\r\n                  show_dynamic_checkout:
+    block.settings.show_dynamic_checkout,\r\n                  form: form,\r\n                  is_featured_product:
+    true\r\n                %}"
+  to: "{% render 'product-buy-buttons' with product, product: product, current_variant:
+    current_variant, show_dynamic_checkout: block.settings.show_dynamic_checkout,
+    form: form, is_featured_product: true %}"
+  position: 6902..7101
+- from: "{%-\r\n                  render 'inventory-counter' with\r\n                  product:
+    product,\r\n                  show_label: block.settings.show_label,\r\n                  inventory_max:
+    block.settings.inventory_max,\r\n                  low_inventory_threshold: block.settings.low_inventory_threshold,\r\n
+    \                 show_untracked_quantity: block.settings.show_untracked_quantity,\r\n
+    \                 current_variant: current_variant\r\n                -%}"
+  to: "{%- render 'inventory-counter' with product, product: product, show_label:
+    block.settings.show_label, inventory_max: block.settings.inventory_max, low_inventory_threshold:
+    block.settings.low_inventory_threshold, show_untracked_quantity: block.settings.show_untracked_quantity,
+    current_variant: current_variant -%}"
+  position: 7237..7550
+- from: "{%- render 'icon-share' with non_focusable: true -%}"
+  to: "{%- render 'icon-share' with non_focusable, non_focusable: true -%}"
+  position: 10858..10925
+- from: "{%\r\n                        render 'share-icons' with\r\n                        url:
+    product.url,\r\n                        title: product.title,\r\n                        image:
+    product.featured_image\r\n                      %}"
+  to: "{% render 'share-icons' with url, url: product.url, title: product.title, image:
+    product.featured_image %}"
+  position: 11262..11368
+- from: "{%\r\n              render 'product-quantity' with\r\n              product:
+    product,\r\n              show_quantity_input: false\r\n            %}"
+  to: "{% render 'product-quantity' with product, product: product, show_quantity_input:
+    false %}"
+  position: 13447..13537
+- from: "{%\r\n                  render 'product-quantity' with\r\n                  product:
+    product,\r\n                  show_quantity_input: true\r\n                %}"
+  to: "{% render 'product-quantity' with product, product: product, show_quantity_input:
+    true %}"
+  position: 15556..15645
+- from: "{%-\r\n                  render 'inventory-counter' with\r\n                  product:
+    product,\r\n                  show_label: block.settings.show_label,\r\n                  inventory_max:
+    block.settings.inventory_max,\r\n                  low_inventory_threshold: block.settings.low_inventory_threshold,\r\n
+    \                 show_untracked_quantity: block.settings.show_untracked_quantity,\r\n
+    \                 current_variant: current_variant\r\n                -%}"
+  to: "{%- render 'inventory-counter' with product, product: product, show_label:
+    block.settings.show_label, inventory_max: block.settings.inventory_max, low_inventory_threshold:
+    block.settings.low_inventory_threshold, show_untracked_quantity: block.settings.show_untracked_quantity,
+    current_variant: current_variant -%}"
+  position: 15781..16094
+- from: "{%- render 'icon-share' with non_focusable: true -%}"
+  to: "{%- render 'icon-share' with non_focusable, non_focusable: true -%}"
+  position: 18863..18930
+- from: "{%\r\n                        render 'share-icons' with\r\n                        url:
+    product.url,\r\n                        title: product.title,\r\n                        image:
+    product.featured_image\r\n                      %}"
+  to: "{% render 'share-icons' with url, url: product.url, title: product.title, image:
+    product.featured_image %}"
+  position: 19267..19373
+{%- endcomment -%}

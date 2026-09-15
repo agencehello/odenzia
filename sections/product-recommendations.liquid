@@ -29,16 +29,7 @@
   "
 >
   {%- if recommendations.products_count > 0 -%}
-    {%
-      render 'text-block' with
-      id: id,
-      modifiers: 'mb5 animation--section-introduction',
-      heading_alignment: 'center',
-      overline: overline,
-      heading: heading,
-      subheading: subheading,
-      text_max_width: text_max_width
-    %}
+    {% render 'text-block' with id, id: id, modifiers: 'mb5 animation--section-introduction', heading_alignment: 'center', overline: overline, heading: heading, subheading: subheading, text_max_width: text_max_width %}
 
     {% render 'carousel-navigation' %}
 
@@ -138,3 +129,25 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%
+          render 'text-block' with
+          id: id,
+          modifiers: 'mb5 animation--section-introduction',
+          heading_alignment: 'center',
+          overline: overline,
+          heading: heading,
+          subheading: subheading,
+          text_max_width: text_max_width
+        %}
+  to: "{% render 'text-block' with id, id: id, modifiers: 'mb5 animation--section-introduction',
+    heading_alignment: 'center', overline: overline, heading: heading, subheading:
+    subheading, text_max_width: text_max_width %}"
+  position: 955..1169
+{% endcomment %}

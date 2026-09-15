@@ -56,17 +56,7 @@
   data-text-position="{{ carousel_text_position }}"
   data-text-alignment="{{ carousel_text_alignment }}"
   data-columns="{{ columns }}">
-  {%
-     render 'text-block' with
-   id: id,
-   modifiers: 'mb5 animation--section-introduction',
-   heading_alignment: carousel_text_alignment,
-   overline: overline,
-   heading: heading,
-   subheading: subheading,
-   text_max_width: text_max_width,
-   link: collection_link,
-   link_text: link_text %}
+  {% render 'text-block' with id, id: id, modifiers: 'mb5 animation--section-introduction', heading_alignment: carousel_text_alignment, overline: overline, heading: heading, subheading: subheading, text_max_width: text_max_width, link: collection_link, link_text: link_text %}
 
   {% render 'carousel-navigation' %}
 
@@ -74,10 +64,7 @@
     {% if featured_collection != blank %}
       {%- for product in featured_collection.products limit: max_product_limit -%}
         <div class="featured-collection__slide carousel__slide">
-          {%
-             render 'product-item' with
-           product: product
-           aspect_ratio: aspect_ratio %}
+          {% render 'product-item' with product, product: product, aspect_ratio: aspect_ratio %}
         </div>
       {%- endfor -%}
     {% else %}
@@ -246,4 +233,35 @@
       }
     ]
   }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%
+         render 'text-block' with
+       id: id,
+       modifiers: 'mb5 animation--section-introduction',
+       heading_alignment: carousel_text_alignment,
+       overline: overline,
+       heading: heading,
+       subheading: subheading,
+       text_max_width: text_max_width,
+       link: collection_link,
+       link_text: link_text %}
+  to: "{% render 'text-block' with id, id: id, modifiers: 'mb5 animation--section-introduction',
+    heading_alignment: carousel_text_alignment, overline: overline, heading: heading,
+    subheading: subheading, text_max_width: text_max_width, link: collection_link,
+    link_text: link_text %}"
+  position: 2438..2712
+- from: |-
+    {%
+                 render 'product-item' with
+               product: product
+               aspect_ratio: aspect_ratio %}
+  to: "{% render 'product-item' with product, product: product, aspect_ratio: aspect_ratio
+    %}"
+  position: 3027..3113
+{%- endcomment -%}

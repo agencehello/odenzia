@@ -72,13 +72,7 @@
 
                 <ul class="filter-drawer__list{{ list_modifiers }}">
                   {%- for filter_value in filter.values -%}
-                    {%
-                      render 'filter-item' with
-                      type: type,
-                      forloop: forloop,
-                      filter_value: filter_value,
-                      scope: 'flyout'
-                    %}
+                    {% render 'filter-item' with type, type: type, forloop: forloop, filter_value: filter_value, scope: 'flyout' %}
                   {%- endfor -%}
                 </ul>
               {%- when 'price_range' -%}
@@ -167,10 +161,7 @@
         <div class="collection-flyout__content" data-scroll-lock-ignore>
           <ul class="filter-drawer__list">
             {% for option in resource.sort_options %}
-              {%
-                render 'filter-sort-item' with
-                option: option
-              %}
+              {% render 'filter-sort-item' with option, option: option %}
             {% endfor %}
           </ul>
         </div>
@@ -181,3 +172,28 @@
 {%- endif -%}
 
 <div class="collection-flyout__wash" data-filter-wash></div>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%
+                          render 'filter-item' with
+                          type: type,
+                          forloop: forloop,
+                          filter_value: filter_value,
+                          scope: 'flyout'
+                        %}
+  to: "{% render 'filter-item' with type, type: type, forloop: forloop, filter_value:
+    filter_value, scope: 'flyout' %}"
+  position: 2842..2953
+- from: |-
+    {%
+                    render 'filter-sort-item' with
+                    option: option
+                  %}
+  to: "{% render 'filter-sort-item' with option, option: option %}"
+  position: 7096..7155
+{% endcomment %}

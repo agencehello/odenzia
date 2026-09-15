@@ -45,10 +45,7 @@
           <h4 class="mega-navigation__list-heading mt0 overline">
             <a href="{{ link.url }}">{{ link.title }}</a>
           </h4>
-          {%
-            render 'navmenu' with
-            menu: link.handle
-          %}
+          {% render 'navmenu' with menu, menu: link.handle %}
         </li>
       {% endfor %}
     </ul>
@@ -69,3 +66,17 @@
     {% break %}
   {% endif %}
 {% endfor %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%
+                render 'navmenu' with
+                menu: link.handle
+              %}
+  to: "{% render 'navmenu' with menu, menu: link.handle %}"
+  position: 1923..1974
+{% endcomment %}

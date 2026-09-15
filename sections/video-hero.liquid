@@ -82,15 +82,7 @@
         assign image_wrapper_class = image_wrapper_class | append: ' video-hero__image--aspect-' | append: image_aspect
       -%}
 
-      {%
-        render 'image' with
-        image: fallback_image,
-        wrapper_class: image_wrapper_class,
-        disable_style: disable_image_style,
-        focal_point: section.settings.focal_point,
-        max_width: 3000,
-        animate: true
-      %}
+      {% render 'image' with image, image: fallback_image, wrapper_class: image_wrapper_class, disable_style: disable_image_style, focal_point: section.settings.focal_point, max_width: 3000, animate: true %}
     {% endif %}
 
     {% if video_url != blank and video_link_verified %}
@@ -401,3 +393,24 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%
+            render 'image' with
+            image: fallback_image,
+            wrapper_class: image_wrapper_class,
+            disable_style: disable_image_style,
+            focal_point: section.settings.focal_point,
+            max_width: 3000,
+            animate: true
+          %}
+  to: "{% render 'image' with image, image: fallback_image, wrapper_class: image_wrapper_class,
+    disable_style: disable_image_style, focal_point: section.settings.focal_point,
+    max_width: 3000, animate: true %}"
+  position: 3005..3206
+{% endcomment %}

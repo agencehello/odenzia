@@ -14,11 +14,7 @@
     <div class="quick-add__image">
       <a href="{{ product.url }}">
         {%- if product.featured_media -%}
-          {%
-            render 'image' with
-            image: product.featured_media,
-            id: 'quick-add'
-          %}
+          {% render 'image' with image, image: product.featured_media, id: 'quick-add' %}
         {%- else -%}
           <div class="quick-add__placeholder">
             {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
@@ -64,33 +60,63 @@
           data-enable-dynamic-product-options="{{ settings.enable_dynamic_product_options }}"
           data-current-variant-id="{{ current_variant.id }}"
         >
-          {%
-            render 'product-form-options' with
-            product: product,
-          %}
+          {% render 'product-form-options' with product, product: product %}
         </div>
       {% endunless %}
 
       {%- if settings.cart_quick_shop_show_quantity_input -%}
-        {%
-          render 'product-quantity' with
-          product: product,
-          form_id: form_id,
-          show_quantity_input: true
-        %}
+        {% render 'product-quantity' with product, product: product, form_id: form_id, show_quantity_input: true %}
       {%- endif -%}
 
       <div class="product__quantity-error hidden" data-quantity-error>
         {{ 'products.product.quantity_error' | t }}
       </div>
 
-      {%
-        render 'product-buy-buttons' with
-        product: product,
-        current_variant: current_variant,
-        show_dynamic_checkout: false,
-        form: form
-      %}
+      {% render 'product-buy-buttons' with product, product: product, current_variant: current_variant, show_dynamic_checkout: false, form: form %}
     {% endform %}
   </div>
 </div>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%
+                render 'image' with
+                image: product.featured_media,
+                id: 'quick-add'
+              %}
+  to: "{% render 'image' with image, image: product.featured_media, id: 'quick-add'
+    %}"
+  position: 493..572
+- from: |-
+    {%
+                render 'product-form-options' with
+                product: product,
+              %}
+  to: "{% render 'product-form-options' with product, product: product %}"
+  position: 2322..2388
+- from: |-
+    {%
+              render 'product-quantity' with
+              product: product,
+              form_id: form_id,
+              show_quantity_input: true
+            %}
+  to: "{% render 'product-quantity' with product, product: product, form_id: form_id,
+    show_quantity_input: true %}"
+  position: 2497..2604
+- from: |-
+    {%
+            render 'product-buy-buttons' with
+            product: product,
+            current_variant: current_variant,
+            show_dynamic_checkout: false,
+            form: form
+          %}
+  to: "{% render 'product-buy-buttons' with product, product: product, current_variant:
+    current_variant, show_dynamic_checkout: false, form: form %}"
+  position: 2769..2910
+{% endcomment %}

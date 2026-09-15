@@ -51,11 +51,7 @@
 
             {% if image_object != blank %}
               <div class="list-collections--columns__image grid-display__image">
-                {%
-                  render 'image' with
-                  image: image_object,
-                  disable_style: includes_aspect_ratio
-                %}
+                {% render 'image' with image, image: image_object, disable_style: includes_aspect_ratio %}
               </div>
             {% else %}
               <div class="list-collections--columns__collection-placeholder grid-display__image">
@@ -77,9 +73,9 @@
 
       <div class="list-collections__pagination mt4">
         {% if paginate.pages > 1 %}
-          {% render 'pagination' with paginate: paginate, type: 'general.pagination.collections' %}
+          {% render 'pagination' with paginate, paginate: paginate, type: 'general.pagination.collections' %}
         {% else %}
-          {% render 'pagination' with paginate: paginate, type: 'general.pagination.collections', display_paginate_item_count_only: true %}
+          {% render 'pagination' with paginate, paginate: paginate, type: 'general.pagination.collections', display_paginate_item_count_only: true %}
         {% endif %}
       </div>
     {% endpaginate %}
@@ -97,11 +93,7 @@
 
               {% if image_object != blank %}
                 <div class="list-collections--columns__image grid-display__image">
-                  {%
-                    render 'image' with
-                    image: image_object,
-                    disable_style: includes_aspect_ratio
-                  %}
+                  {% render 'image' with image, image: image_object, disable_style: includes_aspect_ratio %}
                 </div>
               {% else %}
                 <div class="list-collections--columns__collection-placeholder grid-display__image">
@@ -166,3 +158,38 @@
     </div>
   {% endif %}
 </section>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%
+                      render 'image' with
+                      image: image_object,
+                      disable_style: includes_aspect_ratio
+                    %}
+  to: "{% render 'image' with image, image: image_object, disable_style: includes_aspect_ratio
+    %}"
+  position: 1871..1961
+- from: "{% render 'pagination' with paginate: paginate, type: 'general.pagination.collections'
+    %}"
+  to: "{% render 'pagination' with paginate, paginate: paginate, type: 'general.pagination.collections'
+    %}"
+  position: 2760..2859
+- from: "{% render 'pagination' with paginate: paginate, type: 'general.pagination.collections',
+    display_paginate_item_count_only: true %}"
+  to: "{% render 'pagination' with paginate, paginate: paginate, type: 'general.pagination.collections',
+    display_paginate_item_count_only: true %}"
+  position: 2889..3028
+- from: |-
+    {%
+                        render 'image' with
+                        image: image_object,
+                        disable_style: includes_aspect_ratio
+                      %}
+  to: "{% render 'image' with image, image: image_object, disable_style: includes_aspect_ratio
+    %}"
+  position: 3767..3857
+{% endcomment %}

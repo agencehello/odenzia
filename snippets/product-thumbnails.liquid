@@ -13,12 +13,7 @@
           >
             {%- assign id = media.id | append: '--thumb' -%}
 
-            {% render 'image' with
-              image: media.preview_image,
-              id: id
-              wrapper_class: 'product-thumbnails__item-image',
-              disable_style: disable_style
-            %}
+            {% render 'image' with image, image: media.preview_image, id: id, wrapper_class: 'product-thumbnails__item-image', disable_style: disable_style %}
 
             {% case media.media_type %}
               {% when 'video' %}
@@ -39,4 +34,20 @@
       {% endfor %}
     </ul>
   </div>
-{% endif %}
+{% endif %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {% render 'image' with
+                  image: media.preview_image,
+                  id: id
+                  wrapper_class: 'product-thumbnails__item-image',
+                  disable_style: disable_style
+                %}
+  to: "{% render 'image' with image, image: media.preview_image, id: id, wrapper_class:
+    'product-thumbnails__item-image', disable_style: disable_style %}"
+  position: 670..816
+{%- endcomment -%}

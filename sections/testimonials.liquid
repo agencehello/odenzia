@@ -57,16 +57,7 @@
   class="section testimonials carousel{{ modifiers }}"
   data-text-position="{{ carousel_text_position }}"
   data-text-alignment="{{ carousel_text_alignment }}">
-  {% render 'text-block' with
-   id: id,
-   modifiers: 'mb5 animation--section-introduction',
-   heading_alignment: carousel_text_alignment,
-   text_max_width: text_max_width,
-   overline: overline,
-   heading: heading,
-   subheading: subheading,
-   link: link,
-   link_text: link_text %}
+  {% render 'text-block' with id, id: id, modifiers: 'mb5 animation--section-introduction', heading_alignment: carousel_text_alignment, text_max_width: text_max_width, overline: overline, heading: heading, subheading: subheading, link: link, link_text: link_text %}
 
   {% render 'carousel-navigation' %}
 
@@ -362,4 +353,26 @@
       }
     ]
   }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {% render 'text-block' with
+       id: id,
+       modifiers: 'mb5 animation--section-introduction',
+       heading_alignment: carousel_text_alignment,
+       text_max_width: text_max_width,
+       overline: overline,
+       heading: heading,
+       subheading: subheading,
+       link: link,
+       link_text: link_text %}
+  to: "{% render 'text-block' with id, id: id, modifiers: 'mb5 animation--section-introduction',
+    heading_alignment: carousel_text_alignment, text_max_width: text_max_width, overline:
+    overline, heading: heading, subheading: subheading, link: link, link_text: link_text
+    %}"
+  position: 2303..2566
+{%- endcomment -%}
